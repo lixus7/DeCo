@@ -1,46 +1,94 @@
+<div align="center">
+
 # DeCo
 
-Code, data and results for *DeCo: Decoupled Traffic State Modeling with Cross-Variable Coordination* (submitted to ICDE 2027).
+### Decoupled Traffic State Modeling with Cross-Variable Coordination
 
-## Contributions
+[![ICDE 2027](https://img.shields.io/badge/ICDE%202027-under%20review-3C6AA4)](#citation)
+[![Data](https://img.shields.io/badge/data-three--variable%20PeMS03%20%26%20PeMS07-2F9779)](https://github.com/lixus7/DeCo/releases/tag/data-v1)
+[![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](requirements.txt)
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.4.1-EE4C2C?logo=pytorch&logoColor=white)](requirements.txt)
+[![License](https://img.shields.io/badge/license-MIT-lightgrey)](LICENSE)
 
-1. **DeCo, a decoupled forecaster with cross-variable coordination.** One forecaster per traffic variable (flow, occupancy, speed) is trained on that variable alone. A small coordination module then reads the recent histories and the forecasts of all three variables at a sensor and corrects each forecast. The module is trained on out-of-fold forecasts while the forecasters stay fixed. At inference, the module corrects the forecasts of the twelve fold forecasters per variable, the corrected forecasts are averaged, and the average is blended with an early-fusion forecaster at a fixed weight of 0.2 (Algorithm 1 of the paper). With the same forecasters, removing the module raises the error on every dataset and variable, and DeCo has the lowest MAE on every dataset and variable against eleven baselines, by up to 4.2% over the best one (Tables III and V).
-2. **Three-variable PeMS03 and PeMS07.** The PeMS03 and PeMS07 benchmarks carry flow only. We align occupancy and speed from the Caltrans PeMS station records to the benchmark flow series, keeping their sensor sets and flow records. Where PeMS reports flow, it matches the benchmark flow in 99.956% of the PeMS03 entries and in every PeMS07 entry. The aligned arrays, their validity masks, station identifiers and source checksums are in the [`data-v1` release](https://github.com/lixus7/DeCo/releases/tag/data-v1); `data/README.md` describes them.
-3. **A controlled comparison of input and output forms.** STAEformer, HimNet and D²STGNN are trained in the single-variable (SISO, 1→1), auxiliary-input (MISO, 3→1) and joint-output (MIMO, 3→3) forms on all four benchmarks under one protocol. Auxiliary inputs lower the MAE in most settings, by up to 2.9%, whereas joint prediction raises it in most settings, by up to 8.2% (Table III and Fig. 1(c) of the paper). The comparison separates cross-variable coordination from target-only correction and forecast averaging (Table V).
+**[Overview](#overview)** · **[Main results](#main-results)** · **[Quick start](#quick-start)** · **[Reproducing the paper](#reproducing-the-paper)** · **[Data](#data)** · **[Citation](#citation)**
 
-## Layout
+</div>
 
-| Path | Content |
-|---|---|
-| `run.py` | Command-line entry for every stage |
-| `deco/decouplest.py` | DecoupleST forecaster |
-| `deco/train.py` | First training phase of every forecaster and baseline (at most 200 epochs, patience 30) |
-| `deco/second_phase.py` | Second training phase: ten epochs with embedding swap, weights averaged |
-| `deco/fold_inputs.py`, `deco/prepare.py` | Twelve-fold partitions and fold-local causal inputs |
-| `deco/banks.py` | Out-of-fold, fold and final forecasts of one phase in one bank |
-| `deco/module.py` | Coordination module, target-only module, the variant without sensor embedding and the input-zeroing views |
-| `deco/module_train.py`, `deco/module_data.py`, `deco/selection.py` | Module training, checkpoint selection on validation, and the fold-average (K12) and single-forecaster (FINAL) deployments |
-| `deco/blend.py` | DeCo's output: fold average of the corrected forecasts blended with the early-fusion forecasts |
-| `deco/evaluation.py`, `deco/states.py` | Metrics with validity masks, traffic states, congestion thresholds and day-block comparisons |
-| `deco/models.py`, `deco/external_models.py` | DecoupleST MISO, RAGC, the module arms and the baseline wrappers |
-| `configs/` | Dataset settings, congestion thresholds and baseline source commits |
-| `data/` | Data layout, checksums and provenance; the arrays are in the `data-v1` release |
-| `results/` | Results behind Tables III–VIII of the paper, with per-seed values (`results/README.md`) |
-| `tests/smoke_cpu.py` | End-to-end check of every stage on synthetic data |
+## Overview
 
-## Setup
+Flow, occupancy and speed describe the same traffic from different sides, yet forecasting them jointly in one model raises the error in most settings, while reading the other variables as extra inputs helps in most settings. DeCo keeps one forecaster per variable and learns the cross-variable part separately: a small **coordination module** reads the recent histories and the forecasts of all three variables at a sensor and corrects each forecast. The module is trained on out-of-fold forecasts while the forecasters stay fixed; at inference it corrects the forecasts of all twelve fold forecasters per variable, the corrected forecasts are averaged, and the average is blended with an early-fusion forecaster at a fixed weight of 0.2.
 
-Python 3.11 with the packages in `requirements.txt`. See `third_party/README.md` for the baselines, whose code is not redistributed here.
+<p align="center">
+  <img src="assets/deco_overview.png" width="100%" alt="Overview of DeCo: Stage 1 trains twelve cross-fitted DecoupleST forecasters per variable, with a second training phase; Stage 2 trains the coordination module on their out-of-fold forecasts and, at inference, averages the corrected fold forecasts and blends them with the early-fusion forecasters.">
+</p>
+<p align="center"><em>Overview of DeCo (Fig. 2 of the paper).</em></p>
 
-The aligned PeMS03 and PeMS07 arrays are in the [`data-v1` release](https://github.com/lixus7/DeCo/releases/tag/data-v1). `data/README.md` describes how to download them, how to build PeMS04 and PeMS08 from their public release, and how the arrays were made.
+**Contributions**
 
-To check that the code runs without the data (a few minutes on CPU):
+- **DeCo, a decoupled forecaster with cross-variable coordination.** Dedicated forecasters per variable plus a separately trained coordination module that uses both observed histories and predicted trajectories. With the same forecasters, removing the module raises the error on every dataset and variable (Table V).
+- **Three-variable PeMS03 and PeMS07.** The flow-only PeMS03 and PeMS07 benchmarks are aligned with occupancy and speed from the Caltrans PeMS station records, keeping their sensor sets and flow records. Where PeMS reports flow, it matches the benchmark flow in 99.956% of the PeMS03 entries and in every PeMS07 entry. The arrays, validity masks, station identifiers and source checksums are in the [`data-v1` release](https://github.com/lixus7/DeCo/releases/tag/data-v1).
+- **A controlled comparison of input and output forms.** STAEformer, HimNet and D²STGNN are trained in the single-variable (SISO, 1→1), auxiliary-input (MISO, 3→1) and joint-output (MIMO, 3→3) forms on all four benchmarks under one protocol. Auxiliary inputs lower the MAE in most settings, by up to 2.9%, whereas joint prediction raises it in most settings, by up to 8.2% (Table III and Fig. 1(c)). The comparison separates cross-variable coordination from target-only correction and forecast averaging (Table V).
+
+<p align="center">
+  <img src="assets/deco_motivation.png" width="100%" alt="Fig. 1 of the paper: the forecasting problem, where the variables meet in four formulations, MAE change over single-variable forecasting, and speed MAE reduction by traffic state.">
+</p>
+<p align="center"><em>(a) Problem. (b) Where the variables meet. (c) MAE reduction over the corresponding single-variable forecaster; dashed lines mark medians. (d) Speed MAE reduction by traffic state on each dataset. Panels (c) and (d) use DeCo with one forecaster per variable (DeCo-S). Fig. 1 of the paper.</em></p>
+
+## Main results
+
+Test MAE, mean over three seeds, against the best of the eleven baselines in each column (STAEformer, HimNet and D²STGNN in three forms, RAGC and DecoupleST in the MISO form). Occupancy in %. The full comparison with standard deviations and RMSE is Table III, in [`results/main/`](results/main/).
+
+| Dataset | Variable | Best baseline | DeCo | MAE reduction |
+|---|---|---|---|---|
+| PeMS03 | Flow | 14.56 (RAGC) | **14.06** | 3.4% |
+| | Occupancy | 0.888 (RAGC) | **0.875** | 1.4% |
+| | Speed | 1.798 (RAGC) | **1.791** | 0.4% |
+| PeMS04 | Flow | 18.95 (DecoupleST MISO) | **18.34** | 3.2% |
+| | Occupancy | 0.736 (DecoupleST MISO) | **0.709** | 3.8% |
+| | Speed | 1.529 (RAGC) | **1.491** | 2.5% |
+| PeMS07 | Flow | 20.21 (DecoupleST MISO) | **19.36** | 4.2% |
+| | Occupancy | 1.114 (RAGC) | **1.077** | 3.3% |
+| | Speed | 2.100 (RAGC) | **2.021** | 3.8% |
+| PeMS08 | Flow | 14.18 (STAEformer SISO) | **13.86** | 2.3% |
+| | Occupancy | 0.638 (RAGC) | **0.614** | 3.6% |
+| | Speed | 1.238 (RAGC) | **1.218** | 1.6% |
+
+- Removing the coordination module raises DeCo's MAE on every dataset and variable, by 1.35% on average (Table V(a), [`results/ablation/`](results/ablation/)).
+- With one forecaster per variable, coordination lowers the speed MAE within congestion by 8.2–12.2% relative to the single forecasters, against 5.5–10.9% for target-only correction (Table VII, [`results/states/`](results/states/)).
+- A network-wide forecast of all three variables takes 61 ms on PeMS04 at batch size one on one H100 (Table VIII, [`results/cost/`](results/cost/)).
+
+The tables behind every result of the paper, with per-seed values, are described in [`results/README.md`](results/README.md).
+
+## Quick start
 
 ```bash
-python tests/smoke_cpu.py
+git clone https://github.com/lixus7/DeCo.git
+cd DeCo
+pip install -r requirements.txt     # Python 3.11
+python tests/smoke_cpu.py           # every stage on synthetic data, a few minutes on CPU
 ```
 
-## Reproducing the DeCo row of Table III
+Then get the data (next section) and run one dataset and seed:
+
+```bash
+python run.py prepare --dataset pems08
+python run.py pipeline --dataset pems08 --seed 2024
+```
+
+The baseline models are not redistributed; `third_party/README.md` lists the repositories and commits used in the paper.
+
+## Data
+
+| Dataset | Sensors | Steps (5 min) | Period | Source of the three variables |
+|---|---|---|---|---|
+| PeMS03 | 358 | 26,208 | 2018-09-01 to 2018-11-30 | flow from the benchmark; occupancy and speed aligned from PeMS ([`data-v1`](https://github.com/lixus7/DeCo/releases/tag/data-v1)) |
+| PeMS04 | 307 | 16,992 | 2018-01-01 to 2018-02-28 | three-variable release of ASTGCN |
+| PeMS07 | 883 | 28,224 | 2017-05-01 to 2017-08-06 | flow from the benchmark; occupancy and speed aligned from PeMS ([`data-v1`](https://github.com/lixus7/DeCo/releases/tag/data-v1)) |
+| PeMS08 | 170 | 17,856 | 2016-07-01 to 2016-08-31 | three-variable release of ASTGCN |
+
+[`data/README.md`](data/README.md) shows how to download the PeMS03 and PeMS07 arrays, how to build PeMS04 and PeMS08, how the arrays were made, and their checksums. Each split is chronological, 6:2:2.
+
+## Reproducing the paper
 
 For one dataset and seed, `pipeline` runs every step in sequence (skipping completed ones) and writes each task to `results/<task id>/`:
 
@@ -98,7 +146,33 @@ python run.py baseline --dataset pems08 --seed 2024 --architecture staeformer --
 
 The reported DeCo fits ran on NVIDIA H100 GPUs. Across datasets, the three-seed mean training cost ranges from about 14 to 150 H100 hours per seed, most of it in the 36 fold forecasters, which are independent and can run in parallel; per-seed values are in `results/cost/`.
 
-## Implementation details
+
+<details>
+<summary><b>Repository layout</b></summary>
+
+| Path | Content |
+|---|---|
+| `run.py` | Command-line entry for every stage |
+| `deco/decouplest.py` | DecoupleST forecaster |
+| `deco/train.py` | First training phase of every forecaster and baseline (at most 200 epochs, patience 30) |
+| `deco/second_phase.py` | Second training phase: ten epochs with embedding swap, weights averaged |
+| `deco/fold_inputs.py`, `deco/prepare.py` | Twelve-fold partitions and fold-local causal inputs |
+| `deco/banks.py` | Out-of-fold, fold and final forecasts of one phase in one bank |
+| `deco/module.py` | Coordination module, target-only module, the variant without sensor embedding and the input-zeroing views |
+| `deco/module_train.py`, `deco/module_data.py`, `deco/selection.py` | Module training, checkpoint selection on validation, and the fold-average (K12) and single-forecaster (FINAL) deployments |
+| `deco/blend.py` | DeCo's output: fold average of the corrected forecasts blended with the early-fusion forecasts |
+| `deco/evaluation.py`, `deco/states.py` | Metrics with validity masks, traffic states, congestion thresholds and day-block comparisons |
+| `deco/models.py`, `deco/external_models.py` | DecoupleST MISO, RAGC, the module arms and the baseline wrappers |
+| `configs/` | Dataset settings, congestion thresholds and baseline source commits |
+| `data/` | Data layout, checksums and provenance; the arrays are in the `data-v1` release |
+| `results/` | Results behind Tables III–VIII of the paper, with per-seed values |
+| `assets/` | Figures of this page, rendered from the paper's sources |
+| `tests/smoke_cpu.py` | End-to-end check of every stage on synthetic data |
+
+</details>
+
+<details>
+<summary><b>Implementation details</b></summary>
 
 These details complete Sections IV and V of the paper.
 
@@ -124,12 +198,25 @@ These details complete Sections IV and V of the paper.
 
 **Data.** Some PeMS07 nodes share identical flow records; their station identifiers trace the aligned records and are not an exact station map. A valid entry means that the record has a value.
 
-## Provenance
+</details>
+
+<details>
+<summary><b>Provenance and checks</b></summary>
 
 This repository consolidates implementations from the experiment packages used for the reported runs, with cluster scheduling and internal bookkeeping removed. The PeMS04 and PeMS08 forecasters were trained with an earlier revision of the first-phase code, before fold-local input filling was added for the missing records of PeMS03 and PeMS07; on the retained windows, valid observations are unchanged by filling. Their coordination modules were fitted and selected on float32 labels, which this code keeps for these two datasets (`module_labels` in `configs/datasets.json`); metrics read the float64 arrays. The second training phase, the module without sensor embedding, the blend, the input zeroing and the traffic-state analysis were run as separate packages and are merged into this code.
 
-We checked the consolidated code against the experiment code: the initial weights, outputs and gradients of every forecaster and module class, the ten-epoch second-phase loops and the bank assembly on synthetic data, and, on the real data, the congestion thresholds, the per-seed test metrics of DeCo and the traffic-state table recomputed from the saved forecasts. The public code was not used to retrain any stage on the real data. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs, and the embedding-swap draws differ between CPU and GPU.
+We checked the consolidated code against the experiment code: the initial weights, outputs and gradients of the DecoupleST forecaster classes and coordination-module variants, the ten-epoch second-phase loops and the bank assembly on synthetic data, and, on the real data, the congestion thresholds, the per-seed test metrics of DeCo and the traffic-state table recomputed from the saved forecasts. The public code was not used to retrain any stage on the real data. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs, and the embedding-swap draws differ between CPU and GPU.
+
+</details>
+
+## Citation
+
+The paper is under review at ICDE 2027; a BibTeX entry will be added here once it is published. Until then, please cite this repository if you use the code or the aligned PeMS03 and PeMS07 arrays.
+
+## Acknowledgements
+
+Occupancy and speed of PeMS03 and PeMS07 come from the [Caltrans PeMS](https://pems.dot.ca.gov) data clearinghouse. Flow and graphs come from the benchmark releases of [STSGCN](https://github.com/Davidham3/STSGCN), [ASTGNN](https://github.com/guoshnBJTU/ASTGNN) and [ASTGCN](https://github.com/Davidham3/ASTGCN-2019-mxnet). The baselines use the code of [STAEformer](https://github.com/XDZhelheim/STAEformer), [HimNet](https://github.com/XDZhelheim/HimNet), [D²STGNN in BasicTS](https://github.com/GestaltCogTeam/BasicTS) and [RAGC](https://github.com/wkq-wukaiqi/RAGC). We thank their authors.
 
 ## License
 
-The code and the result tables are under the [MIT License](LICENSE). The license does not cover the data, whose sources are listed in `data/README.md`, or the baseline code, which is not redistributed here.
+The code and the result tables are under the [MIT License](LICENSE). The license does not cover the data, whose sources are listed in [`data/README.md`](data/README.md), or the baseline code, which is not redistributed here.
