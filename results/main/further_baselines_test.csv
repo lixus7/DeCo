@@ -1,4 +1,4 @@
-dataset,quantity,model,variant,mae_mean,mae_sd,rmse_mean,rmse_sd,lowest_mae_of_model
+dataset,variable,model,variant,mae_mean,mae_sd,rmse_mean,rmse_sd,lowest_mae_of_model
 pems04,flow,LightGBM,SISO,21.26129332,0.00760204,33.96416711,0.02052178,True
 pems04,flow,LightGBM,MISO,21.34997130,0.00648270,34.11288783,0.01484017,False
 pems04,flow,LightGBM,MIMO,22.15833204,0.02481063,35.23915856,0.02485659,False

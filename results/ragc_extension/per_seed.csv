@@ -1,16 +1,16 @@
-dataset,split,quantity,module,deployment,seed,targets,mae,rmse,selected_epoch
-pems03,test,flow,cross,K12,2024,all valid,14.25008306,23.20739941,9
-pems03,test,flow,cross,K12,2024,"valid, excluding zero",14.28043290,23.18609434,9
-pems03,test,flow,cross,K12,2025,all valid,14.25938315,23.13870686,7
-pems03,test,flow,cross,K12,2025,"valid, excluding zero",14.28427929,23.10533030,7
-pems03,test,flow,cross,K12,2026,all valid,14.21218337,22.89248364,7
-pems03,test,flow,cross,K12,2026,"valid, excluding zero",14.24493626,22.87067273,7
-pems03,test,flow,cross,FINAL,2024,all valid,14.42755335,23.35695575,12
-pems03,test,flow,cross,FINAL,2024,"valid, excluding zero",14.45654622,23.33590016,12
-pems03,test,flow,cross,FINAL,2025,all valid,14.45928756,23.32791767,7
-pems03,test,flow,cross,FINAL,2025,"valid, excluding zero",14.48923751,23.29680718,7
-pems03,test,flow,cross,FINAL,2026,all valid,14.36256201,23.05401050,7
-pems03,test,flow,cross,FINAL,2026,"valid, excluding zero",14.39875687,23.03748139,7
+dataset,split,variable,module,deployment,seed,targets,mae,rmse,selected_epoch
+pems03,test,flow,coordination,K12,2024,all valid,14.25008306,23.20739941,9
+pems03,test,flow,coordination,K12,2024,"valid, excluding zero",14.28043290,23.18609434,9
+pems03,test,flow,coordination,K12,2025,all valid,14.25938315,23.13870686,7
+pems03,test,flow,coordination,K12,2025,"valid, excluding zero",14.28427929,23.10533030,7
+pems03,test,flow,coordination,K12,2026,all valid,14.21218337,22.89248364,7
+pems03,test,flow,coordination,K12,2026,"valid, excluding zero",14.24493626,22.87067273,7
+pems03,test,flow,coordination,FINAL,2024,all valid,14.42755335,23.35695575,12
+pems03,test,flow,coordination,FINAL,2024,"valid, excluding zero",14.45654622,23.33590016,12
+pems03,test,flow,coordination,FINAL,2025,all valid,14.45928756,23.32791767,7
+pems03,test,flow,coordination,FINAL,2025,"valid, excluding zero",14.48923751,23.29680718,7
+pems03,test,flow,coordination,FINAL,2026,all valid,14.36256201,23.05401050,7
+pems03,test,flow,coordination,FINAL,2026,"valid, excluding zero",14.39875687,23.03748139,7
 pems03,test,flow,target_only,K12,2024,all valid,14.40816961,24.59871429,13
 pems03,test,flow,target_only,K12,2024,"valid, excluding zero",14.43887834,24.59113182,13
 pems03,test,flow,target_only,K12,2025,all valid,14.39087819,23.71728073,17
@@ -23,18 +23,18 @@ pems03,test,flow,target_only,FINAL,2025,all valid,14.61192563,23.99165080,14
 pems03,test,flow,target_only,FINAL,2025,"valid, excluding zero",14.65348954,23.98402585,14
 pems03,test,flow,target_only,FINAL,2026,all valid,14.57973695,23.63861248,7
 pems03,test,flow,target_only,FINAL,2026,"valid, excluding zero",14.61875826,23.62847415,7
-pems03,test,occupancy,cross,K12,2024,all valid,0.00878821,0.02371466,9
-pems03,test,occupancy,cross,K12,2024,"valid, excluding zero",0.00882599,0.02378480,9
-pems03,test,occupancy,cross,K12,2025,all valid,0.00877588,0.02368577,7
-pems03,test,occupancy,cross,K12,2025,"valid, excluding zero",0.00881380,0.02375593,7
-pems03,test,occupancy,cross,K12,2026,all valid,0.00875543,0.02358051,7
-pems03,test,occupancy,cross,K12,2026,"valid, excluding zero",0.00879384,0.02365043,7
-pems03,test,occupancy,cross,FINAL,2024,all valid,0.00884598,0.02382444,12
-pems03,test,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00888560,0.02389533,12
-pems03,test,occupancy,cross,FINAL,2025,all valid,0.00883475,0.02377078,7
-pems03,test,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00887588,0.02384158,7
-pems03,test,occupancy,cross,FINAL,2026,all valid,0.00884562,0.02382578,7
-pems03,test,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00888314,0.02389641,7
+pems03,test,occupancy,coordination,K12,2024,all valid,0.00878821,0.02371466,9
+pems03,test,occupancy,coordination,K12,2024,"valid, excluding zero",0.00882599,0.02378480,9
+pems03,test,occupancy,coordination,K12,2025,all valid,0.00877588,0.02368577,7
+pems03,test,occupancy,coordination,K12,2025,"valid, excluding zero",0.00881380,0.02375593,7
+pems03,test,occupancy,coordination,K12,2026,all valid,0.00875543,0.02358051,7
+pems03,test,occupancy,coordination,K12,2026,"valid, excluding zero",0.00879384,0.02365043,7
+pems03,test,occupancy,coordination,FINAL,2024,all valid,0.00884598,0.02382444,12
+pems03,test,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00888560,0.02389533,12
+pems03,test,occupancy,coordination,FINAL,2025,all valid,0.00883475,0.02377078,7
+pems03,test,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00887588,0.02384158,7
+pems03,test,occupancy,coordination,FINAL,2026,all valid,0.00884562,0.02382578,7
+pems03,test,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00888314,0.02389641,7
 pems03,test,occupancy,target_only,K12,2024,all valid,0.00880170,0.02362204,13
 pems03,test,occupancy,target_only,K12,2024,"valid, excluding zero",0.00884035,0.02369213,13
 pems03,test,occupancy,target_only,K12,2025,all valid,0.00879257,0.02374209,17
@@ -47,18 +47,18 @@ pems03,test,occupancy,target_only,FINAL,2025,all valid,0.00890791,0.02385005,14
 pems03,test,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00894880,0.02392085,14
 pems03,test,occupancy,target_only,FINAL,2026,all valid,0.00893551,0.02388725,7
 pems03,test,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00896937,0.02395722,7
-pems03,test,speed,cross,K12,2024,all valid,1.80445064,3.69682659,9
-pems03,test,speed,cross,K12,2024,"valid, excluding zero",1.80445064,3.69682659,9
-pems03,test,speed,cross,K12,2025,all valid,1.79223833,3.68782140,7
-pems03,test,speed,cross,K12,2025,"valid, excluding zero",1.79223833,3.68782140,7
-pems03,test,speed,cross,K12,2026,all valid,1.79415264,3.68085037,7
-pems03,test,speed,cross,K12,2026,"valid, excluding zero",1.79415264,3.68085037,7
-pems03,test,speed,cross,FINAL,2024,all valid,1.81029095,3.73088320,12
-pems03,test,speed,cross,FINAL,2024,"valid, excluding zero",1.81029095,3.73088320,12
-pems03,test,speed,cross,FINAL,2025,all valid,1.81155123,3.70698007,7
-pems03,test,speed,cross,FINAL,2025,"valid, excluding zero",1.81155123,3.70698007,7
-pems03,test,speed,cross,FINAL,2026,all valid,1.81948563,3.74369637,7
-pems03,test,speed,cross,FINAL,2026,"valid, excluding zero",1.81948563,3.74369637,7
+pems03,test,speed,coordination,K12,2024,all valid,1.80445064,3.69682659,9
+pems03,test,speed,coordination,K12,2024,"valid, excluding zero",1.80445064,3.69682659,9
+pems03,test,speed,coordination,K12,2025,all valid,1.79223833,3.68782140,7
+pems03,test,speed,coordination,K12,2025,"valid, excluding zero",1.79223833,3.68782140,7
+pems03,test,speed,coordination,K12,2026,all valid,1.79415264,3.68085037,7
+pems03,test,speed,coordination,K12,2026,"valid, excluding zero",1.79415264,3.68085037,7
+pems03,test,speed,coordination,FINAL,2024,all valid,1.81029095,3.73088320,12
+pems03,test,speed,coordination,FINAL,2024,"valid, excluding zero",1.81029095,3.73088320,12
+pems03,test,speed,coordination,FINAL,2025,all valid,1.81155123,3.70698007,7
+pems03,test,speed,coordination,FINAL,2025,"valid, excluding zero",1.81155123,3.70698007,7
+pems03,test,speed,coordination,FINAL,2026,all valid,1.81948563,3.74369637,7
+pems03,test,speed,coordination,FINAL,2026,"valid, excluding zero",1.81948563,3.74369637,7
 pems03,test,speed,target_only,K12,2024,all valid,1.79365728,3.68583915,13
 pems03,test,speed,target_only,K12,2024,"valid, excluding zero",1.79365728,3.68583915,13
 pems03,test,speed,target_only,K12,2025,all valid,1.79846344,3.71367002,17
@@ -71,18 +71,18 @@ pems03,test,speed,target_only,FINAL,2025,all valid,1.82083549,3.74109257,14
 pems03,test,speed,target_only,FINAL,2025,"valid, excluding zero",1.82083549,3.74109257,14
 pems03,test,speed,target_only,FINAL,2026,all valid,1.82418212,3.75231866,7
 pems03,test,speed,target_only,FINAL,2026,"valid, excluding zero",1.82418212,3.75231866,7
-pems03,val,flow,cross,K12,2024,all valid,13.73050254,21.83208234,9
-pems03,val,flow,cross,K12,2024,"valid, excluding zero",13.77126336,21.85271877,9
-pems03,val,flow,cross,K12,2025,all valid,13.77672676,21.90305199,7
-pems03,val,flow,cross,K12,2025,"valid, excluding zero",13.81444856,21.91737651,7
-pems03,val,flow,cross,K12,2026,all valid,13.75537338,21.87558012,7
-pems03,val,flow,cross,K12,2026,"valid, excluding zero",13.79751366,21.89742669,7
-pems03,val,flow,cross,FINAL,2024,all valid,13.94904760,22.06798427,12
-pems03,val,flow,cross,FINAL,2024,"valid, excluding zero",13.98961530,22.09086247,12
-pems03,val,flow,cross,FINAL,2025,all valid,13.96714175,22.10071483,7
-pems03,val,flow,cross,FINAL,2025,"valid, excluding zero",14.01053104,22.11839542,7
-pems03,val,flow,cross,FINAL,2026,all valid,13.95309526,22.10506955,7
-pems03,val,flow,cross,FINAL,2026,"valid, excluding zero",13.99825369,22.13032539,7
+pems03,val,flow,coordination,K12,2024,all valid,13.73050254,21.83208234,9
+pems03,val,flow,coordination,K12,2024,"valid, excluding zero",13.77126336,21.85271877,9
+pems03,val,flow,coordination,K12,2025,all valid,13.77672676,21.90305199,7
+pems03,val,flow,coordination,K12,2025,"valid, excluding zero",13.81444856,21.91737651,7
+pems03,val,flow,coordination,K12,2026,all valid,13.75537338,21.87558012,7
+pems03,val,flow,coordination,K12,2026,"valid, excluding zero",13.79751366,21.89742669,7
+pems03,val,flow,coordination,FINAL,2024,all valid,13.94904760,22.06798427,12
+pems03,val,flow,coordination,FINAL,2024,"valid, excluding zero",13.98961530,22.09086247,12
+pems03,val,flow,coordination,FINAL,2025,all valid,13.96714175,22.10071483,7
+pems03,val,flow,coordination,FINAL,2025,"valid, excluding zero",14.01053104,22.11839542,7
+pems03,val,flow,coordination,FINAL,2026,all valid,13.95309526,22.10506955,7
+pems03,val,flow,coordination,FINAL,2026,"valid, excluding zero",13.99825369,22.13032539,7
 pems03,val,flow,target_only,K12,2024,all valid,13.82799365,22.00099433,13
 pems03,val,flow,target_only,K12,2024,"valid, excluding zero",13.86700227,22.02376296,13
 pems03,val,flow,target_only,K12,2025,all valid,13.82370856,22.00094743,17
@@ -95,18 +95,18 @@ pems03,val,flow,target_only,FINAL,2025,all valid,14.04523796,22.23193633,14
 pems03,val,flow,target_only,FINAL,2025,"valid, excluding zero",14.09359237,22.26065432,14
 pems03,val,flow,target_only,FINAL,2026,all valid,14.07534785,22.27188388,7
 pems03,val,flow,target_only,FINAL,2026,"valid, excluding zero",14.12204171,22.29952678,7
-pems03,val,occupancy,cross,K12,2024,all valid,0.00901924,0.02481190,9
-pems03,val,occupancy,cross,K12,2024,"valid, excluding zero",0.00905822,0.02488383,9
-pems03,val,occupancy,cross,K12,2025,all valid,0.00900878,0.02477141,7
-pems03,val,occupancy,cross,K12,2025,"valid, excluding zero",0.00904804,0.02484325,7
-pems03,val,occupancy,cross,K12,2026,all valid,0.00901238,0.02472065,7
-pems03,val,occupancy,cross,K12,2026,"valid, excluding zero",0.00905208,0.02479229,7
-pems03,val,occupancy,cross,FINAL,2024,all valid,0.00912140,0.02505049,12
-pems03,val,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00916246,0.02512359,12
-pems03,val,occupancy,cross,FINAL,2025,all valid,0.00912467,0.02514746,7
-pems03,val,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00916728,0.02522083,7
-pems03,val,occupancy,cross,FINAL,2026,all valid,0.00909943,0.02488207,7
-pems03,val,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00913792,0.02495411,7
+pems03,val,occupancy,coordination,K12,2024,all valid,0.00901924,0.02481190,9
+pems03,val,occupancy,coordination,K12,2024,"valid, excluding zero",0.00905822,0.02488383,9
+pems03,val,occupancy,coordination,K12,2025,all valid,0.00900878,0.02477141,7
+pems03,val,occupancy,coordination,K12,2025,"valid, excluding zero",0.00904804,0.02484325,7
+pems03,val,occupancy,coordination,K12,2026,all valid,0.00901238,0.02472065,7
+pems03,val,occupancy,coordination,K12,2026,"valid, excluding zero",0.00905208,0.02479229,7
+pems03,val,occupancy,coordination,FINAL,2024,all valid,0.00912140,0.02505049,12
+pems03,val,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00916246,0.02512359,12
+pems03,val,occupancy,coordination,FINAL,2025,all valid,0.00912467,0.02514746,7
+pems03,val,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00916728,0.02522083,7
+pems03,val,occupancy,coordination,FINAL,2026,all valid,0.00909943,0.02488207,7
+pems03,val,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00913792,0.02495411,7
 pems03,val,occupancy,target_only,K12,2024,all valid,0.00909592,0.02488184,13
 pems03,val,occupancy,target_only,K12,2024,"valid, excluding zero",0.00913614,0.02495395,13
 pems03,val,occupancy,target_only,K12,2025,all valid,0.00910099,0.02497769,17
@@ -119,18 +119,18 @@ pems03,val,occupancy,target_only,FINAL,2025,all valid,0.00925652,0.02537754,14
 pems03,val,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00929923,0.02545108,14
 pems03,val,occupancy,target_only,FINAL,2026,all valid,0.00926332,0.02511890,7
 pems03,val,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00929871,0.02519104,7
-pems03,val,speed,cross,K12,2024,all valid,1.73703252,3.70053045,9
-pems03,val,speed,cross,K12,2024,"valid, excluding zero",1.73703252,3.70053045,9
-pems03,val,speed,cross,K12,2025,all valid,1.73330548,3.70268566,7
-pems03,val,speed,cross,K12,2025,"valid, excluding zero",1.73330548,3.70268566,7
-pems03,val,speed,cross,K12,2026,all valid,1.73356060,3.69682923,7
-pems03,val,speed,cross,K12,2026,"valid, excluding zero",1.73356060,3.69682923,7
-pems03,val,speed,cross,FINAL,2024,all valid,1.75515581,3.75739667,12
-pems03,val,speed,cross,FINAL,2024,"valid, excluding zero",1.75515581,3.75739667,12
-pems03,val,speed,cross,FINAL,2025,all valid,1.75818205,3.74998742,7
-pems03,val,speed,cross,FINAL,2025,"valid, excluding zero",1.75818205,3.74998742,7
-pems03,val,speed,cross,FINAL,2026,all valid,1.75100587,3.74742068,7
-pems03,val,speed,cross,FINAL,2026,"valid, excluding zero",1.75100587,3.74742068,7
+pems03,val,speed,coordination,K12,2024,all valid,1.73703252,3.70053045,9
+pems03,val,speed,coordination,K12,2024,"valid, excluding zero",1.73703252,3.70053045,9
+pems03,val,speed,coordination,K12,2025,all valid,1.73330548,3.70268566,7
+pems03,val,speed,coordination,K12,2025,"valid, excluding zero",1.73330548,3.70268566,7
+pems03,val,speed,coordination,K12,2026,all valid,1.73356060,3.69682923,7
+pems03,val,speed,coordination,K12,2026,"valid, excluding zero",1.73356060,3.69682923,7
+pems03,val,speed,coordination,FINAL,2024,all valid,1.75515581,3.75739667,12
+pems03,val,speed,coordination,FINAL,2024,"valid, excluding zero",1.75515581,3.75739667,12
+pems03,val,speed,coordination,FINAL,2025,all valid,1.75818205,3.74998742,7
+pems03,val,speed,coordination,FINAL,2025,"valid, excluding zero",1.75818205,3.74998742,7
+pems03,val,speed,coordination,FINAL,2026,all valid,1.75100587,3.74742068,7
+pems03,val,speed,coordination,FINAL,2026,"valid, excluding zero",1.75100587,3.74742068,7
 pems03,val,speed,target_only,K12,2024,all valid,1.74737942,3.72028499,13
 pems03,val,speed,target_only,K12,2024,"valid, excluding zero",1.74737942,3.72028499,13
 pems03,val,speed,target_only,K12,2025,all valid,1.74375488,3.72348571,17
@@ -143,18 +143,18 @@ pems03,val,speed,target_only,FINAL,2025,all valid,1.77504066,3.78522047,14
 pems03,val,speed,target_only,FINAL,2025,"valid, excluding zero",1.77504066,3.78522047,14
 pems03,val,speed,target_only,FINAL,2026,all valid,1.76966108,3.77307313,7
 pems03,val,speed,target_only,FINAL,2026,"valid, excluding zero",1.76966108,3.77307313,7
-pems04,test,flow,cross,K12,2024,all valid,18.55410725,30.33135168,8
-pems04,test,flow,cross,K12,2024,"valid, excluding zero",18.53817871,29.93934944,8
-pems04,test,flow,cross,K12,2025,all valid,18.56584551,30.33141325,10
-pems04,test,flow,cross,K12,2025,"valid, excluding zero",18.54706304,29.96955094,10
-pems04,test,flow,cross,K12,2026,all valid,18.53677351,30.33887403,8
-pems04,test,flow,cross,K12,2026,"valid, excluding zero",18.52519713,29.96554143,8
-pems04,test,flow,cross,FINAL,2024,all valid,18.82593140,30.63371708,8
-pems04,test,flow,cross,FINAL,2024,"valid, excluding zero",18.82262751,30.27119129,8
-pems04,test,flow,cross,FINAL,2025,all valid,18.80888524,30.57565235,6
-pems04,test,flow,cross,FINAL,2025,"valid, excluding zero",18.80878262,30.23985283,6
-pems04,test,flow,cross,FINAL,2026,all valid,18.82632142,30.76068889,8
-pems04,test,flow,cross,FINAL,2026,"valid, excluding zero",18.77113605,30.24798820,8
+pems04,test,flow,coordination,K12,2024,all valid,18.55410725,30.33135168,8
+pems04,test,flow,coordination,K12,2024,"valid, excluding zero",18.53817871,29.93934944,8
+pems04,test,flow,coordination,K12,2025,all valid,18.56584551,30.33141325,10
+pems04,test,flow,coordination,K12,2025,"valid, excluding zero",18.54706304,29.96955094,10
+pems04,test,flow,coordination,K12,2026,all valid,18.53677351,30.33887403,8
+pems04,test,flow,coordination,K12,2026,"valid, excluding zero",18.52519713,29.96554143,8
+pems04,test,flow,coordination,FINAL,2024,all valid,18.82593140,30.63371708,8
+pems04,test,flow,coordination,FINAL,2024,"valid, excluding zero",18.82262751,30.27119129,8
+pems04,test,flow,coordination,FINAL,2025,all valid,18.80888524,30.57565235,6
+pems04,test,flow,coordination,FINAL,2025,"valid, excluding zero",18.80878262,30.23985283,6
+pems04,test,flow,coordination,FINAL,2026,all valid,18.82632142,30.76068889,8
+pems04,test,flow,coordination,FINAL,2026,"valid, excluding zero",18.77113605,30.24798820,8
 pems04,test,flow,target_only,K12,2024,all valid,18.57270196,30.37718843,16
 pems04,test,flow,target_only,K12,2024,"valid, excluding zero",18.55725368,29.98682030,16
 pems04,test,flow,target_only,K12,2025,all valid,18.55056538,30.33946648,10
@@ -167,18 +167,18 @@ pems04,test,flow,target_only,FINAL,2025,all valid,18.88868717,30.69228774,12
 pems04,test,flow,target_only,FINAL,2025,"valid, excluding zero",18.89429667,30.36172671,12
 pems04,test,flow,target_only,FINAL,2026,all valid,18.86856183,30.84310851,23
 pems04,test,flow,target_only,FINAL,2026,"valid, excluding zero",18.81856878,30.31495039,23
-pems04,test,occupancy,cross,K12,2024,all valid,0.00716767,0.01926049,8
-pems04,test,occupancy,cross,K12,2024,"valid, excluding zero",0.00719604,0.01933305,8
-pems04,test,occupancy,cross,K12,2025,all valid,0.00716216,0.01931843,10
-pems04,test,occupancy,cross,K12,2025,"valid, excluding zero",0.00718988,0.01939464,10
-pems04,test,occupancy,cross,K12,2026,all valid,0.00715284,0.01919802,8
-pems04,test,occupancy,cross,K12,2026,"valid, excluding zero",0.00718167,0.01927250,8
-pems04,test,occupancy,cross,FINAL,2024,all valid,0.00725458,0.01951535,8
-pems04,test,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00728579,0.01959088,8
-pems04,test,occupancy,cross,FINAL,2025,all valid,0.00724734,0.01935549,6
-pems04,test,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00727764,0.01943347,6
-pems04,test,occupancy,cross,FINAL,2026,all valid,0.00722021,0.01921054,8
-pems04,test,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00724084,0.01927709,8
+pems04,test,occupancy,coordination,K12,2024,all valid,0.00716767,0.01926049,8
+pems04,test,occupancy,coordination,K12,2024,"valid, excluding zero",0.00719604,0.01933305,8
+pems04,test,occupancy,coordination,K12,2025,all valid,0.00716216,0.01931843,10
+pems04,test,occupancy,coordination,K12,2025,"valid, excluding zero",0.00718988,0.01939464,10
+pems04,test,occupancy,coordination,K12,2026,all valid,0.00715284,0.01919802,8
+pems04,test,occupancy,coordination,K12,2026,"valid, excluding zero",0.00718167,0.01927250,8
+pems04,test,occupancy,coordination,FINAL,2024,all valid,0.00725458,0.01951535,8
+pems04,test,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00728579,0.01959088,8
+pems04,test,occupancy,coordination,FINAL,2025,all valid,0.00724734,0.01935549,6
+pems04,test,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00727764,0.01943347,6
+pems04,test,occupancy,coordination,FINAL,2026,all valid,0.00722021,0.01921054,8
+pems04,test,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00724084,0.01927709,8
 pems04,test,occupancy,target_only,K12,2024,all valid,0.00721691,0.01938629,16
 pems04,test,occupancy,target_only,K12,2024,"valid, excluding zero",0.00724834,0.01946584,16
 pems04,test,occupancy,target_only,K12,2025,all valid,0.00723199,0.01947152,10
@@ -191,18 +191,18 @@ pems04,test,occupancy,target_only,FINAL,2025,all valid,0.00735786,0.01959352,12
 pems04,test,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00738654,0.01967568,12
 pems04,test,occupancy,target_only,FINAL,2026,all valid,0.00731523,0.01949234,23
 pems04,test,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00734005,0.01957120,23
-pems04,test,speed,cross,K12,2024,all valid,1.51063188,3.48654087,8
-pems04,test,speed,cross,K12,2024,"valid, excluding zero",1.51063188,3.48654087,8
-pems04,test,speed,cross,K12,2025,all valid,1.51004570,3.48277272,10
-pems04,test,speed,cross,K12,2025,"valid, excluding zero",1.51004570,3.48277272,10
-pems04,test,speed,cross,K12,2026,all valid,1.50349990,3.46354275,8
-pems04,test,speed,cross,K12,2026,"valid, excluding zero",1.50349990,3.46354275,8
-pems04,test,speed,cross,FINAL,2024,all valid,1.52632760,3.54188466,8
-pems04,test,speed,cross,FINAL,2024,"valid, excluding zero",1.52632760,3.54188466,8
-pems04,test,speed,cross,FINAL,2025,all valid,1.52539546,3.50244176,6
-pems04,test,speed,cross,FINAL,2025,"valid, excluding zero",1.52539546,3.50244176,6
-pems04,test,speed,cross,FINAL,2026,all valid,1.51886113,3.49389209,8
-pems04,test,speed,cross,FINAL,2026,"valid, excluding zero",1.51886113,3.49389209,8
+pems04,test,speed,coordination,K12,2024,all valid,1.51063188,3.48654087,8
+pems04,test,speed,coordination,K12,2024,"valid, excluding zero",1.51063188,3.48654087,8
+pems04,test,speed,coordination,K12,2025,all valid,1.51004570,3.48277272,10
+pems04,test,speed,coordination,K12,2025,"valid, excluding zero",1.51004570,3.48277272,10
+pems04,test,speed,coordination,K12,2026,all valid,1.50349990,3.46354275,8
+pems04,test,speed,coordination,K12,2026,"valid, excluding zero",1.50349990,3.46354275,8
+pems04,test,speed,coordination,FINAL,2024,all valid,1.52632760,3.54188466,8
+pems04,test,speed,coordination,FINAL,2024,"valid, excluding zero",1.52632760,3.54188466,8
+pems04,test,speed,coordination,FINAL,2025,all valid,1.52539546,3.50244176,6
+pems04,test,speed,coordination,FINAL,2025,"valid, excluding zero",1.52539546,3.50244176,6
+pems04,test,speed,coordination,FINAL,2026,all valid,1.51886113,3.49389209,8
+pems04,test,speed,coordination,FINAL,2026,"valid, excluding zero",1.51886113,3.49389209,8
 pems04,test,speed,target_only,K12,2024,all valid,1.51580226,3.50996761,16
 pems04,test,speed,target_only,K12,2024,"valid, excluding zero",1.51580226,3.50996761,16
 pems04,test,speed,target_only,K12,2025,all valid,1.51299452,3.50454401,10
@@ -215,18 +215,18 @@ pems04,test,speed,target_only,FINAL,2025,all valid,1.52936817,3.54266453,12
 pems04,test,speed,target_only,FINAL,2025,"valid, excluding zero",1.52936817,3.54266453,12
 pems04,test,speed,target_only,FINAL,2026,all valid,1.53460354,3.56342905,23
 pems04,test,speed,target_only,FINAL,2026,"valid, excluding zero",1.53460354,3.56342905,23
-pems04,val,flow,cross,K12,2024,all valid,18.83093317,31.16330309,8
-pems04,val,flow,cross,K12,2024,"valid, excluding zero",18.79451349,30.62243884,8
-pems04,val,flow,cross,K12,2025,all valid,18.83219449,31.07194176,10
-pems04,val,flow,cross,K12,2025,"valid, excluding zero",18.80767340,30.66811931,10
-pems04,val,flow,cross,K12,2026,all valid,18.77552637,31.09250253,8
-pems04,val,flow,cross,K12,2026,"valid, excluding zero",18.77453673,30.68983125,8
-pems04,val,flow,cross,FINAL,2024,all valid,19.10288276,31.48825114,8
-pems04,val,flow,cross,FINAL,2024,"valid, excluding zero",19.07766835,30.97912224,8
-pems04,val,flow,cross,FINAL,2025,all valid,19.10923506,31.36043350,6
-pems04,val,flow,cross,FINAL,2025,"valid, excluding zero",19.10382730,30.96921049,6
-pems04,val,flow,cross,FINAL,2026,all valid,19.16999973,31.71304571,8
-pems04,val,flow,cross,FINAL,2026,"valid, excluding zero",19.07100572,30.97887272,8
+pems04,val,flow,coordination,K12,2024,all valid,18.83093317,31.16330309,8
+pems04,val,flow,coordination,K12,2024,"valid, excluding zero",18.79451349,30.62243884,8
+pems04,val,flow,coordination,K12,2025,all valid,18.83219449,31.07194176,10
+pems04,val,flow,coordination,K12,2025,"valid, excluding zero",18.80767340,30.66811931,10
+pems04,val,flow,coordination,K12,2026,all valid,18.77552637,31.09250253,8
+pems04,val,flow,coordination,K12,2026,"valid, excluding zero",18.77453673,30.68983125,8
+pems04,val,flow,coordination,FINAL,2024,all valid,19.10288276,31.48825114,8
+pems04,val,flow,coordination,FINAL,2024,"valid, excluding zero",19.07766835,30.97912224,8
+pems04,val,flow,coordination,FINAL,2025,all valid,19.10923506,31.36043350,6
+pems04,val,flow,coordination,FINAL,2025,"valid, excluding zero",19.10382730,30.96921049,6
+pems04,val,flow,coordination,FINAL,2026,all valid,19.16999973,31.71304571,8
+pems04,val,flow,coordination,FINAL,2026,"valid, excluding zero",19.07100572,30.97887272,8
 pems04,val,flow,target_only,K12,2024,all valid,18.85693957,31.26292316,16
 pems04,val,flow,target_only,K12,2024,"valid, excluding zero",18.80535886,30.66467698,16
 pems04,val,flow,target_only,K12,2025,all valid,18.81323535,31.10768920,10
@@ -239,18 +239,18 @@ pems04,val,flow,target_only,FINAL,2025,all valid,19.18114300,31.49903649,12
 pems04,val,flow,target_only,FINAL,2025,"valid, excluding zero",19.17747027,31.08336241,12
 pems04,val,flow,target_only,FINAL,2026,all valid,19.20045100,31.84382637,23
 pems04,val,flow,target_only,FINAL,2026,"valid, excluding zero",19.08212533,31.01533725,23
-pems04,val,occupancy,cross,K12,2024,all valid,0.00785291,0.02119807,8
-pems04,val,occupancy,cross,K12,2024,"valid, excluding zero",0.00789528,0.02131469,8
-pems04,val,occupancy,cross,K12,2025,all valid,0.00784210,0.02126628,10
-pems04,val,occupancy,cross,K12,2025,"valid, excluding zero",0.00789024,0.02140386,10
-pems04,val,occupancy,cross,K12,2026,all valid,0.00783285,0.02112511,8
-pems04,val,occupancy,cross,K12,2026,"valid, excluding zero",0.00788498,0.02126202,8
-pems04,val,occupancy,cross,FINAL,2024,all valid,0.00792986,0.02139972,8
-pems04,val,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00797423,0.02151671,8
-pems04,val,occupancy,cross,FINAL,2025,all valid,0.00793311,0.02125827,6
-pems04,val,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00798266,0.02139638,6
-pems04,val,occupancy,cross,FINAL,2026,all valid,0.00792279,0.02116402,8
-pems04,val,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00795319,0.02127758,8
+pems04,val,occupancy,coordination,K12,2024,all valid,0.00785291,0.02119807,8
+pems04,val,occupancy,coordination,K12,2024,"valid, excluding zero",0.00789528,0.02131469,8
+pems04,val,occupancy,coordination,K12,2025,all valid,0.00784210,0.02126628,10
+pems04,val,occupancy,coordination,K12,2025,"valid, excluding zero",0.00789024,0.02140386,10
+pems04,val,occupancy,coordination,K12,2026,all valid,0.00783285,0.02112511,8
+pems04,val,occupancy,coordination,K12,2026,"valid, excluding zero",0.00788498,0.02126202,8
+pems04,val,occupancy,coordination,FINAL,2024,all valid,0.00792986,0.02139972,8
+pems04,val,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00797423,0.02151671,8
+pems04,val,occupancy,coordination,FINAL,2025,all valid,0.00793311,0.02125827,6
+pems04,val,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00798266,0.02139638,6
+pems04,val,occupancy,coordination,FINAL,2026,all valid,0.00792279,0.02116402,8
+pems04,val,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00795319,0.02127758,8
 pems04,val,occupancy,target_only,K12,2024,all valid,0.00791140,0.02139517,16
 pems04,val,occupancy,target_only,K12,2024,"valid, excluding zero",0.00796841,0.02153863,16
 pems04,val,occupancy,target_only,K12,2025,all valid,0.00793264,0.02146841,10
@@ -263,18 +263,18 @@ pems04,val,occupancy,target_only,FINAL,2025,all valid,0.00803776,0.02150357,12
 pems04,val,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00809079,0.02164799,12
 pems04,val,occupancy,target_only,FINAL,2026,all valid,0.00802528,0.02148484,23
 pems04,val,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00807304,0.02162644,23
-pems04,val,speed,cross,K12,2024,all valid,1.57704859,3.60332110,8
-pems04,val,speed,cross,K12,2024,"valid, excluding zero",1.57704859,3.60332110,8
-pems04,val,speed,cross,K12,2025,all valid,1.57699950,3.59983561,10
-pems04,val,speed,cross,K12,2025,"valid, excluding zero",1.57699950,3.59983561,10
-pems04,val,speed,cross,K12,2026,all valid,1.57516118,3.59488635,8
-pems04,val,speed,cross,K12,2026,"valid, excluding zero",1.57516118,3.59488635,8
-pems04,val,speed,cross,FINAL,2024,all valid,1.59372140,3.66084500,8
-pems04,val,speed,cross,FINAL,2024,"valid, excluding zero",1.59372140,3.66084500,8
-pems04,val,speed,cross,FINAL,2025,all valid,1.59854232,3.62674957,6
-pems04,val,speed,cross,FINAL,2025,"valid, excluding zero",1.59854232,3.62674957,6
-pems04,val,speed,cross,FINAL,2026,all valid,1.59249764,3.62648896,8
-pems04,val,speed,cross,FINAL,2026,"valid, excluding zero",1.59249764,3.62648896,8
+pems04,val,speed,coordination,K12,2024,all valid,1.57704859,3.60332110,8
+pems04,val,speed,coordination,K12,2024,"valid, excluding zero",1.57704859,3.60332110,8
+pems04,val,speed,coordination,K12,2025,all valid,1.57699950,3.59983561,10
+pems04,val,speed,coordination,K12,2025,"valid, excluding zero",1.57699950,3.59983561,10
+pems04,val,speed,coordination,K12,2026,all valid,1.57516118,3.59488635,8
+pems04,val,speed,coordination,K12,2026,"valid, excluding zero",1.57516118,3.59488635,8
+pems04,val,speed,coordination,FINAL,2024,all valid,1.59372140,3.66084500,8
+pems04,val,speed,coordination,FINAL,2024,"valid, excluding zero",1.59372140,3.66084500,8
+pems04,val,speed,coordination,FINAL,2025,all valid,1.59854232,3.62674957,6
+pems04,val,speed,coordination,FINAL,2025,"valid, excluding zero",1.59854232,3.62674957,6
+pems04,val,speed,coordination,FINAL,2026,all valid,1.59249764,3.62648896,8
+pems04,val,speed,coordination,FINAL,2026,"valid, excluding zero",1.59249764,3.62648896,8
 pems04,val,speed,target_only,K12,2024,all valid,1.58770838,3.63391286,16
 pems04,val,speed,target_only,K12,2024,"valid, excluding zero",1.58770838,3.63391286,16
 pems04,val,speed,target_only,K12,2025,all valid,1.58745085,3.62906394,10
@@ -287,18 +287,18 @@ pems04,val,speed,target_only,FINAL,2025,all valid,1.61102380,3.68895799,12
 pems04,val,speed,target_only,FINAL,2025,"valid, excluding zero",1.61102380,3.68895799,12
 pems04,val,speed,target_only,FINAL,2026,all valid,1.60782278,3.68246851,23
 pems04,val,speed,target_only,FINAL,2026,"valid, excluding zero",1.60782278,3.68246851,23
-pems07,test,flow,cross,K12,2024,all valid,19.65552698,32.59936110,21
-pems07,test,flow,cross,K12,2024,"valid, excluding zero",19.69412736,32.60221722,21
-pems07,test,flow,cross,K12,2025,all valid,19.70200255,32.68045005,18
-pems07,test,flow,cross,K12,2025,"valid, excluding zero",19.73571926,32.68199164,18
-pems07,test,flow,cross,K12,2026,all valid,19.68604319,32.62983060,17
-pems07,test,flow,cross,K12,2026,"valid, excluding zero",19.72498273,32.63771003,17
-pems07,test,flow,cross,FINAL,2024,all valid,20.04066091,32.99997462,12
-pems07,test,flow,cross,FINAL,2024,"valid, excluding zero",20.08143315,33.00186526,12
-pems07,test,flow,cross,FINAL,2025,all valid,20.02336645,32.97703616,15
-pems07,test,flow,cross,FINAL,2025,"valid, excluding zero",20.06376601,32.98404236,15
-pems07,test,flow,cross,FINAL,2026,all valid,19.97559246,32.82598463,22
-pems07,test,flow,cross,FINAL,2026,"valid, excluding zero",20.01523132,32.83124601,22
+pems07,test,flow,coordination,K12,2024,all valid,19.65552698,32.59936110,21
+pems07,test,flow,coordination,K12,2024,"valid, excluding zero",19.69412736,32.60221722,21
+pems07,test,flow,coordination,K12,2025,all valid,19.70200255,32.68045005,18
+pems07,test,flow,coordination,K12,2025,"valid, excluding zero",19.73571926,32.68199164,18
+pems07,test,flow,coordination,K12,2026,all valid,19.68604319,32.62983060,17
+pems07,test,flow,coordination,K12,2026,"valid, excluding zero",19.72498273,32.63771003,17
+pems07,test,flow,coordination,FINAL,2024,all valid,20.04066091,32.99997462,12
+pems07,test,flow,coordination,FINAL,2024,"valid, excluding zero",20.08143315,33.00186526,12
+pems07,test,flow,coordination,FINAL,2025,all valid,20.02336645,32.97703616,15
+pems07,test,flow,coordination,FINAL,2025,"valid, excluding zero",20.06376601,32.98404236,15
+pems07,test,flow,coordination,FINAL,2026,all valid,19.97559246,32.82598463,22
+pems07,test,flow,coordination,FINAL,2026,"valid, excluding zero",20.01523132,32.83124601,22
 pems07,test,flow,target_only,K12,2024,all valid,19.83696391,32.80748158,23
 pems07,test,flow,target_only,K12,2024,"valid, excluding zero",19.90323278,32.82650047,23
 pems07,test,flow,target_only,K12,2025,all valid,19.85234957,32.84141189,7
@@ -311,18 +311,18 @@ pems07,test,flow,target_only,FINAL,2025,all valid,20.22798341,33.18631952,6
 pems07,test,flow,target_only,FINAL,2025,"valid, excluding zero",20.29295024,33.20725699,6
 pems07,test,flow,target_only,FINAL,2026,all valid,20.23370776,33.17259933,17
 pems07,test,flow,target_only,FINAL,2026,"valid, excluding zero",20.30600509,33.19724619,17
-pems07,test,occupancy,cross,K12,2024,all valid,0.01082698,0.02790076,21
-pems07,test,occupancy,cross,K12,2024,"valid, excluding zero",0.01084357,0.02792297,21
-pems07,test,occupancy,cross,K12,2025,all valid,0.01082829,0.02786428,18
-pems07,test,occupancy,cross,K12,2025,"valid, excluding zero",0.01084478,0.02788632,18
-pems07,test,occupancy,cross,K12,2026,all valid,0.01083764,0.02791512,17
-pems07,test,occupancy,cross,K12,2026,"valid, excluding zero",0.01085388,0.02793707,17
-pems07,test,occupancy,cross,FINAL,2024,all valid,0.01089744,0.02799214,12
-pems07,test,occupancy,cross,FINAL,2024,"valid, excluding zero",0.01091374,0.02801440,12
-pems07,test,occupancy,cross,FINAL,2025,all valid,0.01092179,0.02813199,15
-pems07,test,occupancy,cross,FINAL,2025,"valid, excluding zero",0.01093817,0.02815441,15
-pems07,test,occupancy,cross,FINAL,2026,all valid,0.01096486,0.02819620,22
-pems07,test,occupancy,cross,FINAL,2026,"valid, excluding zero",0.01098127,0.02821835,22
+pems07,test,occupancy,coordination,K12,2024,all valid,0.01082698,0.02790076,21
+pems07,test,occupancy,coordination,K12,2024,"valid, excluding zero",0.01084357,0.02792297,21
+pems07,test,occupancy,coordination,K12,2025,all valid,0.01082829,0.02786428,18
+pems07,test,occupancy,coordination,K12,2025,"valid, excluding zero",0.01084478,0.02788632,18
+pems07,test,occupancy,coordination,K12,2026,all valid,0.01083764,0.02791512,17
+pems07,test,occupancy,coordination,K12,2026,"valid, excluding zero",0.01085388,0.02793707,17
+pems07,test,occupancy,coordination,FINAL,2024,all valid,0.01089744,0.02799214,12
+pems07,test,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.01091374,0.02801440,12
+pems07,test,occupancy,coordination,FINAL,2025,all valid,0.01092179,0.02813199,15
+pems07,test,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.01093817,0.02815441,15
+pems07,test,occupancy,coordination,FINAL,2026,all valid,0.01096486,0.02819620,22
+pems07,test,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.01098127,0.02821835,22
 pems07,test,occupancy,target_only,K12,2024,all valid,0.01092800,0.02792300,23
 pems07,test,occupancy,target_only,K12,2024,"valid, excluding zero",0.01094470,0.02794501,23
 pems07,test,occupancy,target_only,K12,2025,all valid,0.01093607,0.02792096,7
@@ -335,18 +335,18 @@ pems07,test,occupancy,target_only,FINAL,2025,all valid,0.01108770,0.02820662,6
 pems07,test,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.01110441,0.02822883,6
 pems07,test,occupancy,target_only,FINAL,2026,all valid,0.01115583,0.02845661,17
 pems07,test,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.01117266,0.02847926,17
-pems07,test,speed,cross,K12,2024,all valid,2.05376791,4.43541125,21
-pems07,test,speed,cross,K12,2024,"valid, excluding zero",2.05376791,4.43541125,21
-pems07,test,speed,cross,K12,2025,all valid,2.05524400,4.43666395,18
-pems07,test,speed,cross,K12,2025,"valid, excluding zero",2.05524400,4.43666395,18
-pems07,test,speed,cross,K12,2026,all valid,2.05328414,4.45123879,17
-pems07,test,speed,cross,K12,2026,"valid, excluding zero",2.05328414,4.45123879,17
-pems07,test,speed,cross,FINAL,2024,all valid,2.07171436,4.47961089,12
-pems07,test,speed,cross,FINAL,2024,"valid, excluding zero",2.07171436,4.47961089,12
-pems07,test,speed,cross,FINAL,2025,all valid,2.07999279,4.49366961,15
-pems07,test,speed,cross,FINAL,2025,"valid, excluding zero",2.07999279,4.49366961,15
-pems07,test,speed,cross,FINAL,2026,all valid,2.08160829,4.49933937,22
-pems07,test,speed,cross,FINAL,2026,"valid, excluding zero",2.08160829,4.49933937,22
+pems07,test,speed,coordination,K12,2024,all valid,2.05376791,4.43541125,21
+pems07,test,speed,coordination,K12,2024,"valid, excluding zero",2.05376791,4.43541125,21
+pems07,test,speed,coordination,K12,2025,all valid,2.05524400,4.43666395,18
+pems07,test,speed,coordination,K12,2025,"valid, excluding zero",2.05524400,4.43666395,18
+pems07,test,speed,coordination,K12,2026,all valid,2.05328414,4.45123879,17
+pems07,test,speed,coordination,K12,2026,"valid, excluding zero",2.05328414,4.45123879,17
+pems07,test,speed,coordination,FINAL,2024,all valid,2.07171436,4.47961089,12
+pems07,test,speed,coordination,FINAL,2024,"valid, excluding zero",2.07171436,4.47961089,12
+pems07,test,speed,coordination,FINAL,2025,all valid,2.07999279,4.49366961,15
+pems07,test,speed,coordination,FINAL,2025,"valid, excluding zero",2.07999279,4.49366961,15
+pems07,test,speed,coordination,FINAL,2026,all valid,2.08160829,4.49933937,22
+pems07,test,speed,coordination,FINAL,2026,"valid, excluding zero",2.08160829,4.49933937,22
 pems07,test,speed,target_only,K12,2024,all valid,2.06781622,4.44460070,23
 pems07,test,speed,target_only,K12,2024,"valid, excluding zero",2.06781622,4.44460070,23
 pems07,test,speed,target_only,K12,2025,all valid,2.06510520,4.43970266,7
@@ -359,18 +359,18 @@ pems07,test,speed,target_only,FINAL,2025,all valid,2.09860452,4.50138895,6
 pems07,test,speed,target_only,FINAL,2025,"valid, excluding zero",2.09860452,4.50138895,6
 pems07,test,speed,target_only,FINAL,2026,all valid,2.09737735,4.50947765,17
 pems07,test,speed,target_only,FINAL,2026,"valid, excluding zero",2.09737735,4.50947765,17
-pems07,val,flow,cross,K12,2024,all valid,19.44026618,32.41373834,21
-pems07,val,flow,cross,K12,2024,"valid, excluding zero",19.45496956,32.36274719,21
-pems07,val,flow,cross,K12,2025,all valid,19.48458543,32.47772146,18
-pems07,val,flow,cross,K12,2025,"valid, excluding zero",19.50655185,32.43522241,18
-pems07,val,flow,cross,K12,2026,all valid,19.48400534,32.45698204,17
-pems07,val,flow,cross,K12,2026,"valid, excluding zero",19.50436979,32.41343920,17
-pems07,val,flow,cross,FINAL,2024,all valid,19.81889283,32.79743595,12
-pems07,val,flow,cross,FINAL,2024,"valid, excluding zero",19.83228707,32.74469345,12
-pems07,val,flow,cross,FINAL,2025,all valid,19.80084351,32.75472004,15
-pems07,val,flow,cross,FINAL,2025,"valid, excluding zero",19.82184767,32.71035602,15
-pems07,val,flow,cross,FINAL,2026,all valid,19.76242642,32.65784866,22
-pems07,val,flow,cross,FINAL,2026,"valid, excluding zero",19.78183477,32.61107787,22
+pems07,val,flow,coordination,K12,2024,all valid,19.44026618,32.41373834,21
+pems07,val,flow,coordination,K12,2024,"valid, excluding zero",19.45496956,32.36274719,21
+pems07,val,flow,coordination,K12,2025,all valid,19.48458543,32.47772146,18
+pems07,val,flow,coordination,K12,2025,"valid, excluding zero",19.50655185,32.43522241,18
+pems07,val,flow,coordination,K12,2026,all valid,19.48400534,32.45698204,17
+pems07,val,flow,coordination,K12,2026,"valid, excluding zero",19.50436979,32.41343920,17
+pems07,val,flow,coordination,FINAL,2024,all valid,19.81889283,32.79743595,12
+pems07,val,flow,coordination,FINAL,2024,"valid, excluding zero",19.83228707,32.74469345,12
+pems07,val,flow,coordination,FINAL,2025,all valid,19.80084351,32.75472004,15
+pems07,val,flow,coordination,FINAL,2025,"valid, excluding zero",19.82184767,32.71035602,15
+pems07,val,flow,coordination,FINAL,2026,all valid,19.76242642,32.65784866,22
+pems07,val,flow,coordination,FINAL,2026,"valid, excluding zero",19.78183477,32.61107787,22
 pems07,val,flow,target_only,K12,2024,all valid,19.66535187,32.66364248,23
 pems07,val,flow,target_only,K12,2024,"valid, excluding zero",19.70475295,32.63383230,23
 pems07,val,flow,target_only,K12,2025,all valid,19.70458557,32.74061949,7
@@ -383,18 +383,18 @@ pems07,val,flow,target_only,FINAL,2025,all valid,20.07917148,33.08225131,6
 pems07,val,flow,target_only,FINAL,2025,"valid, excluding zero",20.11785752,33.05335263,6
 pems07,val,flow,target_only,FINAL,2026,all valid,20.08601818,33.08621984,17
 pems07,val,flow,target_only,FINAL,2026,"valid, excluding zero",20.12879270,33.06141808,17
-pems07,val,occupancy,cross,K12,2024,all valid,0.00981360,0.02593040,21
-pems07,val,occupancy,cross,K12,2024,"valid, excluding zero",0.00982884,0.02595192,21
-pems07,val,occupancy,cross,K12,2025,all valid,0.00981833,0.02589714,18
-pems07,val,occupancy,cross,K12,2025,"valid, excluding zero",0.00983357,0.02591855,18
-pems07,val,occupancy,cross,K12,2026,all valid,0.00982121,0.02592845,17
-pems07,val,occupancy,cross,K12,2026,"valid, excluding zero",0.00983606,0.02594988,17
-pems07,val,occupancy,cross,FINAL,2024,all valid,0.00989920,0.02609930,12
-pems07,val,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00991420,0.02612090,12
-pems07,val,occupancy,cross,FINAL,2025,all valid,0.00990061,0.02615078,15
-pems07,val,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00991565,0.02617233,15
-pems07,val,occupancy,cross,FINAL,2026,all valid,0.00992207,0.02613667,22
-pems07,val,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00993709,0.02615835,22
+pems07,val,occupancy,coordination,K12,2024,all valid,0.00981360,0.02593040,21
+pems07,val,occupancy,coordination,K12,2024,"valid, excluding zero",0.00982884,0.02595192,21
+pems07,val,occupancy,coordination,K12,2025,all valid,0.00981833,0.02589714,18
+pems07,val,occupancy,coordination,K12,2025,"valid, excluding zero",0.00983357,0.02591855,18
+pems07,val,occupancy,coordination,K12,2026,all valid,0.00982121,0.02592845,17
+pems07,val,occupancy,coordination,K12,2026,"valid, excluding zero",0.00983606,0.02594988,17
+pems07,val,occupancy,coordination,FINAL,2024,all valid,0.00989920,0.02609930,12
+pems07,val,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00991420,0.02612090,12
+pems07,val,occupancy,coordination,FINAL,2025,all valid,0.00990061,0.02615078,15
+pems07,val,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00991565,0.02617233,15
+pems07,val,occupancy,coordination,FINAL,2026,all valid,0.00992207,0.02613667,22
+pems07,val,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00993709,0.02615835,22
 pems07,val,occupancy,target_only,K12,2024,all valid,0.00995860,0.02609996,23
 pems07,val,occupancy,target_only,K12,2024,"valid, excluding zero",0.00997403,0.02612154,23
 pems07,val,occupancy,target_only,K12,2025,all valid,0.00996950,0.02609423,7
@@ -407,18 +407,18 @@ pems07,val,occupancy,target_only,FINAL,2025,all valid,0.01010679,0.02635540,6
 pems07,val,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.01012221,0.02637714,6
 pems07,val,occupancy,target_only,FINAL,2026,all valid,0.01013007,0.02646353,17
 pems07,val,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.01014551,0.02648547,17
-pems07,val,speed,cross,K12,2024,all valid,1.89382840,4.11766140,21
-pems07,val,speed,cross,K12,2024,"valid, excluding zero",1.89382840,4.11766140,21
-pems07,val,speed,cross,K12,2025,all valid,1.89802113,4.11870458,18
-pems07,val,speed,cross,K12,2025,"valid, excluding zero",1.89802113,4.11870458,18
-pems07,val,speed,cross,K12,2026,all valid,1.89412642,4.13045907,17
-pems07,val,speed,cross,K12,2026,"valid, excluding zero",1.89412642,4.13045907,17
-pems07,val,speed,cross,FINAL,2024,all valid,1.91313445,4.16463560,12
-pems07,val,speed,cross,FINAL,2024,"valid, excluding zero",1.91313445,4.16463560,12
-pems07,val,speed,cross,FINAL,2025,all valid,1.91925926,4.16984210,15
-pems07,val,speed,cross,FINAL,2025,"valid, excluding zero",1.91925926,4.16984210,15
-pems07,val,speed,cross,FINAL,2026,all valid,1.91881531,4.17797371,22
-pems07,val,speed,cross,FINAL,2026,"valid, excluding zero",1.91881531,4.17797371,22
+pems07,val,speed,coordination,K12,2024,all valid,1.89382840,4.11766140,21
+pems07,val,speed,coordination,K12,2024,"valid, excluding zero",1.89382840,4.11766140,21
+pems07,val,speed,coordination,K12,2025,all valid,1.89802113,4.11870458,18
+pems07,val,speed,coordination,K12,2025,"valid, excluding zero",1.89802113,4.11870458,18
+pems07,val,speed,coordination,K12,2026,all valid,1.89412642,4.13045907,17
+pems07,val,speed,coordination,K12,2026,"valid, excluding zero",1.89412642,4.13045907,17
+pems07,val,speed,coordination,FINAL,2024,all valid,1.91313445,4.16463560,12
+pems07,val,speed,coordination,FINAL,2024,"valid, excluding zero",1.91313445,4.16463560,12
+pems07,val,speed,coordination,FINAL,2025,all valid,1.91925926,4.16984210,15
+pems07,val,speed,coordination,FINAL,2025,"valid, excluding zero",1.91925926,4.16984210,15
+pems07,val,speed,coordination,FINAL,2026,all valid,1.91881531,4.17797371,22
+pems07,val,speed,coordination,FINAL,2026,"valid, excluding zero",1.91881531,4.17797371,22
 pems07,val,speed,target_only,K12,2024,all valid,1.91745721,4.14536072,23
 pems07,val,speed,target_only,K12,2024,"valid, excluding zero",1.91745721,4.14536072,23
 pems07,val,speed,target_only,K12,2025,all valid,1.91692395,4.14528586,7
@@ -431,18 +431,18 @@ pems07,val,speed,target_only,FINAL,2025,all valid,1.94599335,4.19961006,6
 pems07,val,speed,target_only,FINAL,2025,"valid, excluding zero",1.94599335,4.19961006,6
 pems07,val,speed,target_only,FINAL,2026,all valid,1.94497875,4.21226084,17
 pems07,val,speed,target_only,FINAL,2026,"valid, excluding zero",1.94497875,4.21226084,17
-pems08,test,flow,cross,K12,2024,all valid,14.29551525,23.35304630,7
-pems08,test,flow,cross,K12,2024,"valid, excluding zero",14.31571613,23.25245541,7
-pems08,test,flow,cross,K12,2025,all valid,14.32137117,23.42321169,7
-pems08,test,flow,cross,K12,2025,"valid, excluding zero",14.34272456,23.32155871,7
-pems08,test,flow,cross,K12,2026,all valid,14.30058191,23.39582684,4
-pems08,test,flow,cross,K12,2026,"valid, excluding zero",14.31997895,23.29294694,4
-pems08,test,flow,cross,FINAL,2024,all valid,14.51754050,23.51701212,7
-pems08,test,flow,cross,FINAL,2024,"valid, excluding zero",14.53607727,23.41706555,7
-pems08,test,flow,cross,FINAL,2025,all valid,14.49443389,23.48591471,5
-pems08,test,flow,cross,FINAL,2025,"valid, excluding zero",14.51413669,23.38234237,5
-pems08,test,flow,cross,FINAL,2026,all valid,14.54600358,23.68243109,6
-pems08,test,flow,cross,FINAL,2026,"valid, excluding zero",14.56544441,23.58083018,6
+pems08,test,flow,coordination,K12,2024,all valid,14.29551525,23.35304630,7
+pems08,test,flow,coordination,K12,2024,"valid, excluding zero",14.31571613,23.25245541,7
+pems08,test,flow,coordination,K12,2025,all valid,14.32137117,23.42321169,7
+pems08,test,flow,coordination,K12,2025,"valid, excluding zero",14.34272456,23.32155871,7
+pems08,test,flow,coordination,K12,2026,all valid,14.30058191,23.39582684,4
+pems08,test,flow,coordination,K12,2026,"valid, excluding zero",14.31997895,23.29294694,4
+pems08,test,flow,coordination,FINAL,2024,all valid,14.51754050,23.51701212,7
+pems08,test,flow,coordination,FINAL,2024,"valid, excluding zero",14.53607727,23.41706555,7
+pems08,test,flow,coordination,FINAL,2025,all valid,14.49443389,23.48591471,5
+pems08,test,flow,coordination,FINAL,2025,"valid, excluding zero",14.51413669,23.38234237,5
+pems08,test,flow,coordination,FINAL,2026,all valid,14.54600358,23.68243109,6
+pems08,test,flow,coordination,FINAL,2026,"valid, excluding zero",14.56544441,23.58083018,6
 pems08,test,flow,target_only,K12,2024,all valid,14.30132951,23.40226528,7
 pems08,test,flow,target_only,K12,2024,"valid, excluding zero",14.32178642,23.30049634,7
 pems08,test,flow,target_only,K12,2025,all valid,14.34499478,23.45858329,12
@@ -455,18 +455,18 @@ pems08,test,flow,target_only,FINAL,2025,all valid,14.52909747,23.56351453,6
 pems08,test,flow,target_only,FINAL,2025,"valid, excluding zero",14.54858285,23.46083269,6
 pems08,test,flow,target_only,FINAL,2026,all valid,14.58735710,23.67531211,8
 pems08,test,flow,target_only,FINAL,2026,"valid, excluding zero",14.60502185,23.57312603,8
-pems08,test,occupancy,cross,K12,2024,all valid,0.00624095,0.01749636,7
-pems08,test,occupancy,cross,K12,2024,"valid, excluding zero",0.00625284,0.01751203,7
-pems08,test,occupancy,cross,K12,2025,all valid,0.00625744,0.01749478,7
-pems08,test,occupancy,cross,K12,2025,"valid, excluding zero",0.00626926,0.01751040,7
-pems08,test,occupancy,cross,K12,2026,all valid,0.00623929,0.01746342,4
-pems08,test,occupancy,cross,K12,2026,"valid, excluding zero",0.00625141,0.01747912,4
-pems08,test,occupancy,cross,FINAL,2024,all valid,0.00630967,0.01742425,7
-pems08,test,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00632029,0.01743933,7
-pems08,test,occupancy,cross,FINAL,2025,all valid,0.00632900,0.01765756,5
-pems08,test,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00634107,0.01767314,5
-pems08,test,occupancy,cross,FINAL,2026,all valid,0.00632012,0.01768043,6
-pems08,test,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00633088,0.01769634,6
+pems08,test,occupancy,coordination,K12,2024,all valid,0.00624095,0.01749636,7
+pems08,test,occupancy,coordination,K12,2024,"valid, excluding zero",0.00625284,0.01751203,7
+pems08,test,occupancy,coordination,K12,2025,all valid,0.00625744,0.01749478,7
+pems08,test,occupancy,coordination,K12,2025,"valid, excluding zero",0.00626926,0.01751040,7
+pems08,test,occupancy,coordination,K12,2026,all valid,0.00623929,0.01746342,4
+pems08,test,occupancy,coordination,K12,2026,"valid, excluding zero",0.00625141,0.01747912,4
+pems08,test,occupancy,coordination,FINAL,2024,all valid,0.00630967,0.01742425,7
+pems08,test,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00632029,0.01743933,7
+pems08,test,occupancy,coordination,FINAL,2025,all valid,0.00632900,0.01765756,5
+pems08,test,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00634107,0.01767314,5
+pems08,test,occupancy,coordination,FINAL,2026,all valid,0.00632012,0.01768043,6
+pems08,test,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00633088,0.01769634,6
 pems08,test,occupancy,target_only,K12,2024,all valid,0.00628162,0.01763430,7
 pems08,test,occupancy,target_only,K12,2024,"valid, excluding zero",0.00629375,0.01765094,7
 pems08,test,occupancy,target_only,K12,2025,all valid,0.00631003,0.01783640,12
@@ -479,18 +479,18 @@ pems08,test,occupancy,target_only,FINAL,2025,all valid,0.00639072,0.01788262,6
 pems08,test,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00640217,0.01789927,6
 pems08,test,occupancy,target_only,FINAL,2026,all valid,0.00638854,0.01803390,8
 pems08,test,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00640058,0.01805140,8
-pems08,test,speed,cross,K12,2024,all valid,1.23079174,3.07139761,7
-pems08,test,speed,cross,K12,2024,"valid, excluding zero",1.23079174,3.07139761,7
-pems08,test,speed,cross,K12,2025,all valid,1.22736322,3.05181048,7
-pems08,test,speed,cross,K12,2025,"valid, excluding zero",1.22736322,3.05181048,7
-pems08,test,speed,cross,K12,2026,all valid,1.22562606,3.07015885,4
-pems08,test,speed,cross,K12,2026,"valid, excluding zero",1.22562606,3.07015885,4
-pems08,test,speed,cross,FINAL,2024,all valid,1.24373600,3.06354989,7
-pems08,test,speed,cross,FINAL,2024,"valid, excluding zero",1.24373600,3.06354989,7
-pems08,test,speed,cross,FINAL,2025,all valid,1.23793217,3.07005833,5
-pems08,test,speed,cross,FINAL,2025,"valid, excluding zero",1.23793217,3.07005833,5
-pems08,test,speed,cross,FINAL,2026,all valid,1.24375013,3.10763790,6
-pems08,test,speed,cross,FINAL,2026,"valid, excluding zero",1.24375013,3.10763790,6
+pems08,test,speed,coordination,K12,2024,all valid,1.23079174,3.07139761,7
+pems08,test,speed,coordination,K12,2024,"valid, excluding zero",1.23079174,3.07139761,7
+pems08,test,speed,coordination,K12,2025,all valid,1.22736322,3.05181048,7
+pems08,test,speed,coordination,K12,2025,"valid, excluding zero",1.22736322,3.05181048,7
+pems08,test,speed,coordination,K12,2026,all valid,1.22562606,3.07015885,4
+pems08,test,speed,coordination,K12,2026,"valid, excluding zero",1.22562606,3.07015885,4
+pems08,test,speed,coordination,FINAL,2024,all valid,1.24373600,3.06354989,7
+pems08,test,speed,coordination,FINAL,2024,"valid, excluding zero",1.24373600,3.06354989,7
+pems08,test,speed,coordination,FINAL,2025,all valid,1.23793217,3.07005833,5
+pems08,test,speed,coordination,FINAL,2025,"valid, excluding zero",1.23793217,3.07005833,5
+pems08,test,speed,coordination,FINAL,2026,all valid,1.24375013,3.10763790,6
+pems08,test,speed,coordination,FINAL,2026,"valid, excluding zero",1.24375013,3.10763790,6
 pems08,test,speed,target_only,K12,2024,all valid,1.22714178,3.06746335,7
 pems08,test,speed,target_only,K12,2024,"valid, excluding zero",1.22714178,3.06746335,7
 pems08,test,speed,target_only,K12,2025,all valid,1.23045096,3.07679069,12
@@ -503,18 +503,18 @@ pems08,test,speed,target_only,FINAL,2025,all valid,1.24409895,3.10455023,6
 pems08,test,speed,target_only,FINAL,2025,"valid, excluding zero",1.24409895,3.10455023,6
 pems08,test,speed,target_only,FINAL,2026,all valid,1.24186427,3.11132717,8
 pems08,test,speed,target_only,FINAL,2026,"valid, excluding zero",1.24186427,3.11132717,8
-pems08,val,flow,cross,K12,2024,all valid,14.50902881,24.45636198,7
-pems08,val,flow,cross,K12,2024,"valid, excluding zero",14.48405254,24.14360812,7
-pems08,val,flow,cross,K12,2025,all valid,14.52679400,24.48081228,7
-pems08,val,flow,cross,K12,2025,"valid, excluding zero",14.50454481,24.16974498,7
-pems08,val,flow,cross,K12,2026,all valid,14.51920856,24.46469125,4
-pems08,val,flow,cross,K12,2026,"valid, excluding zero",14.49516084,24.15422871,4
-pems08,val,flow,cross,FINAL,2024,all valid,14.74541954,24.62903271,7
-pems08,val,flow,cross,FINAL,2024,"valid, excluding zero",14.71953684,24.32099450,7
-pems08,val,flow,cross,FINAL,2025,all valid,14.77321393,24.63098213,5
-pems08,val,flow,cross,FINAL,2025,"valid, excluding zero",14.74988814,24.32807566,5
-pems08,val,flow,cross,FINAL,2026,all valid,14.76989420,24.71262641,6
-pems08,val,flow,cross,FINAL,2026,"valid, excluding zero",14.74807312,24.41473429,6
+pems08,val,flow,coordination,K12,2024,all valid,14.50902881,24.45636198,7
+pems08,val,flow,coordination,K12,2024,"valid, excluding zero",14.48405254,24.14360812,7
+pems08,val,flow,coordination,K12,2025,all valid,14.52679400,24.48081228,7
+pems08,val,flow,coordination,K12,2025,"valid, excluding zero",14.50454481,24.16974498,7
+pems08,val,flow,coordination,K12,2026,all valid,14.51920856,24.46469125,4
+pems08,val,flow,coordination,K12,2026,"valid, excluding zero",14.49516084,24.15422871,4
+pems08,val,flow,coordination,FINAL,2024,all valid,14.74541954,24.62903271,7
+pems08,val,flow,coordination,FINAL,2024,"valid, excluding zero",14.71953684,24.32099450,7
+pems08,val,flow,coordination,FINAL,2025,all valid,14.77321393,24.63098213,5
+pems08,val,flow,coordination,FINAL,2025,"valid, excluding zero",14.74988814,24.32807566,5
+pems08,val,flow,coordination,FINAL,2026,all valid,14.76989420,24.71262641,6
+pems08,val,flow,coordination,FINAL,2026,"valid, excluding zero",14.74807312,24.41473429,6
 pems08,val,flow,target_only,K12,2024,all valid,14.56952968,24.53698950,7
 pems08,val,flow,target_only,K12,2024,"valid, excluding zero",14.54689239,24.23363100,7
 pems08,val,flow,target_only,K12,2025,all valid,14.50686755,24.46070124,12
@@ -527,18 +527,18 @@ pems08,val,flow,target_only,FINAL,2025,all valid,14.77526355,24.64098053,6
 pems08,val,flow,target_only,FINAL,2025,"valid, excluding zero",14.75191748,24.34333668,6
 pems08,val,flow,target_only,FINAL,2026,all valid,14.83651588,24.76543414,8
 pems08,val,flow,target_only,FINAL,2026,"valid, excluding zero",14.81232665,24.46874096,8
-pems08,val,occupancy,cross,K12,2024,all valid,0.00611633,0.01659720,7
-pems08,val,occupancy,cross,K12,2024,"valid, excluding zero",0.00610774,0.01655773,7
-pems08,val,occupancy,cross,K12,2025,all valid,0.00612100,0.01654625,7
-pems08,val,occupancy,cross,K12,2025,"valid, excluding zero",0.00611153,0.01650387,7
-pems08,val,occupancy,cross,K12,2026,all valid,0.00613174,0.01662311,4
-pems08,val,occupancy,cross,K12,2026,"valid, excluding zero",0.00612497,0.01658465,4
-pems08,val,occupancy,cross,FINAL,2024,all valid,0.00620054,0.01663710,7
-pems08,val,occupancy,cross,FINAL,2024,"valid, excluding zero",0.00619019,0.01659508,7
-pems08,val,occupancy,cross,FINAL,2025,all valid,0.00619946,0.01669993,5
-pems08,val,occupancy,cross,FINAL,2025,"valid, excluding zero",0.00619239,0.01666072,5
-pems08,val,occupancy,cross,FINAL,2026,all valid,0.00619981,0.01674167,6
-pems08,val,occupancy,cross,FINAL,2026,"valid, excluding zero",0.00619293,0.01670828,6
+pems08,val,occupancy,coordination,K12,2024,all valid,0.00611633,0.01659720,7
+pems08,val,occupancy,coordination,K12,2024,"valid, excluding zero",0.00610774,0.01655773,7
+pems08,val,occupancy,coordination,K12,2025,all valid,0.00612100,0.01654625,7
+pems08,val,occupancy,coordination,K12,2025,"valid, excluding zero",0.00611153,0.01650387,7
+pems08,val,occupancy,coordination,K12,2026,all valid,0.00613174,0.01662311,4
+pems08,val,occupancy,coordination,K12,2026,"valid, excluding zero",0.00612497,0.01658465,4
+pems08,val,occupancy,coordination,FINAL,2024,all valid,0.00620054,0.01663710,7
+pems08,val,occupancy,coordination,FINAL,2024,"valid, excluding zero",0.00619019,0.01659508,7
+pems08,val,occupancy,coordination,FINAL,2025,all valid,0.00619946,0.01669993,5
+pems08,val,occupancy,coordination,FINAL,2025,"valid, excluding zero",0.00619239,0.01666072,5
+pems08,val,occupancy,coordination,FINAL,2026,all valid,0.00619981,0.01674167,6
+pems08,val,occupancy,coordination,FINAL,2026,"valid, excluding zero",0.00619293,0.01670828,6
 pems08,val,occupancy,target_only,K12,2024,all valid,0.00616247,0.01668668,7
 pems08,val,occupancy,target_only,K12,2024,"valid, excluding zero",0.00615809,0.01665502,7
 pems08,val,occupancy,target_only,K12,2025,all valid,0.00616517,0.01669598,12
@@ -551,18 +551,18 @@ pems08,val,occupancy,target_only,FINAL,2025,all valid,0.00626263,0.01678296,6
 pems08,val,occupancy,target_only,FINAL,2025,"valid, excluding zero",0.00625653,0.01674330,6
 pems08,val,occupancy,target_only,FINAL,2026,all valid,0.00623838,0.01684714,8
 pems08,val,occupancy,target_only,FINAL,2026,"valid, excluding zero",0.00623462,0.01681766,8
-pems08,val,speed,cross,K12,2024,all valid,1.21127528,3.01274279,7
-pems08,val,speed,cross,K12,2024,"valid, excluding zero",1.21127528,3.01274279,7
-pems08,val,speed,cross,K12,2025,all valid,1.21202519,3.02318119,7
-pems08,val,speed,cross,K12,2025,"valid, excluding zero",1.21202519,3.02318119,7
-pems08,val,speed,cross,K12,2026,all valid,1.21155335,3.03512021,4
-pems08,val,speed,cross,K12,2026,"valid, excluding zero",1.21155335,3.03512021,4
-pems08,val,speed,cross,FINAL,2024,all valid,1.22771664,3.02530696,7
-pems08,val,speed,cross,FINAL,2024,"valid, excluding zero",1.22771664,3.02530696,7
-pems08,val,speed,cross,FINAL,2025,all valid,1.22418216,3.04224147,5
-pems08,val,speed,cross,FINAL,2025,"valid, excluding zero",1.22418216,3.04224147,5
-pems08,val,speed,cross,FINAL,2026,all valid,1.22897684,3.06520131,6
-pems08,val,speed,cross,FINAL,2026,"valid, excluding zero",1.22897684,3.06520131,6
+pems08,val,speed,coordination,K12,2024,all valid,1.21127528,3.01274279,7
+pems08,val,speed,coordination,K12,2024,"valid, excluding zero",1.21127528,3.01274279,7
+pems08,val,speed,coordination,K12,2025,all valid,1.21202519,3.02318119,7
+pems08,val,speed,coordination,K12,2025,"valid, excluding zero",1.21202519,3.02318119,7
+pems08,val,speed,coordination,K12,2026,all valid,1.21155335,3.03512021,4
+pems08,val,speed,coordination,K12,2026,"valid, excluding zero",1.21155335,3.03512021,4
+pems08,val,speed,coordination,FINAL,2024,all valid,1.22771664,3.02530696,7
+pems08,val,speed,coordination,FINAL,2024,"valid, excluding zero",1.22771664,3.02530696,7
+pems08,val,speed,coordination,FINAL,2025,all valid,1.22418216,3.04224147,5
+pems08,val,speed,coordination,FINAL,2025,"valid, excluding zero",1.22418216,3.04224147,5
+pems08,val,speed,coordination,FINAL,2026,all valid,1.22897684,3.06520131,6
+pems08,val,speed,coordination,FINAL,2026,"valid, excluding zero",1.22897684,3.06520131,6
 pems08,val,speed,target_only,K12,2024,all valid,1.21459478,3.03808120,7
 pems08,val,speed,target_only,K12,2024,"valid, excluding zero",1.21459478,3.03808120,7
 pems08,val,speed,target_only,K12,2025,all valid,1.21571630,3.04418038,12

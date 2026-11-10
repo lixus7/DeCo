@@ -1,73 +1,73 @@
-dataset,quantity,module,deployment,mae_mean,mae_sd,rmse_mean,rmse_sd,mae_excluding_zero_targets_mean,lowest_mae_against_11_baselines,lowest_rmse_against_11_baselines,lowest_mae_excluding_zero_targets_against_11_baselines,source
-pems03,flow,cross,K12,14.24054986,0.02500233,23.07952997,0.16558809,14.26988282,True,True,True,daily statistics
-pems03,flow,cross,FINAL,14.41646764,0.04930647,23.24629464,0.16715470,14.44818020,True,False,True,daily statistics
-pems03,flow,cross,TRANSFER,14.41771132,0.04977077,23.27418125,,,True,,,"run records, no day-block analysis"
+dataset,variable,module,deployment,mae_mean,mae_sd,rmse_mean,rmse_sd,mae_excluding_zero_targets_mean,lowest_mae_against_11_baselines,lowest_rmse_against_11_baselines,lowest_mae_excluding_zero_targets_against_11_baselines,source
+pems03,flow,coordination,K12,14.24054986,0.02500233,23.07952997,0.16558809,14.26988282,True,True,True,daily statistics
+pems03,flow,coordination,FINAL,14.41646764,0.04930647,23.24629464,0.16715470,14.44818020,True,False,True,daily statistics
+pems03,flow,coordination,TRANSFER,14.41771132,0.04977077,23.27418125,,,True,,,"run records, no day-block analysis"
 pems03,flow,target_only,K12,14.40086263,0.00895125,23.92815978,0.59389176,14.43380077,True,False,True,daily statistics
 pems03,flow,target_only,FINAL,14.60032815,0.01787996,24.11587237,0.54999452,14.63955761,False,False,False,daily statistics
 pems03,flow,target_only,TRANSFER,14.60596696,0.02285772,24.16184514,,,False,,,"run records, no day-block analysis"
-pems03,occupancy,cross,K12,0.00877317,0.00001655,0.02366031,0.00007061,0.00881121,True,False,True,daily statistics
-pems03,occupancy,cross,FINAL,0.00884212,0.00000638,0.02380700,0.00003137,0.00888154,True,False,True,daily statistics
-pems03,occupancy,cross,TRANSFER,0.00884059,0.00000548,0.02376581,,,True,,,"run records, no day-block analysis"
+pems03,occupancy,coordination,K12,0.00877317,0.00001655,0.02366031,0.00007061,0.00881121,True,False,True,daily statistics
+pems03,occupancy,coordination,FINAL,0.00884212,0.00000638,0.02380700,0.00003137,0.00888154,True,False,True,daily statistics
+pems03,occupancy,coordination,TRANSFER,0.00884059,0.00000548,0.02376581,,,True,,,"run records, no day-block analysis"
 pems03,occupancy,target_only,K12,0.00879547,0.00000540,0.02365860,0.00007249,0.00883409,True,False,True,daily statistics
 pems03,occupancy,target_only,FINAL,0.00891680,0.00001621,0.02381388,0.00009667,0.00895402,False,False,False,daily statistics
 pems03,occupancy,target_only,TRANSFER,0.00891896,0.00001439,0.02386857,,,False,,,"run records, no day-block analysis"
-pems03,speed,cross,K12,1.79694720,0.00656828,3.68849945,0.00800966,1.79694720,True,False,True,daily statistics
-pems03,speed,cross,FINAL,1.81377594,0.00498473,3.72718655,0.01863520,1.81377594,False,False,False,daily statistics
-pems03,speed,cross,TRANSFER,1.81453416,0.00431799,3.72332440,,,False,,,"run records, no day-block analysis"
+pems03,speed,coordination,K12,1.79694720,0.00656828,3.68849945,0.00800966,1.79694720,True,False,True,daily statistics
+pems03,speed,coordination,FINAL,1.81377594,0.00498473,3.72718655,0.01863520,1.81377594,False,False,False,daily statistics
+pems03,speed,coordination,TRANSFER,1.81453416,0.00431799,3.72332440,,,False,,,"run records, no day-block analysis"
 pems03,speed,target_only,K12,1.79326527,0.00540484,3.68889134,0.02340234,1.79326527,True,False,True,daily statistics
 pems03,speed,target_only,FINAL,1.81639956,0.01071301,3.73351681,0.02352317,1.81639956,False,False,False,daily statistics
 pems03,speed,target_only,TRANSFER,1.81737085,0.01187589,3.73771419,,,False,,,"run records, no day-block analysis"
-pems04,flow,cross,K12,18.55224209,0.01462547,30.33387965,0.00432537,18.53681296,True,True,True,daily statistics
-pems04,flow,cross,FINAL,18.82037935,0.00995610,30.65668611,0.09463251,18.80084873,True,True,False,daily statistics
-pems04,flow,cross,TRANSFER,18.83309881,0.01207813,30.66665970,,,True,,,"run records, no day-block analysis"
+pems04,flow,coordination,K12,18.55224209,0.01462547,30.33387965,0.00432537,18.53681296,True,True,True,daily statistics
+pems04,flow,coordination,FINAL,18.82037935,0.00995610,30.65668611,0.09463251,18.80084873,True,True,False,daily statistics
+pems04,flow,coordination,TRANSFER,18.83309881,0.01207813,30.66665970,,,True,,,"run records, no day-block analysis"
 pems04,flow,target_only,K12,18.55619854,0.01453027,30.36217608,0.02000430,18.54577995,True,True,True,daily statistics
 pems04,flow,target_only,FINAL,18.88312817,0.01273211,30.76889733,0.07543899,18.86853390,True,True,False,daily statistics
 pems04,flow,target_only,TRANSFER,18.88936780,0.01802389,30.76822965,,,True,,,"run records, no day-block analysis"
-pems04,occupancy,cross,K12,0.00716089,0.00000750,0.01925898,0.00006022,0.00718920,True,True,True,daily statistics
-pems04,occupancy,cross,FINAL,0.00724071,0.00001812,0.01936046,0.00015246,0.00726809,True,True,True,daily statistics
-pems04,occupancy,cross,TRANSFER,0.00724796,0.00002511,0.01939121,,,True,,,"run records, no day-block analysis"
+pems04,occupancy,coordination,K12,0.00716089,0.00000750,0.01925898,0.00006022,0.00718920,True,True,True,daily statistics
+pems04,occupancy,coordination,FINAL,0.00724071,0.00001812,0.01936046,0.00015246,0.00726809,True,True,True,daily statistics
+pems04,occupancy,coordination,TRANSFER,0.00724796,0.00002511,0.01939121,,,True,,,"run records, no day-block analysis"
 pems04,occupancy,target_only,K12,0.00722061,0.00001005,0.01941905,0.00004591,0.00725048,True,True,True,daily statistics
 pems04,occupancy,target_only,FINAL,0.00733535,0.00002142,0.01959635,0.00010544,0.00736348,True,False,True,daily statistics
 pems04,occupancy,target_only,TRANSFER,0.00733821,0.00002922,0.01960303,,,True,,,"run records, no day-block analysis"
-pems04,speed,cross,K12,1.50805916,0.00395930,3.47761878,0.01233494,1.50805916,True,True,True,daily statistics
-pems04,speed,cross,FINAL,1.52352806,0.00406846,3.51273950,0.02559989,1.52352806,True,True,True,daily statistics
-pems04,speed,cross,TRANSFER,1.52444250,0.00491771,3.51738632,,,True,,,"run records, no day-block analysis"
+pems04,speed,coordination,K12,1.50805916,0.00395930,3.47761878,0.01233494,1.50805916,True,True,True,daily statistics
+pems04,speed,coordination,FINAL,1.52352806,0.00406846,3.51273950,0.02559989,1.52352806,True,True,True,daily statistics
+pems04,speed,coordination,TRANSFER,1.52444250,0.00491771,3.51738632,,,True,,,"run records, no day-block analysis"
 pems04,speed,target_only,K12,1.51496881,0.00171667,3.50671285,0.00287024,1.51496881,True,True,True,daily statistics
 pems04,speed,target_only,FINAL,1.53258513,0.00281597,3.55674297,0.01219739,1.53258513,False,False,False,daily statistics
 pems04,speed,target_only,TRANSFER,1.53250755,0.00323950,3.56003505,,,False,,,"run records, no day-block analysis"
-pems07,flow,cross,K12,19.68119091,0.02361468,32.63654725,0.04095961,19.71827645,True,True,True,daily statistics
-pems07,flow,cross,FINAL,20.01320661,0.03370300,32.93433180,0.09452976,20.05347683,True,True,True,daily statistics
-pems07,flow,cross,TRANSFER,20.00206047,0.01066750,32.93858097,,,True,,,"run records, no day-block analysis"
+pems07,flow,coordination,K12,19.68119091,0.02361468,32.63654725,0.04095961,19.71827645,True,True,True,daily statistics
+pems07,flow,coordination,FINAL,20.01320661,0.03370300,32.93433180,0.09452976,20.05347683,True,True,True,daily statistics
+pems07,flow,coordination,TRANSFER,20.00206047,0.01066750,32.93858097,,,True,,,"run records, no day-block analysis"
 pems07,flow,target_only,K12,19.84332889,0.00802927,32.82723840,0.01764077,19.91019833,True,True,True,daily statistics
 pems07,flow,target_only,FINAL,20.23444053,0.00685295,33.21267828,0.05794427,20.30309331,False,False,False,daily statistics
 pems07,flow,target_only,TRANSFER,20.21907765,0.01294730,33.19361821,,,False,,,"run records, no day-block analysis"
-pems07,occupancy,cross,K12,0.01083097,0.00000581,0.02789339,0.00002621,0.01084741,True,True,True,daily statistics
-pems07,occupancy,cross,FINAL,0.01092803,0.00003414,0.02810678,0.00010434,0.01094439,True,True,True,daily statistics
-pems07,occupancy,cross,TRANSFER,0.01094337,0.00001909,0.02816066,,,True,,,"run records, no day-block analysis"
+pems07,occupancy,coordination,K12,0.01083097,0.00000581,0.02789339,0.00002621,0.01084741,True,True,True,daily statistics
+pems07,occupancy,coordination,FINAL,0.01092803,0.00003414,0.02810678,0.00010434,0.01094439,True,True,True,daily statistics
+pems07,occupancy,coordination,TRANSFER,0.01094337,0.00001909,0.02816066,,,True,,,"run records, no day-block analysis"
 pems07,occupancy,target_only,K12,0.01093699,0.00000948,0.02794389,0.00003797,0.01095368,True,True,True,daily statistics
 pems07,occupancy,target_only,FINAL,0.01111098,0.00003885,0.02829882,0.00013729,0.01112771,True,False,True,daily statistics
 pems07,occupancy,target_only,TRANSFER,0.01112152,0.00003190,0.02834344,,,True,,,"run records, no day-block analysis"
-pems07,speed,cross,K12,2.05409868,0.00102094,4.44110466,0.00879873,2.05409868,True,True,True,daily statistics
-pems07,speed,cross,FINAL,2.07777181,0.00530773,4.49087329,0.01015716,2.07777181,True,True,True,daily statistics
-pems07,speed,cross,TRANSFER,2.08077592,0.00063563,4.49581686,,,True,,,"run records, no day-block analysis"
+pems07,speed,coordination,K12,2.05409868,0.00102094,4.44110466,0.00879873,2.05409868,True,True,True,daily statistics
+pems07,speed,coordination,FINAL,2.07777181,0.00530773,4.49087329,0.01015716,2.07777181,True,True,True,daily statistics
+pems07,speed,coordination,TRANSFER,2.08077592,0.00063563,4.49581686,,,True,,,"run records, no day-block analysis"
 pems07,speed,target_only,K12,2.06619689,0.00143045,4.44301725,0.00287147,2.06619689,True,True,True,daily statistics
 pems07,speed,target_only,FINAL,2.09696573,0.00187873,4.51051508,0.00968660,2.09696573,True,False,True,daily statistics
 pems07,speed,target_only,TRANSFER,2.09996588,0.00149029,4.51733584,,,True,,,"run records, no day-block analysis"
-pems08,flow,cross,K12,14.30582277,0.01370154,23.39069494,0.03536309,14.32613988,False,True,False,daily statistics
-pems08,flow,cross,FINAL,14.51932599,0.02583117,23.56178597,0.10563236,14.53855279,False,False,False,daily statistics
-pems08,flow,cross,TRANSFER,14.51993118,0.02247951,23.55620218,,,False,,,"run records, no day-block analysis"
+pems08,flow,coordination,K12,14.30582277,0.01370154,23.39069494,0.03536309,14.32613988,False,True,False,daily statistics
+pems08,flow,coordination,FINAL,14.51932599,0.02583117,23.56178597,0.10563236,14.53855279,False,False,False,daily statistics
+pems08,flow,coordination,TRANSFER,14.51993118,0.02247951,23.55620218,,,False,,,"run records, no day-block analysis"
 pems08,flow,target_only,K12,14.32385175,0.02186529,23.42873500,0.02831061,14.34386389,False,True,False,daily statistics
 pems08,flow,target_only,FINAL,14.54997349,0.03244875,23.61524032,0.05636414,14.56896537,False,False,False,daily statistics
 pems08,flow,target_only,TRANSFER,14.58522079,0.03034745,23.64270313,,,False,,,"run records, no day-block analysis"
-pems08,occupancy,cross,K12,0.00624589,0.00001003,0.01748485,0.00001858,0.00625783,True,True,True,daily statistics
-pems08,occupancy,cross,FINAL,0.00631960,0.00000968,0.01758741,0.00014176,0.00633075,True,True,True,daily statistics
-pems08,occupancy,cross,TRANSFER,0.00632040,0.00001749,0.01756648,,,True,,,"run records, no day-block analysis"
+pems08,occupancy,coordination,K12,0.00624589,0.00001003,0.01748485,0.00001858,0.00625783,True,True,True,daily statistics
+pems08,occupancy,coordination,FINAL,0.00631960,0.00000968,0.01758741,0.00014176,0.00633075,True,True,True,daily statistics
+pems08,occupancy,coordination,TRANSFER,0.00632040,0.00001749,0.01756648,,,True,,,"run records, no day-block analysis"
 pems08,occupancy,target_only,K12,0.00629211,0.00001559,0.01770073,0.00011750,0.00630427,True,False,True,daily statistics
 pems08,occupancy,target_only,FINAL,0.00638784,0.00000328,0.01784446,0.00021112,0.00639899,False,False,False,daily statistics
 pems08,occupancy,target_only,TRANSFER,0.00639731,0.00001658,0.01788670,,,False,,,"run records, no day-block analysis"
-pems08,speed,cross,K12,1.22792701,0.00262858,3.06445564,0.01096853,1.22792701,True,True,True,daily statistics
-pems08,speed,cross,FINAL,1.24180610,0.00335493,3.08041537,0.02379894,1.24180610,False,False,False,daily statistics
-pems08,speed,cross,TRANSFER,1.24199906,0.00269225,3.07984813,,,False,,,"run records, no day-block analysis"
+pems08,speed,coordination,K12,1.22792701,0.00262858,3.06445564,0.01096853,1.22792701,True,True,True,daily statistics
+pems08,speed,coordination,FINAL,1.24180610,0.00335493,3.08041537,0.02379894,1.24180610,False,False,False,daily statistics
+pems08,speed,coordination,TRANSFER,1.24199906,0.00269225,3.07984813,,,False,,,"run records, no day-block analysis"
 pems08,speed,target_only,K12,1.22931961,0.00188653,3.08221174,0.01807912,1.22931961,True,False,True,daily statistics
 pems08,speed,target_only,FINAL,1.24239595,0.00150912,3.09816881,0.01725787,1.24239595,False,False,False,daily statistics
 pems08,speed,target_only,TRANSFER,1.24424765,0.00371540,3.10650216,,,False,,,"run records, no day-block analysis"

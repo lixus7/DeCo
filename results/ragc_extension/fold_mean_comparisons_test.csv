@@ -1,49 +1,49 @@
-dataset,quantity,comparison,mae_gain_pct,interval_low_pct,interval_high_pct,seeds_lower_of_3
-pems03,flow,CoFA vs fold mean,0.6408,-0.7275,2.1065,3
-pems03,flow,cross K12 vs fold mean,1.0067,0.4461,1.5260,3
+dataset,variable,comparison,mae_gain_pct,interval_low_pct,interval_high_pct,seeds_lower_of_3
+pems03,flow,K12 + coordination on DecoupleST (first phase) vs fold mean,0.6408,-0.7275,2.1065,3
+pems03,flow,coordination K12 vs fold mean,1.0067,0.4461,1.5260,3
 pems03,flow,fold mean vs single RAGC fit,1.1945,0.9110,1.4496,3
 pems03,flow,target-only K12 vs fold mean,-0.1077,-0.9272,0.4652,2
-pems03,occupancy,CoFA vs fold mean,-2.6111,-4.5839,-0.8500,0
-pems03,occupancy,cross K12 vs fold mean,0.0645,-0.5039,0.6465,2
+pems03,occupancy,K12 + coordination on DecoupleST (first phase) vs fold mean,-2.6111,-4.5839,-0.8500,0
+pems03,occupancy,coordination K12 vs fold mean,0.0645,-0.5039,0.6465,2
 pems03,occupancy,fold mean vs single RAGC fit,1.1117,0.8888,1.3313,3
 pems03,occupancy,target-only K12 vs fold mean,-0.1895,-0.6044,0.1378,0
-pems03,speed,CoFA vs fold mean,-3.5833,-5.1124,-2.3082,0
-pems03,speed,cross K12 vs fold mean,-1.0195,-1.5009,-0.5608,0
+pems03,speed,K12 + coordination on DecoupleST (first phase) vs fold mean,-3.5833,-5.1124,-2.3082,0
+pems03,speed,coordination K12 vs fold mean,-1.0195,-1.5009,-0.5608,0
 pems03,speed,fold mean vs single RAGC fit,1.0470,0.8263,1.3127,3
 pems03,speed,target-only K12 vs fold mean,-0.8125,-1.2607,-0.4456,0
-pems04,flow,CoFA vs fold mean,0.7760,0.0202,1.4400,3
-pems04,flow,cross K12 vs fold mean,0.7309,0.3783,1.0541,3
+pems04,flow,K12 + coordination on DecoupleST (first phase) vs fold mean,0.7760,0.0202,1.4400,3
+pems04,flow,coordination K12 vs fold mean,0.7309,0.3783,1.0541,3
 pems04,flow,fold mean vs single RAGC fit,1.6463,1.3727,1.8844,3
 pems04,flow,target-only K12 vs fold mean,0.7097,0.3388,1.0383,3
-pems04,occupancy,CoFA vs fold mean,1.7579,1.1041,2.2632,3
-pems04,occupancy,cross K12 vs fold mean,1.4471,1.1956,1.6338,3
+pems04,occupancy,K12 + coordination on DecoupleST (first phase) vs fold mean,1.7579,1.1041,2.2632,3
+pems04,occupancy,coordination K12 vs fold mean,1.4471,1.1956,1.6338,3
 pems04,occupancy,fold mean vs single RAGC fit,1.3661,1.1102,1.5687,3
 pems04,occupancy,target-only K12 vs fold mean,0.6252,0.3613,0.8100,3
-pems04,speed,CoFA vs fold mean,-0.0034,-0.9422,0.6648,2
-pems04,speed,cross K12 vs fold mean,0.4671,0.0079,0.8211,3
+pems04,speed,K12 + coordination on DecoupleST (first phase) vs fold mean,-0.0034,-0.9422,0.6648,2
+pems04,speed,coordination K12 vs fold mean,0.4671,0.0079,0.8211,3
 pems04,speed,fold mean vs single RAGC fit,0.9369,0.6005,1.2043,3
 pems04,speed,target-only K12 vs fold mean,0.0111,-0.2928,0.2433,1
-pems07,flow,CoFA vs fold mean,1.8627,1.5139,2.2278,3
-pems07,flow,cross K12 vs fold mean,1.6186,1.3043,1.9296,3
+pems07,flow,K12 + coordination on DecoupleST (first phase) vs fold mean,1.8627,1.5139,2.2278,3
+pems07,flow,coordination K12 vs fold mean,1.6186,1.3043,1.9296,3
 pems07,flow,fold mean vs single RAGC fit,1.6738,1.5913,1.7568,3
 pems07,flow,target-only K12 vs fold mean,0.8081,0.6146,1.0022,3
-pems07,occupancy,CoFA vs fold mean,0.6927,0.3856,0.9824,3
-pems07,occupancy,cross K12 vs fold mean,1.4160,1.2062,1.6205,3
+pems07,occupancy,K12 + coordination on DecoupleST (first phase) vs fold mean,0.6927,0.3856,0.9824,3
+pems07,occupancy,coordination K12 vs fold mean,1.4160,1.2062,1.6205,3
 pems07,occupancy,fold mean vs single RAGC fit,1.3558,1.2666,1.4363,3
 pems07,occupancy,target-only K12 vs fold mean,0.4510,0.3051,0.5949,3
-pems07,speed,CoFA vs fold mean,0.3022,0.0289,0.5727,3
-pems07,speed,cross K12 vs fold mean,0.8792,0.6537,1.0928,3
+pems07,speed,K12 + coordination on DecoupleST (first phase) vs fold mean,0.3022,0.0289,0.5727,3
+pems07,speed,coordination K12 vs fold mean,0.8792,0.6537,1.0928,3
 pems07,speed,fold mean vs single RAGC fit,1.3272,1.2323,1.4193,3
 pems07,speed,target-only K12 vs fold mean,0.2954,0.1529,0.4259,3
-pems08,flow,CoFA vs fold mean,1.7970,1.0993,2.4790,3
-pems08,flow,cross K12 vs fold mean,0.1626,-0.1321,0.4049,2
+pems08,flow,K12 + coordination on DecoupleST (first phase) vs fold mean,1.7970,1.0993,2.4790,3
+pems08,flow,coordination K12 vs fold mean,0.1626,-0.1321,0.4049,2
 pems08,flow,fold mean vs single RAGC fit,1.6526,1.4725,1.8346,3
 pems08,flow,target-only K12 vs fold mean,0.0368,-0.1785,0.2158,2
-pems08,occupancy,CoFA vs fold mean,0.3035,-0.4249,0.9009,3
-pems08,occupancy,cross K12 vs fold mean,0.4854,-0.0356,0.9102,3
+pems08,occupancy,K12 + coordination on DecoupleST (first phase) vs fold mean,0.3035,-0.4249,0.9009,3
+pems08,occupancy,coordination K12 vs fold mean,0.4854,-0.0356,0.9102,3
 pems08,occupancy,fold mean vs single RAGC fit,1.5671,1.3811,1.7446,3
 pems08,occupancy,target-only K12 vs fold mean,-0.2510,-0.7648,0.1666,0
-pems08,speed,CoFA vs fold mean,-1.5122,-2.0495,-0.9912,0
-pems08,speed,cross K12 vs fold mean,-0.2842,-0.5984,-0.0011,0
+pems08,speed,K12 + coordination on DecoupleST (first phase) vs fold mean,-1.5122,-2.0495,-0.9912,0
+pems08,speed,coordination K12 vs fold mean,-0.2842,-0.5984,-0.0011,0
 pems08,speed,fold mean vs single RAGC fit,1.0634,0.8211,1.2733,3
 pems08,speed,target-only K12 vs fold mean,-0.3979,-0.6519,-0.1372,0

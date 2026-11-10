@@ -1,0 +1,577 @@
+level,dataset,state,variable,method,seed,mae,targets
+original (q0.35 / q0.65),pems03,onset,speed,DecoupleST SISO (single forecasters),2024,3.938030119024993,1022587
+original (q0.35 / q0.65),pems03,onset,speed,DecoupleST SISO (single forecasters),2025,4.093721896520276,1022587
+original (q0.35 / q0.65),pems03,onset,speed,DecoupleST SISO (single forecasters),2026,4.021410985729169,1022587
+original (q0.35 / q0.65),pems03,onset,speed,Target-only,2024,3.9450203232171095,1022587
+original (q0.35 / q0.65),pems03,onset,speed,Target-only,2025,4.068467470817696,1022587
+original (q0.35 / q0.65),pems03,onset,speed,Target-only,2026,4.0517936634924165,1022587
+original (q0.35 / q0.65),pems03,onset,speed,DeCo-S,2024,3.9154157208923666,1022587
+original (q0.35 / q0.65),pems03,onset,speed,DeCo-S,2025,3.9504272203867434,1022587
+original (q0.35 / q0.65),pems03,onset,speed,DeCo-S,2026,3.953244912525024,1022587
+original (q0.35 / q0.65),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2024,3.59712524688204,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2025,3.654019814685452,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2026,3.652948722963331,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,Target-only,2024,3.5461407187828584,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,Target-only,2025,3.5592554505498373,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,Target-only,2026,3.585740260553481,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,DeCo-S,2024,3.502743115536603,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,DeCo-S,2025,3.510820950910957,4034813
+original (q0.35 / q0.65),pems03,in congestion,speed,DeCo-S,2026,3.501216831417441,4034813
+original (q0.35 / q0.65),pems03,recovery,speed,DecoupleST SISO (single forecasters),2024,3.3492631644791295,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,DecoupleST SISO (single forecasters),2025,3.1967126249519113,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,DecoupleST SISO (single forecasters),2026,3.171591485587664,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,Target-only,2024,3.39566414599594,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,Target-only,2025,3.265714088802837,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,Target-only,2026,3.2325058847024026,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,DeCo-S,2024,3.1791406619323537,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,DeCo-S,2025,3.121545449160137,1022803
+original (q0.35 / q0.65),pems03,recovery,speed,DeCo-S,2026,3.10240587943469,1022803
+original (q0.35 / q0.65),pems03,free flow,speed,DecoupleST SISO (single forecasters),2024,1.281403136411592,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,DecoupleST SISO (single forecasters),2025,1.2822987723008878,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,DecoupleST SISO (single forecasters),2026,1.2849276105201621,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,Target-only,2024,1.2756077990238688,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,Target-only,2025,1.2727929143596115,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,Target-only,2026,1.2775065506287695,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,DeCo-S,2024,1.2461357057112088,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,DeCo-S,2025,1.2399266244724891,15839597
+original (q0.35 / q0.65),pems03,free flow,speed,DeCo-S,2026,1.238385980240474,15839597
+S1 (q0.20 / q0.80),pems03,onset,speed,DecoupleST SISO (single forecasters),2024,6.385444499771995,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,DecoupleST SISO (single forecasters),2025,6.4970767976181065,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,DecoupleST SISO (single forecasters),2026,6.467720234986044,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,Target-only,2024,6.377133251719636,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,Target-only,2025,6.45396391723092,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,Target-only,2026,6.4820839805766015,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,DeCo-S,2024,6.312590796388475,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,DeCo-S,2025,6.338025764342459,695373
+S1 (q0.20 / q0.80),pems03,onset,speed,DeCo-S,2026,6.354026681596401,695373
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2024,4.92029354260697,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2025,5.017973606722738,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2026,5.0101503618258345,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,Target-only,2024,4.801573616194078,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,Target-only,2025,4.816646568719723,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,Target-only,2026,4.860339916893161,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DeCo-S,2024,4.771258372642948,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DeCo-S,2025,4.78646132375413,1757011
+S1 (q0.20 / q0.80),pems03,in congestion,speed,DeCo-S,2026,4.758110780028936,1757011
+S1 (q0.20 / q0.80),pems03,recovery,speed,DecoupleST SISO (single forecasters),2024,5.062784412459643,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,DecoupleST SISO (single forecasters),2025,4.818450099823706,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,DecoupleST SISO (single forecasters),2026,4.762221104720881,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,Target-only,2024,5.135848778128044,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,Target-only,2025,4.967355943255803,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,Target-only,2026,4.890467631444148,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,DeCo-S,2024,4.841291316700424,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,DeCo-S,2025,4.772952343503126,695381
+S1 (q0.20 / q0.80),pems03,recovery,speed,DeCo-S,2026,4.753993495469227,695381
+S1 (q0.20 / q0.80),pems03,free flow,speed,DecoupleST SISO (single forecasters),2024,1.3667890635477558,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,DecoupleST SISO (single forecasters),2025,1.3757161243173588,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,DecoupleST SISO (single forecasters),2026,1.3762988939712015,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,Target-only,2024,1.3625626902224466,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,Target-only,2025,1.3646353687448038,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,Target-only,2026,1.3693045764360783,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,DeCo-S,2024,1.3310963901728834,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,DeCo-S,2025,1.3265289599320038,18772035
+S1 (q0.20 / q0.80),pems03,free flow,speed,DeCo-S,2026,1.3250384742242698,18772035
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DecoupleST SISO (single forecasters),2024,0.0987744801958444,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DecoupleST SISO (single forecasters),2025,0.0972242746714852,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DecoupleST SISO (single forecasters),2026,0.09631399763803121,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,Target-only,2024,0.09826388398971289,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,Target-only,2025,0.09605067294881094,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,Target-only,2026,0.09557742593741403,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DeCo-S,2024,0.09633405601815276,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DeCo-S,2025,0.09411779446951317,225864
+S2 (q0.05 / q0.95),pems03,onset,occupancy,DeCo-S,2026,0.0960053947912385,225864
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DecoupleST SISO (single forecasters),2024,0.05802835433717254,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DecoupleST SISO (single forecasters),2025,0.057846089003636955,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DecoupleST SISO (single forecasters),2026,0.057675556672917204,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,Target-only,2024,0.05659199394176082,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,Target-only,2025,0.055555468494586285,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,Target-only,2026,0.05510863491839333,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DeCo-S,2024,0.05700932053636005,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DeCo-S,2025,0.055462142404064815,395787
+S2 (q0.05 / q0.95),pems03,in congestion,occupancy,DeCo-S,2026,0.05650165385834332,395787
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DecoupleST SISO (single forecasters),2024,0.06180355859765734,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DecoupleST SISO (single forecasters),2025,0.060155150581306036,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DecoupleST SISO (single forecasters),2026,0.05959246795407446,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,Target-only,2024,0.06297841654702732,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,Target-only,2025,0.06258865258780588,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,Target-only,2026,0.06305972800728195,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DeCo-S,2024,0.061886167698502,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DeCo-S,2025,0.061875903796513455,225825
+S2 (q0.05 / q0.95),pems03,recovery,occupancy,DeCo-S,2026,0.06073841411981193,225825
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DecoupleST SISO (single forecasters),2024,0.006772787843444322,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DecoupleST SISO (single forecasters),2025,0.0068132207309341275,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DecoupleST SISO (single forecasters),2026,0.006842967894663437,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,Target-only,2024,0.006754582704522405,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,Target-only,2025,0.006796122892599537,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,Target-only,2026,0.006808608038628125,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DeCo-S,2024,0.006652711188482127,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DeCo-S,2025,0.0066997879296134604,21072324
+S2 (q0.05 / q0.95),pems03,free flow,occupancy,DeCo-S,2026,0.006659977301385693,21072324
+S2 (q0.05 / q0.95),pems03,onset,speed,DecoupleST SISO (single forecasters),2024,13.770411895813025,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,DecoupleST SISO (single forecasters),2025,13.51673508800398,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,DecoupleST SISO (single forecasters),2026,13.790338196832316,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,Target-only,2024,13.698758703421042,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,Target-only,2025,13.390924294388935,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,Target-only,2026,13.723888038812017,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,DeCo-S,2024,13.42025675554059,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,DeCo-S,2025,13.202728993486142,225864
+S2 (q0.05 / q0.95),pems03,onset,speed,DeCo-S,2026,13.487176792721172,225864
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2024,5.865085136941886,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2025,6.02726820107469,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DecoupleST SISO (single forecasters),2026,6.048886818173259,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,Target-only,2024,5.559736159403321,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,Target-only,2025,5.433008779117394,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,Target-only,2026,5.626426959043506,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DeCo-S,2024,5.355622305003525,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DeCo-S,2025,5.286929114960415,395787
+S2 (q0.05 / q0.95),pems03,in congestion,speed,DeCo-S,2026,5.287941830223613,395787
+S2 (q0.05 / q0.95),pems03,recovery,speed,DecoupleST SISO (single forecasters),2024,10.685270311728697,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,DecoupleST SISO (single forecasters),2025,10.352081554479144,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,DecoupleST SISO (single forecasters),2026,10.160642060675864,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,Target-only,2024,10.866991599050706,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,Target-only,2025,10.8596465673095,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,Target-only,2026,10.602276847883285,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,DeCo-S,2024,10.713682011779035,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,DeCo-S,2025,10.677127745768097,225825
+S2 (q0.05 / q0.95),pems03,recovery,speed,DeCo-S,2026,10.607175033224374,225825
+S2 (q0.05 / q0.95),pems03,free flow,speed,DecoupleST SISO (single forecasters),2024,1.6333597504531923,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,DecoupleST SISO (single forecasters),2025,1.648321249372922,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,DecoupleST SISO (single forecasters),2026,1.6440767375971328,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,Target-only,2024,1.626388432636919,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,Target-only,2025,1.6322252565170738,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,Target-only,2026,1.6339749960220313,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,DeCo-S,2024,1.5924410078763234,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,DeCo-S,2025,1.5922374891577082,21072324
+S2 (q0.05 / q0.95),pems03,free flow,speed,DeCo-S,2026,1.5861300019210438,21072324
+original (q0.35 / q0.65),pems04,onset,speed,DecoupleST SISO (single forecasters),2024,3.675489789582697,545500
+original (q0.35 / q0.65),pems04,onset,speed,DecoupleST SISO (single forecasters),2025,3.7914076797331506,545500
+original (q0.35 / q0.65),pems04,onset,speed,DecoupleST SISO (single forecasters),2026,3.736236956270325,545500
+original (q0.35 / q0.65),pems04,onset,speed,Target-only,2024,3.730505061505455,545500
+original (q0.35 / q0.65),pems04,onset,speed,Target-only,2025,3.8879212467743427,545500
+original (q0.35 / q0.65),pems04,onset,speed,Target-only,2026,3.802111151588586,545500
+original (q0.35 / q0.65),pems04,onset,speed,DeCo-S,2024,3.595216161810904,545500
+original (q0.35 / q0.65),pems04,onset,speed,DeCo-S,2025,3.658934165473207,545500
+original (q0.35 / q0.65),pems04,onset,speed,DeCo-S,2026,3.6264556824269367,545500
+original (q0.35 / q0.65),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2024,3.261712059107251,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2025,3.2419620994208502,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2026,3.2751466616642606,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,Target-only,2024,3.19610478405076,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,Target-only,2025,3.1940199272038,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,Target-only,2026,3.1972126181394676,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,DeCo-S,2024,3.132144727878738,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,DeCo-S,2025,3.1256592826292082,2329996
+original (q0.35 / q0.65),pems04,in congestion,speed,DeCo-S,2026,3.146598785027894,2329996
+original (q0.35 / q0.65),pems04,recovery,speed,DecoupleST SISO (single forecasters),2024,2.6309822285737274,545180
+original (q0.35 / q0.65),pems04,recovery,speed,DecoupleST SISO (single forecasters),2025,2.6242981172598925,545180
+original (q0.35 / q0.65),pems04,recovery,speed,DecoupleST SISO (single forecasters),2026,2.554912302659617,545180
+original (q0.35 / q0.65),pems04,recovery,speed,Target-only,2024,2.6579013815992854,545180
+original (q0.35 / q0.65),pems04,recovery,speed,Target-only,2025,2.661042746307082,545180
+original (q0.35 / q0.65),pems04,recovery,speed,Target-only,2026,2.6796440605599403,545180
+original (q0.35 / q0.65),pems04,recovery,speed,DeCo-S,2024,2.575231631676227,545180
+original (q0.35 / q0.65),pems04,recovery,speed,DeCo-S,2025,2.548258390222318,545180
+original (q0.35 / q0.65),pems04,recovery,speed,DeCo-S,2026,2.527716925759199,545180
+original (q0.35 / q0.65),pems04,free flow,speed,DecoupleST SISO (single forecasters),2024,0.9532614574744516,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,DecoupleST SISO (single forecasters),2025,0.9427223930854515,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,DecoupleST SISO (single forecasters),2026,0.9384262126220048,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,Target-only,2024,0.9450025367996704,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,Target-only,2025,0.9344462233457231,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,Target-only,2026,0.9340085032459818,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,DeCo-S,2024,0.9368492673917889,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,DeCo-S,2025,0.9307883673943074,9016508
+original (q0.35 / q0.65),pems04,free flow,speed,DeCo-S,2026,0.9329704681432255,9016508
+S1 (q0.20 / q0.80),pems04,onset,speed,DecoupleST SISO (single forecasters),2024,6.087253415952925,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,DecoupleST SISO (single forecasters),2025,6.26230826754932,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,DecoupleST SISO (single forecasters),2026,6.19735505259849,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,Target-only,2024,6.1949866338579485,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,Target-only,2025,6.44394678209994,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,Target-only,2026,6.31296325479793,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,DeCo-S,2024,5.979120210718125,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,DeCo-S,2025,6.077389249755464,374463
+S1 (q0.20 / q0.80),pems04,onset,speed,DeCo-S,2026,6.047423842661519,374463
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2024,4.547388370711784,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2025,4.465978451554967,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2026,4.60257815398699,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,Target-only,2024,4.414061435838748,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,Target-only,2025,4.360907670889036,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,Target-only,2026,4.408680970006318,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DeCo-S,2024,4.312706195670339,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DeCo-S,2025,4.285947719355378,1099497
+S1 (q0.20 / q0.80),pems04,in congestion,speed,DeCo-S,2026,4.3510036438852975,1099497
+S1 (q0.20 / q0.80),pems04,recovery,speed,DecoupleST SISO (single forecasters),2024,3.967453843287049,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,DecoupleST SISO (single forecasters),2025,4.089889131658544,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,DecoupleST SISO (single forecasters),2026,3.8343393452503687,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,Target-only,2024,4.030083161040325,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,Target-only,2025,4.16334577098532,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,Target-only,2026,4.104470488749563,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,DeCo-S,2024,3.8915222939632326,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,DeCo-S,2025,3.922453073246975,374355
+S1 (q0.20 / q0.80),pems04,recovery,speed,DeCo-S,2026,3.823327083260992,374355
+S1 (q0.20 / q0.80),pems04,free flow,speed,DecoupleST SISO (single forecasters),2024,1.0265191635706046,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,DecoupleST SISO (single forecasters),2025,1.0167608423029695,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,DecoupleST SISO (single forecasters),2026,1.0111377598674516,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,Target-only,2024,1.0170904100918796,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,Target-only,2025,1.0079178405018105,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,Target-only,2026,1.0065377166863883,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,DeCo-S,2024,1.0079047304289204,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,DeCo-S,2025,1.0014203115364873,10588869
+S1 (q0.20 / q0.80),pems04,free flow,speed,DeCo-S,2026,1.0029642469612767,10588869
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DecoupleST SISO (single forecasters),2024,0.08159256427072746,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DecoupleST SISO (single forecasters),2025,0.08146936492773518,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DecoupleST SISO (single forecasters),2026,0.08108087180684158,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,Target-only,2024,0.08356135569410218,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,Target-only,2025,0.08360310723412771,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,Target-only,2026,0.08235980577081548,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DeCo-S,2024,0.0820318648018354,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DeCo-S,2025,0.08274395451632632,141554
+S2 (q0.05 / q0.95),pems04,onset,occupancy,DeCo-S,2026,0.08230921462816636,141554
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DecoupleST SISO (single forecasters),2024,0.04633075347431703,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DecoupleST SISO (single forecasters),2025,0.04625799561284787,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DecoupleST SISO (single forecasters),2026,0.045950670866463386,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,Target-only,2024,0.044955797967576615,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,Target-only,2025,0.04547858450665974,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,Target-only,2026,0.04505429449477546,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DeCo-S,2024,0.0438646001635772,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DeCo-S,2025,0.043715995073039846,337086
+S2 (q0.05 / q0.95),pems04,in congestion,occupancy,DeCo-S,2026,0.043950828476527384,337086
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DecoupleST SISO (single forecasters),2024,0.04215646157050961,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DecoupleST SISO (single forecasters),2025,0.04217429641755239,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DecoupleST SISO (single forecasters),2026,0.041817069540007835,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,Target-only,2024,0.042073712817246145,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,Target-only,2025,0.04152802467246588,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,Target-only,2026,0.04227449653697194,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DeCo-S,2024,0.042697420606177684,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DeCo-S,2025,0.04238420023346989,141558
+S2 (q0.05 / q0.95),pems04,recovery,occupancy,DeCo-S,2026,0.04225517879985995,141558
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DecoupleST SISO (single forecasters),2024,0.0049692229435447915,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DecoupleST SISO (single forecasters),2025,0.004988729242259986,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DecoupleST SISO (single forecasters),2026,0.004981750079230749,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,Target-only,2024,0.004939349981455063,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,Target-only,2025,0.004965089100884594,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,Target-only,2026,0.0049803457936777725,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DeCo-S,2024,0.004860759369032754,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DeCo-S,2025,0.00487731803211652,11816986
+S2 (q0.05 / q0.95),pems04,free flow,occupancy,DeCo-S,2026,0.0048775043446386895,11816986
+S2 (q0.05 / q0.95),pems04,onset,speed,DecoupleST SISO (single forecasters),2024,14.98272013588857,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,DecoupleST SISO (single forecasters),2025,15.081179350453276,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,DecoupleST SISO (single forecasters),2026,15.085988732426655,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,Target-only,2024,15.436128429061055,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,Target-only,2025,15.602968473260766,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,Target-only,2026,15.556244572856496,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,DeCo-S,2024,14.670454972509543,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,DeCo-S,2025,14.951729081254307,141554
+S2 (q0.05 / q0.95),pems04,onset,speed,DeCo-S,2026,14.875794226585267,141554
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2024,5.482175687226787,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2025,5.149289691433428,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DecoupleST SISO (single forecasters),2026,5.589102958615645,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,Target-only,2024,5.057703598923253,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,Target-only,2025,4.774458307707091,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,Target-only,2026,4.89800896169721,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DeCo-S,2024,4.7398358150554225,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DeCo-S,2025,4.7067676946982395,337086
+S2 (q0.05 / q0.95),pems04,in congestion,speed,DeCo-S,2026,4.824693304993242,337086
+S2 (q0.05 / q0.95),pems04,recovery,speed,DecoupleST SISO (single forecasters),2024,8.85339942907822,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,DecoupleST SISO (single forecasters),2025,9.349345441936352,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,DecoupleST SISO (single forecasters),2026,8.79391755082628,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,Target-only,2024,9.17646852141393,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,Target-only,2025,9.810034645776556,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,Target-only,2026,9.709660277068558,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,DeCo-S,2024,9.173345271244793,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,DeCo-S,2025,9.261457302006324,141558
+S2 (q0.05 / q0.95),pems04,recovery,speed,DeCo-S,2026,9.165267251072503,141558
+S2 (q0.05 / q0.95),pems04,free flow,speed,DecoupleST SISO (single forecasters),2024,1.219609300008593,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,DecoupleST SISO (single forecasters),2025,1.2150916562758278,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,DecoupleST SISO (single forecasters),2026,1.206658841249268,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,Target-only,2024,1.2069600617125993,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,Target-only,2025,1.2043975756979146,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,Target-only,2026,1.1998278370218507,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,DeCo-S,2024,1.1963452025919803,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,DeCo-S,2025,1.1886572901917074,11816986
+S2 (q0.05 / q0.95),pems04,free flow,speed,DeCo-S,2026,1.1907020043826717,11816986
+original (q0.35 / q0.65),pems07,onset,speed,DecoupleST SISO (single forecasters),2024,5.327900365579725,2318741
+original (q0.35 / q0.65),pems07,onset,speed,DecoupleST SISO (single forecasters),2025,5.284463587510599,2318741
+original (q0.35 / q0.65),pems07,onset,speed,DecoupleST SISO (single forecasters),2026,5.448213647790074,2318741
+original (q0.35 / q0.65),pems07,onset,speed,Target-only,2024,5.367312865273564,2318741
+original (q0.35 / q0.65),pems07,onset,speed,Target-only,2025,5.315529317291904,2318741
+original (q0.35 / q0.65),pems07,onset,speed,Target-only,2026,5.446922036759446,2318741
+original (q0.35 / q0.65),pems07,onset,speed,DeCo-S,2024,5.1350019647789304,2318741
+original (q0.35 / q0.65),pems07,onset,speed,DeCo-S,2025,5.143238324778089,2318741
+original (q0.35 / q0.65),pems07,onset,speed,DeCo-S,2026,5.282440181415468,2318741
+original (q0.35 / q0.65),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2024,4.373994415453578,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2025,4.3111130986348725,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2026,4.378361601335807,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,Target-only,2024,4.334779964921306,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,Target-only,2025,4.306825831015937,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,Target-only,2026,4.337473764430899,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,DeCo-S,2024,4.242931795475963,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,DeCo-S,2025,4.233442959088281,13679697
+original (q0.35 / q0.65),pems07,in congestion,speed,DeCo-S,2026,4.263905176296308,13679697
+original (q0.35 / q0.65),pems07,recovery,speed,DecoupleST SISO (single forecasters),2024,4.221312251971115,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,DecoupleST SISO (single forecasters),2025,4.3396280356269346,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,DecoupleST SISO (single forecasters),2026,4.117982643501342,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,Target-only,2024,4.242785428285965,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,Target-only,2025,4.332205206691939,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,Target-only,2026,4.23088735354904,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,DeCo-S,2024,4.137443929169685,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,DeCo-S,2025,4.165493113650448,2351631
+original (q0.35 / q0.65),pems07,recovery,speed,DeCo-S,2026,3.9753237615320276,2351631
+original (q0.35 / q0.65),pems07,free flow,speed,DecoupleST SISO (single forecasters),2024,1.1023929111806394,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,DecoupleST SISO (single forecasters),2025,1.1047478736586809,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,DecoupleST SISO (single forecasters),2026,1.097721110216927,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,Target-only,2024,1.0971957850672722,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,Target-only,2025,1.0995948037759837,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,Target-only,2026,1.095134922883997,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,DeCo-S,2024,1.0785389861937882,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,DeCo-S,2025,1.0787229793320254,40477005
+original (q0.35 / q0.65),pems07,free flow,speed,DeCo-S,2026,1.0704934408363687,40477005
+S1 (q0.20 / q0.80),pems07,onset,speed,DecoupleST SISO (single forecasters),2024,9.61505900616963,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,DecoupleST SISO (single forecasters),2025,9.564044194490213,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,DecoupleST SISO (single forecasters),2026,9.875600970239784,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,Target-only,2024,9.66486651986973,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,Target-only,2025,9.637290485122712,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,Target-only,2026,9.898496733039567,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,DeCo-S,2024,9.325106635539264,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,DeCo-S,2025,9.39155632681287,1774482
+S1 (q0.20 / q0.80),pems07,onset,speed,DeCo-S,2026,9.650485385704874,1774482
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2024,4.9697008879138584,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2025,4.884241046924171,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2026,5.003548237527795,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,Target-only,2024,4.882860347650985,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,Target-only,2025,4.870760866811112,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,Target-only,2026,4.901041070720871,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DeCo-S,2024,4.784337764228117,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DeCo-S,2025,4.796505858446586,7478451
+S1 (q0.20 / q0.80),pems07,in congestion,speed,DeCo-S,2026,4.839068827195577,7478451
+S1 (q0.20 / q0.80),pems07,recovery,speed,DecoupleST SISO (single forecasters),2024,7.069622956696912,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,DecoupleST SISO (single forecasters),2025,7.168858298706863,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,DecoupleST SISO (single forecasters),2026,6.88185785368525,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,Target-only,2024,7.184851021000439,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,Target-only,2025,7.196014413611385,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,Target-only,2026,7.160963477960808,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,DeCo-S,2024,7.013336497131629,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,DeCo-S,2025,6.951964445756303,1794231
+S1 (q0.20 / q0.80),pems07,recovery,speed,DeCo-S,2026,6.800281561516053,1794231
+S1 (q0.20 / q0.80),pems07,free flow,speed,DecoupleST SISO (single forecasters),2024,1.2521061897646266,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,DecoupleST SISO (single forecasters),2025,1.2513573784925476,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,DecoupleST SISO (single forecasters),2026,1.242228914900391,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,Target-only,2024,1.2468609494254164,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,Target-only,2025,1.2452765919918332,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,Target-only,2026,1.2385388223299212,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,DeCo-S,2024,1.2227799323897708,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,DeCo-S,2025,1.2199315754453006,47779910
+S1 (q0.20 / q0.80),pems07,free flow,speed,DeCo-S,2026,1.2084948825272044,47779910
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DecoupleST SISO (single forecasters),2024,0.1017692879640064,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DecoupleST SISO (single forecasters),2025,0.10286973333897673,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DecoupleST SISO (single forecasters),2026,0.10461513083217178,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,Target-only,2024,0.10104435904056909,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,Target-only,2025,0.10219438241649814,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,Target-only,2026,0.1045967819462156,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DeCo-S,2024,0.09950380177564985,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DeCo-S,2025,0.10151743605363546,690635
+S2 (q0.05 / q0.95),pems07,onset,occupancy,DeCo-S,2026,0.1032835372724346,690635
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DecoupleST SISO (single forecasters),2024,0.04374442599508919,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DecoupleST SISO (single forecasters),2025,0.04351442784266494,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DecoupleST SISO (single forecasters),2026,0.045013662226120965,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,Target-only,2024,0.04424244834401179,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,Target-only,2025,0.04377129533505986,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,Target-only,2026,0.044461216705547445,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DeCo-S,2024,0.044095985892891126,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DeCo-S,2025,0.043685763040006216,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,occupancy,DeCo-S,2026,0.04441765860195623,1655205
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DecoupleST SISO (single forecasters),2024,0.0685046746847392,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DecoupleST SISO (single forecasters),2025,0.06973663962616446,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DecoupleST SISO (single forecasters),2026,0.06691395081681249,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,Target-only,2024,0.06746381673416682,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,Target-only,2025,0.06872314793383831,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,Target-only,2026,0.06775020023197693,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DeCo-S,2024,0.06544772281451665,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DeCo-S,2025,0.0658530399629957,696159
+S2 (q0.05 / q0.95),pems07,recovery,occupancy,DeCo-S,2026,0.06465093380380368,696159
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DecoupleST SISO (single forecasters),2024,0.008515304390910776,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DecoupleST SISO (single forecasters),2025,0.008492759272687096,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DecoupleST SISO (single forecasters),2026,0.008486965398259978,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,Target-only,2024,0.008510416437808052,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,Target-only,2025,0.00847959742989756,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,Target-only,2026,0.008454496864724378,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DeCo-S,2024,0.00829985291556836,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DeCo-S,2025,0.008249054579162732,55785075
+S2 (q0.05 / q0.95),pems07,free flow,occupancy,DeCo-S,2026,0.008207435477941205,55785075
+S2 (q0.05 / q0.95),pems07,onset,speed,DecoupleST SISO (single forecasters),2024,12.984893956025346,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,DecoupleST SISO (single forecasters),2025,12.730219726700035,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,DecoupleST SISO (single forecasters),2026,13.503402860931006,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,Target-only,2024,12.75009629172051,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,Target-only,2025,12.777029121239602,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,Target-only,2026,13.21682097969807,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,DeCo-S,2024,12.204736484047892,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,DeCo-S,2025,12.487956899278066,690635
+S2 (q0.05 / q0.95),pems07,onset,speed,DeCo-S,2026,12.758504250124174,690635
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2024,3.490272854486405,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2025,3.333434991346087,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DecoupleST SISO (single forecasters),2026,3.492240165896369,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,Target-only,2024,3.267380846564861,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,Target-only,2025,3.2434629409820337,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,Target-only,2026,3.237727947083692,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DeCo-S,2024,3.104276225882589,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DeCo-S,2025,3.1664654774755787,1655205
+S2 (q0.05 / q0.95),pems07,in congestion,speed,DeCo-S,2026,3.1950448611745514,1655205
+S2 (q0.05 / q0.95),pems07,recovery,speed,DecoupleST SISO (single forecasters),2024,9.445058502498407,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,DecoupleST SISO (single forecasters),2025,9.68839333567054,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,DecoupleST SISO (single forecasters),2026,9.41788918794718,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,Target-only,2024,9.71161245951026,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,Target-only,2025,9.814498047492917,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,Target-only,2026,9.862634275065215,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,DeCo-S,2024,9.686481807338778,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,DeCo-S,2025,9.555611384518757,696159
+S2 (q0.05 / q0.95),pems07,recovery,speed,DeCo-S,2026,9.59218847813633,696159
+S2 (q0.05 / q0.95),pems07,free flow,speed,DecoupleST SISO (single forecasters),2024,1.889703825538453,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,DecoupleST SISO (single forecasters),2025,1.8839447028856318,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,DecoupleST SISO (single forecasters),2026,1.8818913588541573,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,Target-only,2024,1.8850539434644984,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,Target-only,2025,1.8806490780372809,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,Target-only,2026,1.880243625062871,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,DeCo-S,2024,1.8468016236495368,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,DeCo-S,2025,1.8424146282552558,55785075
+S2 (q0.05 / q0.95),pems07,free flow,speed,DeCo-S,2026,1.8370288518217635,55785075
+original (q0.35 / q0.65),pems08,onset,speed,DecoupleST SISO (single forecasters),2024,3.4813244636160645,252301
+original (q0.35 / q0.65),pems08,onset,speed,DecoupleST SISO (single forecasters),2025,3.4975203062509843,252301
+original (q0.35 / q0.65),pems08,onset,speed,DecoupleST SISO (single forecasters),2026,3.4158934506024683,252301
+original (q0.35 / q0.65),pems08,onset,speed,Target-only,2024,3.493606887372068,252301
+original (q0.35 / q0.65),pems08,onset,speed,Target-only,2025,3.522550702051468,252301
+original (q0.35 / q0.65),pems08,onset,speed,Target-only,2026,3.4337190110347655,252301
+original (q0.35 / q0.65),pems08,onset,speed,DeCo-S,2024,3.3787154875309238,252301
+original (q0.35 / q0.65),pems08,onset,speed,DeCo-S,2025,3.349113128372764,252301
+original (q0.35 / q0.65),pems08,onset,speed,DeCo-S,2026,3.3074434359963014,252301
+original (q0.35 / q0.65),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2024,2.7376740064311442,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2025,2.713968828494679,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2026,2.692177262481852,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,Target-only,2024,2.621242961540683,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,Target-only,2025,2.6384346408567176,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,Target-only,2026,2.5549193960197254,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,DeCo-S,2024,2.5764616256871657,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,DeCo-S,2025,2.5621358535706023,1342915
+original (q0.35 / q0.65),pems08,in congestion,speed,DeCo-S,2026,2.5971003057729707,1342915
+original (q0.35 / q0.65),pems08,recovery,speed,DecoupleST SISO (single forecasters),2024,2.220985406551867,261473
+original (q0.35 / q0.65),pems08,recovery,speed,DecoupleST SISO (single forecasters),2025,2.2094736483779553,261473
+original (q0.35 / q0.65),pems08,recovery,speed,DecoupleST SISO (single forecasters),2026,2.3197894540212585,261473
+original (q0.35 / q0.65),pems08,recovery,speed,Target-only,2024,2.361810652922189,261473
+original (q0.35 / q0.65),pems08,recovery,speed,Target-only,2025,2.3406645290875474,261473
+original (q0.35 / q0.65),pems08,recovery,speed,Target-only,2026,2.480396190633101,261473
+original (q0.35 / q0.65),pems08,recovery,speed,DeCo-S,2024,2.301792352499537,261473
+original (q0.35 / q0.65),pems08,recovery,speed,DeCo-S,2025,2.295683208641584,261473
+original (q0.35 / q0.65),pems08,recovery,speed,DeCo-S,2026,2.2509613804832074,261473
+original (q0.35 / q0.65),pems08,free flow,speed,DecoupleST SISO (single forecasters),2024,0.7985776175266399,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,DecoupleST SISO (single forecasters),2025,0.7993878065873161,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,DecoupleST SISO (single forecasters),2026,0.8056017230906449,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,Target-only,2024,0.7972205616953244,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,Target-only,2025,0.790411315724895,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,Target-only,2026,0.7951210675790581,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,DeCo-S,2024,0.7941696834231918,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,DeCo-S,2025,0.790578789018092,5383271
+original (q0.35 / q0.65),pems08,free flow,speed,DeCo-S,2026,0.7954872077239151,5383271
+S1 (q0.20 / q0.80),pems08,onset,speed,DecoupleST SISO (single forecasters),2024,5.6368981646396135,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,DecoupleST SISO (single forecasters),2025,5.683132793341263,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,DecoupleST SISO (single forecasters),2026,5.530470050409255,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,Target-only,2024,5.6524812742382995,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,Target-only,2025,5.705267217674956,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,Target-only,2026,5.5511258499691145,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,DeCo-S,2024,5.473344175561045,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,DeCo-S,2025,5.43200429269394,176750
+S1 (q0.20 / q0.80),pems08,onset,speed,DeCo-S,2026,5.3739811033047244,176750
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2024,4.408469072374354,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2025,4.358271266156055,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2026,4.2989277218894095,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,Target-only,2024,4.1525894658102,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,Target-only,2025,4.189187054208485,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,Target-only,2026,4.014040213919943,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DeCo-S,2024,4.071173795815224,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DeCo-S,2025,4.037495084236207,623194
+S1 (q0.20 / q0.80),pems08,in congestion,speed,DeCo-S,2026,4.128236224468718,623194
+S1 (q0.20 / q0.80),pems08,recovery,speed,DecoupleST SISO (single forecasters),2024,3.2110256864992466,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,DecoupleST SISO (single forecasters),2025,3.1795708779399505,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,DecoupleST SISO (single forecasters),2026,3.391435383161445,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,Target-only,2024,3.454201173641115,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,Target-only,2025,3.429706069365854,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,Target-only,2026,3.6659083448242664,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,DeCo-S,2024,3.3588576853094856,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,DeCo-S,2025,3.3750622526477185,184322
+S1 (q0.20 / q0.80),pems08,recovery,speed,DeCo-S,2026,3.2691909899783895,184322
+S1 (q0.20 / q0.80),pems08,free flow,speed,DecoupleST SISO (single forecasters),2024,0.8150936852813833,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,DecoupleST SISO (single forecasters),2025,0.8154953123179027,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,DecoupleST SISO (single forecasters),2026,0.8214661021593131,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,Target-only,2024,0.8131984839271746,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,Target-only,2025,0.8068973499870781,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,Target-only,2026,0.8101234346915536,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,DeCo-S,2024,0.8097987858907869,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,DeCo-S,2025,0.8062297500736152,6255694
+S1 (q0.20 / q0.80),pems08,free flow,speed,DeCo-S,2026,0.8101288294131973,6255694
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DecoupleST SISO (single forecasters),2024,0.0739070687671245,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DecoupleST SISO (single forecasters),2025,0.07281532268341923,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DecoupleST SISO (single forecasters),2026,0.07528745048333788,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,Target-only,2024,0.07367598506925511,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,Target-only,2025,0.07324980628327053,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,Target-only,2026,0.07531742747586395,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DeCo-S,2024,0.07411363573155305,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DeCo-S,2025,0.07283726271144528,77453
+S2 (q0.05 / q0.95),pems08,onset,occupancy,DeCo-S,2026,0.07387936245451948,77453
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DecoupleST SISO (single forecasters),2024,0.049178848177136865,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DecoupleST SISO (single forecasters),2025,0.04799533971211136,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DecoupleST SISO (single forecasters),2026,0.0501646643931045,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,Target-only,2024,0.04588432939512948,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,Target-only,2025,0.04548119843755179,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,Target-only,2026,0.045359987066559575,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DeCo-S,2024,0.0467518428595534,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DeCo-S,2025,0.04385467113408045,183685
+S2 (q0.05 / q0.95),pems08,in congestion,occupancy,DeCo-S,2026,0.046263905292905444,183685
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DecoupleST SISO (single forecasters),2024,0.03185067484513113,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DecoupleST SISO (single forecasters),2025,0.032671837895821274,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DecoupleST SISO (single forecasters),2026,0.029846629700295838,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,Target-only,2024,0.03495490338452769,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,Target-only,2025,0.03494356426068359,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,Target-only,2026,0.03447264662870905,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DeCo-S,2024,0.03265673899937918,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DeCo-S,2025,0.03569916961916038,80687
+S2 (q0.05 / q0.95),pems08,recovery,occupancy,DeCo-S,2026,0.03210604388799613,80687
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DecoupleST SISO (single forecasters),2024,0.004322621179477918,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DecoupleST SISO (single forecasters),2025,0.00434404837282981,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DecoupleST SISO (single forecasters),2026,0.004301357474736942,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,Target-only,2024,0.004326416938594141,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,Target-only,2025,0.004344108135250427,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,Target-only,2026,0.004311032827060941,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DeCo-S,2024,0.004231880197408968,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DeCo-S,2025,0.004263852311581502,6898135
+S2 (q0.05 / q0.95),pems08,free flow,occupancy,DeCo-S,2026,0.0042593339228317526,6898135
+S2 (q0.05 / q0.95),pems08,onset,speed,DecoupleST SISO (single forecasters),2024,14.160146436929786,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,DecoupleST SISO (single forecasters),2025,14.322618375759015,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,DecoupleST SISO (single forecasters),2026,13.938668569827062,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,Target-only,2024,14.271040935941338,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,Target-only,2025,14.351195499535711,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,Target-only,2026,14.086191755877444,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,DeCo-S,2024,13.968993997967251,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,DeCo-S,2025,13.823987673064433,77453
+S2 (q0.05 / q0.95),pems08,onset,speed,DeCo-S,2026,13.81884423266723,77453
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2024,6.926707081750997,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2025,6.852643729575227,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DecoupleST SISO (single forecasters),2026,6.62375364369474,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,Target-only,2024,6.139075750939899,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,Target-only,2025,6.295750743506842,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,Target-only,2026,5.744265432818486,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DeCo-S,2024,5.948260751482279,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DeCo-S,2025,5.829828325487358,183685
+S2 (q0.05 / q0.95),pems08,in congestion,speed,DeCo-S,2026,6.127691376918707,183685
+S2 (q0.05 / q0.95),pems08,recovery,speed,DecoupleST SISO (single forecasters),2024,6.971071231712548,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,DecoupleST SISO (single forecasters),2025,6.78744335501486,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,DecoupleST SISO (single forecasters),2026,7.36812203437179,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,Target-only,2024,7.504121406365262,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,Target-only,2025,7.476467372961375,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,Target-only,2026,8.082909202219069,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,DeCo-S,2024,7.431147995362495,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,DeCo-S,2025,7.576420836832056,80687
+S2 (q0.05 / q0.95),pems08,recovery,speed,DeCo-S,2026,7.283915662878397,80687
+S2 (q0.05 / q0.95),pems08,free flow,speed,DecoupleST SISO (single forecasters),2024,0.942709839973373,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,DecoupleST SISO (single forecasters),2025,0.941179051122083,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,DecoupleST SISO (single forecasters),2026,0.9465958140763018,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,Target-only,2024,0.9382644647255656,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,Target-only,2025,0.9318059979347232,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,Target-only,2026,0.9318374079015583,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,DeCo-S,2024,0.9300145084654314,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,DeCo-S,2025,0.9261915436097188,6898135
+S2 (q0.05 / q0.95),pems08,free flow,speed,DeCo-S,2026,0.9291572067971807,6898135

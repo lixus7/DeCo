@@ -1,0 +1,13 @@
+configuration,dataset,fits,h100_hours_per_seed_mean,includes_estimated_time
+DecoupleST (x3),pems03,three final forecasters,3.663897767265745,False
+DecoupleST (x3),pems04,three final forecasters,1.8562498290586305,False
+DecoupleST (x3),pems07,three final forecasters,11.402609286317775,False
+DecoupleST (x3),pems08,three final forecasters,1.0098023342201055,False
+DeCo-S,pems03,36 fold + 3 final forecasters (first phase) + module,42.63004898216986,False
+DeCo-S,pems04,36 fold + 3 final forecasters (first phase) + module,20.402514282588815,False
+DeCo-S,pems07,36 fold + 3 final forecasters (first phase) + module,135.0284693954513,False
+DeCo-S,pems08,36 fold + 3 final forecasters (first phase) + module,11.6644431134718,False
+DeCo,pems03,"36 fold + 3 final + 3 early-fusion forecasters, their second training phase, module",50.018978327200465,False
+DeCo,pems04,"36 fold + 3 final + 3 early-fusion forecasters, their second training phase, module",23.978935600842647,False
+DeCo,pems07,"36 fold + 3 final + 3 early-fusion forecasters, their second training phase, module",149.94787750591527,True
+DeCo,pems08,"36 fold + 3 final + 3 early-fusion forecasters, their second training phase, module",13.642648870540802,False

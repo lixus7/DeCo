@@ -1,8 +1,12 @@
 __pycache__/
 *.pyc
 results/*
-!results/ragc_extension/
+!results/README.md
 !results/main/
+!results/ablation/
+!results/ragc_extension/
+!results/states/
+!results/cost/
 prepared/
 data/*
 !data/README.md

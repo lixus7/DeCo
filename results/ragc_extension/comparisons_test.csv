@@ -1,241 +1,241 @@
-dataset,quantity,module,deployment,reference,mae_gain_pct,interval_low_pct,interval_high_pct,seeds_lower_of_3,seed_gains_pct
-pems03,flow,cross,K12,CoFA,0.3683,-0.7198,1.3265,3,0.2691 0.0159 0.8178
-pems03,flow,cross,K12,CoFA-FINAL,2.3891,1.5431,3.1581,3,2.4173 2.0728 2.6763
-pems03,flow,cross,K12,RAGC,2.1891,1.4614,2.8284,3,1.8382 2.3777 2.3500
-pems03,flow,cross,K12,best of 11 baselines (RAGC),2.1891,1.4614,2.8284,3,1.8382 2.3777 2.3500
-pems03,flow,cross,K12,"same deployment, target-only module on RAGC",1.1132,0.7395,1.5642,3,1.0972 0.9137 1.3285
-pems03,flow,cross,FINAL,CoFA,-0.8625,-1.9468,0.2364,0,-0.9729 -1.3858 -0.2316
-pems03,flow,cross,FINAL,CoFA-FINAL,1.1833,0.3298,2.0961,3,1.2020 0.6999 1.6466
-pems03,flow,cross,FINAL,RAGC,0.9809,0.5120,1.4342,3,0.6157 1.0091 1.3167
-pems03,flow,cross,FINAL,best of 11 baselines (RAGC),0.9809,0.5120,1.4342,3,0.6157 1.0091 1.3167
-pems03,flow,cross,FINAL,"same deployment, target-only module on RAGC",1.2593,0.8306,1.8113,3,1.2442 1.0446 1.4896
-pems03,flow,target_only,K12,CoFA,-0.7533,-2.1272,0.3711,0,-0.8373 -0.9061 -0.5176
-pems03,flow,target_only,K12,CoFA-FINAL,1.2902,0.1561,2.2236,3,1.3347 1.1697 1.3659
+dataset,variable,module,deployment,reference,mae_gain_pct,interval_low_pct,interval_high_pct,seeds_lower_of_3,seed_gains_pct
+pems03,flow,coordination,K12,K12 + coordination on DecoupleST (first phase),0.3683,-0.7198,1.3265,3,0.2691 0.0159 0.8178
+pems03,flow,coordination,K12,DeCo-S,2.3891,1.5431,3.1581,3,2.4173 2.0728 2.6763
+pems03,flow,coordination,K12,RAGC,2.1891,1.4614,2.8284,3,1.8382 2.3777 2.3500
+pems03,flow,coordination,K12,best of 11 baselines (RAGC),2.1891,1.4614,2.8284,3,1.8382 2.3777 2.3500
+pems03,flow,coordination,K12,"same deployment, target-only module on RAGC",1.1132,0.7395,1.5642,3,1.0972 0.9137 1.3285
+pems03,flow,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-0.8625,-1.9468,0.2364,0,-0.9729 -1.3858 -0.2316
+pems03,flow,coordination,FINAL,DeCo-S,1.1833,0.3298,2.0961,3,1.2020 0.6999 1.6466
+pems03,flow,coordination,FINAL,RAGC,0.9809,0.5120,1.4342,3,0.6157 1.0091 1.3167
+pems03,flow,coordination,FINAL,best of 11 baselines (RAGC),0.9809,0.5120,1.4342,3,0.6157 1.0091 1.3167
+pems03,flow,coordination,FINAL,"same deployment, target-only module on RAGC",1.2593,0.8306,1.8113,3,1.2442 1.0446 1.4896
+pems03,flow,target_only,K12,K12 + coordination on DecoupleST (first phase),-0.7533,-2.1272,0.3711,0,-0.8373 -0.9061 -0.5176
+pems03,flow,target_only,K12,DeCo-S,1.2902,0.1561,2.2236,3,1.3347 1.1697 1.3659
 pems03,flow,target_only,K12,RAGC,1.0880,0.0494,1.8773,3,0.7492 1.4775 1.0352
 pems03,flow,target_only,K12,best of 11 baselines (RAGC),1.0880,0.0494,1.8773,3,0.7492 1.4775 1.0352
-pems03,flow,target_only,K12,"same deployment, cross module on RAGC",-1.1257,-1.5890,-0.7450,0,-1.1094 -0.9222 -1.3464
-pems03,flow,target_only,FINAL,CoFA,-2.1489,-3.4383,-0.9978,0,-2.2451 -2.4561 -1.7472
-pems03,flow,target_only,FINAL,CoFA-FINAL,-0.0770,-1.1135,0.8804,1,-0.0427 -0.3484 0.1594
+pems03,flow,target_only,K12,"same deployment, coordination module on RAGC",-1.1257,-1.5890,-0.7450,0,-1.1094 -0.9222 -1.3464
+pems03,flow,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-2.1489,-3.4383,-0.9978,0,-2.2451 -2.4561 -1.7472
+pems03,flow,target_only,FINAL,DeCo-S,-0.0770,-1.1135,0.8804,1,-0.0427 -0.3484 0.1594
 pems03,flow,target_only,FINAL,RAGC,-0.2820,-1.1065,0.2933,0,-0.6364 -0.0359 -0.1754
 pems03,flow,target_only,FINAL,best of 11 baselines (RAGC),-0.2820,-1.1065,0.2933,0,-0.6364 -0.0359 -0.1754
-pems03,flow,target_only,FINAL,"same deployment, cross module on RAGC",-1.2754,-1.8447,-0.8376,0,-1.2599 -1.0556 -1.5121
-pems03,occupancy,cross,K12,CoFA,2.6075,1.4061,3.9888,3,3.0546 2.1585 2.6047
-pems03,occupancy,cross,K12,CoFA-FINAL,3.7214,2.5942,5.1074,3,3.6648 3.6879 3.8119
-pems03,occupancy,cross,K12,RAGC,1.1755,0.4679,1.8676,3,0.9045 1.0264 1.5942
-pems03,occupancy,cross,K12,best of 11 baselines (RAGC),1.1755,0.4679,1.8676,3,0.9045 1.0264 1.5942
-pems03,occupancy,cross,K12,"same deployment, target-only module on RAGC",0.2534,-0.1880,0.7717,3,0.1533 0.1898 0.4174
-pems03,occupancy,cross,FINAL,CoFA,1.8422,0.5742,3.3310,3,2.4172 1.5023 1.6014
-pems03,occupancy,cross,FINAL,CoFA-FINAL,2.9649,1.7719,4.4516,3,3.0314 3.0419 2.8210
-pems03,occupancy,cross,FINAL,RAGC,0.3989,-0.1995,1.0369,3,0.2530 0.3625 0.5805
-pems03,occupancy,cross,FINAL,best of 11 baselines (RAGC),0.3989,-0.1995,1.0369,3,0.2530 0.3625 0.5805
-pems03,occupancy,cross,FINAL,"same deployment, target-only module on RAGC",0.8376,0.3066,1.4630,3,0.6850 0.8213 1.0060
-pems03,occupancy,target_only,K12,CoFA,2.3600,0.7671,4.0334,3,2.9057 1.9725 2.1965
-pems03,occupancy,target_only,K12,CoFA-FINAL,3.4768,2.0009,5.1320,3,3.5169 3.5048 3.4087
+pems03,flow,target_only,FINAL,"same deployment, coordination module on RAGC",-1.2754,-1.8447,-0.8376,0,-1.2599 -1.0556 -1.5121
+pems03,occupancy,coordination,K12,K12 + coordination on DecoupleST (first phase),2.6075,1.4061,3.9888,3,3.0546 2.1585 2.6047
+pems03,occupancy,coordination,K12,DeCo-S,3.7214,2.5942,5.1074,3,3.6648 3.6879 3.8119
+pems03,occupancy,coordination,K12,RAGC,1.1755,0.4679,1.8676,3,0.9045 1.0264 1.5942
+pems03,occupancy,coordination,K12,best of 11 baselines (RAGC),1.1755,0.4679,1.8676,3,0.9045 1.0264 1.5942
+pems03,occupancy,coordination,K12,"same deployment, target-only module on RAGC",0.2534,-0.1880,0.7717,3,0.1533 0.1898 0.4174
+pems03,occupancy,coordination,FINAL,K12 + coordination on DecoupleST (first phase),1.8422,0.5742,3.3310,3,2.4172 1.5023 1.6014
+pems03,occupancy,coordination,FINAL,DeCo-S,2.9649,1.7719,4.4516,3,3.0314 3.0419 2.8210
+pems03,occupancy,coordination,FINAL,RAGC,0.3989,-0.1995,1.0369,3,0.2530 0.3625 0.5805
+pems03,occupancy,coordination,FINAL,best of 11 baselines (RAGC),0.3989,-0.1995,1.0369,3,0.2530 0.3625 0.5805
+pems03,occupancy,coordination,FINAL,"same deployment, target-only module on RAGC",0.8376,0.3066,1.4630,3,0.6850 0.8213 1.0060
+pems03,occupancy,target_only,K12,K12 + coordination on DecoupleST (first phase),2.3600,0.7671,4.0334,3,2.9057 1.9725 2.1965
+pems03,occupancy,target_only,K12,DeCo-S,3.4768,2.0009,5.1320,3,3.5169 3.5048 3.4087
 pems03,occupancy,target_only,K12,RAGC,0.9244,0.3252,1.4075,3,0.7524 0.8382 1.1817
 pems03,occupancy,target_only,K12,best of 11 baselines (RAGC),0.9244,0.3252,1.4075,3,0.7524 0.8382 1.1817
-pems03,occupancy,target_only,K12,"same deployment, cross module on RAGC",-0.2541,-0.7777,0.1876,0,-0.1535 -0.1901 -0.4191
-pems03,occupancy,target_only,FINAL,CoFA,1.0131,-0.7518,2.8629,3,1.7442 0.6866 0.6015
-pems03,occupancy,target_only,FINAL,CoFA-FINAL,2.1453,0.4952,3.9862,3,2.3627 2.2390 1.8335
+pems03,occupancy,target_only,K12,"same deployment, coordination module on RAGC",-0.2541,-0.7777,0.1876,0,-0.1535 -0.1901 -0.4191
+pems03,occupancy,target_only,FINAL,K12 + coordination on DecoupleST (first phase),1.0131,-0.7518,2.8629,3,1.7442 0.6866 0.6015
+pems03,occupancy,target_only,FINAL,DeCo-S,2.1453,0.4952,3.9862,3,2.3627 2.2390 1.8335
 pems03,occupancy,target_only,FINAL,RAGC,-0.4424,-0.8773,-0.1150,0,-0.4349 -0.4626 -0.4298
 pems03,occupancy,target_only,FINAL,best of 11 baselines (RAGC),-0.4424,-0.8773,-0.1150,0,-0.4349 -0.4626 -0.4298
-pems03,occupancy,target_only,FINAL,"same deployment, cross module on RAGC",-0.8446,-1.4847,-0.3075,0,-0.6897 -0.8281 -1.0162
-pems03,speed,cross,K12,CoFA,2.4751,1.5284,3.6356,3,2.6203 2.5719 2.2313
-pems03,speed,cross,K12,CoFA-FINAL,4.0255,3.0267,5.2313,3,3.8260 4.2700 3.9809
-pems03,speed,cross,K12,RAGC,0.0381,-0.5649,0.5907,2,-1.0393 0.2941 0.8472
-pems03,speed,cross,K12,best of 11 baselines (RAGC),0.0381,-0.5649,0.5907,2,-1.0393 0.2941 0.8472
-pems03,speed,cross,K12,"same deployment, target-only module on RAGC",-0.2053,-0.3997,-0.0329,1,-0.6018 0.3461 -0.3623
-pems03,speed,cross,FINAL,CoFA,1.5617,0.5854,2.7707,3,2.3052 1.5220 0.8509
-pems03,speed,cross,FINAL,CoFA-FINAL,3.1267,2.1295,4.3672,3,3.5147 3.2384 2.6252
-pems03,speed,cross,FINAL,RAGC,-0.8981,-1.4507,-0.4011,0,-1.3663 -0.7803 -0.5529
-pems03,speed,cross,FINAL,best of 11 baselines (RAGC),-0.8981,-1.4507,-0.4011,0,-1.3663 -0.7803 -0.5529
-pems03,speed,cross,FINAL,"same deployment, target-only module on RAGC",0.1444,-0.0797,0.3576,2,-0.3387 0.5099 0.2575
-pems03,speed,target_only,K12,CoFA,2.6749,1.7147,3.8884,3,3.2028 2.2335 2.5843
-pems03,speed,target_only,K12,CoFA-FINAL,4.2222,3.2157,5.4662,3,4.4012 3.9375 4.3276
+pems03,occupancy,target_only,FINAL,"same deployment, coordination module on RAGC",-0.8446,-1.4847,-0.3075,0,-0.6897 -0.8281 -1.0162
+pems03,speed,coordination,K12,K12 + coordination on DecoupleST (first phase),2.4751,1.5284,3.6356,3,2.6203 2.5719 2.2313
+pems03,speed,coordination,K12,DeCo-S,4.0255,3.0267,5.2313,3,3.8260 4.2700 3.9809
+pems03,speed,coordination,K12,RAGC,0.0381,-0.5649,0.5907,2,-1.0393 0.2941 0.8472
+pems03,speed,coordination,K12,best of 11 baselines (RAGC),0.0381,-0.5649,0.5907,2,-1.0393 0.2941 0.8472
+pems03,speed,coordination,K12,"same deployment, target-only module on RAGC",-0.2053,-0.3997,-0.0329,1,-0.6018 0.3461 -0.3623
+pems03,speed,coordination,FINAL,K12 + coordination on DecoupleST (first phase),1.5617,0.5854,2.7707,3,2.3052 1.5220 0.8509
+pems03,speed,coordination,FINAL,DeCo-S,3.1267,2.1295,4.3672,3,3.5147 3.2384 2.6252
+pems03,speed,coordination,FINAL,RAGC,-0.8981,-1.4507,-0.4011,0,-1.3663 -0.7803 -0.5529
+pems03,speed,coordination,FINAL,best of 11 baselines (RAGC),-0.8981,-1.4507,-0.4011,0,-1.3663 -0.7803 -0.5529
+pems03,speed,coordination,FINAL,"same deployment, target-only module on RAGC",0.1444,-0.0797,0.3576,2,-0.3387 0.5099 0.2575
+pems03,speed,target_only,K12,K12 + coordination on DecoupleST (first phase),2.6749,1.7147,3.8884,3,3.2028 2.2335 2.5843
+pems03,speed,target_only,K12,DeCo-S,4.2222,3.2157,5.4662,3,4.4012 3.9375 4.3276
 pems03,speed,target_only,K12,RAGC,0.2429,-0.3492,0.7457,1,-0.4350 -0.0522 1.2051
 pems03,speed,target_only,K12,best of 11 baselines (RAGC),0.2429,-0.3492,0.7457,1,-0.4350 -0.0522 1.2051
-pems03,speed,target_only,K12,"same deployment, cross module on RAGC",0.2049,0.0328,0.3981,2,0.5982 -0.3473 0.3610
-pems03,speed,target_only,FINAL,CoFA,1.4194,0.2962,2.8044,3,2.6349 1.0173 0.5950
-pems03,speed,target_only,FINAL,CoFA-FINAL,2.9866,1.8604,4.3981,3,3.8403 2.7425 2.3738
+pems03,speed,target_only,K12,"same deployment, coordination module on RAGC",0.2049,0.0328,0.3981,2,0.5982 -0.3473 0.3610
+pems03,speed,target_only,FINAL,K12 + coordination on DecoupleST (first phase),1.4194,0.2962,2.8044,3,2.6349 1.0173 0.5950
+pems03,speed,target_only,FINAL,DeCo-S,2.9866,1.8604,4.3981,3,3.8403 2.7425 2.3738
 pems03,speed,target_only,FINAL,RAGC,-1.0440,-1.4515,-0.7057,0,-1.0242 -1.2968 -0.8124
 pems03,speed,target_only,FINAL,best of 11 baselines (RAGC),-1.0440,-1.4515,-0.7057,0,-1.0242 -1.2968 -0.8124
-pems03,speed,target_only,FINAL,"same deployment, cross module on RAGC",-0.1446,-0.3589,0.0797,1,0.3375 -0.5125 -0.2581
-pems04,flow,cross,K12,CoFA,-0.0455,-0.5532,0.5404,1,-0.1949 -0.0593 0.1174
-pems04,flow,cross,K12,CoFA-FINAL,1.8284,1.2255,2.5404,3,1.4789 2.1434 1.8605
-pems04,flow,cross,K12,RAGC,2.3651,1.7866,2.8792,3,2.5628 2.2503 2.2816
-pems04,flow,cross,K12,best of 11 baselines (DecoupleST_MISO),2.0852,1.3835,2.9083,3,1.9517 1.9421 2.3608
-pems04,flow,cross,K12,"same deployment, target-only module on RAGC",0.0213,-0.0679,0.1220,2,0.1001 -0.0824 0.0461
-pems04,flow,cross,FINAL,CoFA,-1.4914,-2.0872,-0.8545,0,-1.6628 -1.3691 -1.4428
-pems04,flow,cross,FINAL,CoFA-FINAL,0.4095,-0.1756,1.0835,3,0.0355 0.8623 0.3276
-pems04,flow,cross,FINAL,RAGC,0.9540,0.6564,1.2303,3,1.1353 0.9707 0.7553
-pems04,flow,cross,FINAL,best of 11 baselines (DecoupleST_MISO),0.6700,0.0446,1.4427,3,0.5153 0.6585 0.8356
-pems04,flow,cross,FINAL,"same deployment, target-only module on RAGC",0.3323,0.2129,0.4620,3,0.3504 0.4225 0.2239
-pems04,flow,target_only,K12,CoFA,-0.0668,-0.5586,0.5170,2,-0.2953 0.0231 0.0713
-pems04,flow,target_only,K12,CoFA-FINAL,1.8075,1.2059,2.5334,3,1.3801 2.2239 1.8152
+pems03,speed,target_only,FINAL,"same deployment, coordination module on RAGC",-0.1446,-0.3589,0.0797,1,0.3375 -0.5125 -0.2581
+pems04,flow,coordination,K12,K12 + coordination on DecoupleST (first phase),-0.0455,-0.5532,0.5404,1,-0.1949 -0.0593 0.1174
+pems04,flow,coordination,K12,DeCo-S,1.8284,1.2255,2.5404,3,1.4789 2.1434 1.8605
+pems04,flow,coordination,K12,RAGC,2.3651,1.7866,2.8792,3,2.5628 2.2503 2.2816
+pems04,flow,coordination,K12,best of 11 baselines (DecoupleST_MISO),2.0852,1.3835,2.9083,3,1.9517 1.9421 2.3608
+pems04,flow,coordination,K12,"same deployment, target-only module on RAGC",0.0213,-0.0679,0.1220,2,0.1001 -0.0824 0.0461
+pems04,flow,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-1.4914,-2.0872,-0.8545,0,-1.6628 -1.3691 -1.4428
+pems04,flow,coordination,FINAL,DeCo-S,0.4095,-0.1756,1.0835,3,0.0355 0.8623 0.3276
+pems04,flow,coordination,FINAL,RAGC,0.9540,0.6564,1.2303,3,1.1353 0.9707 0.7553
+pems04,flow,coordination,FINAL,best of 11 baselines (DecoupleST_MISO),0.6700,0.0446,1.4427,3,0.5153 0.6585 0.8356
+pems04,flow,coordination,FINAL,"same deployment, target-only module on RAGC",0.3323,0.2129,0.4620,3,0.3504 0.4225 0.2239
+pems04,flow,target_only,K12,K12 + coordination on DecoupleST (first phase),-0.0668,-0.5586,0.5170,2,-0.2953 0.0231 0.0713
+pems04,flow,target_only,K12,DeCo-S,1.8075,1.2059,2.5334,3,1.3801 2.2239 1.8152
 pems04,flow,target_only,K12,RAGC,2.3443,1.7508,2.8658,3,2.4652 2.3308 2.2365
 pems04,flow,target_only,K12,best of 11 baselines (DecoupleST_MISO),2.0643,1.3628,2.8970,3,1.8535 2.0228 2.3157
-pems04,flow,target_only,K12,"same deployment, cross module on RAGC",-0.0213,-0.1221,0.0679,1,-0.1002 0.0823 -0.0462
-pems04,flow,target_only,FINAL,CoFA,-1.8298,-2.3844,-1.2481,0,-2.0203 -1.7992 -1.6704
-pems04,flow,target_only,FINAL,CoFA-FINAL,0.0775,-0.4770,0.7297,2,-0.3161 0.4417 0.1039
+pems04,flow,target_only,K12,"same deployment, coordination module on RAGC",-0.0213,-0.1221,0.0679,1,-0.1002 0.0823 -0.0462
+pems04,flow,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-1.8298,-2.3844,-1.2481,0,-2.0203 -1.7992 -1.6704
+pems04,flow,target_only,FINAL,DeCo-S,0.0775,-0.4770,0.7297,2,-0.3161 0.4417 0.1039
 pems04,flow,target_only,FINAL,RAGC,0.6238,0.2655,0.9424,3,0.7877 0.5506 0.5326
 pems04,flow,target_only,FINAL,best of 11 baselines (DecoupleST_MISO),0.3388,-0.2535,1.0833,3,0.1654 0.2370 0.6132
-pems04,flow,target_only,FINAL,"same deployment, cross module on RAGC",-0.3334,-0.4641,-0.2134,0,-0.3517 -0.4243 -0.2244
-pems04,occupancy,cross,K12,CoFA,-0.3164,-0.7384,0.1545,0,-0.4548 -0.4312 -0.0636
-pems04,occupancy,cross,K12,CoFA-FINAL,1.0616,0.6085,1.6436,3,0.8190 1.1175 1.2479
-pems04,occupancy,cross,K12,RAGC,2.7935,2.3725,3.1056,3,2.7226 3.1303 2.5253
-pems04,occupancy,cross,K12,best of 11 baselines (DecoupleST_MISO),2.7609,2.1850,3.5656,3,2.5880 2.7775 2.9170
-pems04,occupancy,cross,K12,"same deployment, target-only module on RAGC",0.8271,0.7117,0.9303,3,0.6823 0.9655 0.8332
-pems04,occupancy,cross,FINAL,CoFA,-1.4346,-1.8626,-0.9246,0,-1.6728 -1.6257 -1.0061
-pems04,occupancy,cross,FINAL,CoFA-FINAL,-0.0412,-0.4299,0.5032,1,-0.3836 -0.0585 0.3178
-pems04,occupancy,cross,FINAL,RAGC,1.7100,1.4845,1.8885,3,1.5431 1.9782 1.6073
-pems04,occupancy,cross,FINAL,best of 11 baselines (DecoupleST_MISO),1.6770,1.0800,2.4912,3,1.4068 1.6212 2.0026
-pems04,occupancy,cross,FINAL,"same deployment, target-only module on RAGC",1.2902,1.1870,1.4014,3,1.0691 1.5020 1.2989
-pems04,occupancy,target_only,K12,CoFA,-1.1530,-1.6113,-0.6565,0,-1.1449 -1.4103 -0.9043
-pems04,occupancy,target_only,K12,CoFA-FINAL,0.2365,-0.2355,0.8241,3,0.1377 0.1534 0.4182
+pems04,flow,target_only,FINAL,"same deployment, coordination module on RAGC",-0.3334,-0.4641,-0.2134,0,-0.3517 -0.4243 -0.2244
+pems04,occupancy,coordination,K12,K12 + coordination on DecoupleST (first phase),-0.3164,-0.7384,0.1545,0,-0.4548 -0.4312 -0.0636
+pems04,occupancy,coordination,K12,DeCo-S,1.0616,0.6085,1.6436,3,0.8190 1.1175 1.2479
+pems04,occupancy,coordination,K12,RAGC,2.7935,2.3725,3.1056,3,2.7226 3.1303 2.5253
+pems04,occupancy,coordination,K12,best of 11 baselines (DecoupleST_MISO),2.7609,2.1850,3.5656,3,2.5880 2.7775 2.9170
+pems04,occupancy,coordination,K12,"same deployment, target-only module on RAGC",0.8271,0.7117,0.9303,3,0.6823 0.9655 0.8332
+pems04,occupancy,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-1.4346,-1.8626,-0.9246,0,-1.6728 -1.6257 -1.0061
+pems04,occupancy,coordination,FINAL,DeCo-S,-0.0412,-0.4299,0.5032,1,-0.3836 -0.0585 0.3178
+pems04,occupancy,coordination,FINAL,RAGC,1.7100,1.4845,1.8885,3,1.5431 1.9782 1.6073
+pems04,occupancy,coordination,FINAL,best of 11 baselines (DecoupleST_MISO),1.6770,1.0800,2.4912,3,1.4068 1.6212 2.0026
+pems04,occupancy,coordination,FINAL,"same deployment, target-only module on RAGC",1.2902,1.1870,1.4014,3,1.0691 1.5020 1.2989
+pems04,occupancy,target_only,K12,K12 + coordination on DecoupleST (first phase),-1.1530,-1.6113,-0.6565,0,-1.1449 -1.4103 -0.9043
+pems04,occupancy,target_only,K12,DeCo-S,0.2365,-0.2355,0.8241,3,0.1377 0.1534 0.4182
 pems04,occupancy,target_only,K12,RAGC,1.9828,1.5658,2.3050,3,2.0543 2.1859 1.7064
 pems04,occupancy,target_only,K12,best of 11 baselines (DecoupleST_MISO),1.9499,1.3438,2.7754,3,1.9188 1.8296 2.1013
-pems04,occupancy,target_only,K12,"same deployment, cross module on RAGC",-0.8340,-0.9390,-0.7168,0,-0.6870 -0.9749 -0.8402
-pems04,occupancy,target_only,FINAL,CoFA,-2.7604,-3.1874,-2.2568,0,-2.7715 -3.1754 -2.3353
-pems04,occupancy,target_only,FINAL,CoFA-FINAL,-1.3488,-1.7427,-0.8334,0,-1.4684 -1.5844 -0.9940
+pems04,occupancy,target_only,K12,"same deployment, coordination module on RAGC",-0.8340,-0.9390,-0.7168,0,-0.6870 -0.9749 -0.8402
+pems04,occupancy,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-2.7604,-3.1874,-2.2568,0,-2.7715 -3.1754 -2.3353
+pems04,occupancy,target_only,FINAL,DeCo-S,-1.3488,-1.7427,-0.8334,0,-1.4684 -1.5844 -0.9940
 pems04,occupancy,target_only,FINAL,RAGC,0.4252,0.1346,0.6391,3,0.4791 0.4835 0.3124
 pems04,occupancy,target_only,FINAL,best of 11 baselines (DecoupleST_MISO),0.3918,-0.1913,1.1811,3,0.3414 0.1210 0.7130
-pems04,occupancy,target_only,FINAL,"same deployment, cross module on RAGC",-1.3071,-1.4214,-1.2012,0,-1.0806 -1.5249 -1.3160
-pems04,speed,cross,K12,CoFA,0.4704,0.1300,0.9910,3,0.1527 0.2033 1.0528
-pems04,speed,cross,K12,CoFA-FINAL,1.7506,1.3632,2.3021,3,1.6857 1.4676 2.0978
-pems04,speed,cross,K12,RAGC,1.3996,0.6757,1.9580,3,1.2037 1.2602 1.7349
-pems04,speed,cross,K12,best of 11 baselines (RAGC),1.3996,0.6757,1.9580,3,1.2037 1.2602 1.7349
-pems04,speed,cross,K12,"same deployment, target-only module on RAGC",0.4561,0.2318,0.6437,3,0.3411 0.1949 0.8317
-pems04,speed,cross,FINAL,CoFA,-0.5505,-1.0446,0.1228,1,-0.8848 -0.8111 0.0419
-pems04,speed,cross,FINAL,CoFA-FINAL,0.7428,0.3505,1.3522,3,0.6642 0.4660 1.0976
-pems04,speed,cross,FINAL,RAGC,0.3883,-0.0763,0.7468,3,0.1772 0.2565 0.7309
-pems04,speed,cross,FINAL,best of 11 baselines (RAGC),0.3883,-0.0763,0.7468,3,0.1772 0.2565 0.7309
-pems04,speed,cross,FINAL,"same deployment, target-only module on RAGC",0.5910,0.3305,0.8325,3,0.4861 0.2598 1.0258
-pems04,speed,target_only,K12,CoFA,0.0144,-0.4576,0.6643,2,-0.1891 0.0085 0.2230
-pems04,speed,target_only,K12,CoFA-FINAL,1.3004,0.8652,1.9414,3,1.3492 1.2752 1.2767
+pems04,occupancy,target_only,FINAL,"same deployment, coordination module on RAGC",-1.3071,-1.4214,-1.2012,0,-1.0806 -1.5249 -1.3160
+pems04,speed,coordination,K12,K12 + coordination on DecoupleST (first phase),0.4704,0.1300,0.9910,3,0.1527 0.2033 1.0528
+pems04,speed,coordination,K12,DeCo-S,1.7506,1.3632,2.3021,3,1.6857 1.4676 2.0978
+pems04,speed,coordination,K12,RAGC,1.3996,0.6757,1.9580,3,1.2037 1.2602 1.7349
+pems04,speed,coordination,K12,best of 11 baselines (RAGC),1.3996,0.6757,1.9580,3,1.2037 1.2602 1.7349
+pems04,speed,coordination,K12,"same deployment, target-only module on RAGC",0.4561,0.2318,0.6437,3,0.3411 0.1949 0.8317
+pems04,speed,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-0.5505,-1.0446,0.1228,1,-0.8848 -0.8111 0.0419
+pems04,speed,coordination,FINAL,DeCo-S,0.7428,0.3505,1.3522,3,0.6642 0.4660 1.0976
+pems04,speed,coordination,FINAL,RAGC,0.3883,-0.0763,0.7468,3,0.1772 0.2565 0.7309
+pems04,speed,coordination,FINAL,best of 11 baselines (RAGC),0.3883,-0.0763,0.7468,3,0.1772 0.2565 0.7309
+pems04,speed,coordination,FINAL,"same deployment, target-only module on RAGC",0.5910,0.3305,0.8325,3,0.4861 0.2598 1.0258
+pems04,speed,target_only,K12,K12 + coordination on DecoupleST (first phase),0.0144,-0.4576,0.6643,2,-0.1891 0.0085 0.2230
+pems04,speed,target_only,K12,DeCo-S,1.3004,0.8652,1.9414,3,1.3492 1.2752 1.2767
 pems04,speed,target_only,K12,RAGC,0.9479,0.3987,1.3682,3,0.8656 1.0673 0.9107
 pems04,speed,target_only,K12,best of 11 baselines (RAGC),0.9479,0.3987,1.3682,3,0.8656 1.0673 0.9107
-pems04,speed,target_only,K12,"same deployment, cross module on RAGC",-0.4582,-0.6478,-0.2324,0,-0.3423 -0.1953 -0.8387
-pems04,speed,target_only,FINAL,CoFA,-1.1482,-1.7919,-0.3166,0,-1.3776 -1.0736 -0.9942
-pems04,speed,target_only,FINAL,CoFA-FINAL,0.1527,-0.3913,0.8751,3,0.1790 0.2068 0.0725
+pems04,speed,target_only,K12,"same deployment, coordination module on RAGC",-0.4582,-0.6478,-0.2324,0,-0.3423 -0.1953 -0.8387
+pems04,speed,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-1.1482,-1.7919,-0.3166,0,-1.3776 -1.0736 -0.9942
+pems04,speed,target_only,FINAL,DeCo-S,0.1527,-0.3913,0.8751,3,0.1790 0.2068 0.0725
 pems04,speed,target_only,FINAL,RAGC,-0.2039,-0.5235,0.0462,0,-0.3104 -0.0033 -0.2980
 pems04,speed,target_only,FINAL,best of 11 baselines (RAGC),-0.2039,-0.5235,0.0462,0,-0.3104 -0.0033 -0.2980
-pems04,speed,target_only,FINAL,"same deployment, cross module on RAGC",-0.5945,-0.8395,-0.3316,0,-0.4885 -0.2604 -1.0365
-pems07,flow,cross,K12,CoFA,-0.2488,-0.4584,-0.0274,0,-0.2190 -0.1836 -0.3439
-pems07,flow,cross,K12,CoFA-FINAL,1.7468,1.5355,1.9684,3,1.7935 1.5300 1.9163
-pems07,flow,cross,K12,RAGC,3.2654,2.9001,3.6216,3,3.5189 3.0794 3.1972
-pems07,flow,cross,K12,best of 11 baselines (DecoupleST_MISO),2.6316,2.3161,2.9418,3,2.4563 2.3559 3.0793
-pems07,flow,cross,K12,"same deployment, target-only module on RAGC",0.8171,0.6709,0.9592,3,0.9146 0.7573 0.7794
-pems07,flow,cross,FINAL,CoFA,-1.9399,-2.1438,-1.7267,0,-2.1827 -1.8177 -1.8197
-pems07,flow,cross,FINAL,CoFA-FINAL,0.0893,-0.0922,0.2861,1,-0.1308 -0.0761 0.4736
-pems07,flow,cross,FINAL,RAGC,1.6335,1.3009,1.9519,3,1.6285 1.4985 1.7734
-pems07,flow,cross,FINAL,best of 11 baselines (DecoupleST_MISO),0.9890,0.7098,1.2691,3,0.5450 0.7632 1.6538
-pems07,flow,cross,FINAL,"same deployment, target-only module on RAGC",1.0934,0.9123,1.2602,3,0.9929 1.0116 1.2757
-pems07,flow,target_only,K12,CoFA,-1.0746,-1.3106,-0.8453,0,-1.1441 -0.9481 -1.1320
-pems07,flow,target_only,K12,CoFA-FINAL,0.9374,0.7525,1.1355,3,0.8870 0.7786 1.1458
+pems04,speed,target_only,FINAL,"same deployment, coordination module on RAGC",-0.5945,-0.8395,-0.3316,0,-0.4885 -0.2604 -1.0365
+pems07,flow,coordination,K12,K12 + coordination on DecoupleST (first phase),-0.2488,-0.4584,-0.0274,0,-0.2190 -0.1836 -0.3439
+pems07,flow,coordination,K12,DeCo-S,1.7468,1.5355,1.9684,3,1.7935 1.5300 1.9163
+pems07,flow,coordination,K12,RAGC,3.2654,2.9001,3.6216,3,3.5189 3.0794 3.1972
+pems07,flow,coordination,K12,best of 11 baselines (DecoupleST_MISO),2.6316,2.3161,2.9418,3,2.4563 2.3559 3.0793
+pems07,flow,coordination,K12,"same deployment, target-only module on RAGC",0.8171,0.6709,0.9592,3,0.9146 0.7573 0.7794
+pems07,flow,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-1.9399,-2.1438,-1.7267,0,-2.1827 -1.8177 -1.8197
+pems07,flow,coordination,FINAL,DeCo-S,0.0893,-0.0922,0.2861,1,-0.1308 -0.0761 0.4736
+pems07,flow,coordination,FINAL,RAGC,1.6335,1.3009,1.9519,3,1.6285 1.4985 1.7734
+pems07,flow,coordination,FINAL,best of 11 baselines (DecoupleST_MISO),0.9890,0.7098,1.2691,3,0.5450 0.7632 1.6538
+pems07,flow,coordination,FINAL,"same deployment, target-only module on RAGC",1.0934,0.9123,1.2602,3,0.9929 1.0116 1.2757
+pems07,flow,target_only,K12,K12 + coordination on DecoupleST (first phase),-1.0746,-1.3106,-0.8453,0,-1.1441 -0.9481 -1.1320
+pems07,flow,target_only,K12,DeCo-S,0.9374,0.7525,1.1355,3,0.8870 0.7786 1.1458
 pems07,flow,target_only,K12,RAGC,2.4684,2.2274,2.7114,3,2.6283 2.3398 2.4368
 pems07,flow,target_only,K12,best of 11 baselines (DecoupleST_MISO),1.8294,1.5834,2.0859,3,1.5559 1.6107 2.3180
-pems07,flow,target_only,K12,"same deployment, cross module on RAGC",-0.8238,-0.9684,-0.6754,0,-0.9231 -0.7631 -0.7855
-pems07,flow,target_only,FINAL,CoFA,-3.0668,-3.3248,-2.8281,0,-3.2074 -2.8581 -3.1354
-pems07,flow,target_only,FINAL,CoFA-FINAL,-1.0152,-1.1897,-0.8461,0,-1.1349 -1.0988 -0.8124
+pems07,flow,target_only,K12,"same deployment, coordination module on RAGC",-0.8238,-0.9684,-0.6754,0,-0.9231 -0.7631 -0.7855
+pems07,flow,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-3.0668,-3.3248,-2.8281,0,-3.2074 -2.8581 -3.1354
+pems07,flow,target_only,FINAL,DeCo-S,-1.0152,-1.1897,-0.8461,0,-1.1349 -1.0988 -0.8124
 pems07,flow,target_only,FINAL,RAGC,0.5461,0.3642,0.7296,3,0.6420 0.4919 0.5041
 pems07,flow,target_only,FINAL,best of 11 baselines (DecoupleST_MISO),-0.1055,-0.3049,0.0991,1,-0.4524 -0.2509 0.3830
-pems07,flow,target_only,FINAL,"same deployment, cross module on RAGC",-1.1054,-1.2763,-0.9207,0,-1.0028 -1.0219 -1.2922
-pems07,occupancy,cross,K12,CoFA,0.7284,0.5275,0.9481,3,0.9042 0.8494 0.4305
-pems07,occupancy,cross,K12,CoFA-FINAL,1.5932,1.3681,1.8287,3,1.8570 1.5579 1.3636
-pems07,occupancy,cross,K12,RAGC,2.7526,2.5378,2.9661,3,2.8219 2.6676 2.7682
-pems07,occupancy,cross,K12,best of 11 baselines (RAGC),2.7526,2.5378,2.9661,3,2.8219 2.6676 2.7682
-pems07,occupancy,cross,K12,"same deployment, target-only module on RAGC",0.9694,0.8517,1.0779,3,0.9245 0.9855 0.9980
-pems07,occupancy,cross,FINAL,CoFA,-0.1612,-0.3398,0.0406,1,0.2593 -0.0067 -0.7383
-pems07,occupancy,cross,FINAL,CoFA-FINAL,0.7114,0.5219,0.9231,3,1.2184 0.7080 0.2057
-pems07,occupancy,cross,FINAL,RAGC,1.8812,1.6635,2.0937,3,2.1895 1.8272 1.6268
-pems07,occupancy,cross,FINAL,best of 11 baselines (RAGC),1.8812,1.6635,2.0937,3,2.1895 1.8272 1.6268
-pems07,occupancy,cross,FINAL,"same deployment, target-only module on RAGC",1.6466,1.5058,1.7745,3,1.7310 1.4964 1.7119
-pems07,occupancy,target_only,K12,CoFA,-0.2433,-0.4672,-0.0018,0,-0.0205 -0.1375 -0.5732
-pems07,occupancy,target_only,K12,CoFA-FINAL,0.6299,0.3706,0.8963,3,0.9413 0.5781 0.3692
+pems07,flow,target_only,FINAL,"same deployment, coordination module on RAGC",-1.1054,-1.2763,-0.9207,0,-1.0028 -1.0219 -1.2922
+pems07,occupancy,coordination,K12,K12 + coordination on DecoupleST (first phase),0.7284,0.5275,0.9481,3,0.9042 0.8494 0.4305
+pems07,occupancy,coordination,K12,DeCo-S,1.5932,1.3681,1.8287,3,1.8570 1.5579 1.3636
+pems07,occupancy,coordination,K12,RAGC,2.7526,2.5378,2.9661,3,2.8219 2.6676 2.7682
+pems07,occupancy,coordination,K12,best of 11 baselines (RAGC),2.7526,2.5378,2.9661,3,2.8219 2.6676 2.7682
+pems07,occupancy,coordination,K12,"same deployment, target-only module on RAGC",0.9694,0.8517,1.0779,3,0.9245 0.9855 0.9980
+pems07,occupancy,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-0.1612,-0.3398,0.0406,1,0.2593 -0.0067 -0.7383
+pems07,occupancy,coordination,FINAL,DeCo-S,0.7114,0.5219,0.9231,3,1.2184 0.7080 0.2057
+pems07,occupancy,coordination,FINAL,RAGC,1.8812,1.6635,2.0937,3,2.1895 1.8272 1.6268
+pems07,occupancy,coordination,FINAL,best of 11 baselines (RAGC),1.8812,1.6635,2.0937,3,2.1895 1.8272 1.6268
+pems07,occupancy,coordination,FINAL,"same deployment, target-only module on RAGC",1.6466,1.5058,1.7745,3,1.7310 1.4964 1.7119
+pems07,occupancy,target_only,K12,K12 + coordination on DecoupleST (first phase),-0.2433,-0.4672,-0.0018,0,-0.0205 -0.1375 -0.5732
+pems07,occupancy,target_only,K12,DeCo-S,0.6299,0.3706,0.8963,3,0.9413 0.5781 0.3692
 pems07,occupancy,target_only,K12,RAGC,1.8007,1.6384,1.9588,3,1.9151 1.6988 1.7880
 pems07,occupancy,target_only,K12,best of 11 baselines (RAGC),1.8007,1.6384,1.9588,3,1.9151 1.6988 1.7880
-pems07,occupancy,target_only,K12,"same deployment, cross module on RAGC",-0.9789,-1.0897,-0.8590,0,-0.9331 -0.9953 -1.0081
-pems07,occupancy,target_only,FINAL,CoFA,-1.8380,-2.0434,-1.6151,0,-1.4977 -1.5259 -2.4929
-pems07,occupancy,target_only,FINAL,CoFA-FINAL,-0.9509,-1.1834,-0.7111,0,-0.5217 -0.8004 -1.5324
+pems07,occupancy,target_only,K12,"same deployment, coordination module on RAGC",-0.9789,-1.0897,-0.8590,0,-0.9331 -0.9953 -1.0081
+pems07,occupancy,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-1.8380,-2.0434,-1.6151,0,-1.4977 -1.5259 -2.4929
+pems07,occupancy,target_only,FINAL,DeCo-S,-0.9509,-1.1834,-0.7111,0,-0.5217 -0.8004 -1.5324
 pems07,occupancy,target_only,FINAL,RAGC,0.2385,0.1093,0.3663,2,0.4665 0.3359 -0.0866
 pems07,occupancy,target_only,FINAL,best of 11 baselines (RAGC),0.2385,0.1093,0.3663,2,0.4665 0.3359 -0.0866
-pems07,occupancy,target_only,FINAL,"same deployment, cross module on RAGC",-1.6741,-1.8066,-1.5289,0,-1.7615 -1.5191 -1.7417
-pems07,speed,cross,K12,CoFA,0.5788,0.4314,0.7327,3,0.6334 0.6065 0.4963
-pems07,speed,cross,K12,CoFA-FINAL,1.9957,1.8012,2.1944,3,2.0421 1.9420 2.0028
-pems07,speed,cross,K12,RAGC,2.1948,1.9223,2.4477,3,2.1219 2.3017 2.1605
-pems07,speed,cross,K12,best of 11 baselines (RAGC),2.1948,1.9223,2.4477,3,2.1219 2.3017 2.1605
-pems07,speed,cross,K12,"same deployment, target-only module on RAGC",0.5855,0.4454,0.7185,3,0.6794 0.4775 0.5996
-pems07,speed,cross,FINAL,CoFA,-0.5670,-0.6968,-0.4213,0,-0.2349 -0.5904 -0.8763
-pems07,speed,cross,FINAL,CoFA-FINAL,0.8662,0.6920,1.0521,3,1.1861 0.7612 0.6510
-pems07,speed,cross,FINAL,RAGC,1.0676,0.8025,1.3158,3,1.2666 1.1253 0.8109
-pems07,speed,cross,FINAL,best of 11 baselines (RAGC),1.0676,0.8025,1.3158,3,1.2666 1.1253 0.8109
-pems07,speed,cross,FINAL,"same deployment, target-only module on RAGC",0.9153,0.7362,1.0790,3,1.1075 0.8869 0.7518
-pems07,speed,target_only,K12,CoFA,-0.0068,-0.2023,0.2012,1,-0.0463 0.1296 -0.1039
-pems07,speed,target_only,K12,CoFA-FINAL,1.4184,1.1829,1.6617,3,1.3720 1.4715 1.4117
+pems07,occupancy,target_only,FINAL,"same deployment, coordination module on RAGC",-1.6741,-1.8066,-1.5289,0,-1.7615 -1.5191 -1.7417
+pems07,speed,coordination,K12,K12 + coordination on DecoupleST (first phase),0.5788,0.4314,0.7327,3,0.6334 0.6065 0.4963
+pems07,speed,coordination,K12,DeCo-S,1.9957,1.8012,2.1944,3,2.0421 1.9420 2.0028
+pems07,speed,coordination,K12,RAGC,2.1948,1.9223,2.4477,3,2.1219 2.3017 2.1605
+pems07,speed,coordination,K12,best of 11 baselines (RAGC),2.1948,1.9223,2.4477,3,2.1219 2.3017 2.1605
+pems07,speed,coordination,K12,"same deployment, target-only module on RAGC",0.5855,0.4454,0.7185,3,0.6794 0.4775 0.5996
+pems07,speed,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-0.5670,-0.6968,-0.4213,0,-0.2349 -0.5904 -0.8763
+pems07,speed,coordination,FINAL,DeCo-S,0.8662,0.6920,1.0521,3,1.1861 0.7612 0.6510
+pems07,speed,coordination,FINAL,RAGC,1.0676,0.8025,1.3158,3,1.2666 1.1253 0.8109
+pems07,speed,coordination,FINAL,best of 11 baselines (RAGC),1.0676,0.8025,1.3158,3,1.2666 1.1253 0.8109
+pems07,speed,coordination,FINAL,"same deployment, target-only module on RAGC",0.9153,0.7362,1.0790,3,1.1075 0.8869 0.7518
+pems07,speed,target_only,K12,K12 + coordination on DecoupleST (first phase),-0.0068,-0.2023,0.2012,1,-0.0463 0.1296 -0.1039
+pems07,speed,target_only,K12,DeCo-S,1.4184,1.1829,1.6617,3,1.3720 1.4715 1.4117
 pems07,speed,target_only,K12,RAGC,1.6187,1.4227,1.7914,3,1.4523 1.8330 1.5704
 pems07,speed,target_only,K12,best of 11 baselines (RAGC),1.6187,1.4227,1.7914,3,1.4523 1.8330 1.5704
-pems07,speed,target_only,K12,"same deployment, cross module on RAGC",-0.5890,-0.7237,-0.4474,0,-0.6840 -0.4798 -0.6032
-pems07,speed,target_only,FINAL,CoFA,-1.4961,-1.7015,-1.2668,0,-1.3574 -1.4905 -1.6405
-pems07,speed,target_only,FINAL,CoFA-FINAL,-0.0496,-0.2834,0.1981,1,0.0795 -0.1268 -0.1016
+pems07,speed,target_only,K12,"same deployment, coordination module on RAGC",-0.5890,-0.7237,-0.4474,0,-0.6840 -0.4798 -0.6032
+pems07,speed,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-1.4961,-1.7015,-1.2668,0,-1.3574 -1.4905 -1.6405
+pems07,speed,target_only,FINAL,DeCo-S,-0.0496,-0.2834,0.1981,1,0.0795 -0.1268 -0.1016
 pems07,speed,target_only,FINAL,RAGC,0.1537,0.0068,0.2824,3,0.1609 0.2405 0.0595
 pems07,speed,target_only,FINAL,best of 11 baselines (RAGC),0.1537,0.0068,0.2824,3,0.1609 0.2405 0.0595
-pems07,speed,target_only,FINAL,"same deployment, cross module on RAGC",-0.9238,-1.0907,-0.7416,0,-1.1199 -0.8948 -0.7575
-pems08,flow,cross,K12,CoFA,-1.6643,-2.1582,-1.1830,0,-1.6957 -1.7434 -1.5540
-pems08,flow,cross,K12,CoFA-FINAL,0.7099,0.3163,1.0855,3,0.7096 0.8532 0.5663
-pems08,flow,cross,K12,RAGC,1.8125,1.4962,2.1032,3,1.7424 1.5572 2.1366
-pems08,flow,cross,K12,best of 11 baselines (staeformer_siso),-0.8594,-1.6133,-0.0564,0,-0.8183 -0.9302 -0.8295
-pems08,flow,cross,K12,"same deployment, target-only module on RAGC",0.1259,-0.0542,0.2789,3,0.0407 0.1647 0.1721
-pems08,flow,cross,FINAL,CoFA,-3.1816,-3.6978,-2.6665,0,-3.2751 -2.9729 -3.2969
-pems08,flow,cross,FINAL,CoFA-FINAL,-0.7719,-1.1636,-0.3913,0,-0.8325 -0.3449 -1.1401
-pems08,flow,cross,FINAL,RAGC,0.3472,0.0026,0.6447,3,0.2163 0.3676 0.4571
-pems08,flow,cross,FINAL,best of 11 baselines (staeformer_siso),-2.3646,-3.0961,-1.6025,0,-2.3842 -2.1499 -2.5599
-pems08,flow,cross,FINAL,"same deployment, target-only module on RAGC",0.2106,0.0048,0.3971,3,0.1096 0.2386 0.2835
-pems08,flow,target_only,K12,CoFA,-1.7925,-2.3880,-1.1813,0,-1.7370 -1.9112 -1.7291
-pems08,flow,target_only,K12,CoFA-FINAL,0.5848,0.0801,1.1029,3,0.6692 0.6896 0.3949
+pems07,speed,target_only,FINAL,"same deployment, coordination module on RAGC",-0.9238,-1.0907,-0.7416,0,-1.1199 -0.8948 -0.7575
+pems08,flow,coordination,K12,K12 + coordination on DecoupleST (first phase),-1.6643,-2.1582,-1.1830,0,-1.6957 -1.7434 -1.5540
+pems08,flow,coordination,K12,DeCo-S,0.7099,0.3163,1.0855,3,0.7096 0.8532 0.5663
+pems08,flow,coordination,K12,RAGC,1.8125,1.4962,2.1032,3,1.7424 1.5572 2.1366
+pems08,flow,coordination,K12,best of 11 baselines (staeformer_siso),-0.8594,-1.6133,-0.0564,0,-0.8183 -0.9302 -0.8295
+pems08,flow,coordination,K12,"same deployment, target-only module on RAGC",0.1259,-0.0542,0.2789,3,0.0407 0.1647 0.1721
+pems08,flow,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-3.1816,-3.6978,-2.6665,0,-3.2751 -2.9729 -3.2969
+pems08,flow,coordination,FINAL,DeCo-S,-0.7719,-1.1636,-0.3913,0,-0.8325 -0.3449 -1.1401
+pems08,flow,coordination,FINAL,RAGC,0.3472,0.0026,0.6447,3,0.2163 0.3676 0.4571
+pems08,flow,coordination,FINAL,best of 11 baselines (staeformer_siso),-2.3646,-3.0961,-1.6025,0,-2.3842 -2.1499 -2.5599
+pems08,flow,coordination,FINAL,"same deployment, target-only module on RAGC",0.2106,0.0048,0.3971,3,0.1096 0.2386 0.2835
+pems08,flow,target_only,K12,K12 + coordination on DecoupleST (first phase),-1.7925,-2.3880,-1.1813,0,-1.7370 -1.9112 -1.7291
+pems08,flow,target_only,K12,DeCo-S,0.5848,0.0801,1.1029,3,0.6692 0.6896 0.3949
 pems08,flow,target_only,K12,RAGC,1.6888,1.4273,1.9268,3,1.7024 1.3948 1.9679
 pems08,flow,target_only,K12,best of 11 baselines (staeformer_siso),-0.9865,-1.8437,-0.0784,0,-0.8593 -1.0967 -1.0033
-pems08,flow,target_only,K12,"same deployment, cross module on RAGC",-0.1260,-0.2797,0.0542,0,-0.0407 -0.1650 -0.1724
-pems08,flow,target_only,FINAL,CoFA,-3.3994,-4.0551,-2.7313,0,-3.3884 -3.2191 -3.5905
-pems08,flow,target_only,FINAL,CoFA-FINAL,-0.9846,-1.5029,-0.4570,0,-0.9431 -0.5849 -1.4276
+pems08,flow,target_only,K12,"same deployment, coordination module on RAGC",-0.1260,-0.2797,0.0542,0,-0.0407 -0.1650 -0.1724
+pems08,flow,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-3.3994,-4.0551,-2.7313,0,-3.3884 -3.2191 -3.5905
+pems08,flow,target_only,FINAL,DeCo-S,-0.9846,-1.5029,-0.4570,0,-0.9431 -0.5849 -1.4276
 pems08,flow,target_only,FINAL,RAGC,0.1368,-0.0310,0.2838,3,0.1069 0.1293 0.1741
 pems08,flow,target_only,FINAL,best of 11 baselines (staeformer_siso),-2.5807,-3.4191,-1.6779,0,-2.4965 -2.3942 -2.8515
-pems08,flow,target_only,FINAL,"same deployment, cross module on RAGC",-0.2111,-0.3987,-0.0048,0,-0.1097 -0.2392 -0.2843
-pems08,occupancy,cross,K12,CoFA,0.1825,-0.1048,0.4767,2,0.4163 -0.1357 0.2660
-pems08,occupancy,cross,K12,CoFA-FINAL,1.9353,1.6310,2.2024,3,2.1033 1.4925 2.2081
-pems08,occupancy,cross,K12,RAGC,2.0449,1.6459,2.3658,3,1.9392 2.0018 2.1934
-pems08,occupancy,cross,K12,best of 11 baselines (RAGC),2.0449,1.6459,2.3658,3,1.9392 2.0018 2.1934
-pems08,occupancy,cross,K12,"same deployment, target-only module on RAGC",0.7346,0.5581,0.9040,3,0.6474 0.8335 0.7223
-pems08,occupancy,cross,FINAL,CoFA,-0.9955,-1.2552,-0.7262,0,-0.6803 -1.2810 -1.0261
-pems08,occupancy,cross,FINAL,CoFA-FINAL,0.7780,0.5172,1.0071,3,1.0253 0.3659 0.9412
-pems08,occupancy,cross,FINAL,RAGC,0.8889,0.4787,1.2158,3,0.8593 0.8809 0.9263
-pems08,occupancy,cross,FINAL,best of 11 baselines (RAGC),0.8889,0.4787,1.2158,3,0.8593 0.8809 0.9263
-pems08,occupancy,cross,FINAL,"same deployment, target-only module on RAGC",1.0683,0.8962,1.2496,3,1.1684 0.9656 1.0710
-pems08,occupancy,target_only,K12,CoFA,-0.5562,-0.9108,-0.2124,0,-0.2326 -0.9773 -0.4596
-pems08,occupancy,target_only,K12,CoFA-FINAL,1.2096,0.9238,1.4696,3,1.4654 0.6646 1.4966
+pems08,flow,target_only,FINAL,"same deployment, coordination module on RAGC",-0.2111,-0.3987,-0.0048,0,-0.1097 -0.2392 -0.2843
+pems08,occupancy,coordination,K12,K12 + coordination on DecoupleST (first phase),0.1825,-0.1048,0.4767,2,0.4163 -0.1357 0.2660
+pems08,occupancy,coordination,K12,DeCo-S,1.9353,1.6310,2.2024,3,2.1033 1.4925 2.2081
+pems08,occupancy,coordination,K12,RAGC,2.0449,1.6459,2.3658,3,1.9392 2.0018 2.1934
+pems08,occupancy,coordination,K12,best of 11 baselines (RAGC),2.0449,1.6459,2.3658,3,1.9392 2.0018 2.1934
+pems08,occupancy,coordination,K12,"same deployment, target-only module on RAGC",0.7346,0.5581,0.9040,3,0.6474 0.8335 0.7223
+pems08,occupancy,coordination,FINAL,K12 + coordination on DecoupleST (first phase),-0.9955,-1.2552,-0.7262,0,-0.6803 -1.2810 -1.0261
+pems08,occupancy,coordination,FINAL,DeCo-S,0.7780,0.5172,1.0071,3,1.0253 0.3659 0.9412
+pems08,occupancy,coordination,FINAL,RAGC,0.8889,0.4787,1.2158,3,0.8593 0.8809 0.9263
+pems08,occupancy,coordination,FINAL,best of 11 baselines (RAGC),0.8889,0.4787,1.2158,3,0.8593 0.8809 0.9263
+pems08,occupancy,coordination,FINAL,"same deployment, target-only module on RAGC",1.0683,0.8962,1.2496,3,1.1684 0.9656 1.0710
+pems08,occupancy,target_only,K12,K12 + coordination on DecoupleST (first phase),-0.5562,-0.9108,-0.2124,0,-0.2326 -0.9773 -0.4596
+pems08,occupancy,target_only,K12,DeCo-S,1.2096,0.9238,1.4696,3,1.4654 0.6646 1.4966
 pems08,occupancy,target_only,K12,RAGC,1.3200,0.9281,1.6461,3,1.3002 1.1781 1.4818
 pems08,occupancy,target_only,K12,best of 11 baselines (RAGC),1.3200,0.9281,1.6461,3,1.3002 1.1781 1.4818
-pems08,occupancy,target_only,K12,"same deployment, cross module on RAGC",-0.7400,-0.9123,-0.5613,0,-0.6517 -0.8405 -0.7276
-pems08,occupancy,target_only,FINAL,CoFA,-2.0861,-2.3828,-1.7701,0,-1.8705 -2.2685 -2.1198
-pems08,occupancy,target_only,FINAL,CoFA-FINAL,-0.2935,-0.5071,-0.0986,0,-0.1448 -0.6056 -0.1312
+pems08,occupancy,target_only,K12,"same deployment, coordination module on RAGC",-0.7400,-0.9123,-0.5613,0,-0.6517 -0.8405 -0.7276
+pems08,occupancy,target_only,FINAL,K12 + coordination on DecoupleST (first phase),-2.0861,-2.3828,-1.7701,0,-1.8705 -2.2685 -2.1198
+pems08,occupancy,target_only,FINAL,DeCo-S,-0.2935,-0.5071,-0.0986,0,-0.1448 -0.6056 -0.1312
 pems08,occupancy,target_only,FINAL,RAGC,-0.1814,-0.5693,0.1479,0,-0.3127 -0.0855 -0.1463
 pems08,occupancy,target_only,FINAL,best of 11 baselines (RAGC),-0.1814,-0.5693,0.1479,0,-0.3127 -0.0855 -0.1463
-pems08,occupancy,target_only,FINAL,"same deployment, cross module on RAGC",-1.0799,-1.2654,-0.9043,0,-1.1822 -0.9751 -1.0826
-pems08,speed,cross,K12,CoFA,1.2097,0.8419,1.5549,3,1.0960 1.2648 1.2687
-pems08,speed,cross,K12,CoFA-FINAL,3.1027,2.6968,3.4751,3,3.0320 2.7983 3.4761
-pems08,speed,cross,K12,RAGC,0.7822,0.4101,1.1066,3,0.6345 0.8185 0.8938
-pems08,speed,cross,K12,best of 11 baselines (RAGC),0.7822,0.4101,1.1066,3,0.6345 0.8185 0.8938
-pems08,speed,cross,K12,"same deployment, target-only module on RAGC",0.1133,-0.1575,0.3563,2,-0.2974 0.2509 0.3853
-pems08,speed,cross,FINAL,CoFA,0.0931,-0.2039,0.3798,2,0.0558 0.4145 -0.1913
-pems08,speed,cross,FINAL,CoFA-FINAL,2.0075,1.7297,2.2811,3,2.0122 1.9612 2.0488
-pems08,speed,cross,FINAL,RAGC,-0.3392,-0.7033,-0.0072,0,-0.4105 -0.0355 -0.5717
-pems08,speed,cross,FINAL,best of 11 baselines (RAGC),-0.3392,-0.7033,-0.0072,0,-0.4105 -0.0355 -0.5717
-pems08,speed,cross,FINAL,"same deployment, target-only module on RAGC",0.0475,-0.2531,0.2687,1,-0.2023 0.4957 -0.1519
-pems08,speed,target_only,K12,CoFA,1.0977,0.7450,1.4483,3,1.3893 1.0164 0.8869
-pems08,speed,target_only,K12,CoFA-FINAL,2.9928,2.5849,3.3850,3,3.3196 2.5537 3.1028
+pems08,occupancy,target_only,FINAL,"same deployment, coordination module on RAGC",-1.0799,-1.2654,-0.9043,0,-1.1822 -0.9751 -1.0826
+pems08,speed,coordination,K12,K12 + coordination on DecoupleST (first phase),1.2097,0.8419,1.5549,3,1.0960 1.2648 1.2687
+pems08,speed,coordination,K12,DeCo-S,3.1027,2.6968,3.4751,3,3.0320 2.7983 3.4761
+pems08,speed,coordination,K12,RAGC,0.7822,0.4101,1.1066,3,0.6345 0.8185 0.8938
+pems08,speed,coordination,K12,best of 11 baselines (RAGC),0.7822,0.4101,1.1066,3,0.6345 0.8185 0.8938
+pems08,speed,coordination,K12,"same deployment, target-only module on RAGC",0.1133,-0.1575,0.3563,2,-0.2974 0.2509 0.3853
+pems08,speed,coordination,FINAL,K12 + coordination on DecoupleST (first phase),0.0931,-0.2039,0.3798,2,0.0558 0.4145 -0.1913
+pems08,speed,coordination,FINAL,DeCo-S,2.0075,1.7297,2.2811,3,2.0122 1.9612 2.0488
+pems08,speed,coordination,FINAL,RAGC,-0.3392,-0.7033,-0.0072,0,-0.4105 -0.0355 -0.5717
+pems08,speed,coordination,FINAL,best of 11 baselines (RAGC),-0.3392,-0.7033,-0.0072,0,-0.4105 -0.0355 -0.5717
+pems08,speed,coordination,FINAL,"same deployment, target-only module on RAGC",0.0475,-0.2531,0.2687,1,-0.2023 0.4957 -0.1519
+pems08,speed,target_only,K12,K12 + coordination on DecoupleST (first phase),1.0977,0.7450,1.4483,3,1.3893 1.0164 0.8869
+pems08,speed,target_only,K12,DeCo-S,2.9928,2.5849,3.3850,3,3.3196 2.5537 3.1028
 pems08,speed,target_only,K12,RAGC,0.6697,0.3502,0.9748,3,0.9292 0.5690 0.5105
 pems08,speed,target_only,K12,best of 11 baselines (RAGC),0.6697,0.3502,0.9748,3,0.9292 0.5690 0.5105
-pems08,speed,target_only,K12,"same deployment, cross module on RAGC",-0.1134,-0.3576,0.1572,1,0.2966 -0.2516 -0.3867
-pems08,speed,target_only,FINAL,CoFA,0.0457,-0.2845,0.3916,1,0.2576 -0.0816 -0.0394
-pems08,speed,target_only,FINAL,CoFA-FINAL,1.9609,1.6015,2.3248,3,2.2100 1.4729 2.1973
+pems08,speed,target_only,K12,"same deployment, coordination module on RAGC",-0.1134,-0.3576,0.1572,1,0.2966 -0.2516 -0.3867
+pems08,speed,target_only,FINAL,K12 + coordination on DecoupleST (first phase),0.0457,-0.2845,0.3916,1,0.2576 -0.0816 -0.0394
+pems08,speed,target_only,FINAL,DeCo-S,1.9609,1.6015,2.3248,3,2.2100 1.4729 2.1973
 pems08,speed,target_only,FINAL,RAGC,-0.3869,-0.6105,-0.1589,0,-0.2078 -0.5339 -0.4192
 pems08,speed,target_only,FINAL,best of 11 baselines (RAGC),-0.3869,-0.6105,-0.1589,0,-0.2078 -0.5339 -0.4192
-pems08,speed,target_only,FINAL,"same deployment, cross module on RAGC",-0.0475,-0.2694,0.2524,2,0.2019 -0.4982 0.1516
+pems08,speed,target_only,FINAL,"same deployment, coordination module on RAGC",-0.0475,-0.2694,0.2524,2,0.2019 -0.4982 0.1516

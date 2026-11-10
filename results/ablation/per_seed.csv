@@ -1,0 +1,1585 @@
+block,configuration,dataset,split,variable,seed,targets,mae,rmse
+a,DeCo,pems03,test,flow,2024,all valid,14.056617256110323,22.82032945331172
+a,DeCo,pems03,test,flow,2025,all valid,14.04707208585424,23.087872602238726
+a,DeCo,pems03,test,flow,2026,all valid,14.09049141503477,22.913414354024606
+a,DeCo,pems03,test,flow,2024,"valid, excluding zero",14.084576968021208,22.79127960045529
+a,DeCo,pems03,test,flow,2025,"valid, excluding zero",14.07681551853649,23.05931857249177
+a,DeCo,pems03,test,flow,2026,"valid, excluding zero",14.119445067976152,22.885469386390298
+a,DeCo,pems03,test,occupancy,2024,all valid,0.008756482139012462,0.02403942293302008
+a,DeCo,pems03,test,occupancy,2025,all valid,0.008752272048611384,0.024041509611020924
+a,DeCo,pems03,test,occupancy,2026,all valid,0.00874166025054017,0.023912970092938968
+a,DeCo,pems03,test,occupancy,2024,"valid, excluding zero",0.008795747827357592,0.024111208231444824
+a,DeCo,pems03,test,occupancy,2025,"valid, excluding zero",0.008791356917046939,0.02411330785081476
+a,DeCo,pems03,test,occupancy,2026,"valid, excluding zero",0.008780075471611245,0.023984334017590342
+a,DeCo,pems03,test,speed,2024,all valid,1.7928757366472332,3.7607701747398954
+a,DeCo,pems03,test,speed,2025,all valid,1.791442665152956,3.7554632111276813
+a,DeCo,pems03,test,speed,2026,all valid,1.7886733540261457,3.7519251787581354
+a,DeCo,pems03,test,speed,2024,"valid, excluding zero",1.7928757366472332,3.7607701747398954
+a,DeCo,pems03,test,speed,2025,"valid, excluding zero",1.791442665152956,3.7554632111276813
+a,DeCo,pems03,test,speed,2026,"valid, excluding zero",1.7886733540261457,3.7519251787581354
+a,DeCo,pems04,test,flow,2024,all valid,18.299634027051155,30.272588135851425
+a,DeCo,pems04,test,flow,2025,all valid,18.374760518084983,30.461216362660316
+a,DeCo,pems04,test,flow,2026,all valid,18.343123524040735,30.343397113747994
+a,DeCo,pems04,test,flow,2024,"valid, excluding zero",18.200829204081863,29.62202800639668
+a,DeCo,pems04,test,flow,2025,"valid, excluding zero",18.247578008535307,29.68626737927322
+a,DeCo,pems04,test,flow,2026,"valid, excluding zero",18.23797278301578,29.648070094447792
+a,DeCo,pems04,test,occupancy,2024,all valid,0.00709029017559245,0.019132275735412364
+a,DeCo,pems04,test,occupancy,2025,all valid,0.007083845049242187,0.019124850367974497
+a,DeCo,pems04,test,occupancy,2026,all valid,0.007087351777730733,0.019141762456364248
+a,DeCo,pems04,test,occupancy,2024,"valid, excluding zero",0.00709468767522899,0.019178794809231233
+a,DeCo,pems04,test,occupancy,2025,"valid, excluding zero",0.007089594147299099,0.019168928685698746
+a,DeCo,pems04,test,occupancy,2026,"valid, excluding zero",0.007096326837358105,0.019193209232534477
+a,DeCo,pems04,test,speed,2024,all valid,1.4915178845182802,3.46452680179784
+a,DeCo,pems04,test,speed,2025,all valid,1.4904511252831412,3.459238935154256
+a,DeCo,pems04,test,speed,2026,all valid,1.4919709083683335,3.463619683457275
+a,DeCo,pems04,test,speed,2024,"valid, excluding zero",1.4915178845182802,3.46452680179784
+a,DeCo,pems04,test,speed,2025,"valid, excluding zero",1.4904511252831412,3.459238935154256
+a,DeCo,pems04,test,speed,2026,"valid, excluding zero",1.4919709083683335,3.463619683457275
+a,DeCo,pems07,test,flow,2024,all valid,19.358608894209834,32.392987970818
+a,DeCo,pems07,test,flow,2025,all valid,19.36858312317762,32.398216380963
+a,DeCo,pems07,test,flow,2026,all valid,19.36435369690359,32.38644871799073
+a,DeCo,pems07,test,flow,2024,"valid, excluding zero",19.424417235550045,32.41345711359307
+a,DeCo,pems07,test,flow,2025,"valid, excluding zero",19.435714604876388,32.41834320364411
+a,DeCo,pems07,test,flow,2026,"valid, excluding zero",19.429512354670283,32.405738006809884
+a,DeCo,pems07,test,occupancy,2024,all valid,0.010773388829444999,0.02789634784833347
+a,DeCo,pems07,test,occupancy,2025,all valid,0.010778655230402077,0.027918453948917798
+a,DeCo,pems07,test,occupancy,2026,all valid,0.010754747534739135,0.027841343145052617
+a,DeCo,pems07,test,occupancy,2024,"valid, excluding zero",0.010789656007493846,0.027918369712287446
+a,DeCo,pems07,test,occupancy,2025,"valid, excluding zero",0.010795217552731155,0.027940312660309146
+a,DeCo,pems07,test,occupancy,2026,"valid, excluding zero",0.010771147973459745,0.027863182847095654
+a,DeCo,pems07,test,speed,2024,all valid,2.0191534074751645,4.443843393595432
+a,DeCo,pems07,test,speed,2025,all valid,2.0242724506561367,4.447300150818395
+a,DeCo,pems07,test,speed,2026,all valid,2.0197640150992178,4.443493337400215
+a,DeCo,pems07,test,speed,2024,"valid, excluding zero",2.0191534074751645,4.443843393595432
+a,DeCo,pems07,test,speed,2025,"valid, excluding zero",2.0242724506561367,4.447300150818395
+a,DeCo,pems07,test,speed,2026,"valid, excluding zero",2.0197640150992178,4.443493337400215
+a,DeCo,pems08,test,flow,2024,all valid,13.865107227864755,22.90374050453432
+a,DeCo,pems08,test,flow,2025,all valid,13.857683970690383,22.886659469378195
+a,DeCo,pems08,test,flow,2026,all valid,13.85902524864561,22.881164341504466
+a,DeCo,pems08,test,flow,2024,"valid, excluding zero",13.885260492495963,22.801452075773256
+a,DeCo,pems08,test,flow,2025,"valid, excluding zero",13.878698579437735,22.786462203696022
+a,DeCo,pems08,test,flow,2026,"valid, excluding zero",13.877824430841747,22.778431881825362
+a,DeCo,pems08,test,occupancy,2024,all valid,0.006146343217150878,0.01754471754522988
+a,DeCo,pems08,test,occupancy,2025,all valid,0.006142547117084316,0.017493594281523885
+a,DeCo,pems08,test,occupancy,2026,all valid,0.006142546486560386,0.01743344702003084
+a,DeCo,pems08,test,occupancy,2024,"valid, excluding zero",0.006158180821537154,0.01756099204121672
+a,DeCo,pems08,test,occupancy,2025,"valid, excluding zero",0.006154537848999475,0.01750990347220324
+a,DeCo,pems08,test,occupancy,2026,"valid, excluding zero",0.006153916064871489,0.017449116953812207
+a,DeCo,pems08,test,speed,2024,all valid,1.2186892843532662,3.0947044158688786
+a,DeCo,pems08,test,speed,2025,all valid,1.2178086250649363,3.100371979551048
+a,DeCo,pems08,test,speed,2026,all valid,1.216406822398767,3.09173069201436
+a,DeCo,pems08,test,speed,2024,"valid, excluding zero",1.2186892843532662,3.0947044158688786
+a,DeCo,pems08,test,speed,2025,"valid, excluding zero",1.2178086250649363,3.100371979551048
+a,DeCo,pems08,test,speed,2026,"valid, excluding zero",1.216406822398767,3.09173069201436
+a,w/o early-fusion branch,pems03,test,flow,2024,all valid,14.105217821342034,22.96716210800034
+a,w/o early-fusion branch,pems03,test,flow,2025,all valid,14.096193565731042,23.267638182255194
+a,w/o early-fusion branch,pems03,test,flow,2026,all valid,14.144891206192312,23.077639941384586
+a,w/o early-fusion branch,pems03,test,flow,2024,"valid, excluding zero",14.131780528845269,22.93511219093414
+a,w/o early-fusion branch,pems03,test,flow,2025,"valid, excluding zero",14.124320531980505,23.235922093524838
+a,w/o early-fusion branch,pems03,test,flow,2026,"valid, excluding zero",14.172945086589833,23.046618713933434
+a,w/o early-fusion branch,pems03,test,occupancy,2024,all valid,0.008797957958280112,0.024153654127302075
+a,w/o early-fusion branch,pems03,test,occupancy,2025,all valid,0.008797099964575597,0.024210810423762514
+a,w/o early-fusion branch,pems03,test,occupancy,2026,all valid,0.008769918230379129,0.024037576707885994
+a,w/o early-fusion branch,pems03,test,occupancy,2024,"valid, excluding zero",0.00883735352602946,0.02422575819932865
+a,w/o early-fusion branch,pems03,test,occupancy,2025,"valid, excluding zero",0.00883613672630805,0.024283073724582632
+a,w/o early-fusion branch,pems03,test,occupancy,2026,"valid, excluding zero",0.008808268076772131,0.024109294607480514
+a,w/o early-fusion branch,pems03,test,speed,2024,all valid,1.8007091452108175,3.782065559150745
+a,w/o early-fusion branch,pems03,test,speed,2025,all valid,1.800532425200597,3.7820232286320272
+a,w/o early-fusion branch,pems03,test,speed,2026,all valid,1.795613792027912,3.7718508686125802
+a,w/o early-fusion branch,pems03,test,speed,2024,"valid, excluding zero",1.8007091452108175,3.782065559150745
+a,w/o early-fusion branch,pems03,test,speed,2025,"valid, excluding zero",1.800532425200597,3.7820232286320272
+a,w/o early-fusion branch,pems03,test,speed,2026,"valid, excluding zero",1.795613792027912,3.7718508686125802
+a,w/o early-fusion branch,pems04,test,flow,2024,all valid,18.35765284424319,30.400616629748516
+a,w/o early-fusion branch,pems04,test,flow,2025,all valid,18.432013758710514,30.609875058839496
+a,w/o early-fusion branch,pems04,test,flow,2026,all valid,18.405282156402524,30.470729112393
+a,w/o early-fusion branch,pems04,test,flow,2024,"valid, excluding zero",18.250662579214694,29.690488519036354
+a,w/o early-fusion branch,pems04,test,flow,2025,"valid, excluding zero",18.2901417022076,29.73874744902458
+a,w/o early-fusion branch,pems04,test,flow,2026,"valid, excluding zero",18.288997249022078,29.70687565795388
+a,w/o early-fusion branch,pems04,test,occupancy,2024,all valid,0.007106403189158945,0.01920361951479721
+a,w/o early-fusion branch,pems04,test,occupancy,2025,all valid,0.007100945011249964,0.019179251081109728
+a,w/o early-fusion branch,pems04,test,occupancy,2026,all valid,0.007102975386943922,0.019193663015642664
+a,w/o early-fusion branch,pems04,test,occupancy,2024,"valid, excluding zero",0.007107789325968935,0.019243384176990282
+a,w/o early-fusion branch,pems04,test,occupancy,2025,"valid, excluding zero",0.007103497835603639,0.019215699982180333
+a,w/o early-fusion branch,pems04,test,occupancy,2026,"valid, excluding zero",0.007109092469544787,0.019239886297001133
+a,w/o early-fusion branch,pems04,test,speed,2024,all valid,1.4965764687074878,3.4830003371706817
+a,w/o early-fusion branch,pems04,test,speed,2025,all valid,1.4960652949480586,3.476357014838867
+a,w/o early-fusion branch,pems04,test,speed,2026,all valid,1.4954121033396008,3.4792679006320726
+a,w/o early-fusion branch,pems04,test,speed,2024,"valid, excluding zero",1.4965764687074878,3.4830003371706817
+a,w/o early-fusion branch,pems04,test,speed,2025,"valid, excluding zero",1.4960652949480586,3.476357014838867
+a,w/o early-fusion branch,pems04,test,speed,2026,"valid, excluding zero",1.4954121033396008,3.4792679006320726
+a,w/o early-fusion branch,pems07,test,flow,2024,all valid,19.427543556112564,32.52284600300466
+a,w/o early-fusion branch,pems07,test,flow,2025,all valid,19.43678566151868,32.510898619822875
+a,w/o early-fusion branch,pems07,test,flow,2026,all valid,19.404221223149012,32.473809978511966
+a,w/o early-fusion branch,pems07,test,flow,2024,"valid, excluding zero",19.494412923564052,32.54441887831627
+a,w/o early-fusion branch,pems07,test,flow,2025,"valid, excluding zero",19.50433706792863,32.53153963445435
+a,w/o early-fusion branch,pems07,test,flow,2026,"valid, excluding zero",19.472476280185337,32.49475493230972
+a,w/o early-fusion branch,pems07,test,occupancy,2024,all valid,0.010787810569528381,0.027997720374132187
+a,w/o early-fusion branch,pems07,test,occupancy,2025,all valid,0.010796586846773494,0.02802206723017372
+a,w/o early-fusion branch,pems07,test,occupancy,2026,all valid,0.010772227233657844,0.027921144829006372
+a,w/o early-fusion branch,pems07,test,occupancy,2024,"valid, excluding zero",0.010804066917993979,0.02801986733888934
+a,w/o early-fusion branch,pems07,test,occupancy,2025,"valid, excluding zero",0.01081315345016161,0.028044039262709642
+a,w/o early-fusion branch,pems07,test,occupancy,2026,"valid, excluding zero",0.010788633214504668,0.02794301256615559
+a,w/o early-fusion branch,pems07,test,speed,2024,all valid,2.0281456418032815,4.466937919314143
+a,w/o early-fusion branch,pems07,test,speed,2025,all valid,2.0316038274752146,4.46802417068714
+a,w/o early-fusion branch,pems07,test,speed,2026,all valid,2.027748336843798,4.461136919069867
+a,w/o early-fusion branch,pems07,test,speed,2024,"valid, excluding zero",2.0281456418032815,4.466937919314143
+a,w/o early-fusion branch,pems07,test,speed,2025,"valid, excluding zero",2.0316038274752146,4.46802417068714
+a,w/o early-fusion branch,pems07,test,speed,2026,"valid, excluding zero",2.027748336843798,4.461136919069867
+a,w/o early-fusion branch,pems08,test,flow,2024,all valid,13.899851517436787,22.952828719643808
+a,w/o early-fusion branch,pems08,test,flow,2025,all valid,13.904328447893272,22.954375671238306
+a,w/o early-fusion branch,pems08,test,flow,2026,all valid,13.917016905105461,22.959221939780694
+a,w/o early-fusion branch,pems08,test,flow,2024,"valid, excluding zero",13.91952613018555,22.850822928831917
+a,w/o early-fusion branch,pems08,test,flow,2025,"valid, excluding zero",13.925251349031456,22.854449232896815
+a,w/o early-fusion branch,pems08,test,flow,2026,"valid, excluding zero",13.936119926357643,22.857391639123932
+a,w/o early-fusion branch,pems08,test,occupancy,2024,all valid,0.006165431061408938,0.017613333323468507
+a,w/o early-fusion branch,pems08,test,occupancy,2025,all valid,0.006158924502029308,0.017545274972597835
+a,w/o early-fusion branch,pems08,test,occupancy,2026,all valid,0.006161267170467268,0.017472204109384423
+a,w/o early-fusion branch,pems08,test,occupancy,2024,"valid, excluding zero",0.006177392882460769,0.01762967335325228
+a,w/o early-fusion branch,pems08,test,occupancy,2025,"valid, excluding zero",0.006170988001154607,0.01756164266331486
+a,w/o early-fusion branch,pems08,test,occupancy,2026,"valid, excluding zero",0.006172662421597672,0.01748793775547282
+a,w/o early-fusion branch,pems08,test,speed,2024,all valid,1.2246397970145835,3.1137454178987114
+a,w/o early-fusion branch,pems08,test,speed,2025,all valid,1.2250405626578165,3.127711570749973
+a,w/o early-fusion branch,pems08,test,speed,2026,all valid,1.221428956920722,3.1120941759363587
+a,w/o early-fusion branch,pems08,test,speed,2024,"valid, excluding zero",1.2246397970145835,3.1137454178987114
+a,w/o early-fusion branch,pems08,test,speed,2025,"valid, excluding zero",1.2250405626578165,3.127711570749973
+a,w/o early-fusion branch,pems08,test,speed,2026,"valid, excluding zero",1.221428956920722,3.1120941759363587
+a,w/o coordination,pems03,test,flow,2024,all valid,14.17844023919214,22.81220889617711
+a,w/o coordination,pems03,test,flow,2025,all valid,14.1338233447145,22.91611442068183
+a,w/o coordination,pems03,test,flow,2026,all valid,14.188250455429243,22.836186884015195
+a,w/o coordination,pems03,test,flow,2024,"valid, excluding zero",14.21426720980344,22.793936385640905
+a,w/o coordination,pems03,test,flow,2025,"valid, excluding zero",14.169686775073108,22.898493169854884
+a,w/o coordination,pems03,test,flow,2026,"valid, excluding zero",14.223937512150759,22.81900931902669
+a,w/o coordination,pems03,test,occupancy,2024,all valid,0.008837773990362166,0.024045951867461446
+a,w/o coordination,pems03,test,occupancy,2025,all valid,0.00882317301935876,0.0240188426756794
+a,w/o coordination,pems03,test,occupancy,2026,all valid,0.008850125574924709,0.024038311468833628
+a,w/o coordination,pems03,test,occupancy,2024,"valid, excluding zero",0.00887808544928657,0.02411791220997416
+a,w/o coordination,pems03,test,occupancy,2025,"valid, excluding zero",0.008863612994953557,0.024090787835844122
+a,w/o coordination,pems03,test,occupancy,2026,"valid, excluding zero",0.008890592833350567,0.024110283868661486
+a,w/o coordination,pems03,test,speed,2024,all valid,1.8196086589020206,3.7961113934052393
+a,w/o coordination,pems03,test,speed,2025,all valid,1.8164764291682107,3.790491603421681
+a,w/o coordination,pems03,test,speed,2026,all valid,1.8148608742205798,3.7799588409828706
+a,w/o coordination,pems03,test,speed,2024,"valid, excluding zero",1.8196086589020206,3.7961113934052393
+a,w/o coordination,pems03,test,speed,2025,"valid, excluding zero",1.8164764291682107,3.790491603421681
+a,w/o coordination,pems03,test,speed,2026,"valid, excluding zero",1.8148608742205798,3.7799588409828706
+a,w/o coordination,pems04,test,flow,2024,all valid,18.387785477808045,30.20791116188684
+a,w/o coordination,pems04,test,flow,2025,all valid,18.463283159152976,30.336732229136107
+a,w/o coordination,pems04,test,flow,2026,all valid,18.428271119816266,30.265637666787214
+a,w/o coordination,pems04,test,flow,2024,"valid, excluding zero",18.34019534461208,29.80205144536077
+a,w/o coordination,pems04,test,flow,2025,"valid, excluding zero",18.40005805917156,29.86654372637738
+a,w/o coordination,pems04,test,flow,2026,"valid, excluding zero",18.367668907702058,29.814699779798378
+a,w/o coordination,pems04,test,occupancy,2024,all valid,0.007163625431607051,0.019222200184159172
+a,w/o coordination,pems04,test,occupancy,2025,all valid,0.007168773972483622,0.019219444325473692
+a,w/o coordination,pems04,test,occupancy,2026,all valid,0.007169622326306581,0.019217356408543496
+a,w/o coordination,pems04,test,occupancy,2024,"valid, excluding zero",0.007176639459735266,0.019283540668577126
+a,w/o coordination,pems04,test,occupancy,2025,"valid, excluding zero",0.007182172996725747,0.019280741195021222
+a,w/o coordination,pems04,test,occupancy,2026,"valid, excluding zero",0.007187518074552639,0.019283624193073695
+a,w/o coordination,pems04,test,speed,2024,all valid,1.5150348375706826,3.5076618037222773
+a,w/o coordination,pems04,test,speed,2025,all valid,1.515406512281202,3.506835135065537
+a,w/o coordination,pems04,test,speed,2026,all valid,1.5179490018812134,3.5086974392664927
+a,w/o coordination,pems04,test,speed,2024,"valid, excluding zero",1.5150348375706826,3.5076618037222773
+a,w/o coordination,pems04,test,speed,2025,"valid, excluding zero",1.515406512281202,3.506835135065537
+a,w/o coordination,pems04,test,speed,2026,"valid, excluding zero",1.5179490018812134,3.5086974392664927
+a,w/o coordination,pems07,test,flow,2024,all valid,19.770493164252194,32.87062017787653
+a,w/o coordination,pems07,test,flow,2025,all valid,19.790432887814056,32.881040270861675
+a,w/o coordination,pems07,test,flow,2026,all valid,19.79421702219922,32.879802399108165
+a,w/o coordination,pems07,test,flow,2024,"valid, excluding zero",19.844814981831288,32.895068004733155
+a,w/o coordination,pems07,test,flow,2025,"valid, excluding zero",19.863594565015635,32.90497397098861
+a,w/o coordination,pems07,test,flow,2026,"valid, excluding zero",19.86664220804218,32.90346153070195
+a,w/o coordination,pems07,test,occupancy,2024,all valid,0.010986688533136231,0.028021775696034704
+a,w/o coordination,pems07,test,occupancy,2025,all valid,0.010997780706842571,0.02803220678838561
+a,w/o coordination,pems07,test,occupancy,2026,all valid,0.010959904228195516,0.02799304918253278
+a,w/o coordination,pems07,test,occupancy,2024,"valid, excluding zero",0.011003551560275946,0.02804368927817467
+a,w/o coordination,pems07,test,occupancy,2025,"valid, excluding zero",0.011014723888341156,0.02805408905607622
+a,w/o coordination,pems07,test,occupancy,2026,"valid, excluding zero",0.010976760568629784,0.028014926771628066
+a,w/o coordination,pems07,test,speed,2024,all valid,2.068946627896355,4.4930644242922115
+a,w/o coordination,pems07,test,speed,2025,all valid,2.0725711179303574,4.4991744153618
+a,w/o coordination,pems07,test,speed,2026,all valid,2.0711179631758427,4.498366414137994
+a,w/o coordination,pems07,test,speed,2024,"valid, excluding zero",2.068946627896355,4.4930644242922115
+a,w/o coordination,pems07,test,speed,2025,"valid, excluding zero",2.0725711179303574,4.4991744153618
+a,w/o coordination,pems07,test,speed,2026,"valid, excluding zero",2.0711179631758427,4.498366414137994
+a,w/o coordination,pems08,test,flow,2024,all valid,13.934561093660893,22.981168903925877
+a,w/o coordination,pems08,test,flow,2025,all valid,13.965335317091034,23.015300993486374
+a,w/o coordination,pems08,test,flow,2026,all valid,13.92301362000135,22.97352626732931
+a,w/o coordination,pems08,test,flow,2024,"valid, excluding zero",13.955306193898073,22.879145106625078
+a,w/o coordination,pems08,test,flow,2025,"valid, excluding zero",13.986053155696892,22.91379302852896
+a,w/o coordination,pems08,test,flow,2026,"valid, excluding zero",13.942825303735757,22.871803685842032
+a,w/o coordination,pems08,test,occupancy,2024,all valid,0.006197579458367043,0.01754497332829614
+a,w/o coordination,pems08,test,occupancy,2025,all valid,0.006209894317591062,0.017547901551115897
+a,w/o coordination,pems08,test,occupancy,2026,all valid,0.006197900361043415,0.01753203561834192
+a,w/o coordination,pems08,test,occupancy,2024,"valid, excluding zero",0.006209582242274866,0.017561048595480494
+a,w/o coordination,pems08,test,occupancy,2025,"valid, excluding zero",0.006221843528136546,0.01756393618055311
+a,w/o coordination,pems08,test,occupancy,2026,"valid, excluding zero",0.006209746431475582,0.01754791188029802
+a,w/o coordination,pems08,test,speed,2024,all valid,1.2379318734062421,3.126877913757264
+a,w/o coordination,pems08,test,speed,2025,all valid,1.2373991905182757,3.1157796408061462
+a,w/o coordination,pems08,test,speed,2026,all valid,1.2379085959340994,3.1257660083833634
+a,w/o coordination,pems08,test,speed,2024,"valid, excluding zero",1.2379318734062421,3.126877913757264
+a,w/o coordination,pems08,test,speed,2025,"valid, excluding zero",1.2373991905182757,3.1157796408061462
+a,w/o coordination,pems08,test,speed,2026,"valid, excluding zero",1.2379085959340994,3.1257660083833634
+a,w/o both,pems03,test,flow,2024,all valid,14.23604556287423,22.91287839037561
+a,w/o both,pems03,test,flow,2025,all valid,14.183073807985066,23.007210913711717
+a,w/o both,pems03,test,flow,2026,all valid,14.243953029964992,22.92785706560495
+a,w/o both,pems03,test,flow,2024,"valid, excluding zero",14.27237572245231,22.894836058180132
+a,w/o both,pems03,test,flow,2025,"valid, excluding zero",14.21887506968527,22.989668264779354
+a,w/o both,pems03,test,flow,2026,"valid, excluding zero",14.280354757358111,22.910966626495856
+a,w/o both,pems03,test,occupancy,2024,all valid,0.00888315426513495,0.024132859679160817
+a,w/o both,pems03,test,occupancy,2025,all valid,0.008863614436942162,0.024109927809214785
+a,w/o both,pems03,test,occupancy,2026,all valid,0.008885821760377798,0.024149730388337454
+a,w/o both,pems03,test,occupancy,2024,"valid, excluding zero",0.00892375388043739,0.02420509563185521
+a,w/o both,pems03,test,occupancy,2025,"valid, excluding zero",0.008904207530443563,0.024182145851191005
+a,w/o both,pems03,test,occupancy,2026,"valid, excluding zero",0.008926628444814155,0.02422207070701489
+a,w/o both,pems03,test,speed,2024,all valid,1.8317450459060125,3.8254450688017725
+a,w/o both,pems03,test,speed,2025,all valid,1.828198271181609,3.8214216090703976
+a,w/o both,pems03,test,speed,2026,all valid,1.8255628227510379,3.8039549061287747
+a,w/o both,pems03,test,speed,2024,"valid, excluding zero",1.8317450459060125,3.8254450688017725
+a,w/o both,pems03,test,speed,2025,"valid, excluding zero",1.828198271181609,3.8214216090703976
+a,w/o both,pems03,test,speed,2026,"valid, excluding zero",1.8255628227510379,3.8039549061287747
+a,w/o both,pems04,test,flow,2024,all valid,18.439686209306597,30.277062184777815
+a,w/o both,pems04,test,flow,2025,all valid,18.516076723420703,30.401458993965544
+a,w/o both,pems04,test,flow,2026,all valid,18.494729746622177,30.343467055522773
+a,w/o both,pems04,test,flow,2024,"valid, excluding zero",18.39658062637286,29.882978360097454
+a,w/o both,pems04,test,flow,2025,"valid, excluding zero",18.45377510367483,29.932015249503152
+a,w/o both,pems04,test,flow,2026,"valid, excluding zero",18.433811947867255,29.897278015508174
+a,w/o both,pems04,test,occupancy,2024,all valid,0.007179519873354665,0.019268147793690467
+a,w/o both,pems04,test,occupancy,2025,all valid,0.0071880512085249195,0.01925284433337071
+a,w/o both,pems04,test,occupancy,2026,all valid,0.00719123987920302,0.019258828779624457
+a,w/o both,pems04,test,occupancy,2024,"valid, excluding zero",0.007191519447299873,0.019327664382671493
+a,w/o both,pems04,test,occupancy,2025,"valid, excluding zero",0.007199986644749931,0.019312122614371832
+a,w/o both,pems04,test,occupancy,2026,"valid, excluding zero",0.007208528673640443,0.01932474092569045
+a,w/o both,pems04,test,speed,2024,all valid,1.5225533838010066,3.5294140710935253
+a,w/o both,pems04,test,speed,2025,all valid,1.5245540188759283,3.5313520716110594
+a,w/o both,pems04,test,speed,2026,all valid,1.5249052159220495,3.5321323208803697
+a,w/o both,pems04,test,speed,2024,"valid, excluding zero",1.5225533838010066,3.5294140710935253
+a,w/o both,pems04,test,speed,2025,"valid, excluding zero",1.5245540188759283,3.5313520716110594
+a,w/o both,pems04,test,speed,2026,"valid, excluding zero",1.5249052159220495,3.5321323208803697
+a,w/o both,pems07,test,flow,2024,all valid,19.910348425297993,33.079075966623506
+a,w/o both,pems07,test,flow,2025,all valid,19.917581440915306,33.06847348701187
+a,w/o both,pems07,test,flow,2026,all valid,19.88926549633341,33.03113100755469
+a,w/o both,pems07,test,flow,2024,"valid, excluding zero",19.987818044907538,33.105278152548046
+a,w/o both,pems07,test,flow,2025,"valid, excluding zero",19.992650278597207,33.09364944645692
+a,w/o both,pems07,test,flow,2026,"valid, excluding zero",19.965274730457143,33.05650507040217
+a,w/o both,pems07,test,occupancy,2024,all valid,0.011014399015454856,0.028074225756079173
+a,w/o both,pems07,test,occupancy,2025,all valid,0.011027723708372773,0.02807355351859024
+a,w/o both,pems07,test,occupancy,2026,all valid,0.010996327540423394,0.028040397667740746
+a,w/o both,pems07,test,occupancy,2024,"valid, excluding zero",0.011031301233008271,0.028096183702392457
+a,w/o both,pems07,test,occupancy,2025,"valid, excluding zero",0.011044683506747057,0.0280954746532123
+a,w/o both,pems07,test,occupancy,2026,"valid, excluding zero",0.01101323006670216,0.028062256682482464
+a,w/o both,pems07,test,speed,2024,all valid,2.0847497019330326,4.522001636949953
+a,w/o both,pems07,test,speed,2025,all valid,2.0857230721981463,4.524497339891435
+a,w/o both,pems07,test,speed,2026,all valid,2.0854209708632836,4.522118964016451
+a,w/o both,pems07,test,speed,2024,"valid, excluding zero",2.0847497019330326,4.522001636949953
+a,w/o both,pems07,test,speed,2025,"valid, excluding zero",2.0857230721981463,4.524497339891435
+a,w/o both,pems07,test,speed,2026,"valid, excluding zero",2.0854209708632836,4.522118964016451
+a,w/o both,pems08,test,flow,2024,all valid,13.970574075236252,23.03119010675624
+a,w/o both,pems08,test,flow,2025,all valid,14.021974487148983,23.091216395541686
+a,w/o both,pems08,test,flow,2026,all valid,13.984979567640881,23.057855847430382
+a,w/o both,pems08,test,flow,2024,"valid, excluding zero",13.991007915949957,22.929446057786052
+a,w/o both,pems08,test,flow,2025,"valid, excluding zero",14.042417493361167,22.989522241481392
+a,w/o both,pems08,test,flow,2026,"valid, excluding zero",14.005288229974507,22.957195626916437
+a,w/o both,pems08,test,occupancy,2024,all valid,0.006213681773521299,0.017572498990016228
+a,w/o both,pems08,test,occupancy,2025,all valid,0.006226349926994016,0.01757215349730687
+a,w/o both,pems08,test,occupancy,2026,all valid,0.00621149696612153,0.017535738476019202
+a,w/o both,pems08,test,occupancy,2024,"valid, excluding zero",0.006225800188937697,0.01758851276392334
+a,w/o both,pems08,test,occupancy,2025,"valid, excluding zero",0.006238310823478268,0.017588089075924372
+a,w/o both,pems08,test,occupancy,2026,"valid, excluding zero",0.006223419707105043,0.017551606797145423
+a,w/o both,pems08,test,speed,2024,all valid,1.245375769694961,3.1427965970956304
+a,w/o both,pems08,test,speed,2025,all valid,1.2455322252399612,3.1386127013053953
+a,w/o both,pems08,test,speed,2026,all valid,1.244785328499958,3.1393537648008456
+a,w/o both,pems08,test,speed,2024,"valid, excluding zero",1.245375769694961,3.1427965970956304
+a,w/o both,pems08,test,speed,2025,"valid, excluding zero",1.2455322252399612,3.1386127013053953
+a,w/o both,pems08,test,speed,2026,"valid, excluding zero",1.244785328499958,3.1393537648008456
+a,"w/o both, w/o second training phase",pems03,validation,flow,2024,all valid,13.75687665569407,21.99193076181027
+a,"w/o both, w/o second training phase",pems03,validation,flow,2025,all valid,13.721193778426654,21.94090710847036
+a,"w/o both, w/o second training phase",pems03,validation,flow,2026,all valid,13.747612337566235,21.981129378493627
+a,"w/o both, w/o second training phase",pems03,validation,flow,2024,"valid, excluding zero",13.78799236751173,21.999583319658093
+a,"w/o both, w/o second training phase",pems03,validation,flow,2025,"valid, excluding zero",13.751567047063302,21.945188726486634
+a,"w/o both, w/o second training phase",pems03,validation,flow,2026,"valid, excluding zero",13.77570947408305,21.982605250110097
+a,"w/o both, w/o second training phase",pems03,test,flow,2024,all valid,14.473433767502947,23.739051550376598
+a,"w/o both, w/o second training phase",pems03,test,flow,2025,all valid,14.405211478158744,23.760695928518086
+a,"w/o both, w/o second training phase",pems03,test,flow,2026,all valid,14.531508792778572,23.94194242025692
+a,"w/o both, w/o second training phase",pems03,test,flow,2024,"valid, excluding zero",14.49479123293753,23.707909269676648
+a,"w/o both, w/o second training phase",pems03,test,flow,2025,"valid, excluding zero",14.424896263244419,23.72659723018878
+a,"w/o both, w/o second training phase",pems03,test,flow,2026,"valid, excluding zero",14.549212036909621,23.906893488750953
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2024,all valid,0.009169104864457548,0.025344851710827402
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2025,all valid,0.009166380446014403,0.025330439111738497
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2026,all valid,0.009160333319351368,0.02533925022377873
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2024,"valid, excluding zero",0.009209672106492388,0.025418453669820776
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2025,"valid, excluding zero",0.00920760825590151,0.025404022891942192
+a,"w/o both, w/o second training phase",pems03,validation,occupancy,2026,"valid, excluding zero",0.009201097663162523,0.025412862412275763
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2024,all valid,0.009107318592616704,0.024799827746559568
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2025,all valid,0.009117783943372848,0.024845601087360624
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2026,all valid,0.009136766032443405,0.02489611617042206
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2024,"valid, excluding zero",0.009147592630546788,0.024873529404577682
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2025,"valid, excluding zero",0.00915879199953006,0.024919563197008807
+a,"w/o both, w/o second training phase",pems03,test,occupancy,2026,"valid, excluding zero",0.009177596692261527,0.02497019465361217
+a,"w/o both, w/o second training phase",pems03,validation,speed,2024,all valid,1.7737902428678207,3.8122430746197424
+a,"w/o both, w/o second training phase",pems03,validation,speed,2025,all valid,1.770366076199654,3.811937628506025
+a,"w/o both, w/o second training phase",pems03,validation,speed,2026,all valid,1.771317823057992,3.7958179726282735
+a,"w/o both, w/o second training phase",pems03,validation,speed,2024,"valid, excluding zero",1.7737902428678207,3.8122430746197424
+a,"w/o both, w/o second training phase",pems03,validation,speed,2025,"valid, excluding zero",1.770366076199654,3.811937628506025
+a,"w/o both, w/o second training phase",pems03,validation,speed,2026,"valid, excluding zero",1.771317823057992,3.7958179726282735
+a,"w/o both, w/o second training phase",pems03,test,speed,2024,all valid,1.9009430576849031,3.9525287887136935
+a,"w/o both, w/o second training phase",pems03,test,speed,2025,all valid,1.8891757739163746,3.923104627292983
+a,"w/o both, w/o second training phase",pems03,test,speed,2026,all valid,1.8898775906614005,3.9117365240791884
+a,"w/o both, w/o second training phase",pems03,test,speed,2024,"valid, excluding zero",1.9009430576849031,3.9525287887136935
+a,"w/o both, w/o second training phase",pems03,test,speed,2025,"valid, excluding zero",1.8891757739163746,3.923104627292983
+a,"w/o both, w/o second training phase",pems03,test,speed,2026,"valid, excluding zero",1.8898775906614005,3.9117365240791884
+a,"w/o both, w/o second training phase",pems04,validation,flow,2024,all valid,18.75064847019674,31.658980863165844
+a,"w/o both, w/o second training phase",pems04,validation,flow,2025,all valid,18.808327132763644,31.796234643824977
+a,"w/o both, w/o second training phase",pems04,validation,flow,2026,all valid,18.80057289634812,31.742564083837337
+a,"w/o both, w/o second training phase",pems04,validation,flow,2024,"valid, excluding zero",18.51155684863253,30.39254555692118
+a,"w/o both, w/o second training phase",pems04,validation,flow,2025,"valid, excluding zero",18.549639873047123,30.41830534592594
+a,"w/o both, w/o second training phase",pems04,validation,flow,2026,"valid, excluding zero",18.53163470780023,30.3460610531534
+a,"w/o both, w/o second training phase",pems04,test,flow,2024,all valid,18.59320673130217,30.95660686335364
+a,"w/o both, w/o second training phase",pems04,test,flow,2025,all valid,18.636023470991894,31.015476652098815
+a,"w/o both, w/o second training phase",pems04,test,flow,2026,all valid,18.610830846947355,30.94708557099447
+a,"w/o both, w/o second training phase",pems04,test,flow,2024,"valid, excluding zero",18.427263613631208,29.961185087436924
+a,"w/o both, w/o second training phase",pems04,test,flow,2025,"valid, excluding zero",18.466929797874187,29.97626032322101
+a,"w/o both, w/o second training phase",pems04,test,flow,2026,"valid, excluding zero",18.435295643853365,29.902063697043715
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2024,all valid,0.00785219325716843,0.02128539789326362
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2025,all valid,0.007870249433823012,0.02120341721497693
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2026,all valid,0.007856816709611542,0.021252246663802786
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2024,"valid, excluding zero",0.007852473693815639,0.02136811241769895
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2025,"valid, excluding zero",0.007870071011535017,0.021284638112469768
+a,"w/o both, w/o second training phase",pems04,validation,occupancy,2026,"valid, excluding zero",0.007867352228365057,0.021349085403066077
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2024,all valid,0.007195462632047399,0.01932683841491374
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2025,all valid,0.007204265229649389,0.019288926838052133
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2026,all valid,0.007190408451634009,0.01927890258032258
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2024,"valid, excluding zero",0.007190783245506746,0.01935583884773638
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2025,"valid, excluding zero",0.0072003957116656605,0.01932026035977911
+a,"w/o both, w/o second training phase",pems04,test,occupancy,2026,"valid, excluding zero",0.007192790488942981,0.019322462438296613
+a,"w/o both, w/o second training phase",pems04,validation,speed,2024,all valid,1.593276273789807,3.6343379743603834
+a,"w/o both, w/o second training phase",pems04,validation,speed,2025,all valid,1.594009936884209,3.631823803236118
+a,"w/o both, w/o second training phase",pems04,validation,speed,2026,all valid,1.5962195203569056,3.6448439908868493
+a,"w/o both, w/o second training phase",pems04,validation,speed,2024,"valid, excluding zero",1.593276273789807,3.6343379743603834
+a,"w/o both, w/o second training phase",pems04,validation,speed,2025,"valid, excluding zero",1.594009936884209,3.631823803236118
+a,"w/o both, w/o second training phase",pems04,validation,speed,2026,"valid, excluding zero",1.5962195203569056,3.6448439908868493
+a,"w/o both, w/o second training phase",pems04,test,speed,2024,all valid,1.5375481363928523,3.5319716346139547
+a,"w/o both, w/o second training phase",pems04,test,speed,2025,all valid,1.5364831112114559,3.524120871252117
+a,"w/o both, w/o second training phase",pems04,test,speed,2026,all valid,1.5353910007331706,3.5292156992612886
+a,"w/o both, w/o second training phase",pems04,test,speed,2024,"valid, excluding zero",1.5375481363928523,3.5319716346139547
+a,"w/o both, w/o second training phase",pems04,test,speed,2025,"valid, excluding zero",1.5364831112114559,3.524120871252117
+a,"w/o both, w/o second training phase",pems04,test,speed,2026,"valid, excluding zero",1.5353910007331706,3.5292156992612886
+a,"w/o both, w/o second training phase",pems07,validation,flow,2024,all valid,19.84681203704912,33.109958096553584
+a,"w/o both, w/o second training phase",pems07,validation,flow,2025,all valid,19.830485775462474,33.11307304215192
+a,"w/o both, w/o second training phase",pems07,validation,flow,2026,all valid,19.783435295971998,33.01642077136863
+a,"w/o both, w/o second training phase",pems07,validation,flow,2024,"valid, excluding zero",19.891855609121976,33.08407728225227
+a,"w/o both, w/o second training phase",pems07,validation,flow,2025,"valid, excluding zero",19.874121030529746,33.08445382525384
+a,"w/o both, w/o second training phase",pems07,validation,flow,2026,"valid, excluding zero",19.82840892600807,32.991870818586904
+a,"w/o both, w/o second training phase",pems07,test,flow,2024,all valid,19.9841796985741,33.17253568135137
+a,"w/o both, w/o second training phase",pems07,test,flow,2025,all valid,19.9896595438516,33.181180737759526
+a,"w/o both, w/o second training phase",pems07,test,flow,2026,all valid,19.944608559770863,33.06791010266221
+a,"w/o both, w/o second training phase",pems07,test,flow,2024,"valid, excluding zero",20.049504008024474,33.19235628242312
+a,"w/o both, w/o second training phase",pems07,test,flow,2025,"valid, excluding zero",20.047916202683307,33.196070956585146
+a,"w/o both, w/o second training phase",pems07,test,flow,2026,"valid, excluding zero",20.00943355984315,33.08726448555559
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2024,all valid,0.010073499253605395,0.026247426292259984
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2025,all valid,0.010092444401389938,0.026285116989161493
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2026,all valid,0.01005496498482848,0.02621276894251147
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2024,"valid, excluding zero",0.010089183909739603,0.026269069338427396
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2025,"valid, excluding zero",0.010108097296431933,0.026306838338286342
+a,"w/o both, w/o second training phase",pems07,validation,occupancy,2026,"valid, excluding zero",0.010070638136344755,0.026234399509412958
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2024,all valid,0.011103944578562746,0.028219163431388507
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2025,all valid,0.011111984978396789,0.0282336370797935
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2026,all valid,0.011085238899444313,0.028186958852226173
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2024,"valid, excluding zero",0.011121099442304237,0.028241618624706474
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2025,"valid, excluding zero",0.011129146316797506,0.028256149298212782
+a,"w/o both, w/o second training phase",pems07,test,occupancy,2026,"valid, excluding zero",0.011102370239518274,0.02820932757530472
+a,"w/o both, w/o second training phase",pems07,validation,speed,2024,all valid,1.958445659461743,4.243108833705649
+a,"w/o both, w/o second training phase",pems07,validation,speed,2025,all valid,1.9596114502309827,4.248049740437611
+a,"w/o both, w/o second training phase",pems07,validation,speed,2026,all valid,1.959540658412859,4.240582915000792
+a,"w/o both, w/o second training phase",pems07,validation,speed,2024,"valid, excluding zero",1.958445659461743,4.243108833705649
+a,"w/o both, w/o second training phase",pems07,validation,speed,2025,"valid, excluding zero",1.9596114502309827,4.248049740437611
+a,"w/o both, w/o second training phase",pems07,validation,speed,2026,"valid, excluding zero",1.959540658412859,4.240582915000792
+a,"w/o both, w/o second training phase",pems07,test,speed,2024,all valid,2.1075429125122085,4.521973932716239
+a,"w/o both, w/o second training phase",pems07,test,speed,2025,all valid,2.1083137790484963,4.526739718568672
+a,"w/o both, w/o second training phase",pems07,test,speed,2026,all valid,2.1087897264486135,4.523134951159888
+a,"w/o both, w/o second training phase",pems07,test,speed,2024,"valid, excluding zero",2.1075429125122085,4.521973932716239
+a,"w/o both, w/o second training phase",pems07,test,speed,2025,"valid, excluding zero",2.1083137790484963,4.526739718568672
+a,"w/o both, w/o second training phase",pems07,test,speed,2026,"valid, excluding zero",2.1087897264486135,4.523134951159888
+a,"w/o both, w/o second training phase",pems08,validation,flow,2024,all valid,14.373958485629446,24.312676514086803
+a,"w/o both, w/o second training phase",pems08,validation,flow,2025,all valid,14.449748225049126,24.42105650931346
+a,"w/o both, w/o second training phase",pems08,validation,flow,2026,all valid,14.395665588886407,24.340510222256327
+a,"w/o both, w/o second training phase",pems08,validation,flow,2024,"valid, excluding zero",14.341337641371945,23.946430743849714
+a,"w/o both, w/o second training phase",pems08,validation,flow,2025,"valid, excluding zero",14.416131534138273,24.05730767919926
+a,"w/o both, w/o second training phase",pems08,validation,flow,2026,"valid, excluding zero",14.362351988713717,23.969255494839967
+a,"w/o both, w/o second training phase",pems08,test,flow,2024,all valid,14.092316766058229,23.07886839957952
+a,"w/o both, w/o second training phase",pems08,test,flow,2025,all valid,14.111565940336124,23.096021892932217
+a,"w/o both, w/o second training phase",pems08,test,flow,2026,all valid,14.099299815423414,23.089899567062158
+a,"w/o both, w/o second training phase",pems08,test,flow,2024,"valid, excluding zero",14.113497408830291,22.976958943904336
+a,"w/o both, w/o second training phase",pems08,test,flow,2025,"valid, excluding zero",14.132951679216788,22.994060865779648
+a,"w/o both, w/o second training phase",pems08,test,flow,2026,"valid, excluding zero",14.120224074289453,22.98849899601939
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2024,all valid,0.006167930476151396,0.016904724285578526
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2025,all valid,0.006171675351608631,0.01685576365213867
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2026,all valid,0.00615384611159244,0.016861523362163025
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2024,"valid, excluding zero",0.0061582602402490165,0.016871205066036392
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2025,"valid, excluding zero",0.006162867961255615,0.01682520535959981
+a,"w/o both, w/o second training phase",pems08,validation,occupancy,2026,"valid, excluding zero",0.0061447344018657575,0.016827466513531023
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2024,all valid,0.006353611646815919,0.01821281217436056
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2025,all valid,0.006345118175524963,0.018088312428545764
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2026,all valid,0.006327635662292231,0.018048980109607513
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2024,"valid, excluding zero",0.006365895741652343,0.018231222348266244
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2025,"valid, excluding zero",0.00635810476004009,0.018106467436351636
+a,"w/o both, w/o second training phase",pems08,test,occupancy,2026,"valid, excluding zero",0.0063402104474741825,0.01806676611856635
+a,"w/o both, w/o second training phase",pems08,validation,speed,2024,all valid,1.2410848001452772,3.1244348624970395
+a,"w/o both, w/o second training phase",pems08,validation,speed,2025,all valid,1.2406305461618967,3.1217144256939005
+a,"w/o both, w/o second training phase",pems08,validation,speed,2026,all valid,1.2429103794782423,3.1331411756086407
+a,"w/o both, w/o second training phase",pems08,validation,speed,2024,"valid, excluding zero",1.2410848001452772,3.1244348624970395
+a,"w/o both, w/o second training phase",pems08,validation,speed,2025,"valid, excluding zero",1.2406305461618967,3.1217144256939005
+a,"w/o both, w/o second training phase",pems08,validation,speed,2026,"valid, excluding zero",1.2429103794782423,3.1331411756086407
+a,"w/o both, w/o second training phase",pems08,test,speed,2024,all valid,1.2684760753966522,3.206897339520872
+a,"w/o both, w/o second training phase",pems08,test,speed,2025,all valid,1.2694934603319294,3.2116723009778227
+a,"w/o both, w/o second training phase",pems08,test,speed,2026,all valid,1.2758242694930961,3.238547543701826
+a,"w/o both, w/o second training phase",pems08,test,speed,2024,"valid, excluding zero",1.2684760753966522,3.206897339520872
+a,"w/o both, w/o second training phase",pems08,test,speed,2025,"valid, excluding zero",1.2694934603319294,3.2116723009778227
+a,"w/o both, w/o second training phase",pems08,test,speed,2026,"valid, excluding zero",1.2758242694930961,3.238547543701826
+a,single forecaster per variable,pems03,validation,flow,2024,all valid,14.061699911280979,22.293696993938916
+a,single forecaster per variable,pems03,validation,flow,2025,all valid,14.08508128547533,22.3325687539637
+a,single forecaster per variable,pems03,validation,flow,2026,all valid,14.129274286540618,22.394584564809726
+a,single forecaster per variable,pems03,validation,flow,2024,"valid, excluding zero",14.093080290759993,22.302129755116326
+a,single forecaster per variable,pems03,validation,flow,2025,"valid, excluding zero",14.116987838994142,22.332456835494053
+a,single forecaster per variable,pems03,validation,flow,2026,"valid, excluding zero",14.166910942194178,22.407799410149636
+a,single forecaster per variable,pems03,test,flow,2024,all valid,14.781817765789867,24.023312351084563
+a,single forecaster per variable,pems03,test,flow,2025,all valid,14.809052140952817,24.112332938123618
+a,single forecaster per variable,pems03,test,flow,2026,all valid,14.808638892918642,24.08858594314874
+a,single forecaster per variable,pems03,test,flow,2024,"valid, excluding zero",14.803468723274237,23.993425800552203
+a,single forecaster per variable,pems03,test,flow,2025,"valid, excluding zero",14.830444684618783,24.075774374654337
+a,single forecaster per variable,pems03,test,flow,2026,"valid, excluding zero",14.836618748462007,24.06339990019219
+a,single forecaster per variable,pems03,validation,occupancy,2024,all valid,0.00934416122634339,0.02554702075626057
+a,single forecaster per variable,pems03,validation,occupancy,2025,all valid,0.009337098917236558,0.025415224678545855
+a,single forecaster per variable,pems03,validation,occupancy,2026,all valid,0.009316439761655316,0.02545022152628472
+a,single forecaster per variable,pems03,validation,occupancy,2024,"valid, excluding zero",0.009386718258677176,0.025621391681098265
+a,single forecaster per variable,pems03,validation,occupancy,2025,"valid, excluding zero",0.00938087960693841,0.02548932980238744
+a,single forecaster per variable,pems03,validation,occupancy,2026,"valid, excluding zero",0.009356926226620231,0.025523978403444662
+a,single forecaster per variable,pems03,test,occupancy,2024,all valid,0.009276916616857436,0.025193591060109117
+a,single forecaster per variable,pems03,test,occupancy,2025,all valid,0.009274694816944854,0.025018935065135302
+a,single forecaster per variable,pems03,test,occupancy,2026,all valid,0.009289474851486639,0.024998135891499622
+a,single forecaster per variable,pems03,test,occupancy,2024,"valid, excluding zero",0.00931901938489243,0.02526871684555637
+a,single forecaster per variable,pems03,test,occupancy,2025,"valid, excluding zero",0.009318104046150159,0.025093723008641215
+a,single forecaster per variable,pems03,test,occupancy,2026,"valid, excluding zero",0.009329798179268382,0.02507237219183646
+a,single forecaster per variable,pems03,validation,speed,2024,all valid,1.8148540270216653,3.86261746333387
+a,single forecaster per variable,pems03,validation,speed,2025,all valid,1.8061059265311639,3.858768954665732
+a,single forecaster per variable,pems03,validation,speed,2026,all valid,1.8062362615648693,3.8559647598341518
+a,single forecaster per variable,pems03,validation,speed,2024,"valid, excluding zero",1.8148540270216653,3.86261746333387
+a,single forecaster per variable,pems03,validation,speed,2025,"valid, excluding zero",1.8061059265311639,3.858768954665732
+a,single forecaster per variable,pems03,validation,speed,2026,"valid, excluding zero",1.8062362615648693,3.8559647598341518
+a,single forecaster per variable,pems03,test,speed,2024,all valid,1.9280856486731504,3.9892540448589107
+a,single forecaster per variable,pems03,test,speed,2025,all valid,1.9393505640255364,4.034516068892371
+a,single forecaster per variable,pems03,test,speed,2026,all valid,1.9365074682458585,4.008977626578375
+a,single forecaster per variable,pems03,test,speed,2024,"valid, excluding zero",1.9280856486731504,3.9892540448589107
+a,single forecaster per variable,pems03,test,speed,2025,"valid, excluding zero",1.9393505640255364,4.034516068892371
+a,single forecaster per variable,pems03,test,speed,2026,"valid, excluding zero",1.9365074682458585,4.008977626578375
+a,single forecaster per variable,pems04,validation,flow,2024,all valid,19.188395189450723,32.14310038609413
+a,single forecaster per variable,pems04,validation,flow,2025,all valid,19.41446382461789,32.4033769433881
+a,single forecaster per variable,pems04,validation,flow,2026,all valid,19.314482896805806,32.75564447514955
+a,single forecaster per variable,pems04,validation,flow,2024,"valid, excluding zero",18.957916513126154,30.887197215782518
+a,single forecaster per variable,pems04,validation,flow,2025,"valid, excluding zero",19.144089791020463,31.003327249277934
+a,single forecaster per variable,pems04,validation,flow,2026,"valid, excluding zero",18.979975581683597,30.913269880080374
+a,single forecaster per variable,pems04,test,flow,2024,all valid,19.049438652249453,31.404733570854336
+a,single forecaster per variable,pems04,test,flow,2025,all valid,19.21641878812588,31.67182961395414
+a,single forecaster per variable,pems04,test,flow,2026,all valid,19.032989184323622,31.626283483026914
+a,single forecaster per variable,pems04,test,flow,2024,"valid, excluding zero",18.8871258107933,30.461394870283485
+a,single forecaster per variable,pems04,test,flow,2025,"valid, excluding zero",19.02628518879585,30.560479072870965
+a,single forecaster per variable,pems04,test,flow,2026,"valid, excluding zero",18.832246375226102,30.38603419979799
+a,single forecaster per variable,pems04,validation,occupancy,2024,all valid,0.008042143871437337,0.021501891642604465
+a,single forecaster per variable,pems04,validation,occupancy,2025,all valid,0.008029971128395777,0.02138288494712571
+a,single forecaster per variable,pems04,validation,occupancy,2026,all valid,0.008043156358586002,0.021458050444299694
+a,single forecaster per variable,pems04,validation,occupancy,2024,"valid, excluding zero",0.008046805463346704,0.02159244282463917
+a,single forecaster per variable,pems04,validation,occupancy,2025,"valid, excluding zero",0.008041843731032028,0.021476039971306576
+a,single forecaster per variable,pems04,validation,occupancy,2026,"valid, excluding zero",0.008061676791965115,0.02156167633190342
+a,single forecaster per variable,pems04,test,occupancy,2024,all valid,0.007385596650761789,0.019612032295912084
+a,single forecaster per variable,pems04,test,occupancy,2025,all valid,0.00740095907709465,0.019620246695610674
+a,single forecaster per variable,pems04,test,occupancy,2026,all valid,0.007377510956935828,0.019524444836936203
+a,single forecaster per variable,pems04,test,occupancy,2024,"valid, excluding zero",0.007389469326881482,0.01965721155376161
+a,single forecaster per variable,pems04,test,occupancy,2025,"valid, excluding zero",0.0074038709683169985,0.019658751555611403
+a,single forecaster per variable,pems04,test,occupancy,2026,"valid, excluding zero",0.007382155704618876,0.01956617834967575
+a,single forecaster per variable,pems04,validation,speed,2024,all valid,1.6388908710897763,3.694164475676044
+a,single forecaster per variable,pems04,validation,speed,2025,all valid,1.63293097500236,3.6971216450821442
+a,single forecaster per variable,pems04,validation,speed,2026,all valid,1.633283823523719,3.728098218083219
+a,single forecaster per variable,pems04,validation,speed,2024,"valid, excluding zero",1.6388908710897763,3.694164475676044
+a,single forecaster per variable,pems04,validation,speed,2025,"valid, excluding zero",1.63293097500236,3.6971216450821442
+a,single forecaster per variable,pems04,validation,speed,2026,"valid, excluding zero",1.633283823523719,3.728098218083219
+a,single forecaster per variable,pems04,test,speed,2024,all valid,1.5786695909926245,3.5812500030906205
+a,single forecaster per variable,pems04,test,speed,2025,all valid,1.5721203790982323,3.585172120701365
+a,single forecaster per variable,pems04,test,speed,2026,all valid,1.5697613213380932,3.6104424239736894
+a,single forecaster per variable,pems04,test,speed,2024,"valid, excluding zero",1.5786695909926245,3.5812500030906205
+a,single forecaster per variable,pems04,test,speed,2025,"valid, excluding zero",1.5721203790982323,3.585172120701365
+a,single forecaster per variable,pems04,test,speed,2026,"valid, excluding zero",1.5697613213380932,3.6104424239736894
+a,single forecaster per variable,pems07,validation,flow,2024,all valid,20.25483063373748,33.435831883782335
+a,single forecaster per variable,pems07,validation,flow,2025,all valid,20.258156434954977,33.34171069496644
+a,single forecaster per variable,pems07,validation,flow,2026,all valid,20.26701958204548,33.321970920661784
+a,single forecaster per variable,pems07,validation,flow,2024,"valid, excluding zero",20.29815699641472,33.4099895494854
+a,single forecaster per variable,pems07,validation,flow,2025,"valid, excluding zero",20.304264524480313,33.32285743797075
+a,single forecaster per variable,pems07,validation,flow,2026,"valid, excluding zero",20.311283961972983,33.30167514022369
+a,single forecaster per variable,pems07,test,flow,2024,all valid,20.40196441593688,33.486957567212116
+a,single forecaster per variable,pems07,test,flow,2025,all valid,20.410680937024036,33.402843166741285
+a,single forecaster per variable,pems07,test,flow,2026,all valid,20.480196814793725,33.479607620886554
+a,single forecaster per variable,pems07,test,flow,2024,"valid, excluding zero",20.463685333040424,33.5058619994647
+a,single forecaster per variable,pems07,test,flow,2025,"valid, excluding zero",20.480450995375726,33.42686236733803
+a,single forecaster per variable,pems07,test,flow,2026,"valid, excluding zero",20.539292293894007,33.4952208826049
+a,single forecaster per variable,pems07,validation,occupancy,2024,all valid,0.010258586816467028,0.02646701915451394
+a,single forecaster per variable,pems07,validation,occupancy,2025,all valid,0.010278447836087255,0.026437798115627603
+a,single forecaster per variable,pems07,validation,occupancy,2026,all valid,0.010285322784371073,0.02660588914599329
+a,single forecaster per variable,pems07,validation,occupancy,2024,"valid, excluding zero",0.010274322739230086,0.02648889381657053
+a,single forecaster per variable,pems07,validation,occupancy,2025,"valid, excluding zero",0.010294108373556644,0.026459535900840787
+a,single forecaster per variable,pems07,validation,occupancy,2026,"valid, excluding zero",0.010301199285940463,0.026627958586875784
+a,single forecaster per variable,pems07,test,occupancy,2024,all valid,0.011287131715839964,0.028389193313816685
+a,single forecaster per variable,pems07,test,occupancy,2025,all valid,0.011285995768246418,0.02832542807287638
+a,single forecaster per variable,pems07,test,occupancy,2026,all valid,0.0113096305931836,0.02856821121617779
+a,single forecaster per variable,pems07,test,occupancy,2024,"valid, excluding zero",0.011304374880492348,0.02841191466827177
+a,single forecaster per variable,pems07,test,occupancy,2025,"valid, excluding zero",0.011303125643439405,0.028347828978915163
+a,single forecaster per variable,pems07,test,occupancy,2026,"valid, excluding zero",0.011326965678441185,0.02859102922750979
+a,single forecaster per variable,pems07,validation,speed,2024,all valid,2.0009252137863527,4.297557573217289
+a,single forecaster per variable,pems07,validation,speed,2025,all valid,1.9889779131724947,4.279443220457016
+a,single forecaster per variable,pems07,validation,speed,2026,all valid,1.9989735310739618,4.287547118956424
+a,single forecaster per variable,pems07,validation,speed,2024,"valid, excluding zero",2.0009252137863527,4.297557573217289
+a,single forecaster per variable,pems07,validation,speed,2025,"valid, excluding zero",1.9889779131724947,4.279443220457016
+a,single forecaster per variable,pems07,validation,speed,2026,"valid, excluding zero",1.9989735310739618,4.287547118956424
+a,single forecaster per variable,pems07,test,speed,2024,all valid,2.154425458596155,4.5904423104485
+a,single forecaster per variable,pems07,test,speed,2025,all valid,2.1444350679410134,4.571941427412518
+a,single forecaster per variable,pems07,test,speed,2026,all valid,2.1528329844802268,4.583492359370915
+a,single forecaster per variable,pems07,test,speed,2024,"valid, excluding zero",2.154425458596155,4.5904423104485
+a,single forecaster per variable,pems07,test,speed,2025,"valid, excluding zero",2.1444350679410134,4.571941427412518
+a,single forecaster per variable,pems07,test,speed,2026,"valid, excluding zero",2.1528329844802268,4.583492359370915
+a,single forecaster per variable,pems08,validation,flow,2024,all valid,14.885224006723961,24.76486201438552
+a,single forecaster per variable,pems08,validation,flow,2025,all valid,14.87531405454985,24.75415273957997
+a,single forecaster per variable,pems08,validation,flow,2026,all valid,14.810670255427256,24.670778103327834
+a,single forecaster per variable,pems08,validation,flow,2024,"valid, excluding zero",14.856219016584133,24.423809047234286
+a,single forecaster per variable,pems08,validation,flow,2025,"valid, excluding zero",14.842961676705023,24.40027170577607
+a,single forecaster per variable,pems08,validation,flow,2026,"valid, excluding zero",14.77942829077645,24.334146627059614
+a,single forecaster per variable,pems08,test,flow,2024,all valid,14.50694322099367,23.43410204477304
+a,single forecaster per variable,pems08,test,flow,2025,all valid,14.539367015102593,23.493354668197654
+a,single forecaster per variable,pems08,test,flow,2026,all valid,14.476202658764324,23.455680388020568
+a,single forecaster per variable,pems08,test,flow,2024,"valid, excluding zero",14.527749389492994,23.338822346459857
+a,single forecaster per variable,pems08,test,flow,2025,"valid, excluding zero",14.559939927908076,23.397041609828968
+a,single forecaster per variable,pems08,test,flow,2026,"valid, excluding zero",14.496549713592522,23.362463199925358
+a,single forecaster per variable,pems08,validation,occupancy,2024,all valid,0.006306800896062852,0.017033920368948567
+a,single forecaster per variable,pems08,validation,occupancy,2025,all valid,0.006351322446947092,0.016987823197311767
+a,single forecaster per variable,pems08,validation,occupancy,2026,all valid,0.006346181746914945,0.017058785961064953
+a,single forecaster per variable,pems08,validation,occupancy,2024,"valid, excluding zero",0.006299413688422243,0.01699794159146916
+a,single forecaster per variable,pems08,validation,occupancy,2025,"valid, excluding zero",0.006343900922205582,0.016956639802594594
+a,single forecaster per variable,pems08,validation,occupancy,2026,"valid, excluding zero",0.006339416800875003,0.017034075831471707
+a,single forecaster per variable,pems08,test,occupancy,2024,all valid,0.006511873083903731,0.01830947467081011
+a,single forecaster per variable,pems08,test,occupancy,2025,all valid,0.006499733944009807,0.018006209080493107
+a,single forecaster per variable,pems08,test,occupancy,2026,all valid,0.0065090573342778055,0.018274495531733152
+a,single forecaster per variable,pems08,test,occupancy,2024,"valid, excluding zero",0.00652466485320564,0.01832787682059234
+a,single forecaster per variable,pems08,test,occupancy,2025,"valid, excluding zero",0.006512736775014402,0.01802344867932274
+a,single forecaster per variable,pems08,test,occupancy,2026,"valid, excluding zero",0.006521568884016883,0.018292806008027754
+a,single forecaster per variable,pems08,validation,speed,2024,all valid,1.2727687764748719,3.196809281651143
+a,single forecaster per variable,pems08,validation,speed,2025,all valid,1.2708220857522015,3.1642410488235733
+a,single forecaster per variable,pems08,validation,speed,2026,all valid,1.2692713142618628,3.180111514623896
+a,single forecaster per variable,pems08,validation,speed,2024,"valid, excluding zero",1.2727687764748719,3.196809281651143
+a,single forecaster per variable,pems08,validation,speed,2025,"valid, excluding zero",1.2708220857522015,3.1642410488235733
+a,single forecaster per variable,pems08,validation,speed,2026,"valid, excluding zero",1.2692713142618628,3.180111514623896
+a,single forecaster per variable,pems08,test,speed,2024,all valid,1.303113892108314,3.295829604843701
+a,single forecaster per variable,pems08,test,speed,2025,all valid,1.299467958332696,3.2639431237516003
+a,single forecaster per variable,pems08,test,speed,2026,all valid,1.3011857939563145,3.2941143742839696
+a,single forecaster per variable,pems08,test,speed,2024,"valid, excluding zero",1.303113892108314,3.295829604843701
+a,single forecaster per variable,pems08,test,speed,2025,"valid, excluding zero",1.299467958332696,3.2639431237516003
+a,single forecaster per variable,pems08,test,speed,2026,"valid, excluding zero",1.3011857939563145,3.2941143742839696
+b,DeCo-S,pems03,validation,flow,2024,all valid,13.919721339165877,22.084888271646932
+b,DeCo-S,pems03,validation,flow,2025,all valid,13.88075624508795,22.075327782831952
+b,DeCo-S,pems03,validation,flow,2026,all valid,13.935836961231722,22.170945158854575
+b,DeCo-S,pems03,validation,flow,2024,"valid, excluding zero",13.949073531486325,22.084750405810762
+b,DeCo-S,pems03,validation,flow,2025,"valid, excluding zero",13.90679020143265,22.066259776167982
+b,DeCo-S,pems03,validation,flow,2026,"valid, excluding zero",13.96978443795154,22.179997083948955
+b,DeCo-S,pems03,test,flow,2024,all valid,14.603082396667212,23.69467189066924
+b,DeCo-S,pems03,test,flow,2025,all valid,14.561200938936803,23.835018306475792
+b,DeCo-S,pems03,test,flow,2026,all valid,14.60300974889319,23.951884145629837
+b,DeCo-S,pems03,test,flow,2024,"valid, excluding zero",14.619457466256547,23.648292661621266
+b,DeCo-S,pems03,test,flow,2025,"valid, excluding zero",14.57363112006985,23.781084391065217
+b,DeCo-S,pems03,test,flow,2026,"valid, excluding zero",14.625433028305197,23.91889561232176
+b,DeCo-S,pems03,validation,occupancy,2024,all valid,0.00914041980592848,0.025271846531265563
+b,DeCo-S,pems03,validation,occupancy,2025,all valid,0.009128169248929594,0.025136087161515597
+b,DeCo-S,pems03,validation,occupancy,2026,all valid,0.009128299892802233,0.025228639301956877
+b,DeCo-S,pems03,validation,occupancy,2024,"valid, excluding zero",0.009179900266813167,0.025344981603135645
+b,DeCo-S,pems03,validation,occupancy,2025,"valid, excluding zero",0.009169564673923668,0.025209062894519713
+b,DeCo-S,pems03,validation,occupancy,2026,"valid, excluding zero",0.009168033061902874,0.025301768522553624
+b,DeCo-S,pems03,test,occupancy,2024,all valid,0.009122526862662402,0.02488700295119533
+b,DeCo-S,pems03,test,occupancy,2025,all valid,0.009111921240441813,0.024665178595624452
+b,DeCo-S,pems03,test,occupancy,2026,all valid,0.009102403584221614,0.024789632273748398
+b,DeCo-S,pems03,test,occupancy,2024,"valid, excluding zero",0.009161664985436706,0.02496069675378499
+b,DeCo-S,pems03,test,occupancy,2025,"valid, excluding zero",0.009153261250605518,0.024738714758592205
+b,DeCo-S,pems03,test,occupancy,2026,"valid, excluding zero",0.009141942662953553,0.02486331201580962
+b,DeCo-S,pems03,validation,speed,2024,all valid,1.7759868396799583,3.812618933712423
+b,DeCo-S,pems03,validation,speed,2025,all valid,1.764865563960526,3.8006283249154857
+b,DeCo-S,pems03,validation,speed,2026,all valid,1.7684392044350907,3.799163838428775
+b,DeCo-S,pems03,validation,speed,2024,"valid, excluding zero",1.7759868396799583,3.812618933712423
+b,DeCo-S,pems03,validation,speed,2025,"valid, excluding zero",1.764865563960526,3.8006283249154857
+b,DeCo-S,pems03,validation,speed,2026,"valid, excluding zero",1.7684392044350907,3.799163838428775
+b,DeCo-S,pems03,test,speed,2024,all valid,1.8762346675713417,3.9107445553354987
+b,DeCo-S,pems03,test,speed,2025,all valid,1.872180659708273,3.907528440322689
+b,DeCo-S,pems03,test,speed,2026,all valid,1.868537894540491,3.8858760357823745
+b,DeCo-S,pems03,test,speed,2024,"valid, excluding zero",1.8762346675713417,3.9107445553354987
+b,DeCo-S,pems03,test,speed,2025,"valid, excluding zero",1.872180659708273,3.907528440322689
+b,DeCo-S,pems03,test,speed,2026,"valid, excluding zero",1.868537894540491,3.8858760357823745
+b,DeCo-S,pems04,validation,flow,2024,all valid,19.024731822623508,32.03810903110303
+b,DeCo-S,pems04,validation,flow,2025,all valid,19.209735023539217,32.254572010519745
+b,DeCo-S,pems04,validation,flow,2026,all valid,19.157203301600834,32.3667653227759
+b,DeCo-S,pems04,validation,flow,2024,"valid, excluding zero",18.802423040843184,30.62735614631327
+b,DeCo-S,pems04,validation,flow,2025,"valid, excluding zero",18.95109730566855,30.719415316221017
+b,DeCo-S,pems04,validation,flow,2026,"valid, excluding zero",18.868111897191678,30.644854810238307
+b,DeCo-S,pems04,test,flow,2024,all valid,18.832614919709023,31.07305264610456
+b,DeCo-S,pems04,test,flow,2025,all valid,18.972494207526765,31.235406573843647
+b,DeCo-S,pems04,test,flow,2026,all valid,18.88819351120904,31.308505906069673
+b,DeCo-S,pems04,test,flow,2024,"valid, excluding zero",18.688957288622888,30.16037482241754
+b,DeCo-S,pems04,test,flow,2025,"valid, excluding zero",18.808896720690832,30.21451940100067
+b,DeCo-S,pems04,test,flow,2026,"valid, excluding zero",18.711930272586553,30.123486044451376
+b,DeCo-S,pems04,validation,occupancy,2024,all valid,0.007889895006126083,0.021267699595810735
+b,DeCo-S,pems04,validation,occupancy,2025,all valid,0.007902486725019768,0.021203889635504576
+b,DeCo-S,pems04,validation,occupancy,2026,all valid,0.007923934253221925,0.021357880787841624
+b,DeCo-S,pems04,validation,occupancy,2024,"valid, excluding zero",0.007900180589766881,0.021350609339585318
+b,DeCo-S,pems04,validation,occupancy,2025,"valid, excluding zero",0.00791050984169913,0.021285894586788482
+b,DeCo-S,pems04,validation,occupancy,2026,"valid, excluding zero",0.00792771656212432,0.021433134045809765
+b,DeCo-S,pems04,test,occupancy,2024,all valid,0.007226858427404571,0.019319511262131293
+b,DeCo-S,pems04,test,occupancy,2025,all valid,0.007243103352820146,0.019302618457237318
+b,DeCo-S,pems04,test,occupancy,2026,all valid,0.007243228586812135,0.019356916371799895
+b,DeCo-S,pems04,test,occupancy,2024,"valid, excluding zero",0.0072295345618029515,0.019356549887060422
+b,DeCo-S,pems04,test,occupancy,2025,"valid, excluding zero",0.007244534246015043,0.019339266728970853
+b,DeCo-S,pems04,test,occupancy,2026,"valid, excluding zero",0.007247059766575378,0.01939446860518517
+b,DeCo-S,pems04,validation,speed,2024,all valid,1.5924123740889866,3.617177329881048
+b,DeCo-S,pems04,validation,speed,2025,all valid,1.5883320950925477,3.6157592080016707
+b,DeCo-S,pems04,validation,speed,2026,all valid,1.5936312774688626,3.6531792295106946
+b,DeCo-S,pems04,validation,speed,2024,"valid, excluding zero",1.5924123740889866,3.617177329881048
+b,DeCo-S,pems04,validation,speed,2025,"valid, excluding zero",1.5883320950925477,3.6157592080016707
+b,DeCo-S,pems04,validation,speed,2026,"valid, excluding zero",1.5936312774688626,3.6531792295106946
+b,DeCo-S,pems04,test,speed,2024,all valid,1.536533415432048,3.518110390467313
+b,DeCo-S,pems04,test,speed,2025,all valid,1.5325368225856064,3.5051170962161815
+b,DeCo-S,pems04,test,speed,2026,all valid,1.535716647119558,3.5342994500995917
+b,DeCo-S,pems04,test,speed,2024,"valid, excluding zero",1.536533415432048,3.518110390467313
+b,DeCo-S,pems04,test,speed,2025,"valid, excluding zero",1.5325368225856064,3.5051170962161815
+b,DeCo-S,pems04,test,speed,2026,"valid, excluding zero",1.535716647119558,3.5342994500995917
+b,DeCo-S,pems07,validation,flow,2024,all valid,19.767192792902446,32.75375344467904
+b,DeCo-S,pems07,validation,flow,2025,all valid,19.75883456846586,32.64659935477117
+b,DeCo-S,pems07,validation,flow,2026,all valid,19.778750277231218,32.706331522028634
+b,DeCo-S,pems07,validation,flow,2024,"valid, excluding zero",19.778885461495197,32.68853683579002
+b,DeCo-S,pems07,validation,flow,2025,"valid, excluding zero",19.790726964922023,32.61476151603354
+b,DeCo-S,pems07,validation,flow,2026,"valid, excluding zero",19.798667858314733,32.65789609613826
+b,DeCo-S,pems07,test,flow,2024,all valid,20.01448780242766,32.929673077590714
+b,DeCo-S,pems07,test,flow,2025,all valid,20.00813680866366,32.85010308958082
+b,DeCo-S,pems07,test,flow,2026,all valid,20.07064875380966,32.99251567530445
+b,DeCo-S,pems07,test,flow,2024,"valid, excluding zero",20.039698810180163,32.919258623250954
+b,DeCo-S,pems07,test,flow,2025,"valid, excluding zero",20.053640651702185,32.85580679504176
+b,DeCo-S,pems07,test,flow,2026,"valid, excluding zero",20.104257004036036,32.984120071612224
+b,DeCo-S,pems07,validation,occupancy,2024,all valid,0.009992895683073301,0.026259924056148395
+b,DeCo-S,pems07,validation,occupancy,2025,all valid,0.009976805303703873,0.026205389835612766
+b,DeCo-S,pems07,validation,occupancy,2026,all valid,0.009966696682,0.02634195988871286
+b,DeCo-S,pems07,validation,occupancy,2024,"valid, excluding zero",0.010008236040696379,0.026281619083414722
+b,DeCo-S,pems07,validation,occupancy,2025,"valid, excluding zero",0.009991846369508022,0.026226965744525606
+b,DeCo-S,pems07,validation,occupancy,2026,"valid, excluding zero",0.009982030603768937,0.02636379784613881
+b,DeCo-S,pems07,test,occupancy,2024,all valid,0.0110318454428332,0.028273443862720557
+b,DeCo-S,pems07,test,occupancy,2025,all valid,0.010999661875795425,0.028181422419728836
+b,DeCo-S,pems07,test,occupancy,2026,all valid,0.010987457766065765,0.02828930267550302
+b,DeCo-S,pems07,test,occupancy,2024,"valid, excluding zero",0.011048678281551268,0.028296033638509025
+b,DeCo-S,pems07,test,occupancy,2025,"valid, excluding zero",0.011016233859715042,0.028203795237193685
+b,DeCo-S,pems07,test,occupancy,2026,"valid, excluding zero",0.011004280285033518,0.028312033194251372
+b,DeCo-S,pems07,validation,speed,2024,all valid,1.9401498500027583,4.224312492367784
+b,DeCo-S,pems07,validation,speed,2025,all valid,1.938760181392876,4.207843761532954
+b,DeCo-S,pems07,validation,speed,2026,all valid,1.9396251546012677,4.23215748424864
+b,DeCo-S,pems07,validation,speed,2024,"valid, excluding zero",1.9401498500027583,4.224312492367784
+b,DeCo-S,pems07,validation,speed,2025,"valid, excluding zero",1.938760181392876,4.207843761532954
+b,DeCo-S,pems07,validation,speed,2026,"valid, excluding zero",1.9396251546012677,4.23215748424864
+b,DeCo-S,pems07,test,speed,2024,all valid,2.096582295758368,4.526713505350906
+b,DeCo-S,pems07,test,speed,2025,all valid,2.0959476620844097,4.508530479905685
+b,DeCo-S,pems07,test,speed,2026,all valid,2.0952486378947355,4.5340605466957715
+b,DeCo-S,pems07,test,speed,2024,"valid, excluding zero",2.096582295758368,4.526713505350906
+b,DeCo-S,pems07,test,speed,2025,"valid, excluding zero",2.0959476620844097,4.508530479905685
+b,DeCo-S,pems07,test,speed,2026,"valid, excluding zero",2.0952486378947355,4.5340605466957715
+b,DeCo-S,pems08,validation,flow,2024,all valid,14.711289431442815,24.530432523101332
+b,DeCo-S,pems08,validation,flow,2025,all valid,14.659967923102009,24.494243262432803
+b,DeCo-S,pems08,validation,flow,2026,all valid,14.632806364680315,24.500599754482813
+b,DeCo-S,pems08,validation,flow,2024,"valid, excluding zero",14.684560607872829,24.206462404193154
+b,DeCo-S,pems08,validation,flow,2025,"valid, excluding zero",14.63183729336768,24.15901299463862
+b,DeCo-S,pems08,validation,flow,2026,"valid, excluding zero",14.604342668350567,24.172455344208164
+b,DeCo-S,pems08,test,flow,2024,all valid,14.397675023716557,23.347236941542505
+b,DeCo-S,pems08,test,flow,2025,all valid,14.44461098146524,23.38868145991989
+b,DeCo-S,pems08,test,flow,2026,all valid,14.38203266839045,23.383744670459784
+b,DeCo-S,pems08,test,flow,2024,"valid, excluding zero",14.41895942142186,23.2505449127906
+b,DeCo-S,pems08,test,flow,2025,"valid, excluding zero",14.465392221612829,23.290616493148022
+b,DeCo-S,pems08,test,flow,2026,"valid, excluding zero",14.403035584087126,23.289326931022902
+b,DeCo-S,pems08,validation,occupancy,2024,all valid,0.006202596476667482,0.016857094927376227
+b,DeCo-S,pems08,validation,occupancy,2025,all valid,0.006220453162292913,0.016720992381192623
+b,DeCo-S,pems08,validation,occupancy,2026,all valid,0.006213919254337564,0.01679448436912828
+b,DeCo-S,pems08,validation,occupancy,2024,"valid, excluding zero",0.006195367073113952,0.01681720195196361
+b,DeCo-S,pems08,validation,occupancy,2025,"valid, excluding zero",0.006211427476621422,0.01667062973011646
+b,DeCo-S,pems08,validation,occupancy,2026,"valid, excluding zero",0.006203548069382078,0.01674473948150199
+b,DeCo-S,pems08,test,occupancy,2024,all valid,0.006375033949173979,0.017962761790394334
+b,DeCo-S,pems08,test,occupancy,2025,all valid,0.006352244688441879,0.01760036426340827
+b,DeCo-S,pems08,test,occupancy,2026,all valid,0.0063801684500931115,0.01783912516528919
+b,DeCo-S,pems08,test,occupancy,2024,"valid, excluding zero",0.006387601957636014,0.017980415290944022
+b,DeCo-S,pems08,test,occupancy,2025,"valid, excluding zero",0.006364274569584603,0.017616468898629188
+b,DeCo-S,pems08,test,occupancy,2026,"valid, excluding zero",0.0063917141936476315,0.017856131108019684
+b,DeCo-S,pems08,validation,speed,2024,all valid,1.241628399267644,3.0776525064653213
+b,DeCo-S,pems08,validation,speed,2025,all valid,1.2405711983463807,3.0624470642034454
+b,DeCo-S,pems08,validation,speed,2026,all valid,1.2390236955529945,3.077573305663372
+b,DeCo-S,pems08,validation,speed,2024,"valid, excluding zero",1.241628399267644,3.0776525064653213
+b,DeCo-S,pems08,validation,speed,2025,"valid, excluding zero",1.2405711983463807,3.0624470642034454
+b,DeCo-S,pems08,validation,speed,2026,"valid, excluding zero",1.2390236955529945,3.077573305663372
+b,DeCo-S,pems08,test,speed,2024,all valid,1.26927625287587,3.1577782686248828
+b,DeCo-S,pems08,test,speed,2025,all valid,1.2626967691690598,3.137322640882514
+b,DeCo-S,pems08,test,speed,2026,all valid,1.269764601434763,3.179360824914178
+b,DeCo-S,pems08,test,speed,2024,"valid, excluding zero",1.26927625287587,3.1577782686248828
+b,DeCo-S,pems08,test,speed,2025,"valid, excluding zero",1.2626967691690598,3.137322640882514
+b,DeCo-S,pems08,test,speed,2026,"valid, excluding zero",1.269764601434763,3.179360824914178
+b,w/o other variables' histories,pems04,validation,flow,2024,all valid,19.081923128081367,32.318185556035885
+b,w/o other variables' histories,pems04,validation,flow,2025,all valid,19.29617253031912,32.41762146856123
+b,w/o other variables' histories,pems04,validation,flow,2026,all valid,19.15382026955419,32.52487399400647
+b,w/o other variables' histories,pems04,validation,flow,2024,"valid, excluding zero",18.822614676536684,30.641798571226737
+b,w/o other variables' histories,pems04,validation,flow,2025,"valid, excluding zero",19.02556978730205,30.809121986129643
+b,w/o other variables' histories,pems04,validation,flow,2026,"valid, excluding zero",18.83422641477427,30.684232607602766
+b,w/o other variables' histories,pems04,test,flow,2024,all valid,18.897323004007124,31.254290165891955
+b,w/o other variables' histories,pems04,test,flow,2025,all valid,19.077380008332195,31.507545270551105
+b,w/o other variables' histories,pems04,test,flow,2026,all valid,18.903921192629365,31.425870076027582
+b,w/o other variables' histories,pems04,test,flow,2024,"valid, excluding zero",18.730140187039062,30.18614235296757
+b,w/o other variables' histories,pems04,test,flow,2025,"valid, excluding zero",18.88906468297642,30.305206853373704
+b,w/o other variables' histories,pems04,test,flow,2026,"valid, excluding zero",18.714824278101613,30.207749601724394
+b,w/o other variables' histories,pems04,validation,occupancy,2024,all valid,0.007912291842113114,0.02137300063018853
+b,w/o other variables' histories,pems04,validation,occupancy,2025,all valid,0.00793415000960093,0.021382266210986052
+b,w/o other variables' histories,pems04,validation,occupancy,2026,all valid,0.007976702711638176,0.02141918418114587
+b,w/o other variables' histories,pems04,validation,occupancy,2024,"valid, excluding zero",0.00792770809639745,0.02146958894078592
+b,w/o other variables' histories,pems04,validation,occupancy,2025,"valid, excluding zero",0.007939314214918622,0.02145902933078371
+b,w/o other variables' histories,pems04,validation,occupancy,2026,"valid, excluding zero",0.00798200954226277,0.02149819962660677
+b,w/o other variables' histories,pems04,test,occupancy,2024,all valid,0.007242296932628987,0.019393638581805275
+b,w/o other variables' histories,pems04,test,occupancy,2025,all valid,0.007290790838762112,0.019484650340941
+b,w/o other variables' histories,pems04,test,occupancy,2026,all valid,0.007284593364346583,0.019391704954302605
+b,w/o other variables' histories,pems04,test,occupancy,2024,"valid, excluding zero",0.00724992663246954,0.019439946084610523
+b,w/o other variables' histories,pems04,test,occupancy,2025,"valid, excluding zero",0.007290507232915194,0.019517036357833153
+b,w/o other variables' histories,pems04,test,occupancy,2026,"valid, excluding zero",0.00728803373933064,0.01942847870948289
+b,w/o other variables' histories,pems04,validation,speed,2024,all valid,1.5966947582431363,3.6372815166157433
+b,w/o other variables' histories,pems04,validation,speed,2025,all valid,1.5902451332849847,3.636956782132486
+b,w/o other variables' histories,pems04,validation,speed,2026,all valid,1.5940407981775147,3.634290563492289
+b,w/o other variables' histories,pems04,validation,speed,2024,"valid, excluding zero",1.5966947582431363,3.6372815166157433
+b,w/o other variables' histories,pems04,validation,speed,2025,"valid, excluding zero",1.5902451332849847,3.636956782132486
+b,w/o other variables' histories,pems04,validation,speed,2026,"valid, excluding zero",1.5940407981775147,3.634290563492289
+b,w/o other variables' histories,pems04,test,speed,2024,all valid,1.540999540421101,3.5370796618699054
+b,w/o other variables' histories,pems04,test,speed,2025,all valid,1.5389414976378797,3.5423484011138036
+b,w/o other variables' histories,pems04,test,speed,2026,all valid,1.537364514201355,3.520153114152328
+b,w/o other variables' histories,pems04,test,speed,2024,"valid, excluding zero",1.540999540421101,3.5370796618699054
+b,w/o other variables' histories,pems04,test,speed,2025,"valid, excluding zero",1.5389414976378797,3.5423484011138036
+b,w/o other variables' histories,pems04,test,speed,2026,"valid, excluding zero",1.537364514201355,3.520153114152328
+b,w/o other variables' histories,pems08,validation,flow,2024,all valid,14.761566805643657,24.60416639330095
+b,w/o other variables' histories,pems08,validation,flow,2025,all valid,14.709405716983387,24.590925037739222
+b,w/o other variables' histories,pems08,validation,flow,2026,all valid,14.670908425072751,24.567203067340866
+b,w/o other variables' histories,pems08,validation,flow,2024,"valid, excluding zero",14.733313085183433,24.2785446925864
+b,w/o other variables' histories,pems08,validation,flow,2025,"valid, excluding zero",14.679380438267827,24.253554633592966
+b,w/o other variables' histories,pems08,validation,flow,2026,"valid, excluding zero",14.642619461418905,24.231507221496738
+b,w/o other variables' histories,pems08,test,flow,2024,all valid,14.454853908856586,23.385804283082322
+b,w/o other variables' histories,pems08,test,flow,2025,all valid,14.449548661230832,23.39588297449197
+b,w/o other variables' histories,pems08,test,flow,2026,all valid,14.44190678565557,23.469516735883122
+b,w/o other variables' histories,pems08,test,flow,2024,"valid, excluding zero",14.475552369718736,23.289418454805958
+b,w/o other variables' histories,pems08,test,flow,2025,"valid, excluding zero",14.470472973666116,23.2990997086954
+b,w/o other variables' histories,pems08,test,flow,2026,"valid, excluding zero",14.462854509742463,23.37576355293982
+b,w/o other variables' histories,pems08,validation,occupancy,2024,all valid,0.006238457306321621,0.016890939520930986
+b,w/o other variables' histories,pems08,validation,occupancy,2025,all valid,0.006256943868653374,0.016835746102886424
+b,w/o other variables' histories,pems08,validation,occupancy,2026,all valid,0.006274769044019014,0.01689868241741109
+b,w/o other variables' histories,pems08,validation,occupancy,2024,"valid, excluding zero",0.006230386328844655,0.016848824136997446
+b,w/o other variables' histories,pems08,validation,occupancy,2025,"valid, excluding zero",0.006247543338917789,0.016788683421767633
+b,w/o other variables' histories,pems08,validation,occupancy,2026,"valid, excluding zero",0.006265741828300176,0.016856778514348178
+b,w/o other variables' histories,pems08,test,occupancy,2024,all valid,0.006386125094892934,0.01784108718297819
+b,w/o other variables' histories,pems08,test,occupancy,2025,all valid,0.006394272283259132,0.017744303678858774
+b,w/o other variables' histories,pems08,test,occupancy,2026,all valid,0.006445962583593579,0.01805242146093683
+b,w/o other variables' histories,pems08,test,occupancy,2024,"valid, excluding zero",0.006398022693054206,0.017858184658231354
+b,w/o other variables' histories,pems08,test,occupancy,2025,"valid, excluding zero",0.006406009816371717,0.01776080970681649
+b,w/o other variables' histories,pems08,test,occupancy,2026,"valid, excluding zero",0.006457517909406028,0.018070336436950378
+b,w/o other variables' histories,pems08,validation,speed,2024,all valid,1.2459309504143727,3.110718718846712
+b,w/o other variables' histories,pems08,validation,speed,2025,all valid,1.2446311488354507,3.0822023186299594
+b,w/o other variables' histories,pems08,validation,speed,2026,all valid,1.2431047470022822,3.0940163844714554
+b,w/o other variables' histories,pems08,validation,speed,2024,"valid, excluding zero",1.2459309504143727,3.110718718846712
+b,w/o other variables' histories,pems08,validation,speed,2025,"valid, excluding zero",1.2446311488354507,3.0822023186299594
+b,w/o other variables' histories,pems08,validation,speed,2026,"valid, excluding zero",1.2431047470022822,3.0940163844714554
+b,w/o other variables' histories,pems08,test,speed,2024,all valid,1.2796956660337027,3.216294224870401
+b,w/o other variables' histories,pems08,test,speed,2025,all valid,1.2681358532704448,3.1645473587407045
+b,w/o other variables' histories,pems08,test,speed,2026,all valid,1.2748244411542262,3.192274127049834
+b,w/o other variables' histories,pems08,test,speed,2024,"valid, excluding zero",1.2796956660337027,3.216294224870401
+b,w/o other variables' histories,pems08,test,speed,2025,"valid, excluding zero",1.2681358532704448,3.1645473587407045
+b,w/o other variables' histories,pems08,test,speed,2026,"valid, excluding zero",1.2748244411542262,3.192274127049834
+b,w/o other variables' forecasts,pems04,validation,flow,2024,all valid,19.166208716893028,32.351612704095515
+b,w/o other variables' forecasts,pems04,validation,flow,2025,all valid,19.434906834808878,32.902756751094415
+b,w/o other variables' forecasts,pems04,validation,flow,2026,all valid,19.296641490241846,32.711921783811746
+b,w/o other variables' forecasts,pems04,validation,flow,2024,"valid, excluding zero",18.91099685663461,30.765838119747464
+b,w/o other variables' forecasts,pems04,validation,flow,2025,"valid, excluding zero",19.113703333283286,30.90378466354464
+b,w/o other variables' forecasts,pems04,validation,flow,2026,"valid, excluding zero",18.985403874400102,30.87688848520132
+b,w/o other variables' forecasts,pems04,test,flow,2024,all valid,18.993246203765924,31.383851777142656
+b,w/o other variables' forecasts,pems04,test,flow,2025,all valid,19.200897285148983,31.7456369462154
+b,w/o other variables' forecasts,pems04,test,flow,2026,all valid,18.994459792871098,31.41280459382739
+b,w/o other variables' forecasts,pems04,test,flow,2024,"valid, excluding zero",18.825207610267487,30.330428727039696
+b,w/o other variables' forecasts,pems04,test,flow,2025,"valid, excluding zero",18.98852202793848,30.444111609028692
+b,w/o other variables' forecasts,pems04,test,flow,2026,"valid, excluding zero",18.82822536238911,30.3326204865379
+b,w/o other variables' forecasts,pems04,validation,occupancy,2024,all valid,0.007983327113432807,0.021411922538583678
+b,w/o other variables' forecasts,pems04,validation,occupancy,2025,all valid,0.007996341383064237,0.021378167859485462
+b,w/o other variables' forecasts,pems04,validation,occupancy,2026,all valid,0.008034586295105173,0.021420702557116485
+b,w/o other variables' forecasts,pems04,validation,occupancy,2024,"valid, excluding zero",0.007999001214424512,0.021509024867046263
+b,w/o other variables' forecasts,pems04,validation,occupancy,2025,"valid, excluding zero",0.008013570904143301,0.0214681909194939
+b,w/o other variables' forecasts,pems04,validation,occupancy,2026,"valid, excluding zero",0.008056959763394485,0.02152298727369667
+b,w/o other variables' forecasts,pems04,test,occupancy,2024,all valid,0.007308989690817977,0.019412500680660544
+b,w/o other variables' forecasts,pems04,test,occupancy,2025,all valid,0.0073555190642196535,0.019510161640480812
+b,w/o other variables' forecasts,pems04,test,occupancy,2026,all valid,0.007362493445010437,0.019469204104719265
+b,w/o other variables' forecasts,pems04,test,occupancy,2024,"valid, excluding zero",0.007315884106446579,0.019459246728169555
+b,w/o other variables' forecasts,pems04,test,occupancy,2025,"valid, excluding zero",0.007361919844126318,0.01955257278031868
+b,w/o other variables' forecasts,pems04,test,occupancy,2026,"valid, excluding zero",0.007373090539531732,0.01951784669367263
+b,w/o other variables' forecasts,pems04,validation,speed,2024,all valid,1.6155586961895771,3.6647850512297695
+b,w/o other variables' forecasts,pems04,validation,speed,2025,all valid,1.607623153630761,3.6821690550323627
+b,w/o other variables' forecasts,pems04,validation,speed,2026,all valid,1.6057421360737576,3.679516813419064
+b,w/o other variables' forecasts,pems04,validation,speed,2024,"valid, excluding zero",1.6155586961895771,3.6647850512297695
+b,w/o other variables' forecasts,pems04,validation,speed,2025,"valid, excluding zero",1.607623153630761,3.6821690550323627
+b,w/o other variables' forecasts,pems04,validation,speed,2026,"valid, excluding zero",1.6057421360737576,3.679516813419064
+b,w/o other variables' forecasts,pems04,test,speed,2024,all valid,1.5519496086219768,3.54079759499695
+b,w/o other variables' forecasts,pems04,test,speed,2025,all valid,1.5486599641658791,3.5652065456774054
+b,w/o other variables' forecasts,pems04,test,speed,2026,all valid,1.5450188689226942,3.5569868537516616
+b,w/o other variables' forecasts,pems04,test,speed,2024,"valid, excluding zero",1.5519496086219768,3.54079759499695
+b,w/o other variables' forecasts,pems04,test,speed,2025,"valid, excluding zero",1.5486599641658791,3.5652065456774054
+b,w/o other variables' forecasts,pems04,test,speed,2026,"valid, excluding zero",1.5450188689226942,3.5569868537516616
+b,w/o other variables' forecasts,pems08,validation,flow,2024,all valid,14.886240552185031,24.771477660139332
+b,w/o other variables' forecasts,pems08,validation,flow,2025,all valid,14.829824155166962,24.668625456443348
+b,w/o other variables' forecasts,pems08,validation,flow,2026,all valid,14.784698040159043,24.64216647304913
+b,w/o other variables' forecasts,pems08,validation,flow,2024,"valid, excluding zero",14.854876379988852,24.424130864567424
+b,w/o other variables' forecasts,pems08,validation,flow,2025,"valid, excluding zero",14.800831652802318,24.339676381985345
+b,w/o other variables' forecasts,pems08,validation,flow,2026,"valid, excluding zero",14.756966883975526,24.31631170602893
+b,w/o other variables' forecasts,pems08,test,flow,2024,all valid,14.566756919349315,23.53295687236562
+b,w/o other variables' forecasts,pems08,test,flow,2025,all valid,14.551384151195213,23.54249691878134
+b,w/o other variables' forecasts,pems08,test,flow,2026,all valid,14.511537685812671,23.5234273619677
+b,w/o other variables' forecasts,pems08,test,flow,2024,"valid, excluding zero",14.585995295469464,23.435998304365334
+b,w/o other variables' forecasts,pems08,test,flow,2025,"valid, excluding zero",14.571047831931015,23.446507040943402
+b,w/o other variables' forecasts,pems08,test,flow,2026,"valid, excluding zero",14.532128987414772,23.431408494753335
+b,w/o other variables' forecasts,pems08,validation,occupancy,2024,all valid,0.006282928424637469,0.016997146032433432
+b,w/o other variables' forecasts,pems08,validation,occupancy,2025,all valid,0.006303762966954557,0.01690772077262755
+b,w/o other variables' forecasts,pems08,validation,occupancy,2026,all valid,0.006303315726221827,0.016874232845135003
+b,w/o other variables' forecasts,pems08,validation,occupancy,2024,"valid, excluding zero",0.006274148101646651,0.016959605826009277
+b,w/o other variables' forecasts,pems08,validation,occupancy,2025,"valid, excluding zero",0.0062975213264556745,0.01687440889764205
+b,w/o other variables' forecasts,pems08,validation,occupancy,2026,"valid, excluding zero",0.006294745125645142,0.016833632244115333
+b,w/o other variables' forecasts,pems08,test,occupancy,2024,all valid,0.006486374074328547,0.018264942425365523
+b,w/o other variables' forecasts,pems08,test,occupancy,2025,all valid,0.006443053131041008,0.017835090829899546
+b,w/o other variables' forecasts,pems08,test,occupancy,2026,all valid,0.006416602402665598,0.01778580685474979
+b,w/o other variables' forecasts,pems08,test,occupancy,2024,"valid, excluding zero",0.006499192886811104,0.018282919432923456
+b,w/o other variables' forecasts,pems08,test,occupancy,2025,"valid, excluding zero",0.006455654817161838,0.017851878399750276
+b,w/o other variables' forecasts,pems08,test,occupancy,2026,"valid, excluding zero",0.006428518102695434,0.01780243859827115
+b,w/o other variables' forecasts,pems08,validation,speed,2024,all valid,1.2534540446142246,3.130051486513188
+b,w/o other variables' forecasts,pems08,validation,speed,2025,all valid,1.2469487528075245,3.097088800572856
+b,w/o other variables' forecasts,pems08,validation,speed,2026,all valid,1.242380949580478,3.0975578247483306
+b,w/o other variables' forecasts,pems08,validation,speed,2024,"valid, excluding zero",1.2534540446142246,3.130051486513188
+b,w/o other variables' forecasts,pems08,validation,speed,2025,"valid, excluding zero",1.2469487528075245,3.097088800572856
+b,w/o other variables' forecasts,pems08,validation,speed,2026,"valid, excluding zero",1.242380949580478,3.0975578247483306
+b,w/o other variables' forecasts,pems08,test,speed,2024,all valid,1.2880356445467014,3.2572481723266926
+b,w/o other variables' forecasts,pems08,test,speed,2025,all valid,1.2704436890912774,3.173178807129013
+b,w/o other variables' forecasts,pems08,test,speed,2026,all valid,1.2664956556976141,3.170293964279386
+b,w/o other variables' forecasts,pems08,test,speed,2024,"valid, excluding zero",1.2880356445467014,3.2572481723266926
+b,w/o other variables' forecasts,pems08,test,speed,2025,"valid, excluding zero",1.2704436890912774,3.173178807129013
+b,w/o other variables' forecasts,pems08,test,speed,2026,"valid, excluding zero",1.2664956556976141,3.170293964279386
+b,Target-only,pems03,validation,flow,2024,all valid,14.052961658848332,22.300482997048906
+b,Target-only,pems03,validation,flow,2025,all valid,14.079039789959522,22.357880864586445
+b,Target-only,pems03,validation,flow,2026,all valid,14.112376916964424,22.373935347643123
+b,Target-only,pems03,validation,flow,2024,"valid, excluding zero",14.083162159316178,22.30735870561294
+b,Target-only,pems03,validation,flow,2025,"valid, excluding zero",14.107584371400515,22.34797955533377
+b,Target-only,pems03,validation,flow,2026,"valid, excluding zero",14.148327951641528,22.385709486792223
+b,Target-only,pems03,test,flow,2024,all valid,14.848178440697515,25.827518918159306
+b,Target-only,pems03,test,flow,2025,all valid,14.827250879522687,24.52282437701378
+b,Target-only,pems03,test,flow,2026,all valid,14.857822138920966,25.477923616177524
+b,Target-only,pems03,test,flow,2024,"valid, excluding zero",14.868416148368691,25.80869968690361
+b,Target-only,pems03,test,flow,2025,"valid, excluding zero",14.844296194907383,24.47395347977248
+b,Target-only,pems03,test,flow,2026,"valid, excluding zero",14.883705676601162,25.459191361792463
+b,Target-only,pems03,validation,occupancy,2024,all valid,0.00931829850839194,0.02558108412405852
+b,Target-only,pems03,validation,occupancy,2025,all valid,0.009299546336482532,0.02535816574725047
+b,Target-only,pems03,validation,occupancy,2026,all valid,0.009317871822629215,0.025395017336160387
+b,Target-only,pems03,validation,occupancy,2024,"valid, excluding zero",0.009359826370444323,0.025655317790920566
+b,Target-only,pems03,validation,occupancy,2025,"valid, excluding zero",0.00934263148013532,0.025431664221833464
+b,Target-only,pems03,validation,occupancy,2026,"valid, excluding zero",0.0093566594823319,0.025467828350024955
+b,Target-only,pems03,test,occupancy,2024,all valid,0.009242221647362778,0.025140166149622212
+b,Target-only,pems03,test,occupancy,2025,all valid,0.00923314858695106,0.024934300197900966
+b,Target-only,pems03,test,occupancy,2026,all valid,0.009238610028777832,0.024788446063729992
+b,Target-only,pems03,test,occupancy,2024,"valid, excluding zero",0.009283185660339944,0.025214911632062437
+b,Target-only,pems03,test,occupancy,2025,"valid, excluding zero",0.009275852977635965,0.02500875996792934
+b,Target-only,pems03,test,occupancy,2026,"valid, excluding zero",0.009276864303324993,0.024861568525185354
+b,Target-only,pems03,validation,speed,2024,all valid,1.806248971955539,3.863578928662399
+b,Target-only,pems03,validation,speed,2025,all valid,1.7944407814063381,3.849730550082674
+b,Target-only,pems03,validation,speed,2026,all valid,1.7990109100154634,3.8564832530653645
+b,Target-only,pems03,validation,speed,2024,"valid, excluding zero",1.806248971955539,3.863578928662399
+b,Target-only,pems03,validation,speed,2025,"valid, excluding zero",1.7944407814063381,3.849730550082674
+b,Target-only,pems03,validation,speed,2026,"valid, excluding zero",1.7990109100154634,3.8564832530653645
+b,Target-only,pems03,test,speed,2024,all valid,1.9170042660674007,3.983491517475166
+b,Target-only,pems03,test,speed,2025,all valid,1.9170795857107246,4.006148841633713
+b,Target-only,pems03,test,speed,2026,all valid,1.9230334486667486,4.005968175723975
+b,Target-only,pems03,test,speed,2024,"valid, excluding zero",1.9170042660674007,3.983491517475166
+b,Target-only,pems03,test,speed,2025,"valid, excluding zero",1.9170795857107246,4.006148841633713
+b,Target-only,pems03,test,speed,2026,"valid, excluding zero",1.9230334486667486,4.005968175723975
+b,Target-only,pems04,validation,flow,2024,all valid,19.20632938785976,32.29618799899727
+b,Target-only,pems04,validation,flow,2025,all valid,19.411019702286374,32.559339127653814
+b,Target-only,pems04,validation,flow,2026,all valid,19.32962089812861,32.83315259554502
+b,Target-only,pems04,validation,flow,2024,"valid, excluding zero",18.96134722619792,30.873779921052183
+b,Target-only,pems04,validation,flow,2025,"valid, excluding zero",19.13282345160437,30.941223099356073
+b,Target-only,pems04,validation,flow,2026,"valid, excluding zero",19.002115260196895,30.931131262058962
+b,Target-only,pems04,test,flow,2024,all valid,19.026191783970447,31.309934413013085
+b,Target-only,pems04,test,flow,2025,all valid,19.171121105103037,31.574134636658073
+b,Target-only,pems04,test,flow,2026,all valid,19.036548949011625,31.587144962640973
+b,Target-only,pems04,test,flow,2024,"valid, excluding zero",18.871324346563416,30.403500885928587
+b,Target-only,pems04,test,flow,2025,"valid, excluding zero",18.98357118636707,30.43388726010376
+b,Target-only,pems04,test,flow,2026,"valid, excluding zero",18.845750252022157,30.378420444035914
+b,Target-only,pems04,validation,occupancy,2024,all valid,0.008023554714913544,0.02152656590727054
+b,Target-only,pems04,validation,occupancy,2025,all valid,0.008016028890789725,0.021488348917740784
+b,Target-only,pems04,validation,occupancy,2026,all valid,0.008034794817801805,0.021541729576942253
+b,Target-only,pems04,validation,occupancy,2024,"valid, excluding zero",0.008026698256096306,0.021611516181112338
+b,Target-only,pems04,validation,occupancy,2025,"valid, excluding zero",0.00802669762464523,0.021575954500603355
+b,Target-only,pems04,validation,occupancy,2026,"valid, excluding zero",0.008054231153330602,0.021646994538116915
+b,Target-only,pems04,test,occupancy,2024,all valid,0.0073414138129541335,0.019510953292759012
+b,Target-only,pems04,test,occupancy,2025,all valid,0.007374302804529561,0.019641871909393798
+b,Target-only,pems04,test,occupancy,2026,all valid,0.007371644703000733,0.019621476968249636
+b,Target-only,pems04,test,occupancy,2024,"valid, excluding zero",0.007345617226388254,0.01955636862419533
+b,Target-only,pems04,test,occupancy,2025,"valid, excluding zero",0.007378377428163021,0.01968401639999148
+b,Target-only,pems04,test,occupancy,2026,"valid, excluding zero",0.007377579095305118,0.019666183602362334
+b,Target-only,pems04,validation,speed,2024,all valid,1.6295256052362186,3.699067045360682
+b,Target-only,pems04,validation,speed,2025,all valid,1.6284810896739434,3.73392528021225
+b,Target-only,pems04,validation,speed,2026,all valid,1.6273137894885006,3.7297186493492887
+b,Target-only,pems04,validation,speed,2024,"valid, excluding zero",1.6295256052362186,3.699067045360682
+b,Target-only,pems04,validation,speed,2025,"valid, excluding zero",1.6284810896739434,3.73392528021225
+b,Target-only,pems04,validation,speed,2026,"valid, excluding zero",1.6273137894885006,3.7297186493492887
+b,Target-only,pems04,test,speed,2024,all valid,1.563984216208198,3.571228965199193
+b,Target-only,pems04,test,speed,2025,all valid,1.5629827297391214,3.6050097845374753
+b,Target-only,pems04,test,speed,2026,all valid,1.5603152363023245,3.603282527015675
+b,Target-only,pems04,test,speed,2024,"valid, excluding zero",1.563984216208198,3.571228965199193
+b,Target-only,pems04,test,speed,2025,"valid, excluding zero",1.5629827297391214,3.6050097845374753
+b,Target-only,pems04,test,speed,2026,"valid, excluding zero",1.5603152363023245,3.603282527015675
+b,Target-only,pems07,validation,flow,2024,all valid,20.15383372221374,33.313282313454515
+b,Target-only,pems07,validation,flow,2025,all valid,20.181792811347773,33.24749905360643
+b,Target-only,pems07,validation,flow,2026,all valid,20.146815579044944,33.21612736584891
+b,Target-only,pems07,validation,flow,2024,"valid, excluding zero",20.199141240710254,33.287990643508095
+b,Target-only,pems07,validation,flow,2025,"valid, excluding zero",20.229516379183977,33.22858593871659
+b,Target-only,pems07,validation,flow,2026,"valid, excluding zero",20.19429097475819,33.19625752508928
+b,Target-only,pems07,test,flow,2024,all valid,20.359351407426924,33.46387182697293
+b,Target-only,pems07,test,flow,2025,all valid,20.3632888916831,33.359217403913775
+b,Target-only,pems07,test,flow,2026,all valid,20.391761879845397,33.43716746076292
+b,Target-only,pems07,test,flow,2024,"valid, excluding zero",20.424625714436328,33.48446097725817
+b,Target-only,pems07,test,flow,2025,"valid, excluding zero",20.43595420216546,33.38387104818299
+b,Target-only,pems07,test,flow,2026,"valid, excluding zero",20.45490072130631,33.45251241786824
+b,Target-only,pems07,validation,occupancy,2024,all valid,0.010235009127421466,0.026596992578728988
+b,Target-only,pems07,validation,occupancy,2025,all valid,0.010255464188181896,0.02653777264718885
+b,Target-only,pems07,validation,occupancy,2026,all valid,0.01025367879549685,0.026686885485892677
+b,Target-only,pems07,validation,occupancy,2024,"valid, excluding zero",0.010250657163693413,0.02661895063336413
+b,Target-only,pems07,validation,occupancy,2025,"valid, excluding zero",0.010271077621280829,0.026559608924680792
+b,Target-only,pems07,validation,occupancy,2026,"valid, excluding zero",0.010269508712874123,0.026709013688350252
+b,Target-only,pems07,test,occupancy,2024,all valid,0.01127499463428683,0.028582205300415348
+b,Target-only,pems07,test,occupancy,2025,all valid,0.0112608023182918,0.02844695917286431
+b,Target-only,pems07,test,occupancy,2026,all valid,0.011273061276714309,0.028644078327651548
+b,Target-only,pems07,test,occupancy,2024,"valid, excluding zero",0.011292200308194437,0.028605133382572718
+b,Target-only,pems07,test,occupancy,2025,"valid, excluding zero",0.01127787661217344,0.028469441672349053
+b,Target-only,pems07,test,occupancy,2026,"valid, excluding zero",0.011290374483742928,0.028667074601321313
+b,Target-only,pems07,validation,speed,2024,all valid,1.9911203871082082,4.314682181573249
+b,Target-only,pems07,validation,speed,2025,all valid,1.9845791359122928,4.292494026562961
+b,Target-only,pems07,validation,speed,2026,all valid,1.9919132888028317,4.309554716068173
+b,Target-only,pems07,validation,speed,2024,"valid, excluding zero",1.9911203871082082,4.314682181573249
+b,Target-only,pems07,validation,speed,2025,"valid, excluding zero",1.9845791359122928,4.292494026562961
+b,Target-only,pems07,validation,speed,2026,"valid, excluding zero",1.9919132888028317,4.309554716068173
+b,Target-only,pems07,test,speed,2024,all valid,2.1441402961102196,4.607649783530222
+b,Target-only,pems07,test,speed,2025,all valid,2.1408185790497964,4.588423150323071
+b,Target-only,pems07,test,speed,2026,all valid,2.1460093691801507,4.606828123285793
+b,Target-only,pems07,test,speed,2024,"valid, excluding zero",2.1441402961102196,4.607649783530222
+b,Target-only,pems07,test,speed,2025,"valid, excluding zero",2.1408185790497964,4.588423150323071
+b,Target-only,pems07,test,speed,2026,"valid, excluding zero",2.1460093691801507,4.606828123285793
+b,Target-only,pems08,validation,flow,2024,all valid,14.920353694645142,24.817785573082006
+b,Target-only,pems08,validation,flow,2025,all valid,14.861147102297977,24.76110032206452
+b,Target-only,pems08,validation,flow,2026,all valid,14.823807176058324,24.689723822813377
+b,Target-only,pems08,validation,flow,2024,"valid, excluding zero",14.895322167655811,24.50366349471318
+b,Target-only,pems08,validation,flow,2025,"valid, excluding zero",14.833459754244773,24.43815008694857
+b,Target-only,pems08,validation,flow,2026,"valid, excluding zero",14.79687360994005,24.371486652228622
+b,Target-only,pems08,test,flow,2024,all valid,14.532313568176527,23.505145409185083
+b,Target-only,pems08,test,flow,2025,all valid,14.669199986053217,23.78408622477974
+b,Target-only,pems08,test,flow,2026,all valid,14.55795872181582,23.658154415082528
+b,Target-only,pems08,test,flow,2024,"valid, excluding zero",14.55395241852047,23.40974740658599
+b,Target-only,pems08,test,flow,2025,"valid, excluding zero",14.689334025449837,23.690113571490436
+b,Target-only,pems08,test,flow,2026,"valid, excluding zero",14.57930773922717,23.567548601521793
+b,Target-only,pems08,validation,occupancy,2024,all valid,0.006300467514600788,0.016936745398437092
+b,Target-only,pems08,validation,occupancy,2025,all valid,0.006328534996282149,0.016963236507659196
+b,Target-only,pems08,validation,occupancy,2026,all valid,0.0063290840615575095,0.016960211475694386
+b,Target-only,pems08,validation,occupancy,2024,"valid, excluding zero",0.006293348607056013,0.01689590771474057
+b,Target-only,pems08,validation,occupancy,2025,"valid, excluding zero",0.006320679364300047,0.016924316021466358
+b,Target-only,pems08,validation,occupancy,2026,"valid, excluding zero",0.006322253824770611,0.016924381948386226
+b,Target-only,pems08,test,occupancy,2024,all valid,0.006464027896650877,0.017976431177931584
+b,Target-only,pems08,test,occupancy,2025,all valid,0.006465970367236204,0.017944394442439757
+b,Target-only,pems08,test,occupancy,2026,all valid,0.006448252576844553,0.017906742628517974
+b,Target-only,pems08,test,occupancy,2024,"valid, excluding zero",0.006476899346280756,0.017993872260007055
+b,Target-only,pems08,test,occupancy,2025,"valid, excluding zero",0.006478651821087853,0.017961371172279847
+b,Target-only,pems08,test,occupancy,2026,"valid, excluding zero",0.0064606802762704,0.017923830265183335
+b,Target-only,pems08,validation,speed,2024,all valid,1.2645590097497255,3.157034338278732
+b,Target-only,pems08,validation,speed,2025,all valid,1.2636617959120326,3.174733008715304
+b,Target-only,pems08,validation,speed,2026,all valid,1.2613616959243006,3.164526303047369
+b,Target-only,pems08,validation,speed,2024,"valid, excluding zero",1.2645590097497255,3.157034338278732
+b,Target-only,pems08,validation,speed,2025,"valid, excluding zero",1.2636617959120326,3.174733008715304
+b,Target-only,pems08,validation,speed,2026,"valid, excluding zero",1.2613616959243006,3.164526303047369
+b,Target-only,pems08,test,speed,2024,all valid,1.2860224277268664,3.2116330696202837
+b,Target-only,pems08,test,speed,2025,all valid,1.2843931757453524,3.253189748980129
+b,Target-only,pems08,test,speed,2026,all valid,1.2743549657256898,3.192894851747867
+b,Target-only,pems08,test,speed,2024,"valid, excluding zero",1.2860224277268664,3.2116330696202837
+b,Target-only,pems08,test,speed,2025,"valid, excluding zero",1.2843931757453524,3.253189748980129
+b,Target-only,pems08,test,speed,2026,"valid, excluding zero",1.2743549657256898,3.192894851747867
+b,w/o coordination module (single forecaster),pems03,validation,flow,2024,all valid,14.061699911280979,22.293696993938916
+b,w/o coordination module (single forecaster),pems03,validation,flow,2025,all valid,14.08508128547533,22.3325687539637
+b,w/o coordination module (single forecaster),pems03,validation,flow,2026,all valid,14.129274286540618,22.394584564809726
+b,w/o coordination module (single forecaster),pems03,validation,flow,2024,"valid, excluding zero",14.093080290759993,22.302129755116326
+b,w/o coordination module (single forecaster),pems03,validation,flow,2025,"valid, excluding zero",14.116987838994142,22.332456835494053
+b,w/o coordination module (single forecaster),pems03,validation,flow,2026,"valid, excluding zero",14.166910942194178,22.407799410149636
+b,w/o coordination module (single forecaster),pems03,test,flow,2024,all valid,14.781817765789867,24.023312351084563
+b,w/o coordination module (single forecaster),pems03,test,flow,2025,all valid,14.809052140952817,24.112332938123618
+b,w/o coordination module (single forecaster),pems03,test,flow,2026,all valid,14.808638892918642,24.08858594314874
+b,w/o coordination module (single forecaster),pems03,test,flow,2024,"valid, excluding zero",14.803468723274237,23.993425800552203
+b,w/o coordination module (single forecaster),pems03,test,flow,2025,"valid, excluding zero",14.830444684618783,24.075774374654337
+b,w/o coordination module (single forecaster),pems03,test,flow,2026,"valid, excluding zero",14.836618748462007,24.06339990019219
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2024,all valid,0.00934416122634339,0.02554702075626057
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2025,all valid,0.009337098917236558,0.025415224678545855
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2026,all valid,0.009316439761655316,0.02545022152628472
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2024,"valid, excluding zero",0.009386718258677176,0.025621391681098265
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2025,"valid, excluding zero",0.00938087960693841,0.02548932980238744
+b,w/o coordination module (single forecaster),pems03,validation,occupancy,2026,"valid, excluding zero",0.009356926226620231,0.025523978403444662
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2024,all valid,0.009276916616857436,0.025193591060109117
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2025,all valid,0.009274694816944854,0.025018935065135302
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2026,all valid,0.009289474851486639,0.024998135891499622
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2024,"valid, excluding zero",0.00931901938489243,0.02526871684555637
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2025,"valid, excluding zero",0.009318104046150159,0.025093723008641215
+b,w/o coordination module (single forecaster),pems03,test,occupancy,2026,"valid, excluding zero",0.009329798179268382,0.02507237219183646
+b,w/o coordination module (single forecaster),pems03,validation,speed,2024,all valid,1.8148540270216653,3.86261746333387
+b,w/o coordination module (single forecaster),pems03,validation,speed,2025,all valid,1.8061059265311639,3.858768954665732
+b,w/o coordination module (single forecaster),pems03,validation,speed,2026,all valid,1.8062362615648693,3.8559647598341518
+b,w/o coordination module (single forecaster),pems03,validation,speed,2024,"valid, excluding zero",1.8148540270216653,3.86261746333387
+b,w/o coordination module (single forecaster),pems03,validation,speed,2025,"valid, excluding zero",1.8061059265311639,3.858768954665732
+b,w/o coordination module (single forecaster),pems03,validation,speed,2026,"valid, excluding zero",1.8062362615648693,3.8559647598341518
+b,w/o coordination module (single forecaster),pems03,test,speed,2024,all valid,1.9280856486731504,3.9892540448589107
+b,w/o coordination module (single forecaster),pems03,test,speed,2025,all valid,1.9393505640255364,4.034516068892371
+b,w/o coordination module (single forecaster),pems03,test,speed,2026,all valid,1.9365074682458585,4.008977626578375
+b,w/o coordination module (single forecaster),pems03,test,speed,2024,"valid, excluding zero",1.9280856486731504,3.9892540448589107
+b,w/o coordination module (single forecaster),pems03,test,speed,2025,"valid, excluding zero",1.9393505640255364,4.034516068892371
+b,w/o coordination module (single forecaster),pems03,test,speed,2026,"valid, excluding zero",1.9365074682458585,4.008977626578375
+b,w/o coordination module (single forecaster),pems04,validation,flow,2024,all valid,19.188395189450723,32.14310038609413
+b,w/o coordination module (single forecaster),pems04,validation,flow,2025,all valid,19.41446382461789,32.4033769433881
+b,w/o coordination module (single forecaster),pems04,validation,flow,2026,all valid,19.314482896805806,32.75564447514955
+b,w/o coordination module (single forecaster),pems04,validation,flow,2024,"valid, excluding zero",18.957916513126154,30.887197215782518
+b,w/o coordination module (single forecaster),pems04,validation,flow,2025,"valid, excluding zero",19.144089791020463,31.003327249277934
+b,w/o coordination module (single forecaster),pems04,validation,flow,2026,"valid, excluding zero",18.979975581683597,30.913269880080374
+b,w/o coordination module (single forecaster),pems04,test,flow,2024,all valid,19.049438652249453,31.404733570854336
+b,w/o coordination module (single forecaster),pems04,test,flow,2025,all valid,19.21641878812588,31.67182961395414
+b,w/o coordination module (single forecaster),pems04,test,flow,2026,all valid,19.032989184323622,31.626283483026914
+b,w/o coordination module (single forecaster),pems04,test,flow,2024,"valid, excluding zero",18.8871258107933,30.461394870283485
+b,w/o coordination module (single forecaster),pems04,test,flow,2025,"valid, excluding zero",19.02628518879585,30.560479072870965
+b,w/o coordination module (single forecaster),pems04,test,flow,2026,"valid, excluding zero",18.832246375226102,30.38603419979799
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2024,all valid,0.008042143871437337,0.021501891642604465
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2025,all valid,0.008029971128395777,0.02138288494712571
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2026,all valid,0.008043156358586002,0.021458050444299694
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2024,"valid, excluding zero",0.008046805463346704,0.02159244282463917
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2025,"valid, excluding zero",0.008041843731032028,0.021476039971306576
+b,w/o coordination module (single forecaster),pems04,validation,occupancy,2026,"valid, excluding zero",0.008061676791965115,0.02156167633190342
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2024,all valid,0.007385596650761789,0.019612032295912084
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2025,all valid,0.00740095907709465,0.019620246695610674
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2026,all valid,0.007377510956935828,0.019524444836936203
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2024,"valid, excluding zero",0.007389469326881482,0.01965721155376161
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2025,"valid, excluding zero",0.0074038709683169985,0.019658751555611403
+b,w/o coordination module (single forecaster),pems04,test,occupancy,2026,"valid, excluding zero",0.007382155704618876,0.01956617834967575
+b,w/o coordination module (single forecaster),pems04,validation,speed,2024,all valid,1.6388908710897763,3.694164475676044
+b,w/o coordination module (single forecaster),pems04,validation,speed,2025,all valid,1.63293097500236,3.6971216450821442
+b,w/o coordination module (single forecaster),pems04,validation,speed,2026,all valid,1.633283823523719,3.728098218083219
+b,w/o coordination module (single forecaster),pems04,validation,speed,2024,"valid, excluding zero",1.6388908710897763,3.694164475676044
+b,w/o coordination module (single forecaster),pems04,validation,speed,2025,"valid, excluding zero",1.63293097500236,3.6971216450821442
+b,w/o coordination module (single forecaster),pems04,validation,speed,2026,"valid, excluding zero",1.633283823523719,3.728098218083219
+b,w/o coordination module (single forecaster),pems04,test,speed,2024,all valid,1.5786695909926245,3.5812500030906205
+b,w/o coordination module (single forecaster),pems04,test,speed,2025,all valid,1.5721203790982323,3.585172120701365
+b,w/o coordination module (single forecaster),pems04,test,speed,2026,all valid,1.5697613213380932,3.6104424239736894
+b,w/o coordination module (single forecaster),pems04,test,speed,2024,"valid, excluding zero",1.5786695909926245,3.5812500030906205
+b,w/o coordination module (single forecaster),pems04,test,speed,2025,"valid, excluding zero",1.5721203790982323,3.585172120701365
+b,w/o coordination module (single forecaster),pems04,test,speed,2026,"valid, excluding zero",1.5697613213380932,3.6104424239736894
+b,w/o coordination module (single forecaster),pems07,validation,flow,2024,all valid,20.25483063373748,33.435831883782335
+b,w/o coordination module (single forecaster),pems07,validation,flow,2025,all valid,20.258156434954977,33.34171069496644
+b,w/o coordination module (single forecaster),pems07,validation,flow,2026,all valid,20.26701958204548,33.321970920661784
+b,w/o coordination module (single forecaster),pems07,validation,flow,2024,"valid, excluding zero",20.29815699641472,33.4099895494854
+b,w/o coordination module (single forecaster),pems07,validation,flow,2025,"valid, excluding zero",20.304264524480313,33.32285743797075
+b,w/o coordination module (single forecaster),pems07,validation,flow,2026,"valid, excluding zero",20.311283961972983,33.30167514022369
+b,w/o coordination module (single forecaster),pems07,test,flow,2024,all valid,20.40196441593688,33.486957567212116
+b,w/o coordination module (single forecaster),pems07,test,flow,2025,all valid,20.410680937024036,33.402843166741285
+b,w/o coordination module (single forecaster),pems07,test,flow,2026,all valid,20.480196814793725,33.479607620886554
+b,w/o coordination module (single forecaster),pems07,test,flow,2024,"valid, excluding zero",20.463685333040424,33.5058619994647
+b,w/o coordination module (single forecaster),pems07,test,flow,2025,"valid, excluding zero",20.480450995375726,33.42686236733803
+b,w/o coordination module (single forecaster),pems07,test,flow,2026,"valid, excluding zero",20.539292293894007,33.4952208826049
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2024,all valid,0.010258586816467028,0.02646701915451394
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2025,all valid,0.010278447836087255,0.026437798115627603
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2026,all valid,0.010285322784371073,0.02660588914599329
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2024,"valid, excluding zero",0.010274322739230086,0.02648889381657053
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2025,"valid, excluding zero",0.010294108373556644,0.026459535900840787
+b,w/o coordination module (single forecaster),pems07,validation,occupancy,2026,"valid, excluding zero",0.010301199285940463,0.026627958586875784
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2024,all valid,0.011287131715839964,0.028389193313816685
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2025,all valid,0.011285995768246418,0.02832542807287638
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2026,all valid,0.0113096305931836,0.02856821121617779
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2024,"valid, excluding zero",0.011304374880492348,0.02841191466827177
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2025,"valid, excluding zero",0.011303125643439405,0.028347828978915163
+b,w/o coordination module (single forecaster),pems07,test,occupancy,2026,"valid, excluding zero",0.011326965678441185,0.02859102922750979
+b,w/o coordination module (single forecaster),pems07,validation,speed,2024,all valid,2.0009252137863527,4.297557573217289
+b,w/o coordination module (single forecaster),pems07,validation,speed,2025,all valid,1.9889779131724947,4.279443220457016
+b,w/o coordination module (single forecaster),pems07,validation,speed,2026,all valid,1.9989735310739618,4.287547118956424
+b,w/o coordination module (single forecaster),pems07,validation,speed,2024,"valid, excluding zero",2.0009252137863527,4.297557573217289
+b,w/o coordination module (single forecaster),pems07,validation,speed,2025,"valid, excluding zero",1.9889779131724947,4.279443220457016
+b,w/o coordination module (single forecaster),pems07,validation,speed,2026,"valid, excluding zero",1.9989735310739618,4.287547118956424
+b,w/o coordination module (single forecaster),pems07,test,speed,2024,all valid,2.154425458596155,4.5904423104485
+b,w/o coordination module (single forecaster),pems07,test,speed,2025,all valid,2.1444350679410134,4.571941427412518
+b,w/o coordination module (single forecaster),pems07,test,speed,2026,all valid,2.1528329844802268,4.583492359370915
+b,w/o coordination module (single forecaster),pems07,test,speed,2024,"valid, excluding zero",2.154425458596155,4.5904423104485
+b,w/o coordination module (single forecaster),pems07,test,speed,2025,"valid, excluding zero",2.1444350679410134,4.571941427412518
+b,w/o coordination module (single forecaster),pems07,test,speed,2026,"valid, excluding zero",2.1528329844802268,4.583492359370915
+b,w/o coordination module (single forecaster),pems08,validation,flow,2024,all valid,14.885224006723961,24.76486201438552
+b,w/o coordination module (single forecaster),pems08,validation,flow,2025,all valid,14.87531405454985,24.75415273957997
+b,w/o coordination module (single forecaster),pems08,validation,flow,2026,all valid,14.810670255427256,24.670778103327834
+b,w/o coordination module (single forecaster),pems08,validation,flow,2024,"valid, excluding zero",14.856219016584133,24.423809047234286
+b,w/o coordination module (single forecaster),pems08,validation,flow,2025,"valid, excluding zero",14.842961676705023,24.40027170577607
+b,w/o coordination module (single forecaster),pems08,validation,flow,2026,"valid, excluding zero",14.77942829077645,24.334146627059614
+b,w/o coordination module (single forecaster),pems08,test,flow,2024,all valid,14.50694322099367,23.43410204477304
+b,w/o coordination module (single forecaster),pems08,test,flow,2025,all valid,14.539367015102593,23.493354668197654
+b,w/o coordination module (single forecaster),pems08,test,flow,2026,all valid,14.476202658764324,23.455680388020568
+b,w/o coordination module (single forecaster),pems08,test,flow,2024,"valid, excluding zero",14.527749389492994,23.338822346459857
+b,w/o coordination module (single forecaster),pems08,test,flow,2025,"valid, excluding zero",14.559939927908076,23.397041609828968
+b,w/o coordination module (single forecaster),pems08,test,flow,2026,"valid, excluding zero",14.496549713592522,23.362463199925358
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2024,all valid,0.006306800896062852,0.017033920368948567
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2025,all valid,0.006351322446947092,0.016987823197311767
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2026,all valid,0.006346181746914945,0.017058785961064953
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2024,"valid, excluding zero",0.006299413688422243,0.01699794159146916
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2025,"valid, excluding zero",0.006343900922205582,0.016956639802594594
+b,w/o coordination module (single forecaster),pems08,validation,occupancy,2026,"valid, excluding zero",0.006339416800875003,0.017034075831471707
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2024,all valid,0.006511873083903731,0.01830947467081011
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2025,all valid,0.006499733944009807,0.018006209080493107
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2026,all valid,0.0065090573342778055,0.018274495531733152
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2024,"valid, excluding zero",0.00652466485320564,0.01832787682059234
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2025,"valid, excluding zero",0.006512736775014402,0.01802344867932274
+b,w/o coordination module (single forecaster),pems08,test,occupancy,2026,"valid, excluding zero",0.006521568884016883,0.018292806008027754
+b,w/o coordination module (single forecaster),pems08,validation,speed,2024,all valid,1.2727687764748719,3.196809281651143
+b,w/o coordination module (single forecaster),pems08,validation,speed,2025,all valid,1.2708220857522015,3.1642410488235733
+b,w/o coordination module (single forecaster),pems08,validation,speed,2026,all valid,1.2692713142618628,3.180111514623896
+b,w/o coordination module (single forecaster),pems08,validation,speed,2024,"valid, excluding zero",1.2727687764748719,3.196809281651143
+b,w/o coordination module (single forecaster),pems08,validation,speed,2025,"valid, excluding zero",1.2708220857522015,3.1642410488235733
+b,w/o coordination module (single forecaster),pems08,validation,speed,2026,"valid, excluding zero",1.2692713142618628,3.180111514623896
+b,w/o coordination module (single forecaster),pems08,test,speed,2024,all valid,1.303113892108314,3.295829604843701
+b,w/o coordination module (single forecaster),pems08,test,speed,2025,all valid,1.299467958332696,3.2639431237516003
+b,w/o coordination module (single forecaster),pems08,test,speed,2026,all valid,1.3011857939563145,3.2941143742839696
+b,w/o coordination module (single forecaster),pems08,test,speed,2024,"valid, excluding zero",1.303113892108314,3.295829604843701
+b,w/o coordination module (single forecaster),pems08,test,speed,2025,"valid, excluding zero",1.299467958332696,3.2639431237516003
+b,w/o coordination module (single forecaster),pems08,test,speed,2026,"valid, excluding zero",1.3011857939563145,3.2941143742839696
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2024,all valid,13.934473598255787,22.052321113773818
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2025,all valid,14.057563853642172,22.25019975250906
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2026,all valid,14.100921643168043,22.29687704769681
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2024,"valid, excluding zero",13.967114823312626,22.05664216979643
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2025,"valid, excluding zero",14.08962866229425,22.258377056884438
+b,input fusion (DecoupleST MISO),pems03,validation,flow,2026,"valid, excluding zero",14.132567013322925,22.306778550232007
+b,input fusion (DecoupleST MISO),pems03,test,flow,2024,all valid,14.617029867541062,23.6039824206232
+b,input fusion (DecoupleST MISO),pems03,test,flow,2025,all valid,14.760599353255195,24.22555118781978
+b,input fusion (DecoupleST MISO),pems03,test,flow,2026,all valid,14.764147632754588,24.406894983164186
+b,input fusion (DecoupleST MISO),pems03,test,flow,2024,"valid, excluding zero",14.643442793945676,23.57769965432957
+b,input fusion (DecoupleST MISO),pems03,test,flow,2025,"valid, excluding zero",14.783834891001732,24.19842931635402
+b,input fusion (DecoupleST MISO),pems03,test,flow,2026,"valid, excluding zero",14.788748963140536,24.38716784493477
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2024,all valid,0.009277766756071035,0.025485800768478444
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2025,all valid,0.009263954737619257,0.02531930223294922
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2026,all valid,0.00929839285933311,0.02538861318613906
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2024,"valid, excluding zero",0.009320591743595638,0.025560201579759856
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2025,"valid, excluding zero",0.009305072625290102,0.025392770311386547
+b,input fusion (DecoupleST MISO),pems03,validation,occupancy,2026,"valid, excluding zero",0.009339551513785224,0.025462581591764472
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2024,all valid,0.009242904378990583,0.02499601835489404
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2025,all valid,0.009238930709193903,0.02502773266987601
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2026,all valid,0.009186954846639133,0.02464083071026354
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2024,"valid, excluding zero",0.009285507702324145,0.025070704127208736
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2025,"valid, excluding zero",0.009280252207598384,0.02510221353669308
+b,input fusion (DecoupleST MISO),pems03,test,occupancy,2026,"valid, excluding zero",0.009227603912647202,0.02471424735462665
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2024,all valid,1.7933993553678718,3.832050682864361
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2025,all valid,1.7888722298013502,3.8235974755411903
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2026,all valid,1.7946807288325426,3.8031336834489466
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2024,"valid, excluding zero",1.7933993553678718,3.832050682864361
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2025,"valid, excluding zero",1.7888722298013502,3.8235974755411903
+b,input fusion (DecoupleST MISO),pems03,validation,speed,2026,"valid, excluding zero",1.7946807288325426,3.8031336834489466
+b,input fusion (DecoupleST MISO),pems03,test,speed,2024,all valid,1.8936929376804028,3.902367120017214
+b,input fusion (DecoupleST MISO),pems03,test,speed,2025,all valid,1.8910800350939536,3.9042076657119793
+b,input fusion (DecoupleST MISO),pems03,test,speed,2026,all valid,1.8965038395005955,3.8919470616915666
+b,input fusion (DecoupleST MISO),pems03,test,speed,2024,"valid, excluding zero",1.8936929376804028,3.902367120017214
+b,input fusion (DecoupleST MISO),pems03,test,speed,2025,"valid, excluding zero",1.8910800350939536,3.9042076657119793
+b,input fusion (DecoupleST MISO),pems03,test,speed,2026,"valid, excluding zero",1.8965038395005955,3.8919470616915666
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2024,all valid,19.12317542817167,32.014742228052384
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2025,all valid,19.12794804147432,31.866814920146776
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2026,all valid,19.107448255229908,32.16453274700195
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2024,"valid, excluding zero",18.873556425952344,30.715535219589103
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2025,"valid, excluding zero",18.92639030660917,30.786464949227188
+b,input fusion (DecoupleST MISO),pems04,validation,flow,2026,"valid, excluding zero",18.84322062858119,30.668626368522744
+b,input fusion (DecoupleST MISO),pems04,test,flow,2024,all valid,18.923443485371624,31.170835520651053
+b,input fusion (DecoupleST MISO),pems04,test,flow,2025,all valid,18.933553887381205,31.132402441180623
+b,input fusion (DecoupleST MISO),pems04,test,flow,2026,all valid,18.98496918112857,31.30857044453614
+b,input fusion (DecoupleST MISO),pems04,test,flow,2024,"valid, excluding zero",18.758307037663503,30.226550577579705
+b,input fusion (DecoupleST MISO),pems04,test,flow,2025,"valid, excluding zero",18.803116202332856,30.30520180173377
+b,input fusion (DecoupleST MISO),pems04,test,flow,2026,"valid, excluding zero",18.835962875093596,30.354107759738344
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2024,all valid,0.008054057355946867,0.02152285155619496
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2025,all valid,0.008025755622686127,0.021547027783737314
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2026,all valid,0.008020368886903773,0.021314640103711167
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2024,"valid, excluding zero",0.00807160403300086,0.02162627399536217
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2025,"valid, excluding zero",0.00803755652367949,0.021643816072421856
+b,input fusion (DecoupleST MISO),pems04,validation,occupancy,2026,"valid, excluding zero",0.008034720734720809,0.02141345481494275
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2024,all valid,0.007358094919317391,0.019436573918110815
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2025,all valid,0.007366771277675992,0.019604024133318285
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2026,all valid,0.007367754832224763,0.01940593854520115
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2024,"valid, excluding zero",0.007362853428588331,0.019479625763309884
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2025,"valid, excluding zero",0.0073701565523812676,0.01964702428404385
+b,input fusion (DecoupleST MISO),pems04,test,occupancy,2026,"valid, excluding zero",0.0073720343414117985,0.01945017751259847
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2024,all valid,1.6163083976409345,3.664845110975706
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2025,all valid,1.613913037299803,3.6503552534718473
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2026,all valid,1.622669894485176,3.63126493407522
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2024,"valid, excluding zero",1.6163083976409345,3.664845110975706
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2025,"valid, excluding zero",1.613913037299803,3.6503552534718473
+b,input fusion (DecoupleST MISO),pems04,validation,speed,2026,"valid, excluding zero",1.622669894485176,3.63126493407522
+b,input fusion (DecoupleST MISO),pems04,test,speed,2024,all valid,1.5540418085043528,3.5408007783272093
+b,input fusion (DecoupleST MISO),pems04,test,speed,2025,all valid,1.5580296036474792,3.549872898665604
+b,input fusion (DecoupleST MISO),pems04,test,speed,2026,all valid,1.566821873656836,3.527748766186519
+b,input fusion (DecoupleST MISO),pems04,test,speed,2024,"valid, excluding zero",1.5540418085043528,3.5408007783272093
+b,input fusion (DecoupleST MISO),pems04,test,speed,2025,"valid, excluding zero",1.5580296036474792,3.549872898665604
+b,input fusion (DecoupleST MISO),pems04,test,speed,2026,"valid, excluding zero",1.566821873656836,3.527748766186519
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2024,all valid,19.868462424909165,32.85705984141869
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2025,all valid,19.935771802757948,32.91659887970148
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2026,all valid,20.100510177087227,33.06623249159173
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2024,"valid, excluding zero",19.897977113362206,32.815875095046096
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2025,"valid, excluding zero",19.963380720191545,32.872038757112
+b,input fusion (DecoupleST MISO),pems07,validation,flow,2026,"valid, excluding zero",20.12982936179031,33.02737770183475
+b,input fusion (DecoupleST MISO),pems07,test,flow,2024,all valid,20.150478138628777,33.13512467583126
+b,input fusion (DecoupleST MISO),pems07,test,flow,2025,all valid,20.177355957359783,33.13391957165664
+b,input fusion (DecoupleST MISO),pems07,test,flow,2026,all valid,20.31149451992959,33.22825262764466
+b,input fusion (DecoupleST MISO),pems07,test,flow,2024,"valid, excluding zero",20.196836704531545,33.14236275279383
+b,input fusion (DecoupleST MISO),pems07,test,flow,2025,"valid, excluding zero",20.223569190142463,33.14274024484359
+b,input fusion (DecoupleST MISO),pems07,test,flow,2026,"valid, excluding zero",20.352042506158725,33.231269878934704
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2024,all valid,0.010263398854978232,0.026432593131565436
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2025,all valid,0.010266097423996161,0.0265747867187079
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2026,all valid,0.010199530059665549,0.026501119330831265
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2024,"valid, excluding zero",0.01027886424467247,0.026454347547810328
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2025,"valid, excluding zero",0.010281296660258251,0.02659668512972206
+b,input fusion (DecoupleST MISO),pems07,validation,occupancy,2026,"valid, excluding zero",0.010214735241036152,0.026522899337815414
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2024,all valid,0.011278467470846524,0.028341459899109057
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2025,all valid,0.011300254430049516,0.028554640027483747
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2026,all valid,0.011212233535843224,0.02843903087400134
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2024,"valid, excluding zero",0.011295517008670318,0.028364037713929355
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2025,"valid, excluding zero",0.011317046445700417,0.02857726238977029
+b,input fusion (DecoupleST MISO),pems07,test,occupancy,2026,"valid, excluding zero",0.01122891264694225,0.028461605146980127
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2024,all valid,1.9576391082198386,4.219523662479583
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2025,all valid,1.9586817919618904,4.255026242292394
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2026,all valid,1.9563861307524313,4.236556926185835
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2024,"valid, excluding zero",1.9576391082198386,4.219523662479583
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2025,"valid, excluding zero",1.9586817919618904,4.255026242292394
+b,input fusion (DecoupleST MISO),pems07,validation,speed,2026,"valid, excluding zero",1.9563861307524313,4.236556926185835
+b,input fusion (DecoupleST MISO),pems07,test,speed,2024,all valid,2.1105453668388123,4.517507993139817
+b,input fusion (DecoupleST MISO),pems07,test,speed,2025,all valid,2.1074583020275477,4.5346926004521215
+b,input fusion (DecoupleST MISO),pems07,test,speed,2026,all valid,2.1120988517370756,4.545027112181859
+b,input fusion (DecoupleST MISO),pems07,test,speed,2024,"valid, excluding zero",2.1105453668388123,4.517507993139817
+b,input fusion (DecoupleST MISO),pems07,test,speed,2025,"valid, excluding zero",2.1074583020275477,4.5346926004521215
+b,input fusion (DecoupleST MISO),pems07,test,speed,2026,"valid, excluding zero",2.1120988517370756,4.545027112181859
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2024,all valid,14.852780164804683,24.653253983350368
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2025,all valid,14.753872204704958,24.70432565867363
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2026,all valid,14.738157363678633,24.57114420764161
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2024,"valid, excluding zero",14.823120079439112,24.323858361517548
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2025,"valid, excluding zero",14.720242269394518,24.34362882392
+b,input fusion (DecoupleST MISO),pems08,validation,flow,2026,"valid, excluding zero",14.709153701761378,24.250210058488108
+b,input fusion (DecoupleST MISO),pems08,test,flow,2024,all valid,14.52014289793341,23.43191592966325
+b,input fusion (DecoupleST MISO),pems08,test,flow,2025,all valid,14.49500723767628,23.474493168027227
+b,input fusion (DecoupleST MISO),pems08,test,flow,2026,all valid,14.463625820180503,23.424020488649937
+b,input fusion (DecoupleST MISO),pems08,test,flow,2024,"valid, excluding zero",14.540933432663033,23.33431297982844
+b,input fusion (DecoupleST MISO),pems08,test,flow,2025,"valid, excluding zero",14.516215214566712,23.379182685047976
+b,input fusion (DecoupleST MISO),pems08,test,flow,2026,"valid, excluding zero",14.483340670863896,23.32835015154682
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2024,all valid,0.00633275191165063,0.016849595105617548
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2025,all valid,0.006315573796128441,0.01698505412208258
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2026,all valid,0.006343872343923252,0.01710154334369295
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2024,"valid, excluding zero",0.006322426896127503,0.01680540065399137
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2025,"valid, excluding zero",0.00630655919773604,0.01695238102248757
+b,input fusion (DecoupleST MISO),pems08,validation,occupancy,2026,"valid, excluding zero",0.006335175435712251,0.01706827287286174
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2024,all valid,0.006496240998186892,0.017889488208795334
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2025,all valid,0.006476831401002079,0.018061963586802746
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2026,all valid,0.006545589640886465,0.018422154400992433
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2024,"valid, excluding zero",0.006508553201876537,0.01790656696924338
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2025,"valid, excluding zero",0.006489730850895031,0.01808009349042805
+b,input fusion (DecoupleST MISO),pems08,test,occupancy,2026,"valid, excluding zero",0.006558545042751791,0.018440279261505377
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2024,all valid,1.2562008599194523,3.1272851901809733
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2025,all valid,1.2514304173891446,3.09277656561138
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2026,all valid,1.2567783095692784,3.1498950781393993
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2024,"valid, excluding zero",1.2562008599194523,3.1272851901809733
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2025,"valid, excluding zero",1.2514304173891446,3.09277656561138
+b,input fusion (DecoupleST MISO),pems08,validation,speed,2026,"valid, excluding zero",1.2567783095692784,3.1498950781393993
+b,input fusion (DecoupleST MISO),pems08,test,speed,2024,all valid,1.289640537404243,3.2352297806700667
+b,input fusion (DecoupleST MISO),pems08,test,speed,2025,all valid,1.2834575412906986,3.1930521992821577
+b,input fusion (DecoupleST MISO),pems08,test,speed,2026,all valid,1.2936145893210818,3.2692622178472246
+b,input fusion (DecoupleST MISO),pems08,test,speed,2024,"valid, excluding zero",1.289640537404243,3.2352297806700667
+b,input fusion (DecoupleST MISO),pems08,test,speed,2025,"valid, excluding zero",1.2834575412906986,3.1930521992821577
+b,input fusion (DecoupleST MISO),pems08,test,speed,2026,"valid, excluding zero",1.2936145893210818,3.2692622178472246
+text,K12 + coordination (first phase),pems03,test,flow,2024,all valid,14.2885343542631,23.43215651667918
+text,K12 + coordination (first phase),pems03,test,flow,2024,"valid, excluding zero",14.306738788356169,23.390277410185004
+text,K12 + coordination (first phase),pems03,test,flow,2025,all valid,14.26165201686327,23.549976540496758
+text,K12 + coordination (first phase),pems03,test,flow,2025,"valid, excluding zero",14.271664460015247,23.499552618930284
+text,K12 + coordination (first phase),pems03,test,flow,2026,all valid,14.329370355870658,23.837384048456826
+text,K12 + coordination (first phase),pems03,test,flow,2026,"valid, excluding zero",14.345849915238045,23.799145304807602
+text,K12 + coordination (first phase),pems03,test,occupancy,2024,all valid,0.009065107702552035,0.024763127742693954
+text,K12 + coordination (first phase),pems03,test,occupancy,2024,"valid, excluding zero",0.009104309819722744,0.024836599868094486
+text,K12 + coordination (first phase),pems03,test,occupancy,2025,all valid,0.00896949407398376,0.024446465068179452
+text,K12 + coordination (first phase),pems03,test,occupancy,2025,"valid, excluding zero",0.009008769433359156,0.024519166532939986
+text,K12 + coordination (first phase),pems03,test,occupancy,2026,all valid,0.008989581271768852,0.024640898537977365
+text,K12 + coordination (first phase),pems03,test,occupancy,2026,"valid, excluding zero",0.009028282422638206,0.024714094186824794
+text,K12 + coordination (first phase),pems03,test,speed,2024,all valid,1.8530058350548988,3.851182392896485
+text,K12 + coordination (first phase),pems03,test,speed,2024,"valid, excluding zero",1.8530058350548988,3.851182392896485
+text,K12 + coordination (first phase),pems03,test,speed,2025,all valid,1.8395497328519506,3.836051111992289
+text,K12 + coordination (first phase),pems03,test,speed,2025,"valid, excluding zero",1.8395497328519506,3.836051111992289
+text,K12 + coordination (first phase),pems03,test,speed,2026,all valid,1.835100113232806,3.8191163014262184
+text,K12 + coordination (first phase),pems03,test,speed,2026,"valid, excluding zero",1.835100113232806,3.8191163014262184
+text,K12 + coordination (first phase),pems03,validation,flow,2024,all valid,13.61369174945279,21.789678482975063
+text,K12 + coordination (first phase),pems03,validation,flow,2024,"valid, excluding zero",13.644277141977675,21.79321172442983
+text,K12 + coordination (first phase),pems03,validation,flow,2025,all valid,13.606955286618819,21.75583380168584
+text,K12 + coordination (first phase),pems03,validation,flow,2025,"valid, excluding zero",13.63047680654484,21.750032372291297
+text,K12 + coordination (first phase),pems03,validation,flow,2026,all valid,13.60688932539427,21.796431591697328
+text,K12 + coordination (first phase),pems03,validation,flow,2026,"valid, excluding zero",13.635193800336532,21.7972487930696
+text,K12 + coordination (first phase),pems03,validation,occupancy,2024,all valid,0.009042530921993221,0.025100632587821095
+text,K12 + coordination (first phase),pems03,validation,occupancy,2024,"valid, excluding zero",0.009081643802564293,0.025173270962078137
+text,K12 + coordination (first phase),pems03,validation,occupancy,2025,all valid,0.00900430242302661,0.025033996929545888
+text,K12 + coordination (first phase),pems03,validation,occupancy,2025,"valid, excluding zero",0.009043741135601217,0.025106490353689614
+text,K12 + coordination (first phase),pems03,validation,occupancy,2026,all valid,0.009019578532482721,0.025115670671556137
+text,K12 + coordination (first phase),pems03,validation,occupancy,2026,"valid, excluding zero",0.00905830478194928,0.025188417171852412
+text,K12 + coordination (first phase),pems03,validation,speed,2024,all valid,1.7450731699880695,3.7547770763694346
+text,K12 + coordination (first phase),pems03,validation,speed,2024,"valid, excluding zero",1.7450731699880695,3.7547770763694346
+text,K12 + coordination (first phase),pems03,validation,speed,2025,all valid,1.7420065094921904,3.763440797528982
+text,K12 + coordination (first phase),pems03,validation,speed,2025,"valid, excluding zero",1.7420065094921904,3.763440797528982
+text,K12 + coordination (first phase),pems03,validation,speed,2026,all valid,1.7423021644663754,3.7535378498165697
+text,K12 + coordination (first phase),pems03,validation,speed,2026,"valid, excluding zero",1.7423021644663754,3.7535378498165697
+text,K12 + coordination (first phase),pems04,test,flow,2024,all valid,18.518015174594364,30.795279816672103
+text,K12 + coordination (first phase),pems04,test,flow,2024,"valid, excluding zero",18.360949640874363,29.789617450513052
+text,K12 + coordination (first phase),pems04,test,flow,2025,all valid,18.554845053240356,30.83463636095088
+text,K12 + coordination (first phase),pems04,test,flow,2025,"valid, excluding zero",18.396138440658824,29.809571869960287
+text,K12 + coordination (first phase),pems04,test,flow,2026,all valid,18.558563833933345,30.971773186320238
+text,K12 + coordination (first phase),pems04,test,flow,2026,"valid, excluding zero",18.372825789644548,29.790891175383983
+text,K12 + coordination (first phase),pems04,test,occupancy,2024,all valid,0.007135218786079819,0.019242031378820697
+text,K12 + coordination (first phase),pems04,test,occupancy,2024,"valid, excluding zero",0.007132056280445588,0.019266739144996412
+text,K12 + coordination (first phase),pems04,test,occupancy,2025,all valid,0.0071314114853288455,0.019154748226610663
+text,K12 + coordination (first phase),pems04,test,occupancy,2025,"valid, excluding zero",0.007128517009839937,0.019184641924953894
+text,K12 + coordination (first phase),pems04,test,occupancy,2026,all valid,0.0071482903439692045,0.019242515476346807
+text,K12 + coordination (first phase),pems04,test,occupancy,2026,"valid, excluding zero",0.007146759990349875,0.019270882079956954
+text,K12 + coordination (first phase),pems04,test,speed,2024,all valid,1.5129415133697992,3.4864546075873473
+text,K12 + coordination (first phase),pems04,test,speed,2024,"valid, excluding zero",1.5129415133697992,3.4864546075873473
+text,K12 + coordination (first phase),pems04,test,speed,2025,all valid,1.5131225797060708,3.48077703871971
+text,K12 + coordination (first phase),pems04,test,speed,2025,"valid, excluding zero",1.5131225797060708,3.48077703871971
+text,K12 + coordination (first phase),pems04,test,speed,2026,all valid,1.5194974075612955,3.4890951790111995
+text,K12 + coordination (first phase),pems04,test,speed,2026,"valid, excluding zero",1.5194974075612955,3.4890951790111995
+text,K12 + coordination (first phase),pems04,validation,flow,2024,all valid,18.694008813861394,31.65383837840333
+text,K12 + coordination (first phase),pems04,validation,flow,2024,"valid, excluding zero",18.46395503306135,30.260467638440446
+text,K12 + coordination (first phase),pems04,validation,flow,2025,all valid,18.760265078327446,31.833923803446474
+text,K12 + coordination (first phase),pems04,validation,flow,2025,"valid, excluding zero",18.50782647335842,30.31414258548337
+text,K12 + coordination (first phase),pems04,validation,flow,2026,all valid,18.74443016289258,31.941993309420166
+text,K12 + coordination (first phase),pems04,validation,flow,2026,"valid, excluding zero",18.455701386055118,30.22864624479388
+text,K12 + coordination (first phase),pems04,validation,occupancy,2024,all valid,0.007789100589816618,0.021190805380269923
+text,K12 + coordination (first phase),pems04,validation,occupancy,2024,"valid, excluding zero",0.007793929128820913,0.02126744068349218
+text,K12 + coordination (first phase),pems04,validation,occupancy,2025,all valid,0.007790639290942081,0.021096832261730564
+text,K12 + coordination (first phase),pems04,validation,occupancy,2025,"valid, excluding zero",0.007789461087770644,0.021162857082650546
+text,K12 + coordination (first phase),pems04,validation,occupancy,2026,all valid,0.007799220307020792,0.021152015770745772
+text,K12 + coordination (first phase),pems04,validation,occupancy,2026,"valid, excluding zero",0.007795677513414025,0.021214095617852355
+text,K12 + coordination (first phase),pems04,validation,speed,2024,all valid,1.5673055875299826,3.5876607098858146
+text,K12 + coordination (first phase),pems04,validation,speed,2024,"valid, excluding zero",1.5673055875299826,3.5876607098858146
+text,K12 + coordination (first phase),pems04,validation,speed,2025,all valid,1.5684988497355334,3.5909796605724535
+text,K12 + coordination (first phase),pems04,validation,speed,2025,"valid, excluding zero",1.5684988497355334,3.5909796605724535
+text,K12 + coordination (first phase),pems04,validation,speed,2026,all valid,1.5705583662260747,3.588106396384559
+text,K12 + coordination (first phase),pems04,validation,speed,2026,"valid, excluding zero",1.5705583662260747,3.588106396384559
+text,K12 + coordination (first phase),pems07,test,flow,2024,all valid,19.612570806909304,32.567432337061724
+text,K12 + coordination (first phase),pems07,test,flow,2024,"valid, excluding zero",19.628321786498915,32.550323757972556
+text,K12 + coordination (first phase),pems07,test,flow,2025,all valid,19.66590494042424,32.66564095716102
+text,K12 + coordination (first phase),pems07,test,flow,2025,"valid, excluding zero",19.69902233154584,32.65746186751618
+text,K12 + coordination (first phase),pems07,test,flow,2026,all valid,19.618584648965037,32.56065240630502
+text,K12 + coordination (first phase),pems07,test,flow,2026,"valid, excluding zero",19.64651830414945,32.54552430912981
+text,K12 + coordination (first phase),pems07,test,occupancy,2024,all valid,0.010925767984260105,0.02822320852978644
+text,K12 + coordination (first phase),pems07,test,occupancy,2024,"valid, excluding zero",0.010942216980949411,0.02824567757267469
+text,K12 + coordination (first phase),pems07,test,occupancy,2025,all valid,0.010921054775659389,0.028089723323886755
+text,K12 + coordination (first phase),pems07,test,occupancy,2025,"valid, excluding zero",0.010937913856933315,0.02811216040166041
+text,K12 + coordination (first phase),pems07,test,occupancy,2026,all valid,0.01088449550905466,0.028137135164726504
+text,K12 + coordination (first phase),pems07,test,occupancy,2026,"valid, excluding zero",0.010901253943102552,0.028159606812038256
+text,K12 + coordination (first phase),pems07,test,speed,2024,all valid,2.0668590053101337,4.493436487113749
+text,K12 + coordination (first phase),pems07,test,speed,2024,"valid, excluding zero",2.0668590053101337,4.493436487113749
+text,K12 + coordination (first phase),pems07,test,speed,2025,all valid,2.067785056017419,4.4905009056640734
+text,K12 + coordination (first phase),pems07,test,speed,2025,"valid, excluding zero",2.067785056017419,4.4905009056640734
+text,K12 + coordination (first phase),pems07,test,speed,2026,all valid,2.063524897974946,4.491983749618947
+text,K12 + coordination (first phase),pems07,test,speed,2026,"valid, excluding zero",2.063524897974946,4.491983749618947
+text,K12 + coordination (first phase),pems07,validation,flow,2024,all valid,19.345903499079935,32.37069880135877
+text,K12 + coordination (first phase),pems07,validation,flow,2024,"valid, excluding zero",19.35399233616006,32.30446349703922
+text,K12 + coordination (first phase),pems07,validation,flow,2025,all valid,19.369840438758185,32.3887853863327
+text,K12 + coordination (first phase),pems07,validation,flow,2025,"valid, excluding zero",19.401436263743385,32.35190351373202
+text,K12 + coordination (first phase),pems07,validation,flow,2026,all valid,19.33346450472271,32.32870066288712
+text,K12 + coordination (first phase),pems07,validation,flow,2026,"valid, excluding zero",19.347371723999554,32.263096417722224
+text,K12 + coordination (first phase),pems07,validation,occupancy,2024,all valid,0.00986585389888728,0.026117539542979733
+text,K12 + coordination (first phase),pems07,validation,occupancy,2024,"valid, excluding zero",0.009880855951701514,0.026139083370761807
+text,K12 + coordination (first phase),pems07,validation,occupancy,2025,all valid,0.009884820342948717,0.026097685264538716
+text,K12 + coordination (first phase),pems07,validation,occupancy,2025,"valid, excluding zero",0.009900080065415751,0.02611921488503601
+text,K12 + coordination (first phase),pems07,validation,occupancy,2026,all valid,0.009848793167146208,0.02613588835561377
+text,K12 + coordination (first phase),pems07,validation,occupancy,2026,"valid, excluding zero",0.009864028151817007,0.026157463642407067
+text,K12 + coordination (first phase),pems07,validation,speed,2024,all valid,1.9080285937017878,4.180454653161219
+text,K12 + coordination (first phase),pems07,validation,speed,2024,"valid, excluding zero",1.9080285937017878,4.180454653161219
+text,K12 + coordination (first phase),pems07,validation,speed,2025,all valid,1.9097771133224681,4.1856991834775945
+text,K12 + coordination (first phase),pems07,validation,speed,2025,"valid, excluding zero",1.9097771133224681,4.1856991834775945
+text,K12 + coordination (first phase),pems07,validation,speed,2026,all valid,1.907213091930998,4.1895323317495246
+text,K12 + coordination (first phase),pems07,validation,speed,2026,"valid, excluding zero",1.907213091930998,4.1895323317495246
+text,K12 + coordination (first phase),pems08,test,flow,2024,all valid,14.057152416537422,23.051531277839114
+text,K12 + coordination (first phase),pems08,test,flow,2024,"valid, excluding zero",14.078105400542249,22.949251712605335
+text,K12 + coordination (first phase),pems08,test,flow,2025,all valid,14.075972251662407,23.07728365990415
+text,K12 + coordination (first phase),pems08,test,flow,2025,"valid, excluding zero",14.09766458708621,22.976134711929745
+text,K12 + coordination (first phase),pems08,test,flow,2026,all valid,14.081746649527618,23.085973671677127
+text,K12 + coordination (first phase),pems08,test,flow,2026,"valid, excluding zero",14.102408186206949,22.98459298706437
+text,K12 + coordination (first phase),pems08,test,occupancy,2024,all valid,0.0062670380245155,0.017848384704451575
+text,K12 + coordination (first phase),pems08,test,occupancy,2024,"valid, excluding zero",0.00627962401421706,0.0178657588571478
+text,K12 + coordination (first phase),pems08,test,occupancy,2025,all valid,0.006248956903046351,0.01760125741320823
+text,K12 + coordination (first phase),pems08,test,occupancy,2025,"valid, excluding zero",0.006260958906559589,0.017617660359654192
+text,K12 + coordination (first phase),pems08,test,occupancy,2026,all valid,0.006255928898118814,0.0176895216366172
+text,K12 + coordination (first phase),pems08,test,occupancy,2026,"valid, excluding zero",0.006268099706605592,0.01770595863422641
+text,K12 + coordination (first phase),pems08,test,speed,2024,all valid,1.2444303284815073,3.1188725105435813
+text,K12 + coordination (first phase),pems08,test,speed,2024,"valid, excluding zero",1.2444303284815073,3.1188725105435813
+text,K12 + coordination (first phase),pems08,test,speed,2025,all valid,1.2430851389851798,3.1076123056149494
+text,K12 + coordination (first phase),pems08,test,speed,2025,"valid, excluding zero",1.2430851389851798,3.1076123056149494
+text,K12 + coordination (first phase),pems08,test,speed,2026,all valid,1.2413754175186922,3.1180383395546367
+text,K12 + coordination (first phase),pems08,test,speed,2026,"valid, excluding zero",1.2413754175186922,3.1180383395546367
+text,K12 + coordination (first phase),pems08,validation,flow,2024,all valid,14.30299989203725,24.191812781890736
+text,K12 + coordination (first phase),pems08,validation,flow,2024,"valid, excluding zero",14.272586061080602,23.846446062164443
+text,K12 + coordination (first phase),pems08,validation,flow,2025,all valid,14.326598343815446,24.227582132480965
+text,K12 + coordination (first phase),pems08,validation,flow,2025,"valid, excluding zero",14.297588565663062,23.888253664771486
+text,K12 + coordination (first phase),pems08,validation,flow,2026,all valid,14.268265723354363,24.15853246439147
+text,K12 + coordination (first phase),pems08,validation,flow,2026,"valid, excluding zero",14.237560676791738,23.80493957261322
+text,K12 + coordination (first phase),pems08,validation,occupancy,2024,all valid,0.006095442365650033,0.01674960534508623
+text,K12 + coordination (first phase),pems08,validation,occupancy,2024,"valid, excluding zero",0.006086943566990083,0.016710426734331537
+text,K12 + coordination (first phase),pems08,validation,occupancy,2025,all valid,0.006105007750387629,0.01663123498391401
+text,K12 + coordination (first phase),pems08,validation,occupancy,2025,"valid, excluding zero",0.006095910939127439,0.016587760724265727
+text,K12 + coordination (first phase),pems08,validation,occupancy,2026,all valid,0.006086891558182713,0.01670249523839074
+text,K12 + coordination (first phase),pems08,validation,occupancy,2026,"valid, excluding zero",0.0060763531582777456,0.01665049934083545
+text,K12 + coordination (first phase),pems08,validation,speed,2024,all valid,1.2185125993984836,3.0519897583155084
+text,K12 + coordination (first phase),pems08,validation,speed,2024,"valid, excluding zero",1.2185125993984836,3.0519897583155084
+text,K12 + coordination (first phase),pems08,validation,speed,2025,all valid,1.2203239643270976,3.042744030583977
+text,K12 + coordination (first phase),pems08,validation,speed,2025,"valid, excluding zero",1.2203239643270976,3.042744030583977
+text,K12 + coordination (first phase),pems08,validation,speed,2026,all valid,1.2164034289615864,3.049849154004058
+text,K12 + coordination (first phase),pems08,validation,speed,2026,"valid, excluding zero",1.2164034289615864,3.049849154004058
+text,K12 + target-only (first phase),pems03,test,flow,2024,all valid,14.48696654589415,25.071574490967
+text,K12 + target-only (first phase),pems03,test,flow,2024,"valid, excluding zero",14.50795877568179,25.05008637613137
+text,K12 + target-only (first phase),pems03,test,flow,2025,all valid,14.407069525216544,24.12023809848109
+text,K12 + target-only (first phase),pems03,test,flow,2025,"valid, excluding zero",14.422074929005403,24.072683479239338
+text,K12 + target-only (first phase),pems03,test,flow,2026,all valid,14.528741229095354,25.01849625867616
+text,K12 + target-only (first phase),pems03,test,flow,2026,"valid, excluding zero",14.546359678723789,24.99067675899827
+text,K12 + target-only (first phase),pems03,test,occupancy,2024,all valid,0.009037101368632753,0.024594670196556152
+text,K12 + target-only (first phase),pems03,test,occupancy,2024,"valid, excluding zero",0.009076092325069673,0.02466745654958379
+text,K12 + target-only (first phase),pems03,test,occupancy,2025,all valid,0.009049105750130333,0.024653672539211923
+text,K12 + target-only (first phase),pems03,test,occupancy,2025,"valid, excluding zero",0.009089270342869658,0.024726957626411333
+text,K12 + target-only (first phase),pems03,test,occupancy,2026,all valid,0.009027472892431599,0.02453006154476619
+text,K12 + target-only (first phase),pems03,test,occupancy,2026,"valid, excluding zero",0.009067819885254659,0.02460300033781062
+text,K12 + target-only (first phase),pems03,test,speed,2024,all valid,1.8843914439410263,3.9280245061709103
+text,K12 + target-only (first phase),pems03,test,speed,2024,"valid, excluding zero",1.8843914439410263,3.9280245061709103
+text,K12 + target-only (first phase),pems03,test,speed,2025,all valid,1.8721990533380197,3.9022724302990746
+text,K12 + target-only (first phase),pems03,test,speed,2025,"valid, excluding zero",1.8721990533380197,3.9022724302990746
+text,K12 + target-only (first phase),pems03,test,speed,2026,all valid,1.8771031292280764,3.8983429925094586
+text,K12 + target-only (first phase),pems03,test,speed,2026,"valid, excluding zero",1.8771031292280764,3.8983429925094586
+text,K12 + target-only (first phase),pems03,validation,flow,2024,all valid,13.712451721731979,21.955378012046225
+text,K12 + target-only (first phase),pems03,validation,flow,2024,"valid, excluding zero",13.743278178465383,21.96205564869828
+text,K12 + target-only (first phase),pems03,validation,flow,2025,all valid,13.70282070696106,21.94261360585742
+text,K12 + target-only (first phase),pems03,validation,flow,2025,"valid, excluding zero",13.729718858543263,21.93782684860447
+text,K12 + target-only (first phase),pems03,validation,flow,2026,all valid,13.711042249494316,21.950073347568296
+text,K12 + target-only (first phase),pems03,validation,flow,2026,"valid, excluding zero",13.739336721857367,21.950647982420328
+text,K12 + target-only (first phase),pems03,validation,occupancy,2024,all valid,0.009100674756288942,0.025165781064798592
+text,K12 + target-only (first phase),pems03,validation,occupancy,2024,"valid, excluding zero",0.009140023836065794,0.025238407907922825
+text,K12 + target-only (first phase),pems03,validation,occupancy,2025,all valid,0.00910043862971312,0.025180788040465526
+text,K12 + target-only (first phase),pems03,validation,occupancy,2025,"valid, excluding zero",0.009140839958967011,0.025253455232531186
+text,K12 + target-only (first phase),pems03,validation,occupancy,2026,all valid,0.009101922525195798,0.02516288729202275
+text,K12 + target-only (first phase),pems03,validation,occupancy,2026,"valid, excluding zero",0.009142520404558341,0.025235835088344948
+text,K12 + target-only (first phase),pems03,validation,speed,2024,all valid,1.769054208870844,3.810763680877784
+text,K12 + target-only (first phase),pems03,validation,speed,2024,"valid, excluding zero",1.769054208870844,3.810763680877784
+text,K12 + target-only (first phase),pems03,validation,speed,2025,all valid,1.763678717771247,3.805426506420865
+text,K12 + target-only (first phase),pems03,validation,speed,2025,"valid, excluding zero",1.763678717771247,3.805426506420865
+text,K12 + target-only (first phase),pems03,validation,speed,2026,all valid,1.7656650508112068,3.7917513322739804
+text,K12 + target-only (first phase),pems03,validation,speed,2026,"valid, excluding zero",1.7656650508112068,3.7917513322739804
+text,K12 + target-only (first phase),pems04,test,flow,2024,all valid,18.59320673130217,30.95660686335364
+text,K12 + target-only (first phase),pems04,test,flow,2024,"valid, excluding zero",18.427263613631208,29.961185087436924
+text,K12 + target-only (first phase),pems04,test,flow,2025,all valid,18.636023470991894,31.015476652098815
+text,K12 + target-only (first phase),pems04,test,flow,2025,"valid, excluding zero",18.466929797874187,29.97626032322101
+text,K12 + target-only (first phase),pems04,test,flow,2026,all valid,18.610830846947355,30.94708557099447
+text,K12 + target-only (first phase),pems04,test,flow,2026,"valid, excluding zero",18.435295643853365,29.902063697043715
+text,K12 + target-only (first phase),pems04,test,occupancy,2024,all valid,0.007195462632047399,0.01932683841491374
+text,K12 + target-only (first phase),pems04,test,occupancy,2024,"valid, excluding zero",0.007190783245506746,0.01935583884773638
+text,K12 + target-only (first phase),pems04,test,occupancy,2025,all valid,0.007204265229649389,0.019288926838052133
+text,K12 + target-only (first phase),pems04,test,occupancy,2025,"valid, excluding zero",0.0072003957116656605,0.01932026035977911
+text,K12 + target-only (first phase),pems04,test,occupancy,2026,all valid,0.007190408451634009,0.01927890258032258
+text,K12 + target-only (first phase),pems04,test,occupancy,2026,"valid, excluding zero",0.007192790488942981,0.019322462438296613
+text,K12 + target-only (first phase),pems04,test,speed,2024,all valid,1.5375481363928523,3.5319716346139547
+text,K12 + target-only (first phase),pems04,test,speed,2024,"valid, excluding zero",1.5375481363928523,3.5319716346139547
+text,K12 + target-only (first phase),pems04,test,speed,2025,all valid,1.5364831112114559,3.524120871252117
+text,K12 + target-only (first phase),pems04,test,speed,2025,"valid, excluding zero",1.5364831112114559,3.524120871252117
+text,K12 + target-only (first phase),pems04,test,speed,2026,all valid,1.5353910007331706,3.5292156992612886
+text,K12 + target-only (first phase),pems04,test,speed,2026,"valid, excluding zero",1.5353910007331706,3.5292156992612886
+text,K12 + target-only (first phase),pems04,validation,flow,2024,all valid,18.75064847019674,31.658980863165844
+text,K12 + target-only (first phase),pems04,validation,flow,2024,"valid, excluding zero",18.51155684863253,30.39254555692118
+text,K12 + target-only (first phase),pems04,validation,flow,2025,all valid,18.808327132763644,31.796234643824977
+text,K12 + target-only (first phase),pems04,validation,flow,2025,"valid, excluding zero",18.549639873047123,30.41830534592594
+text,K12 + target-only (first phase),pems04,validation,flow,2026,all valid,18.80057289634812,31.742564083837337
+text,K12 + target-only (first phase),pems04,validation,flow,2026,"valid, excluding zero",18.53163470780023,30.3460610531534
+text,K12 + target-only (first phase),pems04,validation,occupancy,2024,all valid,0.00785219325716843,0.02128539789326362
+text,K12 + target-only (first phase),pems04,validation,occupancy,2024,"valid, excluding zero",0.007852473693815639,0.02136811241769895
+text,K12 + target-only (first phase),pems04,validation,occupancy,2025,all valid,0.007870249433823012,0.02120341721497693
+text,K12 + target-only (first phase),pems04,validation,occupancy,2025,"valid, excluding zero",0.007870071011535017,0.021284638112469768
+text,K12 + target-only (first phase),pems04,validation,occupancy,2026,all valid,0.007856816709611542,0.021252246663802786
+text,K12 + target-only (first phase),pems04,validation,occupancy,2026,"valid, excluding zero",0.007867352228365057,0.021349085403066077
+text,K12 + target-only (first phase),pems04,validation,speed,2024,all valid,1.593276273789807,3.6343379743603834
+text,K12 + target-only (first phase),pems04,validation,speed,2024,"valid, excluding zero",1.593276273789807,3.6343379743603834
+text,K12 + target-only (first phase),pems04,validation,speed,2025,all valid,1.594009936884209,3.631823803236118
+text,K12 + target-only (first phase),pems04,validation,speed,2025,"valid, excluding zero",1.594009936884209,3.631823803236118
+text,K12 + target-only (first phase),pems04,validation,speed,2026,all valid,1.5962195203569056,3.6448439908868493
+text,K12 + target-only (first phase),pems04,validation,speed,2026,"valid, excluding zero",1.5962195203569056,3.6448439908868493
+text,K12 + target-only (first phase),pems07,test,flow,2024,all valid,19.857089033771462,33.007364684254355
+text,K12 + target-only (first phase),pems07,test,flow,2024,"valid, excluding zero",19.9238873492299,33.025506550559385
+text,K12 + target-only (first phase),pems07,test,flow,2025,all valid,19.868691917356973,33.003144849377314
+text,K12 + target-only (first phase),pems07,test,flow,2025,"valid, excluding zero",19.92955297360509,33.01775337254845
+text,K12 + target-only (first phase),pems07,test,flow,2026,all valid,19.838734297700736,32.98279172924991
+text,K12 + target-only (first phase),pems07,test,flow,2026,"valid, excluding zero",19.90260575060622,33.00002944261293
+text,K12 + target-only (first phase),pems07,test,occupancy,2024,all valid,0.011056765684169401,0.028330798194310825
+text,K12 + target-only (first phase),pems07,test,occupancy,2024,"valid, excluding zero",0.011073707183531638,0.028353328420505603
+text,K12 + target-only (first phase),pems07,test,occupancy,2025,all valid,0.011076249214082986,0.02834678991692942
+text,K12 + target-only (first phase),pems07,test,occupancy,2025,"valid, excluding zero",0.011093281179118637,0.028369354133469304
+text,K12 + target-only (first phase),pems07,test,occupancy,2026,all valid,0.011040908052140523,0.028303315942298155
+text,K12 + target-only (first phase),pems07,test,occupancy,2026,"valid, excluding zero",0.01105796284476887,0.028325920606260966
+text,K12 + target-only (first phase),pems07,test,speed,2024,all valid,2.097423200218175,4.537281814083506
+text,K12 + target-only (first phase),pems07,test,speed,2024,"valid, excluding zero",2.097423200218175,4.537281814083506
+text,K12 + target-only (first phase),pems07,test,speed,2025,all valid,2.0991864047961295,4.534776098954514
+text,K12 + target-only (first phase),pems07,test,speed,2025,"valid, excluding zero",2.0991864047961295,4.534776098954514
+text,K12 + target-only (first phase),pems07,test,speed,2026,all valid,2.0979277120591253,4.5436741041897735
+text,K12 + target-only (first phase),pems07,test,speed,2026,"valid, excluding zero",2.0979277120591253,4.5436741041897735
+text,K12 + target-only (first phase),pems07,validation,flow,2024,all valid,19.663904568357225,32.866711955063444
+text,K12 + target-only (first phase),pems07,validation,flow,2024,"valid, excluding zero",19.70978817622167,32.83890940107697
+text,K12 + target-only (first phase),pems07,validation,flow,2025,all valid,19.669169245627458,32.90022118299313
+text,K12 + target-only (first phase),pems07,validation,flow,2025,"valid, excluding zero",19.71403481892238,32.86914694746824
+text,K12 + target-only (first phase),pems07,validation,flow,2026,all valid,19.63767423572183,32.84153405183527
+text,K12 + target-only (first phase),pems07,validation,flow,2026,"valid, excluding zero",19.681095113466114,32.81597292228668
+text,K12 + target-only (first phase),pems07,validation,occupancy,2024,all valid,0.010020305958545576,0.02631289725071448
+text,K12 + target-only (first phase),pems07,validation,occupancy,2024,"valid, excluding zero",0.010035772389845196,0.026334557965007558
+text,K12 + target-only (first phase),pems07,validation,occupancy,2025,all valid,0.010051208265663183,0.026358524408158737
+text,K12 + target-only (first phase),pems07,validation,occupancy,2025,"valid, excluding zero",0.010066765899447296,0.02638027900678707
+text,K12 + target-only (first phase),pems07,validation,occupancy,2026,all valid,0.010003261608697713,0.026293203001576372
+text,K12 + target-only (first phase),pems07,validation,occupancy,2026,"valid, excluding zero",0.010018827922644557,0.026314894217093973
+text,K12 + target-only (first phase),pems07,validation,speed,2024,all valid,1.9473583424463992,4.254872490425354
+text,K12 + target-only (first phase),pems07,validation,speed,2024,"valid, excluding zero",1.9473583424463992,4.254872490425354
+text,K12 + target-only (first phase),pems07,validation,speed,2025,all valid,1.950329770170479,4.256131116656048
+text,K12 + target-only (first phase),pems07,validation,speed,2025,"valid, excluding zero",1.950329770170479,4.256131116656048
+text,K12 + target-only (first phase),pems07,validation,speed,2026,all valid,1.9483495758821148,4.2601992404815885
+text,K12 + target-only (first phase),pems07,validation,speed,2026,"valid, excluding zero",1.9483495758821148,4.2601992404815885
+text,K12 + target-only (first phase),pems08,test,flow,2024,all valid,14.114543277234011,23.12421707746555
+text,K12 + target-only (first phase),pems08,test,flow,2024,"valid, excluding zero",14.136552417246802,23.022233225488822
+text,K12 + target-only (first phase),pems08,test,flow,2025,all valid,14.200446353790857,23.365776338362533
+text,K12 + target-only (first phase),pems08,test,flow,2025,"valid, excluding zero",14.22099224747113,23.266304923662993
+text,K12 + target-only (first phase),pems08,test,flow,2026,all valid,14.140731378189995,23.18011302350665
+text,K12 + target-only (first phase),pems08,test,flow,2026,"valid, excluding zero",14.160411366531743,23.080098462943226
+text,K12 + target-only (first phase),pems08,test,occupancy,2024,all valid,0.006294679944415028,0.01782781947292922
+text,K12 + target-only (first phase),pems08,test,occupancy,2024,"valid, excluding zero",0.0063073311662244355,0.017845072284107442
+text,K12 + target-only (first phase),pems08,test,occupancy,2025,all valid,0.006304986694005355,0.017876230246424273
+text,K12 + target-only (first phase),pems08,test,occupancy,2025,"valid, excluding zero",0.006317599469070304,0.017893615746832424
+text,K12 + target-only (first phase),pems08,test,occupancy,2026,all valid,0.0062760392825314945,0.017696677213643427
+text,K12 + target-only (first phase),pems08,test,occupancy,2026,"valid, excluding zero",0.006288375783567733,0.017713257986565145
+text,K12 + target-only (first phase),pems08,test,speed,2024,all valid,1.2547411656088951,3.149708287532407
+text,K12 + target-only (first phase),pems08,test,speed,2024,"valid, excluding zero",1.2547411656088951,3.149708287532407
+text,K12 + target-only (first phase),pems08,test,speed,2025,all valid,1.2605819713496433,3.2096751473706937
+text,K12 + target-only (first phase),pems08,test,speed,2025,"valid, excluding zero",1.2605819713496433,3.2096751473706937
+text,K12 + target-only (first phase),pems08,test,speed,2026,all valid,1.2580376334518657,3.183130212446749
+text,K12 + target-only (first phase),pems08,test,speed,2026,"valid, excluding zero",1.2580376334518657,3.183130212446749
+text,K12 + target-only (first phase),pems08,validation,flow,2024,all valid,14.40684075522044,24.34685973378084
+text,K12 + target-only (first phase),pems08,validation,flow,2024,"valid, excluding zero",14.37845296176075,24.009929230874025
+text,K12 + target-only (first phase),pems08,validation,flow,2025,all valid,14.373288850994737,24.33851879583163
+text,K12 + target-only (first phase),pems08,validation,flow,2025,"valid, excluding zero",14.345567198889185,24.011265868565435
+text,K12 + target-only (first phase),pems08,validation,flow,2026,all valid,14.386916227600056,24.314904146963258
+text,K12 + target-only (first phase),pems08,validation,flow,2026,"valid, excluding zero",14.356155900201905,23.97365310594789
+text,K12 + target-only (first phase),pems08,validation,occupancy,2024,all valid,0.00615161221123724,0.01680258069153433
+text,K12 + target-only (first phase),pems08,validation,occupancy,2024,"valid, excluding zero",0.0061424973871322475,0.016762948956085818
+text,K12 + target-only (first phase),pems08,validation,occupancy,2025,all valid,0.0061584073052654235,0.016811150469528083
+text,K12 + target-only (first phase),pems08,validation,occupancy,2025,"valid, excluding zero",0.00614896334250903,0.016766166219664095
+text,K12 + target-only (first phase),pems08,validation,occupancy,2026,all valid,0.006144127063639478,0.016776861147429597
+text,K12 + target-only (first phase),pems08,validation,occupancy,2026,"valid, excluding zero",0.006134846418560944,0.016734005314914348
+text,K12 + target-only (first phase),pems08,validation,speed,2024,all valid,1.2348237573718142,3.1061639316487146
+text,K12 + target-only (first phase),pems08,validation,speed,2024,"valid, excluding zero",1.2348237573718142,3.1061639316487146
+text,K12 + target-only (first phase),pems08,validation,speed,2025,all valid,1.2379594252277695,3.130498425950797
+text,K12 + target-only (first phase),pems08,validation,speed,2025,"valid, excluding zero",1.2379594252277695,3.130498425950797
+text,K12 + target-only (first phase),pems08,validation,speed,2026,all valid,1.2374756378277985,3.126511922476982
+text,K12 + target-only (first phase),pems08,validation,speed,2026,"valid, excluding zero",1.2374756378277985,3.126511922476982

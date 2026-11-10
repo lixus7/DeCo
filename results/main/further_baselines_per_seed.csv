@@ -1,4 +1,4 @@
-dataset,split,quantity,model,variant,seed,targets,mae,rmse
+dataset,split,variable,model,variant,seed,targets,mae,rmse
 pems04,test,flow,LightGBM,SISO,2024,all valid,21.25413634,33.94128359
 pems04,test,flow,LightGBM,SISO,2024,"valid, excluding zero",21.22649314,33.69763267
 pems04,test,flow,LightGBM,SISO,2025,all valid,21.26047019,33.97027955

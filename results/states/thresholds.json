@@ -1,0 +1,58 @@
+{
+ "pems03": {
+  "original (q0.35 / q0.65)": {
+   "speed_le_mph": 62.5,
+   "occupancy_ge": 0.0717
+  },
+  "S1 (q0.20 / q0.80)": {
+   "speed_le_mph": 59.7,
+   "occupancy_ge": 0.0935
+  },
+  "S2 (q0.05 / q0.95)": {
+   "speed_le_mph": 43.5,
+   "occupancy_ge": 0.1702
+  }
+ },
+ "pems04": {
+  "original (q0.35 / q0.65)": {
+   "speed_le_mph": 63.900001525878906,
+   "occupancy_ge": 0.05979999899864197
+  },
+  "S1 (q0.20 / q0.80)": {
+   "speed_le_mph": 61.0,
+   "occupancy_ge": 0.0751
+  },
+  "S2 (q0.05 / q0.95)": {
+   "speed_le_mph": 48.0,
+   "occupancy_ge": 0.1283
+  }
+ },
+ "pems07": {
+  "original (q0.35 / q0.65)": {
+   "speed_le_mph": 63.2,
+   "occupancy_ge": 0.0799
+  },
+  "S1 (q0.20 / q0.80)": {
+   "speed_le_mph": 58.8,
+   "occupancy_ge": 0.1076
+  },
+  "S2 (q0.05 / q0.95)": {
+   "speed_le_mph": 30.8,
+   "occupancy_ge": 0.2507
+  }
+ },
+ "pems08": {
+  "original (q0.35 / q0.65)": {
+   "speed_le_mph": 63.6,
+   "occupancy_ge": 0.0744
+  },
+  "S1 (q0.20 / q0.80)": {
+   "speed_le_mph": 61.8,
+   "occupancy_ge": 0.0889
+  },
+  "S2 (q0.05 / q0.95)": {
+   "speed_le_mph": 53.2,
+   "occupancy_ge": 0.1352
+  }
+ }
+}

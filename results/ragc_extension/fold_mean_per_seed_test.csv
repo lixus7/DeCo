@@ -1,4 +1,4 @@
-dataset,quantity,seed,targets,mae,rmse
+dataset,variable,seed,targets,mae,rmse
 pems03,flow,2024,all valid,14.33738274,22.81971694
 pems03,flow,2024,"valid, excluding zero",14.37444341,22.80438844
 pems03,flow,2025,all valid,14.39668816,22.90786309
