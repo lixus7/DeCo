@@ -1,6 +1,6 @@
-"""Collaboration module: a residual mixer over the three quantities at one sensor.
+"""Coordination module: a residual mixer over the three variables at one sensor.
 
-mode='cross' lets each quantity read the other two; mode='self' feeds copies of the target quantity (the control).
+mode='cross' lets each variable read the other two; mode='self' feeds copies of the target variable (the target-only module).
 The final layers start at zero, so an untrained module returns the forecast unchanged.
 """
 import torch

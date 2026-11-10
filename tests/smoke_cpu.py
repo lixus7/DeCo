@@ -36,10 +36,10 @@ def main():
         np.save(d/'adj.npy', np.ones((N, N), np.float32))
         (tmp/'datasets.json').write_text(json.dumps(dict(synthetic=dict(nodes=N, length=T, train_end=1200, val_end=1600, start_date='2024-01-01',
                                                                         congestion=dict(speed_le=58., occupancy_ge=.09)))))
-        env = dict(os.environ, COFA_DATA=str(tmp/'data'), COFA_PREPARED=str(tmp/'prepared'), COFA_DATASETS=str(tmp/'datasets.json'), COFA_OUTPUT=str(tmp/'results'))
+        env = dict(os.environ, DECO_DATA=str(tmp/'data'), DECO_PREPARED=str(tmp/'prepared'), DECO_DATASETS=str(tmp/'datasets.json'), DECO_OUTPUT=str(tmp/'results'))
         for command in [['prepare'], ['pipeline', '--smoke']]:
             subprocess.run([sys.executable, str(REPO/'run.py'), *command, '--dataset', 'synthetic', '--seed', '2024'], env=env, check=True, stdout=subprocess.DEVNULL)
-        for arm in ['v1_cross', 'v1_self']:
+        for arm in ['coord', 'target_only']:
             done = json.loads((tmp/f'results/eval-a12-synthetic-bank2024-s2024-{arm}/COMPLETE.json').read_text())
             for deployment in ['K12', 'FINAL', 'TRANSFER']:
                 mae = done['deployments'][deployment]['test']['mae']

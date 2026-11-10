@@ -2,9 +2,9 @@
 import hashlib,json,os,random,time
 from pathlib import Path
 REPO=Path(__file__).resolve().parents[1]
-DATA=Path(os.environ.get('COFA_DATA',REPO/'data'))
-PREPARED=Path(os.environ.get('COFA_PREPARED',REPO/'prepared'))
-CONFIG=Path(os.environ.get('COFA_DATASETS',REPO/'configs/datasets.json'))
+DATA=Path(os.environ.get('DECO_DATA',REPO/'data'))
+PREPARED=Path(os.environ.get('DECO_PREPARED',REPO/'prepared'))
+CONFIG=Path(os.environ.get('DECO_DATASETS',REPO/'configs/datasets.json'))
 INPUTS=json.loads(CONFIG.read_text())
 CHANNELS=['flow','occupancy','speed']
 
@@ -94,7 +94,7 @@ def metrics(raw,ids,prediction,channels=(0,1,2),dataset=None,cohort=None):
     return score(raw,ids,prediction,channels,dataset,cohort)[0]
 
 def output_root():
-    p=Path(os.environ.get('COFA_OUTPUT',REPO/'results')).resolve()
+    p=Path(os.environ.get('DECO_OUTPUT',REPO/'results')).resolve()
     p.mkdir(parents=True,exist_ok=True);return p
 
 def finish(out,task,smoke,started,extra=None):

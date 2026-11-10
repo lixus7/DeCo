@@ -1,6 +1,6 @@
 # Data
 
-Each dataset has its own folder, `data/<dataset>/`, with these arrays (T steps, N sensors, 3 quantities in the order flow, occupancy, speed):
+Each dataset has its own folder, `data/<dataset>/`, with these arrays (T steps, N sensors, 3 variables in the order flow, occupancy, speed):
 
 | File | Shape and type | Content |
 |---|---|---|
@@ -13,12 +13,12 @@ Dataset sizes, splits and congestion thresholds are in `../configs/datasets.json
 
 ## PeMS03 and PeMS07
 
-The aligned arrays are in the [`data-v1` release](https://github.com/lixus7/CoFA/releases/tag/data-v1). From this folder:
+The aligned arrays are in the [`data-v1` release](https://github.com/lixus7/DeCo/releases/tag/data-v1). From this folder:
 
 ```bash
-curl -LO https://github.com/lixus7/CoFA/releases/download/data-v1/pems03.tar.gz
-curl -LO https://github.com/lixus7/CoFA/releases/download/data-v1/pems07.tar.gz
-curl -LO https://github.com/lixus7/CoFA/releases/download/data-v1/SHA256SUMS
+curl -LO https://github.com/lixus7/DeCo/releases/download/data-v1/pems03.tar.gz
+curl -LO https://github.com/lixus7/DeCo/releases/download/data-v1/pems07.tar.gz
+curl -LO https://github.com/lixus7/DeCo/releases/download/data-v1/SHA256SUMS
 sha256sum -c SHA256SUMS
 tar -xzf pems03.tar.gz
 tar -xzf pems07.tar.gz
@@ -43,8 +43,8 @@ These are the arrays the reported PeMS03 and PeMS07 runs used.
 
 **How to read them.**
 
-- These arrays are PeMS records aligned to the flow benchmarks. They do not recover an unpublished original three-quantity file.
-- A valid entry means that the record has a value. It does not establish that the value was measured directly, or that the three quantities were measured independently.
+- These arrays are PeMS records aligned to the flow benchmarks. They do not recover an unpublished original three-variable file.
+- A valid entry means that the record has a value. It does not establish that the value was measured directly, or that the three variables were measured independently.
 - Where PeMS03's records differ from the benchmark flow, the benchmark value is kept.
 
 **Provenance** (`provenance/`):
@@ -56,7 +56,7 @@ PeMS07's benchmark nodes are anonymous and some share a complete flow series, so
 
 ## PeMS04 and PeMS08
 
-These use the three-quantity releases in [ASTGCN](https://github.com/Davidham3/ASTGCN-2019-mxnet) at commit `d5d40645fa45471f2b473fc49a29ec3f0a993c6d`: `data/PEMS04/` and `data/PEMS08/`, each with an `.npz` file and `distance.csv`. To build the arrays, from the repository root:
+These use the three-variable releases in [ASTGCN](https://github.com/Davidham3/ASTGCN-2019-mxnet) at commit `d5d40645fa45471f2b473fc49a29ec3f0a993c6d`: `data/PEMS04/` and `data/PEMS08/`, each with an `.npz` file and `distance.csv`. To build the arrays, from the repository root:
 
 ```bash
 python data/make_pems0408.py --npz pems04.npz --distance distance.csv --out data/pems04

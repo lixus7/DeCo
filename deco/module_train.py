@@ -6,8 +6,8 @@ import numpy as np
 import torch
 from common import CONFIG, DEVICE, device_name, dump, finish, metrics, peak_gib, reset_peak, seed_all, sha
 from selection import RULE, improves, replay
-from models import adapter, details
-from train_adapter import Data
+from models import coordination_module, details
+from module_data import Data
 
 DEPLOYMENTS = ('K12', 'FINAL', 'TRANSFER')
 
@@ -16,7 +16,7 @@ DEPLOYMENTS = ('K12', 'FINAL', 'TRANSFER')
 def predict_raw(model, arm, data, flat, mode, identity=False):
     """Residuals are applied in raw units. Identity returns the teacher exactly.
 
-    Averaging is after the nonlinear adapter. Float64 fold accumulation followed
+    Averaging is after the nonlinear module. Float64 fold accumulation followed
     by one float32 cast is also used for the identity K12 cache in banks.py.
     """
     if mode not in ['K12', 'FINAL']:
@@ -68,7 +68,7 @@ def select(model, arm, data, points, identity=False):
 
 def load_model(folder, epoch, arm, nodes):
     state = torch.load(folder/'epochs'/f'epoch{epoch:03d}.pt', map_location=DEVICE, weights_only=False)
-    model = adapter(arm, nodes).to(DEVICE); model.load_state_dict(state['model']); model.eval()
+    model = coordination_module(arm, nodes).to(DEVICE); model.load_state_dict(state['model']); model.eval()
     return model
 
 
@@ -112,7 +112,7 @@ def run(task, out, bank_path, smoke=False, resume=False, pause_after_steps=None,
     start=time.monotonic();seed_all(task['seed']);data=Data(task,bank_path);bank=data.bank
     if not smoke:bank.check_ids()
     assert task['history']=='recent12' and bank.final is not None
-    model=adapter(task['arm'],data.n).to(DEVICE);opt=torch.optim.AdamW(model.parameters(),lr=.0005,weight_decay=.0001)
+    model=coordination_module(task['arm'],data.n).to(DEVICE);opt=torch.optim.AdamW(model.parameters(),lr=.0005,weight_decay=.0001)
     fit=data.points('train',smoke);val=data.points('val',smoke)
     identity=dict(task=task,smoke=smoke,config_sha256=sha(CONFIG),bank_complete_sha256=sha(bank_path/'COMPLETE.json'))
     history=[];best={};stale={'K12':0,'FINAL':0};ep=0;cursor=0;order=None;steps=0;accum=0.;batches=0

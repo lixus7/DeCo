@@ -1,4 +1,4 @@
-"""Forecasters and module factory: DecoupleST SISO and MISO, RAGC, and the collaboration module."""
+"""Forecasters and module factory: DecoupleST SISO and MISO, RAGC, and the coordination module."""
 import importlib.util
 from types import SimpleNamespace
 import torch
@@ -55,9 +55,9 @@ class RAGC(nn.Module):
         return result[0] if self.training else result
 
 
-def adapter(arm, nodes):
-    assert arm in ['v1_cross', 'v1_self']
-    return UnifiedMixer('cross' if arm == 'v1_cross' else 'self', nodes, 64, 2)
+def coordination_module(arm, nodes):
+    assert arm in ['coord', 'target_only']
+    return UnifiedMixer('cross' if arm == 'coord' else 'self', nodes, 64, 2)
 
 
 def details(model, arm, history, base, node):

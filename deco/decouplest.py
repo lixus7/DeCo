@@ -1,6 +1,6 @@
 """DecoupleST: a graph-propagated branch plus a local remainder branch, with a direct linear map.
 
-SISO input packets carry one quantity in the first of nine channels; the three unused history blocks stay zero.
+SISO input packets carry one variable in the first of nine channels; the three unused history blocks stay zero.
 """
 import math
 import torch
