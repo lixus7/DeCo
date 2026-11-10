@@ -55,9 +55,15 @@ class RAGC(nn.Module):
         return result[0] if self.training else result
 
 
+# Module arms. coord: DeCo-S's module (with sensor embedding); coord_nonode: DeCo's module (no sensor embedding); target_only: the
+# target-only module; coord_no_hist / coord_no_fc: DeCo-S's module with the other variables' histories / forecasts set to zero.
+ARMS = {'coord': dict(mode='cross'), 'coord_nonode': dict(mode='cross', sensor_embedding=False), 'target_only': dict(mode='self'),
+        'coord_no_hist': dict(mode='cross', zero='histories'), 'coord_no_fc': dict(mode='cross', zero='forecasts')}
+
+
 def coordination_module(arm, nodes):
-    assert arm in ['coord', 'target_only']
-    return UnifiedMixer('cross' if arm == 'coord' else 'self', nodes, 64, 2)
+    spec = dict(ARMS[arm])
+    return UnifiedMixer(spec.pop('mode'), nodes, 64, 2, **spec)
 
 
 def details(model, arm, history, base, node):

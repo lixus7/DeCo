@@ -8,7 +8,22 @@
     "congestion": {
       "speed_le": 62.5,
       "occupancy_ge": 0.0717
-    }
+    },
+    "congestion_levels": {
+      "S1": {
+        "speed_le": 59.7,
+        "occupancy_ge": 0.0935,
+        "speed_quantile": 0.2,
+        "occupancy_quantile": 0.8
+      },
+      "S2": {
+        "speed_le": 43.5,
+        "occupancy_ge": 0.1702,
+        "speed_quantile": 0.05,
+        "occupancy_quantile": 0.95
+      }
+    },
+    "threshold_first_target": 12
   },
   "pems04": {
     "nodes": 307,
@@ -19,7 +34,22 @@
     "congestion": {
       "speed_le": 63.900001525878906,
       "occupancy_ge": 0.05979999899864197
-    }
+    },
+    "congestion_levels": {
+      "S1": {
+        "speed_le": 61.0,
+        "occupancy_ge": 0.0751,
+        "speed_quantile": 0.2,
+        "occupancy_quantile": 0.8
+      },
+      "S2": {
+        "speed_le": 48.0,
+        "occupancy_ge": 0.1283,
+        "speed_quantile": 0.05,
+        "occupancy_quantile": 0.95
+      }
+    },
+    "threshold_first_target": 2028
   },
   "pems07": {
     "nodes": 883,
@@ -30,7 +60,22 @@
     "congestion": {
       "speed_le": 63.2,
       "occupancy_ge": 0.0799
-    }
+    },
+    "congestion_levels": {
+      "S1": {
+        "speed_le": 58.8,
+        "occupancy_ge": 0.1076,
+        "speed_quantile": 0.2,
+        "occupancy_quantile": 0.8
+      },
+      "S2": {
+        "speed_le": 30.8,
+        "occupancy_ge": 0.2507,
+        "speed_quantile": 0.05,
+        "occupancy_quantile": 0.95
+      }
+    },
+    "threshold_first_target": 12
   },
   "pems08": {
     "nodes": 170,
@@ -41,6 +86,21 @@
     "congestion": {
       "speed_le": 63.6,
       "occupancy_ge": 0.0744
-    }
+    },
+    "congestion_levels": {
+      "S1": {
+        "speed_le": 61.8,
+        "occupancy_ge": 0.0889,
+        "speed_quantile": 0.2,
+        "occupancy_quantile": 0.8
+      },
+      "S2": {
+        "speed_le": 53.2,
+        "occupancy_ge": 0.1352,
+        "speed_quantile": 0.05,
+        "occupancy_quantile": 0.95
+      }
+    },
+    "threshold_first_target": 2028
   }
 }

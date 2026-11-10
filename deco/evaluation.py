@@ -13,9 +13,10 @@ def safe(x):
 
 def divide(a,n):return np.divide(a,n,out=np.full(np.broadcast_shapes(np.shape(a),np.shape(n)),np.nan,dtype=np.float64),where=n>0)
 
-def states(raw,ids,dataset,valid=None):
+def states(raw,ids,dataset,valid=None,congestion=None):
+    # congestion: {'speed_le','occupancy_ge'}; default: the dataset's original thresholds (configs/datasets.json 'congestion').
     if valid is None:valid=valid_data(dataset)
-    cfg=INPUTS[dataset]['congestion'];ix=ids[:,None]+12+np.arange(12)
+    cfg=congestion or INPUTS[dataset]['congestion'];ix=ids[:,None]+12+np.arange(12)
     truth=raw[ix];cur=raw[ids+11]
     current=((cur[...,2]<=cfg['speed_le'])&(cur[...,1]>=cfg['occupancy_ge']))[:,None]
     future=(truth[...,2]<=cfg['speed_le'])&(truth[...,1]>=cfg['occupancy_ge'])

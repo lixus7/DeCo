@@ -1,4 +1,9 @@
-"""On-disk float32 banks; bounded batches, no complete bank copied to CUDA."""
+"""On-disk float32 banks; bounded batches, no complete bank copied to CUDA.
+
+A bank holds the out-of-fold forecasts of the training windows, the twelve fold forecasts of the validation and test windows and the
+forecasts of the reference (final) forecasters. task['forecasters'] names the forecaster runs: 'r12' for the first-phase forecasters
+(DeCo-S, target-only module) and 'r12c' for the forecasters after their second training phase (DeCo).
+"""
 import json
 import time
 import numpy as np
@@ -6,9 +11,9 @@ from common import INPUTS, dump, finish, raw_data, scaler, sha, split_ids, valid
 
 
 def assemble(task, out, results, smoke=False):
-    start = time.monotonic(); ds = task['dataset']; ids = split_ids(ds)
+    start = time.monotonic(); ds = task['dataset']; ids = split_ids(ds); prefix = task.get('forecasters', 'r12')
     if smoke:
-        ids = dict(train=np.concatenate([np.load(results/f'r12-{ds}-{task["seed"]}-f{k:02d}-c0'/'held_ids.npy') for k in range(12)]),
+        ids = dict(train=np.concatenate([np.load(results/f'{prefix}-{ds}-{task["seed"]}-f{k:02d}-c0'/'held_ids.npy') for k in range(12)]),
                    val=ids['val'][:4],test=ids['test'][:4])
     n = INPUTS[ds]['nodes']; sample_id = np.concatenate(list(ids.values()))
     role = np.concatenate([np.full(len(v), i, np.uint8) for i,v in enumerate(ids.values())])
@@ -24,7 +29,7 @@ def assemble(task, out, results, smoke=False):
     provenance = []
     for k in range(12):
         for c in range(3):
-            key = f'r12-{ds}-{task["seed"]}-f{k:02d}-c{c}'
+            key = f'{prefix}-{ds}-{task["seed"]}-f{k:02d}-c{c}'
             d = results/key
             co = json.loads((d/'COMPLETE.json').read_text())
             assert co['smoke'] == smoke and co['task']['fold'] == k and co['task']['seed'] == task['seed']
@@ -41,7 +46,7 @@ def assemble(task, out, results, smoke=False):
     final = np.lib.format.open_memmap(out/'final_prediction.npy', mode='w+', dtype=np.float32,
                                       shape=(len(eval_ids),12,n,3))
     for c in range(3):
-        key = f'r12-{ds}-{task["seed"]}-final-c{c}'; d = results/key
+        key = f'{prefix}-{ds}-{task["seed"]}-final-c{c}'; d = results/key
         co = json.loads((d/'COMPLETE.json').read_text())
         assert co['smoke'] == smoke and co['task']['fold'] is None and co['task']['channel'] == c
         for label, offset in [('val',0),('test',len(ids['val']))]:
