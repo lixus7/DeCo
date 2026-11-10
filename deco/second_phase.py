@@ -2,7 +2,8 @@
 
 Each DecoupleST forecaster (fold, final and early-fusion MISO) continues from the best.pt of its first-phase fit:
 - the first phase's optimizer settings with a fresh Adam state (lr 1e-3, weight decay 1e-4, gradient clipping at 5, batch 16), the
-  same training partition, inputs and masks (valid nonzero targets) and the same empty-batch rule;
+  same training partition, inputs and masks (valid nonzero targets); a batch without a valid nonzero target is skipped (the PeMS03/07
+  rule; the PeMS04/08 code required every batch to have one, and none lacked it);
 - in training, each sensor's rows of the node-embedding table and of the two tables of the learned graph (E1, E2) are replaced, together,
   by the rows of a randomly drawn sensor with probability 0.1 at every step (RAGC's SSE regularization);
 - ten epochs, no checkpoint selection; the weights of epochs 1-10 are averaged with equal weights (in float64, cast back);

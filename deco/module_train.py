@@ -1,4 +1,8 @@
-"""One OOF trajectory, two validation selections, then evaluation of the K12, FINAL and TRANSFER deployments."""
+"""One OOF trajectory, two validation selections, then evaluation of the K12, FINAL and TRANSFER deployments.
+
+A run that pauses (SIGTERM, SIGUSR1 or the wall-time limit) and resumes keeps its updates, checkpoints and predictions, but the recorded
+seconds of the interrupted epoch cover only the part after the resume, so COMPLETE.json training_seconds is then too low.
+"""
 import json
 import os
 import time
@@ -56,7 +60,7 @@ def select(model, arm, data, points, identity=False):
         for i in range(0, len(points), 8192):
             flat = points[i:i+8192]; row, node = flat//data.n, flat % data.n
             sid = data.bank.ids[row]
-            truth = data.raw[sid[:, None]+12+np.arange(12), node[:, None]]
+            truth = data.labels[sid[:, None]+12+np.arange(12), node[:, None]]
             pred = predict_raw(model, arm, data, flat, mode, identity)
             a, n = pooled_val(pred, truth, data.bank.std, data.valid[sid[:, None]+12+np.arange(12), node[:, None]]); sums += a; counts += n
         if not (counts > 0).all():

@@ -112,14 +112,44 @@ def run_states(task, smoke=False):
     return run(task, output_root()/task['id'], output_root(), smoke)
 
 
-def done(task):
-    return (output_root()/task['id']/'COMPLETE.json').exists()
+class Conflict(SystemExit):
+    pass
+
+
+def done(task, smoke):
+    """True when results/<task id>/ already holds a complete run of exactly this task in this mode (formal or smoke), with the same
+    dataset settings and every listed output file; False when there is no record. Anything else in that folder stops the pipeline
+    instead of being skipped or overwritten (for example a smoke run before a formal run): move it away first."""
+    from common import CONFIG, sha
+    folder = output_root()/task['id']
+    path = folder/'COMPLETE.json'
+    if not path.exists():
+        if folder.exists() and any(folder.iterdir()):
+            raise Conflict(f'{folder}: an unfinished run is in the way (no COMPLETE.json); resume it with the single command or move it away')
+        return False
+    record = json.loads(path.read_text())
+    problems = []
+    if record.get('complete') is not True:
+        problems.append('not marked complete')
+    if record.get('smoke') is not bool(smoke):
+        problems.append(f"it is a {'smoke' if record.get('smoke') else 'formal'} run and this is a {'smoke' if smoke else 'formal'} run")
+    if record.get('task') != task:
+        problems.append('it records another task definition')
+    if record.get('config_sha256') != sha(CONFIG):
+        problems.append('configs/datasets.json changed since')
+    missing = [name for name in record.get('files', {}) if not (folder/name).is_file()]
+    if missing:
+        problems.append(f'{len(missing)} listed output files are missing (e.g. {missing[0]})')
+    if problems:
+        raise Conflict(f'{folder}: existing run cannot be reused: ' + '; '.join(problems) + '. Move it away first.')
+    return True
 
 
 def pipeline(ds, seed, smoke=False, ablation=False):
-    """Every step for one dataset and seed: DeCo-S and the target-only module, then DeCo. Completed tasks are skipped."""
+    """Every step for one dataset and seed: DeCo-S and the target-only module, then DeCo. Completed runs of the same task and mode are
+    skipped; any other existing run stops the pipeline (see done)."""
     def step(runner, task):
-        if not done(task):
+        if not done(task, smoke):
             runner(task, smoke)
     for c in range(3):
         for fold in [*range(12), None]:

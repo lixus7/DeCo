@@ -1,14 +1,25 @@
-"""OOF-only residual fitting; nonlinear per-fold inference before averaging."""
+"""OOF-only residual fitting; nonlinear per-fold inference before averaging.
+
+Module fitting and checkpoint selection read the labels in the precision of the reported runs (configs/datasets.json 'module_labels'):
+float32 for PeMS04 and PeMS08, whose earlier first-phase code read the release as float32, float64 otherwise. Metrics use the arrays as
+stored (float64).
+"""
 import numpy as np
 import torch
 from common import DEVICE, INPUTS, histories, raw_data, valid_data, causal_data
 from banks import Bank
 
 
+def label_view(dataset, raw):
+    """Labels for module fitting and checkpoint selection (see the module docstring)."""
+    return np.asarray(raw, np.float32) if INPUTS[dataset].get('module_labels') == 'float32' else raw
+
+
 class Data:
     def __init__(self, task, bank_path):
         self.task=task; self.bank=Bank(bank_path,task['dataset'],task['history'])
-        self.raw=raw_data(task['dataset']); self.valid=valid_data(task['dataset']); self.norm=(causal_data(task['dataset'])-self.bank.mean)/self.bank.std
+        self.raw=raw_data(task['dataset']); self.labels=label_view(task['dataset'],self.raw)
+        self.valid=valid_data(task['dataset']); self.norm=(causal_data(task['dataset'])-self.bank.mean)/self.bank.std
         self.n=INPUTS[task['dataset']]['nodes']
 
     def points(self, cohort, smoke=False):
@@ -29,7 +40,7 @@ class Data:
         else:
             base=(self.bank.teacher[row,:,node] if fold is None else self.bank.folds[fold,row-self.bank.n_oof,:,node])
         base=(np.asarray(base,np.float32)-self.bank.mean)/self.bank.std
-        yraw=self.raw[sid[:,None]+12+np.arange(12),node[:,None]]
+        yraw=self.labels[sid[:,None]+12+np.arange(12),node[:,None]]
         y=(yraw-self.bank.mean)/self.bank.std
         return [torch.as_tensor(x,device=device) for x in (h,base,node,y,self.valid[sid[:,None]+12+np.arange(12),node[:,None]] & (yraw!=0))]
 

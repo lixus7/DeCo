@@ -96,7 +96,7 @@ python run.py baseline --dataset pems08 --seed 2024 --architecture staeformer --
 | Target-only module | `target_only` | 1 | FINAL |
 | w/o other variables' histories / forecasts | `coord_no_hist` / `coord_no_fc` | 1 | FINAL |
 
-The reported runs used NVIDIA H100 GPUs. Training DeCo takes about 14 to 150 H100 hours per seed, depending on the dataset, most of it in the 36 fold forecasters, which are independent and can run in parallel (`results/cost/`).
+The reported DeCo fits ran on NVIDIA H100 GPUs. Across datasets, the three-seed mean training cost ranges from about 14 to 150 H100 hours per seed, most of it in the 36 fold forecasters, which are independent and can run in parallel; per-seed values are in `results/cost/`.
 
 ## Implementation details
 
@@ -126,7 +126,9 @@ These details complete Sections IV and V of the paper.
 
 ## Provenance
 
-This is the code of the reported runs, with cluster scheduling and internal bookkeeping removed. The PeMS04 and PeMS08 forecasters were trained with an earlier revision of the first-phase code, before fold-local input filling was added for the missing records of PeMS03 and PeMS07; with every entry valid, the filling leaves the inputs unchanged. The second training phase, the module without sensor embedding, the blend, the input zeroing and the traffic-state analysis were run as separate packages and are merged into this code. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs, and the embedding-swap draws differ between CPU and GPU.
+This repository consolidates implementations from the experiment packages used for the reported runs, with cluster scheduling and internal bookkeeping removed. The PeMS04 and PeMS08 forecasters were trained with an earlier revision of the first-phase code, before fold-local input filling was added for the missing records of PeMS03 and PeMS07; on the retained windows, valid observations are unchanged by filling. Their coordination modules were fitted and selected on float32 labels, which this code keeps for these two datasets (`module_labels` in `configs/datasets.json`); metrics read the float64 arrays. The second training phase, the module without sensor embedding, the blend, the input zeroing and the traffic-state analysis were run as separate packages and are merged into this code.
+
+We checked the consolidated code against the experiment code: the initial weights, outputs and gradients of every forecaster and module class, the ten-epoch second-phase loops and the bank assembly on synthetic data, and, on the real data, the congestion thresholds, the per-seed test metrics of DeCo and the traffic-state table recomputed from the saved forecasts. The public code was not used to retrain any stage on the real data. Device selection was generalized so that the code also runs on CPU; the reported results were produced on GPUs, and the embedding-swap draws differ between CPU and GPU.
 
 ## License
 

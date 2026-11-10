@@ -79,7 +79,8 @@ def main():
         rng = np.random.default_rng(0)
         t = np.arange(T)[:, None]
         day = np.sin(2*np.pi*t/288)
-        raw = np.stack([100+40*day+rng.normal(0, 5, (T, N)), .08+.03*day+rng.normal(0, .005, (T, N)), 60-5*day+rng.normal(0, 1, (T, N))], -1).astype(np.float32)
+        # float64 labels and float32 causal inputs, like the released arrays (data/README.md)
+        raw = np.stack([100+40*day+rng.normal(0, 5, (T, N)), .08+.03*day+rng.normal(0, .005, (T, N)), 60-5*day+rng.normal(0, 1, (T, N))], -1).astype(np.float64)
         valid = rng.random(raw.shape) > .01
         raw[~valid] = 0
         source = np.where(valid, np.arange(T)[:, None, None], -1)
@@ -124,6 +125,28 @@ def main():
         rows = (results/'states-synthetic-original-S2/STATE_COMPARISONS.csv').read_text().splitlines()
         assert len(rows) > 1, 'no state comparison'
         print('state comparisons:', len(rows) - 1, 'rows')
+        # pipeline reuse: a second smoke pipeline skips every completed smoke run; a formal pipeline must refuse the smoke runs
+        run = lambda *args: subprocess.run([sys.executable, str(REPO/'run.py'), *args, '--dataset', 'synthetic', '--seed', '2024'], env=env,
+                                           capture_output=True, text=True)
+        stamp = {p: p.stat().st_mtime_ns for p in results.rglob('COMPLETE.json')}
+        again = run('pipeline', '--smoke', '--ablation')
+        assert again.returncode == 0, again.stderr[-2000:]
+        formal = run('pipeline')
+        assert formal.returncode != 0 and 'smoke run' in formal.stderr, (formal.returncode, formal.stderr[-2000:])
+        assert stamp == {p: p.stat().st_mtime_ns for p in results.rglob('COMPLETE.json')}, 'an existing run was changed'
+        print('pipeline: completed smoke runs reused, formal run refused')
+        # module labels: float32 where configs/datasets.json says so (PeMS04/08), else the stored float64 arrays
+        cfg = json.loads((tmp/'datasets.json').read_text())
+        cfg['synthetic']['module_labels'] = 'float32'
+        (tmp/'datasets32.json').write_text(json.dumps(cfg))
+        probe = ("import sys; from pathlib import Path; sys.path.insert(0, sys.argv[1]); import module_data; "
+                 "d = module_data.Data(dict(dataset='synthetic', history='recent12'), Path(sys.argv[2])); "
+                 "y = d.batch(d.points('val', True)[:8], device='cpu')[3]; print(d.labels.dtype, y.dtype)")
+        for config, want in [('datasets.json', 'float64 torch.float64'), ('datasets32.json', 'float32 torch.float32')]:
+            out = subprocess.run([sys.executable, '-c', probe, str(REPO/'deco'), str(results/'bank12-synthetic-2024')],
+                                 env=dict(env, DECO_DATASETS=str(tmp/config)), capture_output=True, text=True, check=True)
+            assert out.stdout.split() == want.split(), (config, out.stdout, out.stderr[-1000:])
+        print('module labels: float64 by default, float32 when configured')
         print('PASS')
 
 
