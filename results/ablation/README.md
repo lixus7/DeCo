@@ -1,8 +1,8 @@
-# Ablation (Table V)
+# Ablation (Fig. 3)
 
 | File | Content |
 |---|---|
-| `ablation_test.csv` | Test MAE (three-seed mean and SD) of every row of Table V and its change against the first row of its block; the rows `average of the 12 columns` give the Avg. column. |
+| `ablation_test.csv` | Test MAE (three-seed mean and SD) of the variants of Fig. 3(a) and (b) and their change against the first row of their block, which the bars show; the rows `average of the 12 columns` give the averages over datasets and variables quoted in Section V-C. |
 | `per_seed.csv` | MAE and RMSE per seed of these rows, with and without zero targets (test; validation where it was scored), and of the two first-phase twelve-fold rows quoted in Section V-C. |
 | `coordination_intervals_test.csv` | DeCo against DeCo without the coordination module: MAE reduction with its 95% day-block interval and the number of seeds with a lower MAE. |
 

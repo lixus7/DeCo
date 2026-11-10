@@ -25,9 +25,9 @@ Flow, occupancy and speed describe the same traffic from different sides, yet fo
 
 **Contributions**
 
-- **DeCo, a decoupled forecaster with cross-variable coordination.** Dedicated forecasters per variable plus a separately trained coordination module that uses both observed histories and predicted trajectories. With the same forecasters, removing the module raises the error on every dataset and variable (Table V).
+- **DeCo, a decoupled forecaster with cross-variable coordination.** Dedicated forecasters per variable plus a separately trained coordination module that uses both observed histories and predicted trajectories. With the same forecasters, removing the module raises the error on every dataset and variable (Fig. 3(a)).
 - **Three-variable PeMS03 and PeMS07.** The flow-only PeMS03 and PeMS07 benchmarks are aligned with occupancy and speed from the Caltrans PeMS station records, keeping their sensor sets and flow records. Where PeMS reports flow, it matches the benchmark flow in 99.956% of the PeMS03 entries and in every PeMS07 entry. The arrays, validity masks, station identifiers and source checksums are in the [`data-v1` release](https://github.com/lixus7/DeCo/releases/tag/data-v1).
-- **A controlled comparison of input and output forms.** STAEformer, HimNet and D²STGNN are trained in the single-variable (SISO, 1→1), auxiliary-input (MISO, 3→1) and joint-output (MIMO, 3→3) forms on all four benchmarks under one protocol. Auxiliary inputs lower the MAE in most settings, by up to 2.9%, whereas joint prediction raises it in most settings, by up to 8.2% (Table III and Fig. 1(c)). The comparison separates cross-variable coordination from target-only correction and forecast averaging (Table V).
+- **A controlled comparison of input and output forms.** STAEformer, HimNet and D²STGNN are trained in the single-variable (SISO, 1→1), auxiliary-input (MISO, 3→1) and joint-output (MIMO, 3→3) forms on all four benchmarks under one protocol. Auxiliary inputs lower the MAE in most settings, by up to 2.9%, whereas joint prediction raises it in most settings, by up to 8.2% (Table III and Fig. 1(c)). The comparison separates cross-variable coordination from target-only correction and forecast averaging (Fig. 3).
 
 <p align="center">
   <img src="assets/deco_motivation.png" width="100%" alt="Fig. 1 of the paper: the forecasting problem, where the variables meet in four formulations, MAE change over single-variable forecasting, and speed MAE reduction by traffic state.">
@@ -53,9 +53,9 @@ Test MAE, mean over three seeds, against the best of the eleven baselines in eac
 | | Occupancy | 0.638 (RAGC) | **0.614** | 3.6% |
 | | Speed | 1.238 (RAGC) | **1.218** | 1.6% |
 
-- Removing the coordination module raises DeCo's MAE on every dataset and variable, by 1.35% on average (Table V(a), [`results/ablation/`](results/ablation/)).
-- With one forecaster per variable, coordination lowers the speed MAE within congestion by 8.2–12.2% relative to the single forecasters, against 5.5–10.9% for target-only correction (Table VII, [`results/states/`](results/states/)).
-- A network-wide forecast of all three variables takes 61 ms on PeMS04 at batch size one on one H100 (Table VIII, [`results/cost/`](results/cost/)).
+- Removing the coordination module raises DeCo's MAE on every dataset and variable, by 1.35% on average (Fig. 3(a) and Section V-C, [`results/ablation/`](results/ablation/)).
+- With one forecaster per variable, coordination lowers the speed MAE within congestion by 8.2–12.2% relative to the single forecasters, against 5.5–10.9% for target-only correction (Fig. 1(d) and Section V-F, [`results/states/`](results/states/)).
+- A network-wide forecast of all three variables takes 61 ms on PeMS04 at batch size one on one H100 (Section V-G, [`results/cost/`](results/cost/)).
 
 The tables behind every result of the paper, with per-seed values, are described in [`results/README.md`](results/README.md).
 
@@ -97,7 +97,7 @@ python run.py prepare --dataset pems08
 python run.py pipeline --dataset pems08 --seed 2024
 ```
 
-The DeCo forecast and its test metrics are in `results/deco-pems08-2024/` (`test_prediction.npy`, `COMPLETE.json`). The paper reports the mean and standard deviation over seeds 2024, 2025 and 2026. The same run also trains DeCo-S and the target-only module (`results/eval-a12-pems08-bank2024-s2024-coord/` and `...-target_only/`, FINAL deployment); `--ablation` adds the two input-zeroing arms of Table V(b).
+The DeCo forecast and its test metrics are in `results/deco-pems08-2024/` (`test_prediction.npy`, `COMPLETE.json`). The paper reports the mean and standard deviation over seeds 2024, 2025 and 2026. The same run also trains DeCo-S and the target-only module (`results/eval-a12-pems08-bank2024-s2024-coord/` and `...-target_only/`, FINAL deployment); `--ablation` adds the two input-zeroing arms of Fig. 3(b).
 
 On a cluster, schedule the steps yourself. Per dataset and seed (`--variable` is `flow`, `occupancy` or `speed`, `--fold` 0–11):
 
@@ -126,10 +126,10 @@ python run.py module --dataset pems08 --seed 2024 --arm coord
 python run.py evaluate --dataset pems08 --seed 2024 --arm coord
 python run.py module --dataset pems08 --seed 2024 --arm target_only
 python run.py evaluate --dataset pems08 --seed 2024 --arm target_only
-# Input zeroing of Table V(b): the other variables' histories or forecasts set to zero
+# Input zeroing of Fig. 3(b): the other variables' histories or forecasts set to zero
 python run.py module --dataset pems08 --seed 2024 --arm coord_no_hist
 python run.py module --dataset pems08 --seed 2024 --arm coord_no_fc
-# Traffic states of Table VII (after DeCo-S and the target-only module for all three seeds)
+# Traffic states of Section V-F at level S2 (after DeCo-S and the target-only module for all three seeds)
 python run.py states --dataset pems08 --levels S2
 python run.py thresholds --dataset pems08
 # Baselines
@@ -165,7 +165,7 @@ The reported DeCo fits ran on NVIDIA H100 GPUs. Across datasets, the three-seed 
 | `deco/models.py`, `deco/external_models.py` | DecoupleST MISO, RAGC, the module arms and the baseline wrappers |
 | `configs/` | Dataset settings, congestion thresholds and baseline source commits |
 | `data/` | Data layout, checksums and provenance; the arrays are in the `data-v1` release |
-| `results/` | Results behind Tables III–VIII of the paper, with per-seed values |
+| `results/` | Results behind Tables III–V, Fig. 3 and the traffic-state and cost analyses (Sections V-F and V-G) of the paper, with per-seed values |
 | `assets/` | Figures of this page, rendered from the paper's sources |
 | `tests/smoke_cpu.py` | End-to-end check of every stage on synthetic data |
 
@@ -192,7 +192,7 @@ These details complete Sections IV and V of the paper.
 
 **Statistics.** A test window belongs to the day of its first forecast step, which gives 19, 12, 20 and 13 test days on PeMS03, PeMS04, PeMS07 and PeMS08. The intervals resample these days (10,000 draws shared across methods and seeds) and average the seed-level MAEs within each resample. They omit training randomness and are not adjusted for multiple comparisons.
 
-**Traffic states.** A sensor is congested at a step when its speed is at most, and its occupancy at least, a threshold set from the training targets of its dataset, pooled over sensors (`configs/datasets.json`, `python run.py thresholds`). The paper's level S2 uses the 5th percentile of speed and the 95th of occupancy (30.8–53.2 mph, 12.8–25.1%). The looser levels of Fig. 5 are S1 (20th / 80th) and the original definition (35th / 65th), for which PeMS04 keeps its earlier constants, 63.9 mph and 5.98%. Under the original definition, onset and recovery each hold 3.5–4.7% of the valid speed targets, and in the net reduction in speed error obtained by coordinating with all variables rather than the target alone (DeCo-S against the target-only module), onset accounts for 1.8–9.6 times and recovery for 3.5–7.8 times its share of targets; at S2, onset holds 1.0–1.2% of the speed targets and accounts for 5.0–25.5 times that share.
+**Traffic states.** A sensor is congested at a step when its speed is at most, and its occupancy at least, a threshold set from the training targets of its dataset, pooled over sensors (`configs/datasets.json`, `python run.py thresholds`). The paper's level S2 uses the 5th percentile of speed and the 95th of occupancy (30.8–53.2 mph, 12.8–25.1%). The looser levels of Fig. 6 are S1 (20th / 80th) and the original definition (35th / 65th), for which PeMS04 keeps its earlier constants, 63.9 mph and 5.98%. Under the original definition, onset and recovery each hold 3.5–4.7% of the valid speed targets, and in the net reduction in speed error obtained by coordinating with all variables rather than the target alone (DeCo-S against the target-only module), onset accounts for 1.8–9.6 times and recovery for 3.5–7.8 times its share of targets; at S2, onset holds 1.0–1.2% of the speed targets and accounts for 5.0–25.5 times that share.
 
 **Cost measurement.** Latency was measured in float32 with TF32 disabled (PyTorch 2.4.1, CUDA 12.1) on one NVIDIA H100: ten warm-up calls, then the median of 100 synchronized calls, from GPU-resident inputs through normalization, the forecasters, the correction, the fold averaging and the blend, on reference checkpoints with the same forward paths. Parameter counts exclude the unused sensor-embedding table. Training hours sum the epoch wall times of the accepted fits, including validation and data access; the missing partial-epoch times of three resumed PeMS07 module runs are estimated from the job records.
 

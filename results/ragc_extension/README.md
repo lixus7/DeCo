@@ -1,10 +1,10 @@
-# DeCo with RAGC forecasters (Table VI)
+# DeCo with RAGC forecasters (Table V)
 
 The coordination module trained on RAGC (Wu et al., ICDE 2026) forecasters instead of DecoupleST: twelve RAGC fold forecasters per variable and the module, without the second training phase and the early-fusion forecaster. We decided to run this extension after inspecting the main test results and a test of the module applied to RAGC's forecasts without refitting; the training recipe and reporting rules were fixed before the runs. All 24 evaluations (4 datasets, 3 seeds, coordination and target-only modules) are reported.
 
 | File | Content |
 |---|---|
-| `ragc_table_test.csv` | Table VI: test MAE (three-seed mean) of RAGC, RAGC + coordination (one forecaster per variable), the twelve-fold RAGC average, + target-only and + coordination (twelve-fold; DeCo (RAGC) in Table III), and DeCo; `deco_vs_twelve_fold_average_pct` is DeCo's MAE reduction against the twelve-fold RAGC average. |
+| `ragc_table_test.csv` | Table V: test MAE (three-seed mean) of RAGC, RAGC + coordination (one forecaster per variable), the twelve-fold RAGC average, + target-only and + coordination (twelve-fold; DeCo (RAGC) in Table III), and DeCo; `deco_vs_twelve_fold_average_pct` is DeCo's MAE reduction against the twelve-fold RAGC average. |
 | `summary_test.csv` | Test metrics for every module, deployment, dataset and variable (72 rows). |
 | `comparisons_test.csv` | Paired test MAE comparisons for the K12 and FINAL rows (240 rows). |
 | `per_seed.csv` | MAE, RMSE and selected epoch per seed, for validation and test, with and without zero targets (576 rows). |

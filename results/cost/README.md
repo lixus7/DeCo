@@ -1,4 +1,4 @@
-# Cost (Table VIII)
+# Cost (Section V-G)
 
 | File | Content |
 |---|---|
