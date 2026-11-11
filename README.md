@@ -144,7 +144,7 @@ python run.py baseline --dataset pems08 --seed 2024 --architecture staeformer --
 | Target-only module | `target_only` | 1 | FINAL |
 | w/o other variables' histories / forecasts | `coord_no_hist` / `coord_no_fc` | 1 | FINAL |
 
-The reported DeCo fits ran on NVIDIA H100 GPUs. Across datasets, the three-seed mean training cost ranges from about 14 to 150 H100 hours per seed, most of it in the 36 fold forecasters, which are independent and can run in parallel; per-seed values are in `results/cost/`.
+The reported DeCo fits ran on NVIDIA H100 GPUs. Most of the training time is in the 36 fold forecasters, which are independent and can run in parallel; per-seed values are in `results/cost/`.
 
 
 <details>
