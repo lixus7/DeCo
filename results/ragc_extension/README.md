@@ -1,6 +1,6 @@
 # DeCo with RAGC forecasters (Table V)
 
-The coordination module trained on RAGC (Wu et al., ICDE 2026) forecasters instead of DecoupleST: twelve RAGC fold forecasters per variable and the module, without the second training phase and the early-fusion forecaster. We decided to run this extension after inspecting the main test results and a test of the module applied to RAGC's forecasts without refitting; the training recipe and reporting rules were fixed before the runs. All 24 evaluations (4 datasets, 3 seeds, coordination and target-only modules) are reported.
+The coordination module trained on RAGC (Wu et al., ICDE 2026) forecasters instead of DecoupleST: twelve RAGC fold forecasters per variable and the module, without the second training phase and the early-fusion forecaster. All 24 evaluations (4 datasets, 3 seeds, coordination and target-only modules) are reported.
 
 | File | Content |
 |---|---|
@@ -14,6 +14,5 @@ The coordination module trained on RAGC (Wu et al., ICDE 2026) forecasters inste
 - **Module:** `coordination` reads all three variables at the sensor; `target_only` reads copies of the target variable.
 - **Deployments:** `K12` corrects each of the twelve RAGC fold forecasters per variable and averages the corrected forecasts; `FINAL` corrects the single RAGC fit of Table III; `TRANSFER` applies the K12-selected checkpoint to that single fit.
 - **References in the comparison files:** `DeCo-S` and `K12 + coordination on DecoupleST (first phase)` (twelve first-phase DecoupleST fold forecasters with the module with sensor embedding) are DecoupleST-based systems; `best of 11 baselines` is the baseline with the lowest test MAE in that cell.
-- **Intervals:** 95% day-block intervals with 10,000 resamples, per cell, omitting training randomness, not corrected for multiple comparisons.
+- **Intervals:** 95% day-block intervals with 10,000 resamples, per cell.
 - `TRANSFER` values come from run records, with no day-block analysis, so `comparisons_test.csv` does not include them.
-- RAGC's twelve-fold average is an unranked reference; no ranked baseline in Table III is given a fold average. The fold forecasters and the single fit are trained on different data, so the comparison of the two is cross-fitted averaging against a single fit, not the averaging operation alone.

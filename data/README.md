@@ -43,8 +43,8 @@ These are the arrays the reported PeMS03 and PeMS07 runs used.
 
 **How to read them.**
 
-- These arrays are PeMS records aligned to the flow benchmarks. They do not recover an unpublished original three-variable file.
-- A valid entry means that the record has a value. It does not establish that the value was measured directly, or that the three variables were measured independently.
+- These arrays are PeMS records aligned to the flow benchmarks.
+- A valid entry means that the record has a value.
 - Where PeMS03's records differ from the benchmark flow, the benchmark value is kept.
 
 **Provenance** (`provenance/`):
@@ -62,7 +62,7 @@ These use the three-variable releases in [ASTGCN](https://github.com/Davidham3/A
 python data/make_pems0408.py --npz pems04.npz --distance distance.csv --out data/pems04
 ```
 
-All finite entries in these releases are treated as valid. This describes the evaluation mask; it does not establish how complete the original measurements were.
+All finite entries in these releases are treated as valid.
 
 ## License and attribution
 

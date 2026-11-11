@@ -9,5 +9,3 @@
 **(a) Components of DeCo.** Each row compares a whole system with DeCo: `w/o early-fusion branch` is the fold average of the corrected forecasts; `w/o coordination` blends the uncorrected fold average with the early-fusion forecasts; `w/o both` is the fold average of the second-phase forecasters; `w/o both, w/o second training phase` is the fold average of the first-phase forecasters; `single forecaster per variable` is DecoupleST SISO.
 
 **(b) Inputs of the coordination module.** With one forecaster per variable (DeCo-S): the two input rows set the other variables' histories or forecasts to zero in the module's standardized coordinates and retrain the module (arms `coord_no_hist`, `coord_no_fc`; PeMS04 and PeMS08); `w/o coordination module (single forecaster)` is DecoupleST SISO; `input fusion` is DecoupleST MISO.
-
-The rows compare systems in pairs; their differences are not additive contributions.

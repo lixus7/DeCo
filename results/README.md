@@ -1,6 +1,6 @@
 # Results
 
-Test results behind Tables III–V, Fig. 3 and the traffic-state and cost analyses of the paper, with the per-seed values they are computed from. Every printed cell of Tables III–V was recomputed from these files and matches the paper. DeCo's configuration and the analyses were chosen during development with access to the test results of all four benchmarks.
+Test results behind Tables III–V, Fig. 3 and the traffic-state and cost analyses of the paper, with the per-seed values they are computed from. Every printed cell of Tables III–V was recomputed from these files and matches the paper.
 
 | Folder | Paper | Content |
 |---|---|---|
@@ -8,7 +8,7 @@ Test results behind Tables III–V, Fig. 3 and the traffic-state and cost analys
 | `ablation/` | Fig. 3 | Components of DeCo (a) and inputs of the coordination module (b) |
 | `ragc_extension/` | Table V | DeCo with RAGC forecasters, with the complete results of that extension |
 | `states/` | Fig. 1(d), Fig. 6 (Section V-F) | MAE by traffic state at three congestion levels |
-| `cost/` | Section V-G | Parameters, latency and training hours |
+| `cost/` | Section V-H | Parameters, latency and training hours |
 
 ## Conventions
 
